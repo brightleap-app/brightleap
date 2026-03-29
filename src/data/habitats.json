@@ -1,0 +1,154 @@
+[
+  {
+    "id": "jungle",
+    "name": "Jungle",
+    "emoji": "🌴",
+    "rule": "Words with the /i/ sound spelt y",
+    "animal": { "name": "Jaguar", "emoji": "🐆", "fact": "Jaguars have the strongest bite of any big cat and love swimming in rivers." },
+    "words": [
+      { "word": "myth", "sentence": "The ancient _____ was about a fire-breathing dragon.", "trickyParts": [1, 2] },
+      { "word": "gym", "sentence": "We played basketball in the _____ after lunch.", "trickyParts": [1, 2] },
+      { "word": "pyramid", "sentence": "The huge _____ was built thousands of years ago in Egypt.", "trickyParts": [1, 4] },
+      { "word": "mystery", "sentence": "The detective was trying to solve the _____.", "trickyParts": [1, 4] },
+      { "word": "symbol", "sentence": "The dove is a _____ of peace.", "trickyParts": [1, 4] },
+      { "word": "rhythm", "sentence": "The drummer kept a steady _____ throughout the song.", "trickyParts": [0, 2, 4, 5] },
+      { "word": "typical", "sentence": "It was a _____ rainy day in England.", "trickyParts": [1, 5] },
+      { "word": "system", "sentence": "The solar _____ has eight planets.", "trickyParts": [1, 4] },
+      { "word": "crystal", "sentence": "The _____ sparkled in the sunlight.", "trickyParts": [2, 5] },
+      { "word": "gymnast", "sentence": "The _____ performed an amazing backflip.", "trickyParts": [1, 2] }
+    ]
+  },
+  {
+    "id": "ocean",
+    "name": "Ocean",
+    "emoji": "🌊",
+    "rule": "Words ending in -tion, -sion, -ssion",
+    "animal": { "name": "Dolphin", "emoji": "🐬", "fact": "Dolphins sleep with one eye open and half their brain awake to watch for danger." },
+    "words": [
+      { "word": "division", "sentence": "We learned about _____ in our maths lesson today.", "trickyParts": [4, 5, 6, 7] },
+      { "word": "invasion", "sentence": "The history book described the Roman _____ of Britain.", "trickyParts": [4, 5, 6, 7] },
+      { "word": "confusion", "sentence": "There was great _____ when the fire alarm went off.", "trickyParts": [5, 6, 7, 8] },
+      { "word": "decision", "sentence": "It was a difficult _____ to make.", "trickyParts": [4, 5, 6, 7] },
+      { "word": "invention", "sentence": "The light bulb was an amazing _____.", "trickyParts": [5, 6, 7, 8] },
+      { "word": "injection", "sentence": "The nurse gave me an _____ in my arm.", "trickyParts": [5, 6, 7, 8] },
+      { "word": "completion", "sentence": "The _____ of the project took three weeks.", "trickyParts": [6, 7, 8, 9] },
+      { "word": "discussion", "sentence": "We had an interesting _____ about space travel.", "trickyParts": [5, 6, 7, 8, 9] },
+      { "word": "permission", "sentence": "You need _____ from a teacher to leave the classroom.", "trickyParts": [5, 6, 7, 8, 9] },
+      { "word": "expression", "sentence": "The artist captured a happy _____ on the face.", "trickyParts": [6, 7, 8, 9] }
+    ]
+  },
+  {
+    "id": "savannah",
+    "name": "Savannah",
+    "emoji": "🦁",
+    "rule": "Words with the suffix -ous",
+    "animal": { "name": "Lion", "emoji": "🦁", "fact": "A lion's roar can be heard from five miles away across the savannah." },
+    "words": [
+      { "word": "poisonous", "sentence": "Some brightly coloured frogs are _____.", "trickyParts": [6, 7, 8] },
+      { "word": "dangerous", "sentence": "It is _____ to swim in the deep river.", "trickyParts": [6, 7, 8] },
+      { "word": "famous", "sentence": "The _____ singer performed at the concert.", "trickyParts": [3, 4, 5] },
+      { "word": "enormous", "sentence": "The whale was absolutely _____.", "trickyParts": [5, 6, 7] },
+      { "word": "generous", "sentence": "It was very _____ of you to share your sweets.", "trickyParts": [5, 6, 7] },
+      { "word": "courageous", "sentence": "The _____ firefighter rescued the cat from the tree.", "trickyParts": [4, 5, 6, 7, 8, 9] },
+      { "word": "mischievous", "sentence": "The _____ puppy chewed up the slippers.", "trickyParts": [4, 5, 6, 7, 8, 9, 10] },
+      { "word": "marvellous", "sentence": "We had a _____ time at the theme park.", "trickyParts": [4, 5, 6, 7, 8, 9] },
+      { "word": "gorgeous", "sentence": "The sunset was absolutely _____.", "trickyParts": [3, 4, 5, 6, 7] },
+      { "word": "hideous", "sentence": "The monster in the film was truly _____.", "trickyParts": [3, 4, 5, 6] }
+    ]
+  },
+  {
+    "id": "arctic",
+    "name": "Arctic",
+    "emoji": "❄️",
+    "rule": "Words with the suffix -ly",
+    "animal": { "name": "Polar Bear", "emoji": "🐻‍❄️", "fact": "Polar bears have black skin under their white fur to help absorb heat from the sun." },
+    "words": [
+      { "word": "finally", "sentence": "We _____ arrived at the campsite after a long drive.", "trickyParts": [5, 6] },
+      { "word": "suddenly", "sentence": "The lights _____ went out during the storm.", "trickyParts": [6, 7] },
+      { "word": "thoroughly", "sentence": "She _____ cleaned her bedroom before the guests arrived.", "trickyParts": [7, 8, 9] },
+      { "word": "extraordinarily", "sentence": "The magician was _____ talented.", "trickyParts": [13, 14, 15] },
+      { "word": "anxiously", "sentence": "He waited _____ for the test results.", "trickyParts": [0, 1, 7, 8] },
+      { "word": "occasionally", "sentence": "We _____ visit our grandparents at the seaside.", "trickyParts": [1, 2, 4, 10, 11] },
+      { "word": "completely", "sentence": "The puzzle was _____ finished by lunchtime.", "trickyParts": [8, 9] },
+      { "word": "confidently", "sentence": "She _____ answered every question in the quiz.", "trickyParts": [9, 10] },
+      { "word": "frequently", "sentence": "Buses run _____ along the high street.", "trickyParts": [8, 9] },
+      { "word": "physically", "sentence": "The obstacle course was _____ demanding.", "trickyParts": [0, 8, 9] }
+    ]
+  },
+  {
+    "id": "rainforest",
+    "name": "Rainforest",
+    "emoji": "🌿",
+    "rule": "Words with silent letters",
+    "animal": { "name": "Poison Dart Frog", "emoji": "🐸", "fact": "Poison dart frogs get their toxins from the insects they eat in the rainforest." },
+    "words": [
+      { "word": "knight", "sentence": "The brave _____ rode into battle on his horse.", "trickyParts": [0, 1] },
+      { "word": "knowledge", "sentence": "Reading books gives you lots of _____.", "trickyParts": [0, 5] },
+      { "word": "doubt", "sentence": "There was no _____ that she would win the race.", "trickyParts": [3] },
+      { "word": "climb", "sentence": "We had to _____ a steep hill to reach the castle.", "trickyParts": [4] },
+      { "word": "muscle", "sentence": "The athlete had a strong _____ in his arm.", "trickyParts": [2] },
+      { "word": "conscience", "sentence": "His _____ told him to own up to the mistake.", "trickyParts": [3, 6, 7, 8, 9] },
+      { "word": "scissors", "sentence": "Please pass me the _____ so I can cut this paper.", "trickyParts": [0, 1, 2] },
+      { "word": "descend", "sentence": "We had to _____ the staircase very carefully.", "trickyParts": [2, 3] },
+      { "word": "island", "sentence": "The _____ was surrounded by crystal-clear water.", "trickyParts": [0] },
+      { "word": "whistle", "sentence": "The referee blew the _____ to start the match.", "trickyParts": [4] }
+    ]
+  },
+  {
+    "id": "desert",
+    "name": "Desert",
+    "emoji": "🏜️",
+    "rule": "Year 5 and 6 statutory word list",
+    "animal": { "name": "Fennec Fox", "emoji": "🦊", "fact": "Fennec foxes have huge ears that help them hear prey underground and keep cool in the desert heat." },
+    "words": [
+      { "word": "accommodate", "sentence": "The hotel can _____ up to two hundred guests.", "trickyParts": [2, 3, 5, 6] },
+      { "word": "necessary", "sentence": "It is _____ to wear a helmet when cycling.", "trickyParts": [2, 3, 5, 6] },
+      { "word": "embarrass", "sentence": "Please don't _____ me in front of my friends.", "trickyParts": [2, 3, 5, 6, 7] },
+      { "word": "exaggerate", "sentence": "Try not to _____ when telling the story.", "trickyParts": [1, 2, 3, 4] },
+      { "word": "mischievous", "sentence": "The _____ kitten knocked the vase off the shelf.", "trickyParts": [4, 5, 6, 7, 8, 9, 10] },
+      { "word": "conscience", "sentence": "Let your _____ guide you to do the right thing.", "trickyParts": [3, 6, 7, 8, 9] },
+      { "word": "prejudice", "sentence": "We should treat everyone fairly and without _____.", "trickyParts": [3, 6, 7, 8] },
+      { "word": "privilege", "sentence": "It was a _____ to meet the author of my favourite book.", "trickyParts": [5, 6, 7, 8] },
+      { "word": "relevant", "sentence": "Make sure your answer is _____ to the question.", "trickyParts": [3, 5, 6, 7] },
+      { "word": "sufficient", "sentence": "We had _____ food for everyone at the party.", "trickyParts": [2, 3, 6, 7, 8, 9] }
+    ]
+  },
+  {
+    "id": "mountains",
+    "name": "Mountains",
+    "emoji": "🏔️",
+    "rule": "Words with prefixes",
+    "animal": { "name": "Snow Leopard", "emoji": "🐆", "fact": "Snow leopards can leap up to 15 metres in a single bound across mountain gaps." },
+    "words": [
+      { "word": "disappear", "sentence": "The magician made the rabbit _____ from the hat.", "trickyParts": [0, 1, 2] },
+      { "word": "impossible", "sentence": "Nothing is _____ if you believe in yourself.", "trickyParts": [0, 1] },
+      { "word": "irregular", "sentence": "The shape had _____ edges that didn't match.", "trickyParts": [0, 1, 2] },
+      { "word": "submarine", "sentence": "The _____ dived deep beneath the waves.", "trickyParts": [0, 1, 2] },
+      { "word": "international", "sentence": "The _____ football match was very exciting.", "trickyParts": [0, 1, 2, 3, 4] },
+      { "word": "autobiography", "sentence": "She wrote an _____ about her amazing life.", "trickyParts": [0, 1, 2, 3] },
+      { "word": "antiseptic", "sentence": "Mum put _____ cream on my grazed knee.", "trickyParts": [0, 1, 2, 3] },
+      { "word": "misbehave", "sentence": "Please do not _____ during the assembly.", "trickyParts": [0, 1, 2] },
+      { "word": "reconstruct", "sentence": "They had to _____ the bridge after the flood.", "trickyParts": [0, 1, 2] },
+      { "word": "superstar", "sentence": "The singer became a _____ after winning the talent show.", "trickyParts": [0, 1, 2, 3, 4] }
+    ]
+  },
+  {
+    "id": "grasslands",
+    "name": "Grasslands",
+    "emoji": "🌾",
+    "rule": "Homophones and commonly confused words",
+    "animal": { "name": "Cheetah", "emoji": "🐆", "fact": "Cheetahs are the fastest land animals and can run at 70 miles per hour." },
+    "words": [
+      { "word": "accept", "sentence": "I am happy to _____ the award on behalf of our class.", "trickyParts": [0, 1, 2] },
+      { "word": "except", "sentence": "Everyone finished their homework _____ for Tom.", "trickyParts": [0, 1, 2] },
+      { "word": "affect", "sentence": "The rainy weather can _____ your mood.", "trickyParts": [0, 1, 2] },
+      { "word": "effect", "sentence": "The _____ of the medicine was almost instant.", "trickyParts": [0, 1, 2] },
+      { "word": "stationary", "sentence": "The car was _____ at the traffic lights.", "trickyParts": [7, 8] },
+      { "word": "stationery", "sentence": "We bought new pens and _____ for school.", "trickyParts": [7, 8] },
+      { "word": "dessert", "sentence": "We had chocolate cake for _____.", "trickyParts": [2, 3] },
+      { "word": "practise", "sentence": "You need to _____ your spellings every day.", "trickyParts": [5, 6, 7] },
+      { "word": "advice", "sentence": "My teacher gave me good _____ about my writing.", "trickyParts": [3, 4, 5] },
+      { "word": "principle", "sentence": "Honesty is an important _____ to live by.", "trickyParts": [5, 6, 7, 8] }
+    ]
+  }
+]
