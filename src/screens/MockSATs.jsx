@@ -31,6 +31,7 @@ export default function MockSATs() {
   const navigate = useNavigate();
   const inputRef = useRef(null);
   const startTimeRef = useRef(null);
+  const hasSavedRef = useRef(false);
 
   const [words, setWords] = useState(() => selectMockTestWords(20));
   const [wordIndex, setWordIndex] = useState(0);
@@ -38,6 +39,9 @@ export default function MockSATs() {
   const [typed, setTyped] = useState('');
   const [results, setResults] = useState([]);
   const [elapsed, setElapsed] = useState(0);
+
+  const currentWord = words[wordIndex];
+  const totalWords = words.length;
 
   // Timer
   useEffect(() => {
@@ -50,33 +54,39 @@ export default function MockSATs() {
     }
   }, [state]);
 
-  const currentWord = words[wordIndex];
-  const totalWords = words.length;
-
-  const formatTime = (secs) => {
-    const m = Math.floor(secs / 60);
-    const s = secs % 60;
-    return `${m}:${s.toString().padStart(2, '0')}`;
-  };
+  // Save results when test completes
+  useEffect(() => {
+    if (state === STATES.RESULTS && !hasSavedRef.current) {
+      hasSavedRef.current = true;
+      const score = results.filter((r) => r.correct).length;
+      const progress = loadProgress();
+      const mockTests = progress.mockTests || [];
+      mockTests.push({
+        date: new Date().toISOString().slice(0, 10),
+        score,
+        total: totalWords,
+        elapsed,
+        words: results.map((r) => ({ word: r.word, correct: r.correct, typed: r.typed })),
+      });
+      saveProgress({ ...progress, mockTests });
+    }
+  }, [state, results, totalWords, elapsed]);
 
   // SATs-authentic speaking sequence: sentence → word → sentence again
   const handleSpeakSequence = useCallback(async () => {
     if (!currentWord) return;
 
     if (isSpeechAvailable() && currentWord.sentence) {
-      // 1. Speak sentence with the word included
       setState(STATES.SPEAKING_SENTENCE);
       try {
         await speakSentence(currentWord.sentence.replace('_____', currentWord.word));
       } catch { /* continue */ }
 
-      // 2. Speak the word in isolation
       setState(STATES.SPEAKING_WORD);
       try {
         await speakWord(currentWord.word);
       } catch { /* continue */ }
 
-      // 3. Speak sentence again
       setState(STATES.SPEAKING_SENTENCE_AGAIN);
       try {
         await speakSentence(currentWord.sentence.replace('_____', currentWord.word));
@@ -93,7 +103,68 @@ export default function MockSATs() {
     }
   }, [state, currentWord, handleSpeakSequence]);
 
-  // --- Intro screen ---
+  // --- Handlers ---
+  const formatTime = (secs) => {
+    const m = Math.floor(secs / 60);
+    const s = secs % 60;
+    return `${m}:${s.toString().padStart(2, '0')}`;
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    if (state !== STATES.TYPING || !typed.trim()) return;
+
+    const correct = checkAnswer(typed, currentWord.word);
+    setResults((prev) => [...prev, { word: currentWord.word, correct, typed: typed.trim() }]);
+
+    const nextIndex = wordIndex + 1;
+    if (nextIndex >= totalWords) {
+      setState(STATES.RESULTS);
+    } else {
+      setWordIndex(nextIndex);
+      setTyped('');
+      setState(STATES.READY);
+    }
+  };
+
+  const handleHearAgain = async () => {
+    if (!isSpeechAvailable()) return;
+    try {
+      if (currentWord.sentence) {
+        await speakSentence(currentWord.sentence.replace('_____', currentWord.word));
+      }
+      await speakWord(currentWord.word);
+      if (currentWord.sentence) {
+        await speakSentence(currentWord.sentence.replace('_____', currentWord.word));
+      }
+    } catch { /* ignore */ }
+  };
+
+  const renderSentence = (sentence) => {
+    if (!sentence) return null;
+    const parts = sentence.split('_____');
+    return (
+      <span>
+        {parts[0]}
+        <span className="inline-block w-20 border-b-2 border-gray-400 mx-1" />
+        {parts[1]}
+      </span>
+    );
+  };
+
+  const handleRetry = () => {
+    setWords(selectMockTestWords(20));
+    setWordIndex(0);
+    setResults([]);
+    setElapsed(0);
+    startTimeRef.current = null;
+    hasSavedRef.current = false;
+    setState(STATES.INTRO);
+  };
+
+  // --- Renders ---
+
+  // Intro
   if (state === STATES.INTRO) {
     return (
       <main className="min-h-screen flex flex-col items-center justify-center p-6 text-center gap-6 max-w-md mx-auto">
@@ -130,7 +201,7 @@ export default function MockSATs() {
     );
   }
 
-  // --- Paused ---
+  // Paused
   if (state === STATES.PAUSED) {
     return (
       <main className="min-h-screen flex flex-col items-center justify-center p-6 text-center gap-6">
@@ -148,31 +219,11 @@ export default function MockSATs() {
     );
   }
 
-  // Save results when test completes
-  const hasSavedRef = useRef(false);
-  useEffect(() => {
-    if (state === STATES.RESULTS && !hasSavedRef.current) {
-      hasSavedRef.current = true;
-      const score = results.filter((r) => r.correct).length;
-      const progress = loadProgress();
-      const mockTests = progress.mockTests || [];
-      mockTests.push({
-        date: new Date().toISOString().slice(0, 10),
-        score,
-        total: totalWords,
-        elapsed,
-        words: results.map((r) => ({ word: r.word, correct: r.correct, typed: r.typed })),
-      });
-      saveProgress({ ...progress, mockTests });
-    }
-  }, [state, results, totalWords, elapsed]);
-
-  // --- Results screen ---
+  // Results
   if (state === STATES.RESULTS) {
     const score = results.filter((r) => r.correct).length;
     const bracket = getBracket(score);
 
-    // Get previous test scores for comparison
     const progress = loadProgress();
     const prevTests = (progress.mockTests || []).slice(0, -1);
     const lastScore = prevTests.length > 0 ? prevTests[prevTests.length - 1].score : null;
@@ -201,7 +252,6 @@ export default function MockSATs() {
           )}
         </div>
 
-        {/* Word-by-word breakdown */}
         <h2 className="font-bold text-lg mb-3">Your Answers</h2>
         <div className="space-y-2 mb-8">
           {results.map((r, i) => (
@@ -225,7 +275,6 @@ export default function MockSATs() {
           ))}
         </div>
 
-        {/* Actions */}
         <div className="flex flex-col gap-3">
           {results.some((r) => !r.correct) && (
             <Link
@@ -236,15 +285,7 @@ export default function MockSATs() {
             </Link>
           )}
           <button
-            onClick={() => {
-              setWords(selectMockTestWords(20));
-              setWordIndex(0);
-              setResults([]);
-              setElapsed(0);
-              startTimeRef.current = null;
-              hasSavedRef.current = false;
-              setState(STATES.INTRO);
-            }}
+            onClick={handleRetry}
             className="w-full py-3 bg-green-600 text-white rounded-xl font-semibold hover:bg-green-700 transition-colors min-h-[48px]"
           >
             Try Another Test
@@ -257,7 +298,6 @@ export default function MockSATs() {
           </Link>
         </div>
 
-        {/* Test history */}
         {prevTests.length > 0 && (
           <div className="mt-8">
             <h2 className="font-bold text-lg mb-3">Previous Tests</h2>
@@ -276,7 +316,7 @@ export default function MockSATs() {
     );
   }
 
-  // --- Main test loop ---
+  // Loading
   if (!currentWord) {
     return (
       <main className="min-h-screen flex flex-col items-center justify-center p-6">
@@ -285,54 +325,12 @@ export default function MockSATs() {
     );
   }
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    if (state !== STATES.TYPING || !typed.trim()) return;
-
-    const correct = checkAnswer(typed, currentWord.word);
-    setResults((prev) => [...prev, { word: currentWord.word, correct, typed: typed.trim() }]);
-
-    const nextIndex = wordIndex + 1;
-    if (nextIndex >= totalWords) {
-      setState(STATES.RESULTS);
-    } else {
-      setWordIndex(nextIndex);
-      setTyped('');
-      setState(STATES.READY);
-    }
-  };
-
-  const handleHearAgain = async () => {
-    if (!isSpeechAvailable()) return;
-    try {
-      if (currentWord.sentence) {
-        await speakSentence(currentWord.sentence.replace('_____', currentWord.word));
-      }
-      await speakWord(currentWord.word);
-      if (currentWord.sentence) {
-        await speakSentence(currentWord.sentence.replace('_____', currentWord.word));
-      }
-    } catch { /* ignore */ }
-  };
-
-  // Sentence with visible gap
-  const renderSentence = (sentence) => {
-    if (!sentence) return null;
-    const parts = sentence.split('_____');
-    return (
-      <span>
-        {parts[0]}
-        <span className="inline-block w-20 border-b-2 border-gray-400 mx-1" />
-        {parts[1]}
-      </span>
-    );
-  };
-
+  // Main test loop (READY, SPEAKING_*, TYPING)
   const isSpeaking = [STATES.READY, STATES.SPEAKING_SENTENCE, STATES.SPEAKING_WORD, STATES.SPEAKING_SENTENCE_AGAIN].includes(state);
 
   return (
     <main className="min-h-screen flex flex-col p-6 max-w-lg mx-auto">
-      {/* Header — clean, test-like */}
+      {/* Header */}
       <div className="flex items-center justify-between mb-6">
         <button
           onClick={() => setState(STATES.PAUSED)}
@@ -361,8 +359,6 @@ export default function MockSATs() {
 
       {/* Main area */}
       <div className="flex-1 flex flex-col items-center justify-center gap-6">
-
-        {/* Speaking indicator */}
         {isSpeaking && (
           <div className="text-center space-y-3">
             <div className="w-16 h-16 rounded-full bg-gray-100 flex items-center justify-center text-3xl animate-pulse">
@@ -377,17 +373,14 @@ export default function MockSATs() {
           </div>
         )}
 
-        {/* Typing state */}
         {state === STATES.TYPING && (
           <div className="w-full space-y-6">
-            {/* Sentence display */}
             {currentWord.sentence && (
               <p className="text-center text-gray-600 leading-relaxed">
                 {renderSentence(currentWord.sentence)}
               </p>
             )}
 
-            {/* Hear again button */}
             <div className="text-center">
               <button
                 onClick={handleHearAgain}
@@ -397,7 +390,6 @@ export default function MockSATs() {
               </button>
             </div>
 
-            {/* Input */}
             <form onSubmit={handleSubmit} className="max-w-sm mx-auto space-y-4">
               <input
                 ref={inputRef}
