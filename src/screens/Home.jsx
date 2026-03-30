@@ -1,11 +1,32 @@
+import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { loadProgress } from '../storage/progress.js';
+import { loadProgress, updateProgress } from '../storage/progress.js';
 import { getExplorerLevel } from '../engine/quiz.js';
 import { useAuth } from '../auth/AuthContext.jsx';
+import ElizabethHelper from '../components/ElizabethHelper.jsx';
+import { ElizabethHelpButton } from '../components/ElizabethHelper.jsx';
+import dialogue from '../data/elizabethDialogue.json';
 
 export default function Home() {
   const { isLoggedIn, childName, logout, loading } = useAuth();
   const progress = loadProgress();
+  const [elizabethMsg, setElizabethMsg] = useState(null);
+
+  useEffect(() => {
+    const isFirstVisit = !progress.hasVisited;
+    if (isFirstVisit) {
+      setElizabethMsg({
+        mood: dialogue.firstVisit.mood,
+        message: dialogue.firstVisit.messages.join(' '),
+      });
+      updateProgress({ hasVisited: true });
+    } else if (progress.streak > 0) {
+      setElizabethMsg(dialogue.returnVisitWithStreak);
+    } else {
+      const msgs = dialogue.returnVisit;
+      setElizabethMsg(msgs[Math.floor(Math.random() * msgs.length)]);
+    }
+  }, []);
   const { current, next } = getExplorerLevel(progress.xp);
 
   const xpToNext = next ? next.xpRequired - progress.xp : 0;
@@ -116,6 +137,15 @@ export default function Home() {
           </div>
         )}
       </div>
+      {elizabethMsg && (
+        <ElizabethHelper
+          mood={elizabethMsg.mood}
+          message={elizabethMsg.message}
+          onDismiss={() => setElizabethMsg(null)}
+        />
+      )}
+
+      <ElizabethHelpButton screenKey="home" />
     </main>
   );
 }

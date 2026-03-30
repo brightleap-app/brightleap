@@ -17,6 +17,9 @@ import {
   saveWordResult,
   saveHabitatProgress,
 } from '../storage/progress.js';
+import ElizabethHelper from '../components/ElizabethHelper.jsx';
+import { ElizabethHelpButton } from '../components/ElizabethHelper.jsx';
+import dialogue from '../data/elizabethDialogue.json';
 
 export default function Quiz() {
   const { habitatId } = useParams();
@@ -35,6 +38,8 @@ export default function Quiz() {
   const [streak, setStreak] = useState(0);
   const [sessionXP, setSessionXP] = useState(0);
   const [sessionCorrect, setSessionCorrect] = useState(0);
+  const [wrongStreak, setWrongStreak] = useState(0);
+  const [elizabethMsg, setElizabethMsg] = useState(null);
 
   // Load session words on mount
   useEffect(() => {
@@ -119,10 +124,29 @@ export default function Quiz() {
         }
       }
 
+      setWrongStreak(0);
+
+      // Elizabeth celebrates streaks
+      if (streak + 1 === 5) {
+        setElizabethMsg(dialogue.quizStreak5);
+      } else if (streak + 1 === 10) {
+        setElizabethMsg(dialogue.quizStreak10);
+      } else if (sessionCorrect === 0 && wordIndex === 0) {
+        setElizabethMsg(dialogue.quizFirstCorrect);
+      }
+
       setQuizState(QUIZ_STATES.CORRECT_FEEDBACK);
     } else {
       setStreak(0);
       setFeedbackMsg(getWrongMessage());
+      const newWrongStreak = wrongStreak + 1;
+      setWrongStreak(newWrongStreak);
+
+      // Elizabeth encourages after 3 wrong in a row
+      if (newWrongStreak === 3) {
+        const msgs = dialogue.quizWrongStreak;
+        setElizabethMsg(msgs[Math.floor(Math.random() * msgs.length)]);
+      }
 
       // Save wrong result
       saveWordResult(currentWord.word, false, isFirstAttempt);
@@ -369,6 +393,16 @@ export default function Quiz() {
           </div>
         )}
       </div>
+
+      {elizabethMsg && (
+        <ElizabethHelper
+          mood={elizabethMsg.mood}
+          message={elizabethMsg.message}
+          onDismiss={() => setElizabethMsg(null)}
+        />
+      )}
+
+      <ElizabethHelpButton screenKey="quiz" />
     </main>
   );
 }

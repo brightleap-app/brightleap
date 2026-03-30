@@ -158,6 +158,23 @@ export default function Settings() {
         </div>
       </section>
 
+      {/* Elizabeth helper */}
+      <section className="mb-8">
+        <h2 className="font-bold text-lg mb-3">Elizabeth Helper</h2>
+        <label className="flex items-center gap-3 cursor-pointer p-4 rounded-xl border-2 border-gray-200">
+          <input
+            type="checkbox"
+            checked={settings.reduceHelpers || false}
+            onChange={(e) => update('reduceHelpers', e.target.checked)}
+            className="w-5 h-5 rounded border-gray-300 text-green-600 focus:ring-green-500"
+          />
+          <div>
+            <span className="font-semibold">Reduce helpers</span>
+            <p className="text-xs text-gray-500 mt-0.5">Hide Elizabeth's pop-up tips and help button</p>
+          </div>
+        </label>
+      </section>
+
       {/* Preview */}
       <section className="p-4 rounded-xl border-2 border-gray-200 mb-8">
         <h2 className="font-bold text-lg mb-2">Preview</h2>

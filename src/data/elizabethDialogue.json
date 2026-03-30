@@ -1,0 +1,54 @@
+{
+  "firstVisit": {
+    "mood": "waving",
+    "messages": [
+      "Hi! I'm Elizabeth! Welcome to Wildlife Explorer! 🌍",
+      "I'm doing my SATs this year too, so I know how it feels!",
+      "Pick a habitat, listen to the word, then type it. Easy!",
+      "I'll be here if you need me. Good luck, explorer!"
+    ]
+  },
+  "returnVisit": [
+    { "mood": "waving", "message": "Welcome back, explorer! Ready for more discoveries?" },
+    { "mood": "happy", "message": "Hey! Great to see you again! Let's do some exploring!" },
+    { "mood": "excited", "message": "You're back! I've been waiting — let's go!" }
+  ],
+  "returnVisitWithStreak": {
+    "mood": "excited",
+    "message": "Your streak is going strong — let's keep it up! 🔥"
+  },
+  "quizWrongStreak": [
+    { "mood": "encouraging", "message": "Hey, these are tricky ones! Want to hear the word again?" },
+    { "mood": "encouraging", "message": "Don't worry — even I get stuck on these sometimes!" },
+    { "mood": "encouraging", "message": "You're doing great — tricky words take practice!" }
+  ],
+  "quizFirstCorrect": {
+    "mood": "excited",
+    "message": "Great start! You're going to love discovering the animal in this habitat!"
+  },
+  "quizStreak5": {
+    "mood": "excited",
+    "message": "Five in a row! You're on fire! 🔥"
+  },
+  "quizStreak10": {
+    "mood": "excited",
+    "message": "TEN in a row?! You're absolutely smashing it! ⭐"
+  },
+  "habitatComplete": {
+    "mood": "excited",
+    "message": "You did it! How cool is that?!"
+  },
+  "sessionEnd": [
+    { "mood": "happy", "message": "Amazing exploring today! Your brain needs a rest now — come back tomorrow!" },
+    { "mood": "happy", "message": "Brilliant session! You've earned a break. See you next time!" }
+  ],
+  "help": {
+    "home": { "mood": "happy", "message": "Pick a habitat to start exploring! Each one has a hidden animal to find." },
+    "habitats": { "mood": "happy", "message": "Choose a habitat — the progress bars show how far you've got in each one!" },
+    "quiz": { "mood": "happy", "message": "Listen to the word, then type it in the box. You can hear it again by pressing the speaker button." },
+    "collection": { "mood": "happy", "message": "Here are all the animals you've discovered! Keep exploring to find more." },
+    "settings": { "mood": "happy", "message": "You can change the font and colours here to make it easier to read." },
+    "diagnostic": { "mood": "encouraging", "message": "This quiz helps me work out which habitats you'll enjoy the most. No pressure!" },
+    "mockSats": { "mood": "encouraging", "message": "This is like a real SATs spelling test — but just for practice. You've got this!" }
+  }
+}

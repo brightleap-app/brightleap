@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import habitats from '../data/habitats.json';
 import { loadProgress } from '../storage/progress.js';
 import { HABITAT_UNLOCK_THRESHOLD } from '../engine/quiz.js';
+import { ElizabethHelpButton } from '../components/ElizabethHelper.jsx';
 
 export default function HabitatSelect() {
   const progress = loadProgress();
@@ -76,6 +77,8 @@ export default function HabitatSelect() {
           Settings
         </Link>
       </div>
+
+      <ElizabethHelpButton screenKey="habitats" />
     </main>
   );
 }
