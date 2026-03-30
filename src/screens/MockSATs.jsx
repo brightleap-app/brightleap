@@ -344,9 +344,7 @@ export default function MockSATs() {
             Word {wordIndex + 1} of {totalWords}
           </div>
         </div>
-        <div className="text-xs text-gray-400 min-w-[48px] text-right">
-          {formatTime(elapsed)}
-        </div>
+        <div className="w-12" />
       </div>
 
       {/* Progress bar */}
