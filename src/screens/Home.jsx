@@ -137,6 +137,13 @@ export default function Home() {
           </div>
         )}
       </div>
+      <Link
+        to="/about"
+        className="text-sm text-gray-400 hover:text-gray-600 transition-colors mt-2"
+      >
+        About Brightleap
+      </Link>
+
       {elizabethMsg && (
         <ElizabethHelper
           mood={elizabethMsg.mood}
