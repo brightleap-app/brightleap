@@ -1,0 +1,562 @@
+[
+  {
+    "word": "lamb",
+    "sentence": "The little _____ followed its mother across the field.",
+    "source": "STA 2023",
+    "rule": "silent letters",
+    "difficulty": "easy"
+  },
+  {
+    "word": "touch",
+    "sentence": "Please do not _____ the paintings in the gallery.",
+    "source": "STA 2023",
+    "rule": "words containing ou",
+    "difficulty": "easy"
+  },
+  {
+    "word": "numbered",
+    "sentence": "The pages in the book were _____ from one to fifty.",
+    "source": "STA 2023",
+    "rule": "suffix -ed",
+    "difficulty": "easy"
+  },
+  {
+    "word": "undrinkable",
+    "sentence": "The water from the muddy puddle was _____.",
+    "source": "STA 2023",
+    "rule": "prefix + suffix",
+    "difficulty": "medium"
+  },
+  {
+    "word": "lyrics",
+    "sentence": "She memorised the _____ to her favourite song.",
+    "source": "STA 2023",
+    "rule": "y as /i/ sound",
+    "difficulty": "medium"
+  },
+  {
+    "word": "ought",
+    "sentence": "You _____ to wear a coat because it is cold outside.",
+    "source": "STA 2023",
+    "rule": "words containing ough",
+    "difficulty": "medium"
+  },
+  {
+    "word": "misconduct",
+    "sentence": "The player was sent off for _____.",
+    "source": "STA 2023",
+    "rule": "prefix mis-",
+    "difficulty": "medium"
+  },
+  {
+    "word": "glorious",
+    "sentence": "It was a _____ sunny day at the seaside.",
+    "source": "STA 2023",
+    "rule": "suffix -ous",
+    "difficulty": "medium"
+  },
+  {
+    "word": "obey",
+    "sentence": "You must _____ the rules of the game.",
+    "source": "STA 2023",
+    "rule": "words ending -ey",
+    "difficulty": "medium"
+  },
+  {
+    "word": "official",
+    "sentence": "The referee made an _____ decision.",
+    "source": "STA 2023",
+    "rule": "suffix -cial",
+    "difficulty": "medium"
+  },
+  {
+    "word": "unique",
+    "sentence": "Every snowflake has a _____ pattern.",
+    "source": "STA 2023",
+    "rule": "words ending -que",
+    "difficulty": "medium"
+  },
+  {
+    "word": "puncture",
+    "sentence": "Dad had to fix a _____ in the bicycle tyre.",
+    "source": "STA 2023",
+    "rule": "words ending -ture",
+    "difficulty": "medium"
+  },
+  {
+    "word": "steadily",
+    "sentence": "The rain fell _____ throughout the afternoon.",
+    "source": "STA 2023",
+    "rule": "suffix -ly",
+    "difficulty": "medium"
+  },
+  {
+    "word": "mechanic",
+    "sentence": "The _____ repaired the engine of the car.",
+    "source": "STA 2023",
+    "rule": "ch as /k/ sound",
+    "difficulty": "hard"
+  },
+  {
+    "word": "preference",
+    "sentence": "My _____ is to have chocolate ice cream.",
+    "source": "STA 2023",
+    "rule": "suffix -ence",
+    "difficulty": "hard"
+  },
+  {
+    "word": "protein",
+    "sentence": "Eggs are a good source of _____.",
+    "source": "STA 2023",
+    "rule": "words with ei",
+    "difficulty": "hard"
+  },
+  {
+    "word": "substantial",
+    "sentence": "We had a _____ meal before the long walk.",
+    "source": "STA 2023",
+    "rule": "suffix -tial",
+    "difficulty": "hard"
+  },
+  {
+    "word": "scenario",
+    "sentence": "The teacher asked us to imagine a different _____.",
+    "source": "STA 2023",
+    "rule": "sc as /s/ sound",
+    "difficulty": "hard"
+  },
+  {
+    "word": "optician",
+    "sentence": "The _____ tested my eyes and gave me new glasses.",
+    "source": "STA 2023",
+    "rule": "suffix -cian",
+    "difficulty": "hard"
+  },
+  {
+    "word": "currant",
+    "sentence": "There was a _____ bun left on the plate.",
+    "source": "STA 2023",
+    "rule": "homophones",
+    "difficulty": "hard"
+  },
+  {
+    "word": "ordering",
+    "sentence": "The children were _____ the objects from smallest to largest.",
+    "source": "STA 2022",
+    "rule": "suffix -ing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "disrespect",
+    "sentence": "Do not show _____ to anyone.",
+    "source": "STA 2022",
+    "rule": "prefix dis-",
+    "difficulty": "medium"
+  },
+  {
+    "word": "special",
+    "sentence": "I was given a _____ award.",
+    "source": "STA 2022",
+    "rule": "suffix -cial",
+    "difficulty": "easy"
+  },
+  {
+    "word": "couple",
+    "sentence": "We spent a _____ of hours at the shops.",
+    "source": "STA 2022",
+    "rule": "words containing ou",
+    "difficulty": "easy"
+  },
+  {
+    "word": "measure",
+    "sentence": "You should _____ your fabric carefully.",
+    "source": "STA 2022",
+    "rule": "words ending -sure",
+    "difficulty": "easy"
+  },
+  {
+    "word": "cough",
+    "sentence": "The dust in the air made me _____.",
+    "source": "STA 2022",
+    "rule": "words containing ough",
+    "difficulty": "medium"
+  },
+  {
+    "word": "machine",
+    "sentence": "Rosie used a sewing _____ to make her dress.",
+    "source": "STA 2022",
+    "rule": "ch as /sh/ sound",
+    "difficulty": "medium"
+  },
+  {
+    "word": "invisible",
+    "sentence": "The spy used _____ ink to write his message.",
+    "source": "STA 2022",
+    "rule": "prefix in- suffix -ible",
+    "difficulty": "medium"
+  },
+  {
+    "word": "banned",
+    "sentence": "Chewing gum is _____ in school.",
+    "source": "STA 2022",
+    "rule": "suffix -ed doubled",
+    "difficulty": "easy"
+  },
+  {
+    "word": "television",
+    "sentence": "We watched a film on _____ last night.",
+    "source": "STA 2022",
+    "rule": "suffix -sion",
+    "difficulty": "medium"
+  },
+  {
+    "word": "character",
+    "sentence": "Lola was the lead _____ in her school play.",
+    "source": "STA 2022",
+    "rule": "ch as /k/ sound",
+    "difficulty": "medium"
+  },
+  {
+    "word": "caution",
+    "sentence": "Cross the busy road with _____.",
+    "source": "STA 2022",
+    "rule": "suffix -tion",
+    "difficulty": "medium"
+  },
+  {
+    "word": "syrup",
+    "sentence": "Maple _____ is sometimes poured on pancakes.",
+    "source": "STA 2022",
+    "rule": "y as /i/ sound",
+    "difficulty": "medium"
+  },
+  {
+    "word": "reluctantly",
+    "sentence": "My sister _____ gave me her favourite book.",
+    "source": "STA 2022",
+    "rule": "suffix -ly",
+    "difficulty": "hard"
+  },
+  {
+    "word": "reference",
+    "sentence": "Amy borrowed a _____ book from the library.",
+    "source": "STA 2022",
+    "rule": "suffix -ence",
+    "difficulty": "hard"
+  },
+  {
+    "word": "ridiculous",
+    "sentence": "The comedian was dressed in a _____ costume.",
+    "source": "STA 2022",
+    "rule": "suffix -ous",
+    "difficulty": "hard"
+  },
+  {
+    "word": "scenic",
+    "sentence": "We paused to look at the _____ view.",
+    "source": "STA 2022",
+    "rule": "sc as /s/ sound",
+    "difficulty": "hard"
+  },
+  {
+    "word": "survey",
+    "sentence": "She based her research on the results of the _____.",
+    "source": "STA 2022",
+    "rule": "words ending -ey",
+    "difficulty": "medium"
+  },
+  {
+    "word": "transferred",
+    "sentence": "The football player was _____ to a different club.",
+    "source": "STA 2022",
+    "rule": "suffix -ed doubled",
+    "difficulty": "hard"
+  },
+  {
+    "word": "receipt",
+    "sentence": "The till printed the _____.",
+    "source": "STA 2022",
+    "rule": "ei after c",
+    "difficulty": "hard"
+  },
+  {
+    "word": "creature",
+    "sentence": "The dragon is an imaginary _____.",
+    "source": "STA 2019",
+    "rule": "words ending -ture",
+    "difficulty": "easy"
+  },
+  {
+    "word": "enough",
+    "sentence": "There was _____ food for everyone.",
+    "source": "STA 2019",
+    "rule": "words containing ough",
+    "difficulty": "easy"
+  },
+  {
+    "word": "reception",
+    "sentence": "My little brother is in _____ class.",
+    "source": "STA 2019",
+    "rule": "suffix -tion",
+    "difficulty": "easy"
+  },
+  {
+    "word": "numb",
+    "sentence": "Playing in the snow made my fingers _____.",
+    "source": "STA 2019",
+    "rule": "silent letters",
+    "difficulty": "easy"
+  },
+  {
+    "word": "sighed",
+    "sentence": "Charlie _____ with relief.",
+    "source": "STA 2019",
+    "rule": "suffix -ed",
+    "difficulty": "medium"
+  },
+  {
+    "word": "navigation",
+    "sentence": "_____ is easier with a compass.",
+    "source": "STA 2019",
+    "rule": "suffix -ation",
+    "difficulty": "medium"
+  },
+  {
+    "word": "thoughtful",
+    "sentence": "Khalid was a _____ boy.",
+    "source": "STA 2019",
+    "rule": "suffix -ful",
+    "difficulty": "medium"
+  },
+  {
+    "word": "offered",
+    "sentence": "Gran _____ us a snack when we arrived.",
+    "source": "STA 2019",
+    "rule": "suffix -ed",
+    "difficulty": "easy"
+  },
+  {
+    "word": "muscle",
+    "sentence": "Do your stretches so you don't pull a _____.",
+    "source": "STA 2019",
+    "rule": "silent letters",
+    "difficulty": "medium"
+  },
+  {
+    "word": "curiously",
+    "sentence": "Maria looked _____ at the box.",
+    "source": "STA 2019",
+    "rule": "suffix -ously",
+    "difficulty": "medium"
+  },
+  {
+    "word": "courage",
+    "sentence": "She found the _____ to try something new.",
+    "source": "STA 2019",
+    "rule": "words containing ou",
+    "difficulty": "medium"
+  },
+  {
+    "word": "disagreement",
+    "sentence": "Jade and Jamie had a _____.",
+    "source": "STA 2019",
+    "rule": "prefix dis- suffix -ment",
+    "difficulty": "medium"
+  },
+  {
+    "word": "pyramid",
+    "sentence": "Our class made a model _____.",
+    "source": "STA 2019",
+    "rule": "y as /i/ sound",
+    "difficulty": "medium"
+  },
+  {
+    "word": "excellent",
+    "sentence": "The school provided an _____ education for its pupils.",
+    "source": "STA 2019",
+    "rule": "suffix -ent",
+    "difficulty": "hard"
+  },
+  {
+    "word": "generous",
+    "sentence": "_____ people give to charity.",
+    "source": "STA 2019",
+    "rule": "suffix -ous",
+    "difficulty": "hard"
+  },
+  {
+    "word": "chorus",
+    "sentence": "Everyone sang the _____ loudly.",
+    "source": "STA 2019",
+    "rule": "ch as /k/ sound",
+    "difficulty": "hard"
+  },
+  {
+    "word": "tongue",
+    "sentence": "I burnt my _____ on the hot soup.",
+    "source": "STA 2019",
+    "rule": "words ending -gue",
+    "difficulty": "hard"
+  },
+  {
+    "word": "accidentally",
+    "sentence": "Sarah _____ spilled water all over the table.",
+    "source": "STA 2019",
+    "rule": "suffix -ally",
+    "difficulty": "hard"
+  },
+  {
+    "word": "deceive",
+    "sentence": "The criminal tried to _____ the police.",
+    "source": "STA 2019",
+    "rule": "ei after c",
+    "difficulty": "hard"
+  },
+  {
+    "word": "thumb",
+    "sentence": "Mum hit her _____ with the hammer.",
+    "source": "STA 2018",
+    "rule": "silent letters",
+    "difficulty": "easy"
+  },
+  {
+    "word": "trouble",
+    "sentence": "The boy had _____ keeping up with his elder sister.",
+    "source": "STA 2018",
+    "rule": "words containing ou",
+    "difficulty": "easy"
+  },
+  {
+    "word": "mixture",
+    "sentence": "Add eggs to your cake _____.",
+    "source": "STA 2018",
+    "rule": "words ending -ture",
+    "difficulty": "easy"
+  },
+  {
+    "word": "portable",
+    "sentence": "The new laptop is light and _____.",
+    "source": "STA 2018",
+    "rule": "suffix -able",
+    "difficulty": "medium"
+  },
+  {
+    "word": "dough",
+    "sentence": "We put the bread _____ in the oven.",
+    "source": "STA 2018",
+    "rule": "words containing ough",
+    "difficulty": "medium"
+  },
+  {
+    "word": "science",
+    "sentence": "My favourite subject at school is _____.",
+    "source": "STA 2018",
+    "rule": "sc as /s/ sound",
+    "difficulty": "medium"
+  },
+  {
+    "word": "attention",
+    "sentence": "The teacher asked the children to pay _____.",
+    "source": "STA 2018",
+    "rule": "suffix -tion",
+    "difficulty": "medium"
+  },
+  {
+    "word": "obtained",
+    "sentence": "Raif _____ his parents' permission to go out.",
+    "source": "STA 2018",
+    "rule": "suffix -ed",
+    "difficulty": "medium"
+  },
+  {
+    "word": "weightless",
+    "sentence": "The astronaut felt _____ in space.",
+    "source": "STA 2018",
+    "rule": "suffix -less",
+    "difficulty": "medium"
+  },
+  {
+    "word": "council",
+    "sentence": "Raisa was chosen to be a member of the school _____.",
+    "source": "STA 2018",
+    "rule": "homophones",
+    "difficulty": "medium"
+  },
+  {
+    "word": "suffered",
+    "sentence": "I _____ from a cold last week.",
+    "source": "STA 2018",
+    "rule": "suffix -ed doubled",
+    "difficulty": "medium"
+  },
+  {
+    "word": "typical",
+    "sentence": "It was a _____ autumn day.",
+    "source": "STA 2018",
+    "rule": "y as /i/ sound",
+    "difficulty": "medium"
+  },
+  {
+    "word": "usually",
+    "sentence": "Jaya _____ walks to school.",
+    "source": "STA 2018",
+    "rule": "suffix -ally",
+    "difficulty": "medium"
+  },
+  {
+    "word": "cautious",
+    "sentence": "Ben took a _____ step onto the ice rink.",
+    "source": "STA 2018",
+    "rule": "suffix -tious",
+    "difficulty": "hard"
+  },
+  {
+    "word": "essential",
+    "sentence": "Water is _____ to life.",
+    "source": "STA 2018",
+    "rule": "suffix -tial",
+    "difficulty": "hard"
+  },
+  {
+    "word": "vague",
+    "sentence": "David had a _____ idea of where to find the milk.",
+    "source": "STA 2018",
+    "rule": "words ending -gue",
+    "difficulty": "hard"
+  },
+  {
+    "word": "adventurous",
+    "sentence": "Bella was an _____ girl.",
+    "source": "STA 2018",
+    "rule": "suffix -ous",
+    "difficulty": "hard"
+  },
+  {
+    "word": "architect",
+    "sentence": "The _____ designed the new building.",
+    "source": "STA 2018",
+    "rule": "ch as /k/ sound",
+    "difficulty": "hard"
+  },
+  {
+    "word": "descendant",
+    "sentence": "Queen Elizabeth is a _____ of Queen Victoria.",
+    "source": "STA 2018",
+    "rule": "suffix -ant",
+    "difficulty": "hard"
+  },
+  {
+    "word": "inconceivable",
+    "sentence": "To give up now would be _____.",
+    "source": "STA 2018",
+    "rule": "prefix + ei after c + suffix",
+    "difficulty": "hard"
+  },
+  {
+    "word": "division",
+    "sentence": "We learned how to do _____ in mathematics.",
+    "source": "STA 2019",
+    "rule": "suffix -sion",
+    "difficulty": "medium"
+  }
+]

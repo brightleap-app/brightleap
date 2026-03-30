@@ -1,0 +1,642 @@
+[
+  {
+    "word": "lamb",
+    "sentence": "Context sentence not provided in source.",
+    "source": "STA 2023",
+    "year": 2023,
+    "spelling_rule": "silent letters (silent b)",
+    "difficulty_level": "easy"
+  },
+  {
+    "word": "touch",
+    "sentence": "Context sentence not provided in source.",
+    "source": "STA 2023",
+    "year": 2023,
+    "spelling_rule": "words containing 'ou'",
+    "difficulty_level": "easy"
+  },
+  {
+    "word": "numbered",
+    "sentence": "Context sentence not provided in source.",
+    "source": "STA 2023",
+    "year": 2023,
+    "spelling_rule": "suffix -ed",
+    "difficulty_level": "easy"
+  },
+  {
+    "word": "undrinkable",
+    "sentence": "Context sentence not provided in source.",
+    "source": "STA 2023",
+    "year": 2023,
+    "spelling_rule": "prefix un- and suffix -able",
+    "difficulty_level": "medium"
+  },
+  {
+    "word": "lyrics",
+    "sentence": "Context sentence not provided in source.",
+    "source": "STA 2023",
+    "year": 2023,
+    "spelling_rule": "words with 'y' in the middle",
+    "difficulty_level": "medium"
+  },
+  {
+    "word": "ought",
+    "sentence": "Context sentence not provided in source.",
+    "source": "STA 2023",
+    "year": 2023,
+    "spelling_rule": "words containing 'ough'",
+    "difficulty_level": "medium"
+  },
+  {
+    "word": "misconduct",
+    "sentence": "Context sentence not provided in source.",
+    "source": "STA 2023",
+    "year": 2023,
+    "spelling_rule": "prefix mis-",
+    "difficulty_level": "medium"
+  },
+  {
+    "word": "glorious",
+    "sentence": "Context sentence not provided in source.",
+    "source": "STA 2023",
+    "year": 2023,
+    "spelling_rule": "suffix -ous",
+    "difficulty_level": "medium"
+  },
+  {
+    "word": "obey",
+    "sentence": "Context sentence not provided in source.",
+    "source": "STA 2023",
+    "year": 2023,
+    "spelling_rule": "words with 'ey' ending",
+    "difficulty_level": "medium"
+  },
+  {
+    "word": "official",
+    "sentence": "Context sentence not provided in source.",
+    "source": "STA 2023",
+    "year": 2023,
+    "spelling_rule": "suffix -cial",
+    "difficulty_level": "medium"
+  },
+  {
+    "word": "unique",
+    "sentence": "Context sentence not provided in source.",
+    "source": "STA 2023",
+    "year": 2023,
+    "spelling_rule": "words ending -que",
+    "difficulty_level": "medium"
+  },
+  {
+    "word": "puncture",
+    "sentence": "Context sentence not provided in source.",
+    "source": "STA 2023",
+    "year": 2023,
+    "spelling_rule": "words ending -ture",
+    "difficulty_level": "medium"
+  },
+  {
+    "word": "steadily",
+    "sentence": "Context sentence not provided in source.",
+    "source": "STA 2023",
+    "year": 2023,
+    "spelling_rule": "suffix -ly (change y to i)",
+    "difficulty_level": "medium"
+  },
+  {
+    "word": "mechanic",
+    "sentence": "Context sentence not provided in source.",
+    "source": "STA 2023",
+    "year": 2023,
+    "spelling_rule": "ch making /k/ sound",
+    "difficulty_level": "hard"
+  },
+  {
+    "word": "preference",
+    "sentence": "Context sentence not provided in source.",
+    "source": "STA 2023",
+    "year": 2023,
+    "spelling_rule": "suffix -ence",
+    "difficulty_level": "hard"
+  },
+  {
+    "word": "protein",
+    "sentence": "Context sentence not provided in source.",
+    "source": "STA 2023",
+    "year": 2023,
+    "spelling_rule": "words with ei spelling",
+    "difficulty_level": "hard"
+  },
+  {
+    "word": "substantial",
+    "sentence": "Context sentence not provided in source.",
+    "source": "STA 2023",
+    "year": 2023,
+    "spelling_rule": "suffix -tial",
+    "difficulty_level": "hard"
+  },
+  {
+    "word": "scenario",
+    "sentence": "Context sentence not provided in source.",
+    "source": "STA 2023",
+    "year": 2023,
+    "spelling_rule": "sc making /s/ sound",
+    "difficulty_level": "hard"
+  },
+  {
+    "word": "optician",
+    "sentence": "Context sentence not provided in source.",
+    "source": "STA 2023",
+    "year": 2023,
+    "spelling_rule": "suffix -cian (ending sounds like /ʃən/)",
+    "difficulty_level": "hard"
+  },
+  {
+    "word": "currant",
+    "sentence": "Context sentence not provided in source.",
+    "source": "STA 2023",
+    "year": 2023,
+    "spelling_rule": "homophones (currant/current)",
+    "difficulty_level": "hard"
+  },
+  {
+    "word": "ordering",
+    "sentence": "The children were ordering the objects from smallest to largest.",
+    "source": "STA 2022",
+    "year": 2022,
+    "spelling_rule": "suffix -ing",
+    "difficulty_level": "easy"
+  },
+  {
+    "word": "disrespect",
+    "sentence": "Do not show disrespect to anyone.",
+    "source": "STA 2022",
+    "year": 2022,
+    "spelling_rule": "prefix dis-",
+    "difficulty_level": "medium"
+  },
+  {
+    "word": "special",
+    "sentence": "I was given a special award.",
+    "source": "STA 2022",
+    "year": 2022,
+    "spelling_rule": "suffix -cial",
+    "difficulty_level": "easy"
+  },
+  {
+    "word": "couple",
+    "sentence": "We spent a couple of hours at the shops.",
+    "source": "STA 2022",
+    "year": 2022,
+    "spelling_rule": "words containing 'ou'",
+    "difficulty_level": "easy"
+  },
+  {
+    "word": "measure",
+    "sentence": "You should measure your fabric carefully.",
+    "source": "STA 2022",
+    "year": 2022,
+    "spelling_rule": "words ending -sure",
+    "difficulty_level": "easy"
+  },
+  {
+    "word": "cough",
+    "sentence": "The dust in the air made me cough.",
+    "source": "STA 2022",
+    "year": 2022,
+    "spelling_rule": "words containing 'ough'",
+    "difficulty_level": "medium"
+  },
+  {
+    "word": "machine",
+    "sentence": "Rosie used a sewing machine to make her dress.",
+    "source": "STA 2022",
+    "year": 2022,
+    "spelling_rule": "ch making /ʃ/ sound",
+    "difficulty_level": "medium"
+  },
+  {
+    "word": "invisible",
+    "sentence": "The spy used invisible ink to write his message.",
+    "source": "STA 2022",
+    "year": 2022,
+    "spelling_rule": "prefix in- and suffix -ible",
+    "difficulty_level": "medium"
+  },
+  {
+    "word": "banned",
+    "sentence": "Chewing gum is banned in school.",
+    "source": "STA 2022",
+    "year": 2022,
+    "spelling_rule": "suffix -ed (consonant doubling)",
+    "difficulty_level": "easy"
+  },
+  {
+    "word": "television",
+    "sentence": "We watched a film on television last night.",
+    "source": "STA 2022",
+    "year": 2022,
+    "spelling_rule": "suffix -sion",
+    "difficulty_level": "medium"
+  },
+  {
+    "word": "character",
+    "sentence": "Lola was the lead character in her school play.",
+    "source": "STA 2022",
+    "year": 2022,
+    "spelling_rule": "ch making /k/ sound",
+    "difficulty_level": "medium"
+  },
+  {
+    "word": "caution",
+    "sentence": "Cross the busy road with caution.",
+    "source": "STA 2022",
+    "year": 2022,
+    "spelling_rule": "suffix -tion",
+    "difficulty_level": "medium"
+  },
+  {
+    "word": "syrup",
+    "sentence": "Maple syrup is sometimes poured on pancakes.",
+    "source": "STA 2022",
+    "year": 2022,
+    "spelling_rule": "words with 'y' in the middle",
+    "difficulty_level": "medium"
+  },
+  {
+    "word": "reluctantly",
+    "sentence": "My sister reluctantly gave me her favourite book.",
+    "source": "STA 2022",
+    "year": 2022,
+    "spelling_rule": "suffix -ly",
+    "difficulty_level": "hard"
+  },
+  {
+    "word": "reference",
+    "sentence": "Amy borrowed a reference book from the library.",
+    "source": "STA 2022",
+    "year": 2022,
+    "spelling_rule": "suffix -ence",
+    "difficulty_level": "hard"
+  },
+  {
+    "word": "ridiculous",
+    "sentence": "The comedian was dressed in a ridiculous costume.",
+    "source": "STA 2022",
+    "year": 2022,
+    "spelling_rule": "suffix -ous",
+    "difficulty_level": "hard"
+  },
+  {
+    "word": "scenic",
+    "sentence": "We paused to look at the scenic view.",
+    "source": "STA 2022",
+    "year": 2022,
+    "spelling_rule": "sc making /s/ sound",
+    "difficulty_level": "hard"
+  },
+  {
+    "word": "survey",
+    "sentence": "She based her research on the results of the survey.",
+    "source": "STA 2022",
+    "year": 2022,
+    "spelling_rule": "words with 'ey' ending",
+    "difficulty_level": "medium"
+  },
+  {
+    "word": "transferred",
+    "sentence": "The football player was transferred to a different club.",
+    "source": "STA 2022",
+    "year": 2022,
+    "spelling_rule": "suffix -ed (consonant doubling)",
+    "difficulty_level": "hard"
+  },
+  {
+    "word": "receipt",
+    "sentence": "The till printed the receipt.",
+    "source": "STA 2022",
+    "year": 2022,
+    "spelling_rule": "words with ei after c (silent p)",
+    "difficulty_level": "hard"
+  },
+  {
+    "word": "creature",
+    "sentence": "The dragon is an imaginary creature.",
+    "source": "STA 2019",
+    "year": 2019,
+    "spelling_rule": "words ending -ture",
+    "difficulty_level": "easy"
+  },
+  {
+    "word": "enough",
+    "sentence": "There was enough food for everyone.",
+    "source": "STA 2019",
+    "year": 2019,
+    "spelling_rule": "words containing 'ough'",
+    "difficulty_level": "easy"
+  },
+  {
+    "word": "reception",
+    "sentence": "My little brother is in reception class.",
+    "source": "STA 2019",
+    "year": 2019,
+    "spelling_rule": "suffix -tion",
+    "difficulty_level": "easy"
+  },
+  {
+    "word": "numb",
+    "sentence": "Playing in the snow made my fingers numb.",
+    "source": "STA 2019",
+    "year": 2019,
+    "spelling_rule": "silent letters (silent b)",
+    "difficulty_level": "easy"
+  },
+  {
+    "word": "division",
+    "sentence": "We learned how to do division in mathematics.",
+    "source": "STA 2019",
+    "year": 2019,
+    "spelling_rule": "suffix -sion",
+    "difficulty_level": "medium"
+  },
+  {
+    "word": "sighed",
+    "sentence": "Charlie sighed with relief.",
+    "source": "STA 2019",
+    "year": 2019,
+    "spelling_rule": "suffix -ed (irregular past tense)",
+    "difficulty_level": "medium"
+  },
+  {
+    "word": "navigation",
+    "sentence": "Navigation is easier with a compass.",
+    "source": "STA 2019",
+    "year": 2019,
+    "spelling_rule": "suffix -ation",
+    "difficulty_level": "medium"
+  },
+  {
+    "word": "thoughtful",
+    "sentence": "Khalid was a thoughtful boy.",
+    "source": "STA 2019",
+    "year": 2019,
+    "spelling_rule": "suffix -ful; words containing 'ough'",
+    "difficulty_level": "medium"
+  },
+  {
+    "word": "offered",
+    "sentence": "Gran offered us a snack when we arrived.",
+    "source": "STA 2019",
+    "year": 2019,
+    "spelling_rule": "suffix -ed",
+    "difficulty_level": "easy"
+  },
+  {
+    "word": "muscle",
+    "sentence": "Do your stretches so you don't pull a muscle.",
+    "source": "STA 2019",
+    "year": 2019,
+    "spelling_rule": "silent letters (silent c)",
+    "difficulty_level": "medium"
+  },
+  {
+    "word": "curiously",
+    "sentence": "Maria looked curiously at the box.",
+    "source": "STA 2019",
+    "year": 2019,
+    "spelling_rule": "suffix -ously",
+    "difficulty_level": "medium"
+  },
+  {
+    "word": "courage",
+    "sentence": "She found the courage to try something new.",
+    "source": "STA 2019",
+    "year": 2019,
+    "spelling_rule": "words containing 'ou'; words ending -age",
+    "difficulty_level": "medium"
+  },
+  {
+    "word": "disagreement",
+    "sentence": "Jade and Jamie had a disagreement.",
+    "source": "STA 2019",
+    "year": 2019,
+    "spelling_rule": "prefix dis- and suffix -ment",
+    "difficulty_level": "medium"
+  },
+  {
+    "word": "pyramid",
+    "sentence": "Our class made a model pyramid.",
+    "source": "STA 2019",
+    "year": 2019,
+    "spelling_rule": "words with 'y' in the middle",
+    "difficulty_level": "medium"
+  },
+  {
+    "word": "excellent",
+    "sentence": "The school provided an excellent education for its pupils.",
+    "source": "STA 2019",
+    "year": 2019,
+    "spelling_rule": "suffix -ent; double consonants",
+    "difficulty_level": "hard"
+  },
+  {
+    "word": "generous",
+    "sentence": "Generous people give to charity.",
+    "source": "STA 2019",
+    "year": 2019,
+    "spelling_rule": "suffix -ous",
+    "difficulty_level": "hard"
+  },
+  {
+    "word": "chorus",
+    "sentence": "Everyone sang the chorus loudly.",
+    "source": "STA 2019",
+    "year": 2019,
+    "spelling_rule": "ch making /k/ sound",
+    "difficulty_level": "hard"
+  },
+  {
+    "word": "tongue",
+    "sentence": "I burnt my tongue on the hot soup.",
+    "source": "STA 2019",
+    "year": 2019,
+    "spelling_rule": "words ending -gue",
+    "difficulty_level": "hard"
+  },
+  {
+    "word": "accidentally",
+    "sentence": "Sarah accidentally spilled water all over the table.",
+    "source": "STA 2019",
+    "year": 2019,
+    "spelling_rule": "suffix -ally",
+    "difficulty_level": "hard"
+  },
+  {
+    "word": "deceive",
+    "sentence": "The criminal tried to deceive the police.",
+    "source": "STA 2019",
+    "year": 2019,
+    "spelling_rule": "words with ei after c (i before e rule exception)",
+    "difficulty_level": "hard"
+  },
+  {
+    "word": "thumb",
+    "sentence": "Mum hit her thumb with the hammer.",
+    "source": "STA 2018",
+    "year": 2018,
+    "spelling_rule": "silent letters (silent b)",
+    "difficulty_level": "easy"
+  },
+  {
+    "word": "trouble",
+    "sentence": "The boy had trouble keeping up with his elder sister.",
+    "source": "STA 2018",
+    "year": 2018,
+    "spelling_rule": "words containing 'ou'",
+    "difficulty_level": "easy"
+  },
+  {
+    "word": "mixture",
+    "sentence": "Add eggs to your cake mixture.",
+    "source": "STA 2018",
+    "year": 2018,
+    "spelling_rule": "words ending -ture",
+    "difficulty_level": "easy"
+  },
+  {
+    "word": "portable",
+    "sentence": "The new laptop is light and portable.",
+    "source": "STA 2018",
+    "year": 2018,
+    "spelling_rule": "suffix -able",
+    "difficulty_level": "medium"
+  },
+  {
+    "word": "dough",
+    "sentence": "We put the bread dough in the oven.",
+    "source": "STA 2018",
+    "year": 2018,
+    "spelling_rule": "words containing 'ough'",
+    "difficulty_level": "medium"
+  },
+  {
+    "word": "science",
+    "sentence": "My favourite subject at school is science.",
+    "source": "STA 2018",
+    "year": 2018,
+    "spelling_rule": "sc making /s/ sound",
+    "difficulty_level": "medium"
+  },
+  {
+    "word": "attention",
+    "sentence": "The teacher asked the children to pay attention.",
+    "source": "STA 2018",
+    "year": 2018,
+    "spelling_rule": "suffix -tion",
+    "difficulty_level": "medium"
+  },
+  {
+    "word": "obtained",
+    "sentence": "Raif obtained his parents' permission to go out.",
+    "source": "STA 2018",
+    "year": 2018,
+    "spelling_rule": "suffix -ed; prefix ob-",
+    "difficulty_level": "medium"
+  },
+  {
+    "word": "weightless",
+    "sentence": "The astronaut felt weightless in space.",
+    "source": "STA 2018",
+    "year": 2018,
+    "spelling_rule": "suffix -less; words with eigh",
+    "difficulty_level": "medium"
+  },
+  {
+    "word": "council",
+    "sentence": "Raisa was chosen to be a member of the school council.",
+    "source": "STA 2018",
+    "year": 2018,
+    "spelling_rule": "homophones (council/counsel)",
+    "difficulty_level": "medium"
+  },
+  {
+    "word": "suffered",
+    "sentence": "I suffered from a cold last week.",
+    "source": "STA 2018",
+    "year": 2018,
+    "spelling_rule": "suffix -ed (consonant doubling)",
+    "difficulty_level": "medium"
+  },
+  {
+    "word": "typical",
+    "sentence": "It was a typical autumn day.",
+    "source": "STA 2018",
+    "year": 2018,
+    "spelling_rule": "suffix -al; words with 'y' in the middle",
+    "difficulty_level": "medium"
+  },
+  {
+    "word": "usually",
+    "sentence": "Jaya usually walks to school.",
+    "source": "STA 2018",
+    "year": 2018,
+    "spelling_rule": "suffix -ly; suffix -ally",
+    "difficulty_level": "medium"
+  },
+  {
+    "word": "cautious",
+    "sentence": "Ben took a cautious step onto the ice rink.",
+    "source": "STA 2018",
+    "year": 2018,
+    "spelling_rule": "suffix -tious",
+    "difficulty_level": "hard"
+  },
+  {
+    "word": "essential",
+    "sentence": "Water is essential to life.",
+    "source": "STA 2018",
+    "year": 2018,
+    "spelling_rule": "suffix -tial",
+    "difficulty_level": "hard"
+  },
+  {
+    "word": "vague",
+    "sentence": "David had a vague idea of where to find the milk.",
+    "source": "STA 2018",
+    "year": 2018,
+    "spelling_rule": "words ending -gue",
+    "difficulty_level": "hard"
+  },
+  {
+    "word": "adventurous",
+    "sentence": "Bella was an adventurous girl.",
+    "source": "STA 2018",
+    "year": 2018,
+    "spelling_rule": "suffix -ous",
+    "difficulty_level": "hard"
+  },
+  {
+    "word": "architect",
+    "sentence": "The architect designed the new building.",
+    "source": "STA 2018",
+    "year": 2018,
+    "spelling_rule": "ch making /k/ sound",
+    "difficulty_level": "hard"
+  },
+  {
+    "word": "descendant",
+    "sentence": "Queen Elizabeth is a descendant of Queen Victoria.",
+    "source": "STA 2018",
+    "year": 2018,
+    "spelling_rule": "suffix -ant; sc making /s/ sound",
+    "difficulty_level": "hard"
+  },
+  {
+    "word": "inconceivable",
+    "sentence": "To give up now would be inconceivable.",
+    "source": "STA 2018",
+    "year": 2018,
+    "spelling_rule": "prefix in-; words with ei after c; suffix -able",
+    "difficulty_level": "hard"
+  }
+]

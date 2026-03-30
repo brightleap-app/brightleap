@@ -9,6 +9,7 @@ import Settings from './screens/Settings.jsx';
 import Register from './screens/Register.jsx';
 import Login from './screens/Login.jsx';
 import Diagnostic from './screens/Diagnostic.jsx';
+import MockSATs from './screens/MockSATs.jsx';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="/register" element={<Register />} />
           <Route path="/login" element={<Login />} />
           <Route path="/diagnostic" element={<Diagnostic />} />
+          <Route path="/mock-sats" element={<MockSATs />} />
         </Routes>
       </AuthProvider>
     </BrowserRouter>

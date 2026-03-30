@@ -67,6 +67,12 @@ export default function Home() {
           🗺️ Explorer Quiz
         </Link>
         <Link
+          to="/mock-sats"
+          className="px-8 py-3 bg-purple-100 text-purple-800 rounded-2xl font-semibold hover:bg-purple-200 transition-colors min-h-[48px] text-center"
+        >
+          📝 Mock SATs Test
+        </Link>
+        <Link
           to="/collection"
           className="px-8 py-3 bg-amber-100 text-amber-800 rounded-2xl font-semibold hover:bg-amber-200 transition-colors min-h-[48px] text-center"
         >
