@@ -8,6 +8,7 @@ import Collection from './screens/Collection.jsx';
 import Settings from './screens/Settings.jsx';
 import Register from './screens/Register.jsx';
 import Login from './screens/Login.jsx';
+import Diagnostic from './screens/Diagnostic.jsx';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/settings" element={<Settings />} />
           <Route path="/register" element={<Register />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/diagnostic" element={<Diagnostic />} />
         </Routes>
       </AuthProvider>
     </BrowserRouter>

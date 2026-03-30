@@ -1,0 +1,90 @@
+[
+  {
+    "habitat": "jungle",
+    "habitatName": "Jungle",
+    "emoji": "🌴",
+    "rule": "Words with the /i/ sound spelt y",
+    "words": [
+      { "word": "gym", "sentence": "We played basketball in the _____ after lunch.", "difficulty": "easy" },
+      { "word": "symbol", "sentence": "The dove is a _____ of peace.", "difficulty": "medium" },
+      { "word": "rhythm", "sentence": "The drummer kept a steady _____ throughout the song.", "difficulty": "hard" }
+    ]
+  },
+  {
+    "habitat": "ocean",
+    "habitatName": "Ocean",
+    "emoji": "🌊",
+    "rule": "Words ending in -tion, -sion, -ssion",
+    "words": [
+      { "word": "division", "sentence": "We learned about _____ in our maths lesson today.", "difficulty": "easy" },
+      { "word": "permission", "sentence": "You need _____ from a teacher to leave the classroom.", "difficulty": "medium" },
+      { "word": "expression", "sentence": "The artist captured a happy _____ on the face.", "difficulty": "hard" }
+    ]
+  },
+  {
+    "habitat": "savannah",
+    "habitatName": "Savannah",
+    "emoji": "🦁",
+    "rule": "Words with the suffix -ous",
+    "words": [
+      { "word": "famous", "sentence": "The _____ singer performed at the concert.", "difficulty": "easy" },
+      { "word": "generous", "sentence": "It was very _____ of you to share your sweets.", "difficulty": "medium" },
+      { "word": "mischievous", "sentence": "The _____ puppy chewed up the slippers.", "difficulty": "hard" }
+    ]
+  },
+  {
+    "habitat": "arctic",
+    "habitatName": "Arctic",
+    "emoji": "❄️",
+    "rule": "Words with the suffix -ly",
+    "words": [
+      { "word": "finally", "sentence": "We _____ arrived at the campsite after a long drive.", "difficulty": "easy" },
+      { "word": "frequently", "sentence": "Buses run _____ along the high street.", "difficulty": "medium" },
+      { "word": "extraordinarily", "sentence": "The magician was _____ talented.", "difficulty": "hard" }
+    ]
+  },
+  {
+    "habitat": "rainforest",
+    "habitatName": "Rainforest",
+    "emoji": "🌿",
+    "rule": "Words with silent letters",
+    "words": [
+      { "word": "climb", "sentence": "We had to _____ a steep hill to reach the castle.", "difficulty": "easy" },
+      { "word": "knowledge", "sentence": "Reading books gives you lots of _____.", "difficulty": "medium" },
+      { "word": "conscience", "sentence": "His _____ told him to own up to the mistake.", "difficulty": "hard" }
+    ]
+  },
+  {
+    "habitat": "desert",
+    "habitatName": "Desert",
+    "emoji": "🏜️",
+    "rule": "Year 5 and 6 statutory word list",
+    "words": [
+      { "word": "necessary", "sentence": "It is _____ to wear a helmet when cycling.", "difficulty": "easy" },
+      { "word": "prejudice", "sentence": "We should treat everyone fairly and without _____.", "difficulty": "medium" },
+      { "word": "accommodate", "sentence": "The hotel can _____ up to two hundred guests.", "difficulty": "hard" }
+    ]
+  },
+  {
+    "habitat": "mountains",
+    "habitatName": "Mountains",
+    "emoji": "🏔️",
+    "rule": "Words with prefixes",
+    "words": [
+      { "word": "disappear", "sentence": "The magician made the rabbit _____ from the hat.", "difficulty": "easy" },
+      { "word": "international", "sentence": "The _____ football match was very exciting.", "difficulty": "medium" },
+      { "word": "autobiography", "sentence": "She wrote an _____ about her amazing life.", "difficulty": "hard" }
+    ]
+  },
+  {
+    "habitat": "grasslands",
+    "habitatName": "Grasslands",
+    "emoji": "🌾",
+    "rule": "Homophones and commonly confused words",
+    "words": [
+      { "word": "accept", "sentence": "I am happy to _____ the award on behalf of our class.", "difficulty": "easy" },
+      { "word": "practise", "sentence": "You need to _____ your spellings every day.", "difficulty": "medium" },
+      { "word": "principle", "sentence": "Honesty is an important _____ to live by.", "difficulty": "hard" }
+    ]
+  }
+]

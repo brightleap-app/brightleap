@@ -61,6 +61,12 @@ export default function Home() {
           Start Exploring
         </Link>
         <Link
+          to="/diagnostic"
+          className="px-8 py-3 bg-blue-100 text-blue-800 rounded-2xl font-semibold hover:bg-blue-200 transition-colors min-h-[48px] text-center"
+        >
+          🗺️ Explorer Quiz
+        </Link>
+        <Link
           to="/collection"
           className="px-8 py-3 bg-amber-100 text-amber-800 rounded-2xl font-semibold hover:bg-amber-200 transition-colors min-h-[48px] text-center"
         >
