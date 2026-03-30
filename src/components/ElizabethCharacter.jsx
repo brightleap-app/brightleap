@@ -1,200 +1,176 @@
 // Elizabeth — Animal Crossing / chibi style character
-// Based on: blonde bob hair, star sunglasses, blue explorer outfit
+// Long blonde hair, star sunglasses, blue explorer outfit
 // Expressions: happy, excited, thinking, encouraging, waving
 
 export default function ElizabethCharacter({ mood = 'happy', size = 100 }) {
-  const s = size;
-  const scale = s / 100;
+  // Chibi proportions: huge head (~60%), tiny body (~40%)
+  // No visible neck or shoulders — head sits directly on body
 
-  // Expression-specific elements
-  const eyes = {
+  const eyesByMood = {
     happy: (
       <>
-        {/* Star sunglasses — her signature look */}
-        <g transform="translate(35, 38)">
-          {/* Left star */}
-          <polygon points="0,-8 2,-3 8,-3 3,1 5,7 0,3 -5,7 -3,1 -8,-3 -2,-3" fill="#9333ea" stroke="#7e22ce" strokeWidth="0.8" />
-          <circle cx="0" cy="0" r="2.5" fill="#1e1b4b" />
-        </g>
-        <g transform="translate(65, 38)">
-          {/* Right star */}
-          <polygon points="0,-8 2,-3 8,-3 3,1 5,7 0,3 -5,7 -3,1 -8,-3 -2,-3" fill="#9333ea" stroke="#7e22ce" strokeWidth="0.8" />
-          <circle cx="0" cy="0" r="2.5" fill="#1e1b4b" />
-        </g>
-        {/* Bridge */}
-        <line x1="43" y1="38" x2="57" y2="38" stroke="#7e22ce" strokeWidth="1.5" />
+        {/* Star sunglasses — signature look */}
+        <polygon points="36,36 38,31 44,31 40,35 42,41 36,37 30,41 32,35 28,31 34,31" fill="#9333ea" stroke="#7e22ce" strokeWidth="0.6" />
+        <polygon points="64,36 66,31 72,31 68,35 70,41 64,37 58,41 60,35 56,31 62,31" fill="#9333ea" stroke="#7e22ce" strokeWidth="0.6" />
+        <line x1="44" y1="35" x2="56" y2="35" stroke="#7e22ce" strokeWidth="1.2" />
+        {/* Eyes behind lenses */}
+        <circle cx="36" cy="36" r="1.8" fill="#1e1b4b" />
+        <circle cx="64" cy="36" r="1.8" fill="#1e1b4b" />
       </>
     ),
     excited: (
       <>
-        {/* Wide sparkly eyes — no sunglasses for excited */}
-        <g transform="translate(35, 38)">
-          <polygon points="0,-9 2.5,-3.5 9,-3.5 3.5,1 5.5,7.5 0,3.5 -5.5,7.5 -3.5,1 -9,-3.5 -2.5,-3.5" fill="#f9a8d4" stroke="#ec4899" strokeWidth="0.8" />
-          <circle cx="0" cy="0" r="3" fill="#1e1b4b" />
-          <circle cx="1.5" cy="-1.5" r="1" fill="white" />
-        </g>
-        <g transform="translate(65, 38)">
-          <polygon points="0,-9 2.5,-3.5 9,-3.5 3.5,1 5.5,7.5 0,3.5 -5.5,7.5 -3.5,1 -9,-3.5 -2.5,-3.5" fill="#f9a8d4" stroke="#ec4899" strokeWidth="0.8" />
-          <circle cx="0" cy="0" r="3" fill="#1e1b4b" />
-          <circle cx="1.5" cy="-1.5" r="1" fill="white" />
-        </g>
+        {/* Big sparkly eyes — sunglasses pushed up */}
+        <circle cx="36" cy="37" r="5" fill="white" stroke="#333" strokeWidth="0.8" />
+        <circle cx="64" cy="37" r="5" fill="white" stroke="#333" strokeWidth="0.8" />
+        <circle cx="37" cy="36" r="3" fill="#1e1b4b" />
+        <circle cx="65" cy="36" r="3" fill="#1e1b4b" />
+        <circle cx="38.5" cy="34.5" r="1.2" fill="white" />
+        <circle cx="66.5" cy="34.5" r="1.2" fill="white" />
+        {/* Star sparkles */}
+        <text x="24" y="30" fontSize="5">✨</text>
+        <text x="70" y="30" fontSize="5">✨</text>
       </>
     ),
     thinking: (
       <>
-        {/* Sunglasses tilted up on head — regular eyes visible */}
-        <g transform="translate(35, 40)">
-          <ellipse cx="0" cy="0" rx="5" ry="5.5" fill="white" stroke="#333" strokeWidth="1" />
-          <circle cx="1" cy="0" r="3" fill="#1e1b4b" />
-          <circle cx="2" cy="-1" r="1" fill="white" />
-        </g>
-        <g transform="translate(65, 40)">
-          <ellipse cx="0" cy="0" rx="5" ry="5.5" fill="white" stroke="#333" strokeWidth="1" />
-          <circle cx="-2" cy="-1" r="3" fill="#1e1b4b" />
-          <circle cx="-1" cy="-2" r="1" fill="white" />
-        </g>
-        {/* Eyebrow raised */}
-        <path d="M28 30 Q35 26 42 30" fill="none" stroke="#8b6914" strokeWidth="1.5" />
-        <path d="M58 30 Q65 28 72 31" fill="none" stroke="#8b6914" strokeWidth="1.5" />
+        {/* Looking to the side, curious */}
+        <circle cx="36" cy="37" r="4.5" fill="white" stroke="#333" strokeWidth="0.8" />
+        <circle cx="64" cy="37" r="4.5" fill="white" stroke="#333" strokeWidth="0.8" />
+        <circle cx="34" cy="36" r="2.8" fill="#1e1b4b" />
+        <circle cx="62" cy="36" r="2.8" fill="#1e1b4b" />
+        {/* One eyebrow raised */}
+        <path d="M29 30 Q36 27 43 31" fill="none" stroke="#b89840" strokeWidth="1.2" />
+        <path d="M57 31 Q64 27 71 30" fill="none" stroke="#b89840" strokeWidth="1.2" />
       </>
     ),
     encouraging: (
       <>
-        {/* Warm closed-eye smile — like a gentle nod */}
-        <path d="M28 39 Q35 35 42 39" fill="none" stroke="#333" strokeWidth="2" strokeLinecap="round" />
-        <path d="M58 39 Q65 35 72 39" fill="none" stroke="#333" strokeWidth="2" strokeLinecap="round" />
-        {/* Little sparkles */}
-        <text x="22" y="34" fontSize="6" fill="#f59e0b">✨</text>
-        <text x="72" y="34" fontSize="6" fill="#f59e0b">✨</text>
+        {/* Warm closed-eye smile */}
+        <path d="M29 36 Q36 32 43 36" fill="none" stroke="#333" strokeWidth="1.8" strokeLinecap="round" />
+        <path d="M57 36 Q64 32 71 36" fill="none" stroke="#333" strokeWidth="1.8" strokeLinecap="round" />
       </>
     ),
     waving: (
       <>
         {/* Star sunglasses */}
-        <g transform="translate(35, 38)">
-          <polygon points="0,-8 2,-3 8,-3 3,1 5,7 0,3 -5,7 -3,1 -8,-3 -2,-3" fill="#9333ea" stroke="#7e22ce" strokeWidth="0.8" />
-          <circle cx="0" cy="0" r="2.5" fill="#1e1b4b" />
-        </g>
-        <g transform="translate(65, 38)">
-          <polygon points="0,-8 2,-3 8,-3 3,1 5,7 0,3 -5,7 -3,1 -8,-3 -2,-3" fill="#9333ea" stroke="#7e22ce" strokeWidth="0.8" />
-          <circle cx="0" cy="0" r="2.5" fill="#1e1b4b" />
-        </g>
-        <line x1="43" y1="38" x2="57" y2="38" stroke="#7e22ce" strokeWidth="1.5" />
+        <polygon points="36,36 38,31 44,31 40,35 42,41 36,37 30,41 32,35 28,31 34,31" fill="#9333ea" stroke="#7e22ce" strokeWidth="0.6" />
+        <polygon points="64,36 66,31 72,31 68,35 70,41 64,37 58,41 60,35 56,31 62,31" fill="#9333ea" stroke="#7e22ce" strokeWidth="0.6" />
+        <line x1="44" y1="35" x2="56" y2="35" stroke="#7e22ce" strokeWidth="1.2" />
+        <circle cx="36" cy="36" r="1.8" fill="#1e1b4b" />
+        <circle cx="64" cy="36" r="1.8" fill="#1e1b4b" />
       </>
     ),
   };
 
-  const mouths = {
-    happy: <path d="M40 50 Q50 58 60 50" fill="none" stroke="#333" strokeWidth="1.5" strokeLinecap="round" />,
+  const mouthByMood = {
+    happy: <path d="M42 46 Q50 52 58 46" fill="none" stroke="#333" strokeWidth="1.3" strokeLinecap="round" />,
     excited: (
       <g>
-        <ellipse cx="50" cy="53" rx="7" ry="5" fill="#333" />
-        <ellipse cx="50" cy="51" rx="5" ry="2.5" fill="#fff" />
+        <ellipse cx="50" cy="48" rx="6" ry="4.5" fill="#333" />
+        <ellipse cx="50" cy="46.5" rx="4" ry="2" fill="white" />
       </g>
     ),
-    thinking: <circle cx="58" cy="52" r="3" fill="#333" />,
+    thinking: <circle cx="56" cy="47" r="2.5" fill="none" stroke="#333" strokeWidth="1.2" />,
     encouraging: (
-      <path d="M38 49 Q50 60 62 49" fill="#333" stroke="#333" strokeWidth="1" strokeLinecap="round" />
+      <path d="M40 45 Q50 54 60 45" fill="#333" stroke="none" />
     ),
     waving: (
-      <path d="M38 49 Q50 60 62 49" fill="#333" stroke="#333" strokeWidth="1" strokeLinecap="round" />
+      <path d="M40 45 Q50 54 60 45" fill="#333" stroke="none" />
     ),
   };
 
-  // Blush cheeks
-  const blush = (
-    <>
-      <ellipse cx="26" cy="48" rx="6" ry="3.5" fill="#fca5a5" opacity="0.5" />
-      <ellipse cx="74" cy="48" rx="6" ry="3.5" fill="#fca5a5" opacity="0.5" />
-    </>
-  );
-
-  // Waving arm
-  const wavingArm = mood === 'waving' ? (
-    <g transform="translate(82, 62) rotate(-20)">
-      <ellipse cx="0" cy="0" rx="5" ry="12" fill="#3b82f6" />
-      <circle cx="0" cy="-14" r="5" fill="#fcd9b6" />
-    </g>
-  ) : null;
-
-  // Thinking bubble
-  const thinkingBubble = mood === 'thinking' ? (
-    <g>
-      <circle cx="82" cy="22" r="2.5" fill="#e5e7eb" />
-      <circle cx="87" cy="16" r="3.5" fill="#e5e7eb" />
-      <circle cx="93" cy="8" r="5" fill="#e5e7eb" />
-    </g>
-  ) : null;
-
   return (
     <svg
-      width={s}
-      height={s * 1.2}
-      viewBox="0 0 100 120"
+      width={size}
+      height={size}
+      viewBox="0 0 100 100"
       xmlns="http://www.w3.org/2000/svg"
       role="img"
       aria-label={`Elizabeth looking ${mood}`}
     >
-      {thinkingBubble}
-
-      {/* Hair behind head — long blonde flowing down */}
-      <ellipse cx="50" cy="35" rx="33" ry="30" fill="#d4b85c" />
+      {/* === HAIR BEHIND (long, flowing) === */}
+      {/* Back hair mass */}
+      <ellipse cx="50" cy="32" rx="30" ry="28" fill="#d4b85c" />
       {/* Long hair flowing down behind body */}
-      <path d="M20 35 Q18 60 22 90 Q26 100 30 95 Q28 70 25 45 Z" fill="#c8a951" />
-      <path d="M80 35 Q82 60 78 90 Q74 100 70 95 Q72 70 75 45 Z" fill="#c8a951" />
-      {/* Centre back hair */}
-      <path d="M35 55 Q38 75 36 95 Q42 100 50 98 Q58 100 64 95 Q62 75 65 55 Z" fill="#b89840" />
+      <path d="M22 38 Q18 55 20 82 Q22 88 28 86 Q26 65 24 45 Z" fill="#c8a951" />
+      <path d="M78 38 Q82 55 80 82 Q78 88 72 86 Q74 65 76 45 Z" fill="#c8a951" />
+      <path d="M28 50 Q30 70 32 85 Q40 90 50 88 Q60 90 68 85 Q70 70 72 50 Z" fill="#b89840" opacity="0.6" />
 
-      {/* Head */}
-      <ellipse cx="50" cy="38" rx="27" ry="25" fill="#fcd9b6" />
+      {/* === HEAD (big round chibi head) === */}
+      <circle cx="50" cy="35" r="25" fill="#fcd9b6" />
 
-      {/* Hair top — long blonde */}
-      <path d="M23 28 Q25 10 50 8 Q75 10 77 28 L77 35 Q75 20 50 18 Q25 20 23 35 Z" fill="#d4b85c" />
-      {/* Side hair flowing over shoulders */}
-      <path d="M23 28 Q18 40 20 65 Q22 70 26 68 Q24 50 25 35 Z" fill="#c8a951" />
-      <path d="M77 28 Q82 40 80 65 Q78 70 74 68 Q76 50 75 35 Z" fill="#c8a951" />
-      {/* Fringe — side-swept */}
-      <path d="M28 25 Q35 15 50 14 Q55 14 58 16 L55 24 Q45 18 35 24 Z" fill="#dcc46a" />
+      {/* === HAIR TOP === */}
+      {/* Main hair dome */}
+      <path d="M25 30 Q27 8 50 5 Q73 8 75 30 Q75 20 50 15 Q25 20 25 30 Z" fill="#d4b85c" />
+      {/* Volume / puff */}
+      <ellipse cx="50" cy="13" rx="22" ry="9" fill="#dcc46a" />
+      {/* Side-swept fringe */}
+      <path d="M30 22 Q38 12 50 11 Q54 11 56 13 L52 22 Q44 16 36 22 Z" fill="#dcc46a" />
+      {/* Side hair framing face */}
+      <path d="M25 30 Q22 38 23 50 Q25 48 27 40 Q26 35 25 30 Z" fill="#c8a951" />
+      <path d="M75 30 Q78 38 77 50 Q75 48 73 40 Q74 35 75 30 Z" fill="#c8a951" />
 
-      {/* Eyes / Sunglasses based on mood */}
-      {eyes[mood] || eyes.happy}
-
+      {/* === FACE === */}
       {/* Blush */}
-      {blush}
+      <ellipse cx="28" cy="43" rx="5" ry="3" fill="#fca5a5" opacity="0.4" />
+      <ellipse cx="72" cy="43" rx="5" ry="3" fill="#fca5a5" opacity="0.4" />
 
-      {/* Mouth based on mood */}
-      {mouths[mood] || mouths.happy}
+      {/* Nose */}
+      <circle cx="50" cy="42" r="1" fill="#e8b89a" />
 
-      {/* Nose — tiny dot */}
-      <circle cx="50" cy="45" r="1.2" fill="#e8b89a" />
+      {/* Eyes / glasses by mood */}
+      {eyesByMood[mood] || eyesByMood.happy}
 
-      {/* Body — blue top */}
-      <rect x="35" y="65" width="30" height="22" rx="8" fill="#3b82f6" />
-      {/* Star pattern on top */}
-      <text x="44" y="80" fontSize="8" fill="#60a5fa" opacity="0.6">⭐</text>
+      {/* Mouth by mood */}
+      {mouthByMood[mood] || mouthByMood.happy}
 
-      {/* Arms */}
-      <ellipse cx="30" cy="74" rx="5" ry="11" fill="#3b82f6" />
-      <circle cx="30" cy="85" r="4.5" fill="#fcd9b6" />
-      {mood !== 'waving' && (
+      {/* === BODY (small, round, no shoulders) === */}
+      {/* Torso — rounded pill shape directly under head */}
+      <ellipse cx="50" cy="68" rx="14" ry="10" fill="#3b82f6" />
+
+      {/* Star on shirt */}
+      <polygon points="50,62 51.5,65 55,65.5 52.5,68 53,71.5 50,70 47,71.5 47.5,68 45,65.5 48.5,65" fill="#93c5fd" opacity="0.5" />
+
+      {/* === ARMS (small round nubs) === */}
+      {mood === 'waving' ? (
         <>
-          <ellipse cx="70" cy="74" rx="5" ry="11" fill="#3b82f6" />
-          <circle cx="70" cy="85" r="4.5" fill="#fcd9b6" />
+          {/* Left arm normal */}
+          <ellipse cx="35" cy="70" rx="4.5" ry="6" fill="#3b82f6" />
+          <circle cx="35" cy="76" r="3.5" fill="#fcd9b6" />
+          {/* Right arm waving up */}
+          <ellipse cx="68" cy="60" rx="4.5" ry="6" fill="#3b82f6" transform="rotate(-30, 68, 60)" />
+          <circle cx="72" cy="54" r="3.5" fill="#fcd9b6" />
+        </>
+      ) : (
+        <>
+          <ellipse cx="35" cy="70" rx="4.5" ry="6" fill="#3b82f6" />
+          <circle cx="35" cy="76" r="3.5" fill="#fcd9b6" />
+          <ellipse cx="65" cy="70" rx="4.5" ry="6" fill="#3b82f6" />
+          <circle cx="65" cy="76" r="3.5" fill="#fcd9b6" />
         </>
       )}
-      {wavingArm}
 
-      {/* Legs — light blue jeans */}
-      <rect x="38" y="85" width="10" height="18" rx="4" fill="#93c5fd" />
-      <rect x="52" y="85" width="10" height="18" rx="4" fill="#93c5fd" />
+      {/* === LEGS (short stubby) === */}
+      <ellipse cx="44" cy="81" rx="5" ry="7" fill="#93c5fd" />
+      <ellipse cx="56" cy="81" rx="5" ry="7" fill="#93c5fd" />
 
-      {/* Shoes — blue */}
-      <ellipse cx="43" cy="104" rx="7" ry="4" fill="#2563eb" />
-      <ellipse cx="57" cy="104" rx="7" ry="4" fill="#2563eb" />
+      {/* === SHOES (round) === */}
+      <ellipse cx="44" cy="89" rx="6" ry="3.5" fill="#2563eb" />
+      <ellipse cx="56" cy="89" rx="6" ry="3.5" fill="#2563eb" />
 
-      {/* Backpack strap */}
-      <line x1="40" y1="66" x2="38" y2="78" stroke="#1d4ed8" strokeWidth="2" />
-      <line x1="60" y1="66" x2="62" y2="78" stroke="#1d4ed8" strokeWidth="2" />
+      {/* === BACKPACK STRAPS === */}
+      <line x1="43" y1="60" x2="41" y2="70" stroke="#1d4ed8" strokeWidth="1.5" strokeLinecap="round" />
+      <line x1="57" y1="60" x2="59" y2="70" stroke="#1d4ed8" strokeWidth="1.5" strokeLinecap="round" />
+
+      {/* Thinking bubble */}
+      {mood === 'thinking' && (
+        <g>
+          <circle cx="80" cy="20" r="2" fill="#e5e7eb" />
+          <circle cx="85" cy="14" r="3" fill="#e5e7eb" />
+          <circle cx="91" cy="7" r="4" fill="#e5e7eb" />
+        </g>
+      )}
     </svg>
   );
 }
