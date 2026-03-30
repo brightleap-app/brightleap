@@ -32,7 +32,7 @@ export default function MockSATs() {
   const inputRef = useRef(null);
   const startTimeRef = useRef(null);
 
-  const [words, setWords] = useState([]);
+  const [words, setWords] = useState(() => selectMockTestWords(20));
   const [wordIndex, setWordIndex] = useState(0);
   const [state, setState] = useState(STATES.INTRO);
   const [typed, setTyped] = useState('');
@@ -49,11 +49,6 @@ export default function MockSATs() {
       return () => clearInterval(interval);
     }
   }, [state]);
-
-  // Load words on mount
-  useEffect(() => {
-    setWords(selectMockTestWords(20));
-  }, []);
 
   const currentWord = words[wordIndex];
   const totalWords = words.length;
@@ -247,6 +242,7 @@ export default function MockSATs() {
               setResults([]);
               setElapsed(0);
               startTimeRef.current = null;
+              hasSavedRef.current = false;
               setState(STATES.INTRO);
             }}
             className="w-full py-3 bg-green-600 text-white rounded-xl font-semibold hover:bg-green-700 transition-colors min-h-[48px]"
@@ -332,7 +328,7 @@ export default function MockSATs() {
     );
   };
 
-  const isSpeaking = [STATES.SPEAKING_SENTENCE, STATES.SPEAKING_WORD, STATES.SPEAKING_SENTENCE_AGAIN].includes(state);
+  const isSpeaking = [STATES.READY, STATES.SPEAKING_SENTENCE, STATES.SPEAKING_WORD, STATES.SPEAKING_SENTENCE_AGAIN].includes(state);
 
   return (
     <main className="min-h-screen flex flex-col p-6 max-w-lg mx-auto">
@@ -373,6 +369,7 @@ export default function MockSATs() {
               🔊
             </div>
             <p className="text-sm text-gray-500">
+              {state === STATES.READY && 'Getting ready...'}
               {state === STATES.SPEAKING_SENTENCE && 'Listening to the sentence...'}
               {state === STATES.SPEAKING_WORD && 'Listening to the word...'}
               {state === STATES.SPEAKING_SENTENCE_AGAIN && 'Listening to the sentence again...'}
