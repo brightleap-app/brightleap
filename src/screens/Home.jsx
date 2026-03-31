@@ -3,12 +3,14 @@ import { Link } from 'react-router-dom';
 import { loadProgress, updateProgress } from '../storage/progress.js';
 import { getExplorerLevel } from '../engine/quiz.js';
 import { useAuth } from '../auth/AuthContext.jsx';
+import { useTheme } from '../themes/ThemeContext.jsx';
 import ElizabethHelper from '../components/ElizabethHelper.jsx';
 import { ElizabethHelpButton } from '../components/ElizabethHelper.jsx';
 import dialogue from '../data/elizabethDialogue.json';
 
 export default function Home() {
   const { isLoggedIn, childName, logout, loading } = useAuth();
+  const { theme } = useTheme();
   const progress = loadProgress();
   const [elizabethMsg, setElizabethMsg] = useState(null);
 
@@ -37,7 +39,7 @@ export default function Home() {
   return (
     <main className="min-h-screen flex flex-col items-center justify-center p-6 gap-6">
       <h1 className="text-4xl font-bold">Brightleap</h1>
-      <p className="text-lg text-gray-500">Wildlife Explorer Spelling</p>
+      <p className="text-lg text-gray-500">{theme.emoji} {theme.name}</p>
 
       {/* Greeting */}
       {isLoggedIn && childName && (
