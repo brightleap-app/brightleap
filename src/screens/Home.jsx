@@ -7,6 +7,8 @@ import { useTheme } from '../themes/ThemeContext.jsx';
 import ElizabethHelper from '../components/ElizabethHelper.jsx';
 import { ElizabethHelpButton } from '../components/ElizabethHelper.jsx';
 import dialogue from '../data/elizabethDialogue.json';
+import AvatarDisplay from '../features/avatars/AvatarDisplay.jsx';
+import { DEFAULT_AVATAR } from '../features/avatars/avatarOptions.js';
 
 export default function Home() {
   const { isLoggedIn, childName, logout, loading } = useAuth();
@@ -38,6 +40,11 @@ export default function Home() {
 
   return (
     <main className="min-h-screen flex flex-col items-center justify-center p-6 gap-6">
+      {/* Avatar */}
+      <Link to="/avatar" className="hover:scale-105 transition-transform">
+        <AvatarDisplay avatar={progress.avatar || DEFAULT_AVATAR} size={100} />
+      </Link>
+
       <h1 className="text-4xl font-bold">Brightleap</h1>
       <p className="text-lg text-gray-500">{theme.emoji} {theme.name}</p>
 

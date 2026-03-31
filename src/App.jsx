@@ -12,6 +12,7 @@ import Login from './screens/Login.jsx';
 import Diagnostic from './screens/Diagnostic.jsx';
 import MockSATs from './screens/MockSATs.jsx';
 import About from './screens/About.jsx';
+import AvatarBuilder from './features/avatars/AvatarBuilder.jsx';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
           <Route path="/diagnostic" element={<Diagnostic />} />
           <Route path="/mock-sats" element={<MockSATs />} />
           <Route path="/about" element={<About />} />
+          <Route path="/avatar" element={<AvatarBuilder />} />
         </Routes>
         </ThemeProvider>
       </AuthProvider>
