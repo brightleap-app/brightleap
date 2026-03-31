@@ -12,6 +12,7 @@ import Login from './screens/Login.jsx';
 import Diagnostic from './screens/Diagnostic.jsx';
 import MockSATs from './screens/MockSATs.jsx';
 import About from './screens/About.jsx';
+import OurApproach from './screens/OurApproach.jsx';
 import AvatarBuilder from './features/avatars/AvatarBuilder.jsx';
 import Arcade from './features/arcade/Arcade.jsx';
 import WordCatcher from './features/arcade/WordCatcher.jsx';
@@ -36,6 +37,7 @@ function App() {
           <Route path="/diagnostic" element={<Diagnostic />} />
           <Route path="/mock-sats" element={<MockSATs />} />
           <Route path="/about" element={<About />} />
+          <Route path="/our-approach" element={<OurApproach />} />
           <Route path="/avatar" element={<AvatarBuilder />} />
           <Route path="/arcade" element={<Arcade />} />
           <Route path="/arcade/word-catcher" element={<WordCatcher />} />

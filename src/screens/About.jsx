@@ -99,6 +99,12 @@ export default function About() {
             no tricks, no dark patterns. Just learning that feels like play.
           </p>
 
+          <p>
+            <Link to="/our-approach" className="text-green-700 font-semibold underline">
+              Read about the science behind Brightleap →
+            </Link>
+          </p>
+
           <p className="text-gray-500">
             If you'd like to know more, get in touch at{' '}
             <span className="text-green-700 font-semibold">hello@brightleap.co.uk</span>
