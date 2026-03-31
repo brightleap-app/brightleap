@@ -1,0 +1,1366 @@
+[
+  {
+    "word": "accept",
+    "sentence": "I am happy to accept the award on behalf of our class."
+  },
+  {
+    "word": "accident",
+    "sentence": "There was an accident in the playground today."
+  },
+  {
+    "word": "accidentally",
+    "sentence": "She accidentally knocked the glass off the table."
+  },
+  {
+    "word": "accommodate",
+    "sentence": "The hotel can accommodate up to two hundred guests."
+  },
+  {
+    "word": "accompany",
+    "sentence": "Her parents will accompany her on the school trip to France."
+  },
+  {
+    "word": "according",
+    "sentence": "according to the weather forecast, it will snow this weekend."
+  },
+  {
+    "word": "achieve",
+    "sentence": "With hard work and practice, you can achieve your goals."
+  },
+  {
+    "word": "actual",
+    "sentence": "The actual answer was not what I expected."
+  },
+  {
+    "word": "actually",
+    "sentence": "I actually like sprouts more than I thought."
+  },
+  {
+    "word": "address",
+    "sentence": "Please write your address on the envelope."
+  },
+  {
+    "word": "adventurous",
+    "sentence": "Bella was an adventurous girl."
+  },
+  {
+    "word": "advice",
+    "sentence": "My teacher gave me good advice about my writing."
+  },
+  {
+    "word": "affect",
+    "sentence": "The rainy weather can affect your mood."
+  },
+  {
+    "word": "aggressive",
+    "sentence": "The dog became aggressive when strangers approached the gate."
+  },
+  {
+    "word": "although",
+    "sentence": "although she was tired, she finished the race."
+  },
+  {
+    "word": "amateur",
+    "sentence": "She is an amateur photographer who takes pictures as a hobby."
+  },
+  {
+    "word": "ancient",
+    "sentence": "We visited an ancient castle that was built over a thousand years ago."
+  },
+  {
+    "word": "answer",
+    "sentence": "Do you know the answer to question five?"
+  },
+  {
+    "word": "antiseptic",
+    "sentence": "Mum put antiseptic cream on my grazed knee."
+  },
+  {
+    "word": "anxiously",
+    "sentence": "He waited anxiously for the test results."
+  },
+  {
+    "word": "apparent",
+    "sentence": "It was apparent from her smile that she had passed the test."
+  },
+  {
+    "word": "appear",
+    "sentence": "The stars appear in the sky at night."
+  },
+  {
+    "word": "appreciate",
+    "sentence": "I really appreciate all the help you have given me this term."
+  },
+  {
+    "word": "architect",
+    "sentence": "The architect designed the new building."
+  },
+  {
+    "word": "arrive",
+    "sentence": "What time will the bus arrive?"
+  },
+  {
+    "word": "attached",
+    "sentence": "The label was firmly attached to the outside of the suitcase."
+  },
+  {
+    "word": "attention",
+    "sentence": "The teacher asked the children to pay attention."
+  },
+  {
+    "word": "autobiography",
+    "sentence": "She wrote an autobiography about her amazing life."
+  },
+  {
+    "word": "available",
+    "sentence": "There are still a few tickets available for the school concert."
+  },
+  {
+    "word": "average",
+    "sentence": "The average temperature in July is around twenty degrees."
+  },
+  {
+    "word": "awkward",
+    "sentence": "There was an awkward silence when nobody could answer the question."
+  },
+  {
+    "word": "banned",
+    "sentence": "Chewing gum is banned in school."
+  },
+  {
+    "word": "bargain",
+    "sentence": "We found a real bargain at the car boot sale last Sunday."
+  },
+  {
+    "word": "believe",
+    "sentence": "I believe you can do it if you try."
+  },
+  {
+    "word": "bicycle",
+    "sentence": "She rode her bicycle to school every day."
+  },
+  {
+    "word": "breath",
+    "sentence": "Take a deep breath before you begin."
+  },
+  {
+    "word": "breathe",
+    "sentence": "It is hard to breathe when you run fast."
+  },
+  {
+    "word": "bruise",
+    "sentence": "He had a nasty bruise on his knee after falling off the swing."
+  },
+  {
+    "word": "build",
+    "sentence": "We helped to build a den in the woods."
+  },
+  {
+    "word": "business",
+    "sentence": "My aunt runs her own business."
+  },
+  {
+    "word": "busy",
+    "sentence": "The shop was very busy on Saturday."
+  },
+  {
+    "word": "calendar",
+    "sentence": "Check the calendar to see when the trip is."
+  },
+  {
+    "word": "category",
+    "sentence": "Each book in the library belongs to a different category."
+  },
+  {
+    "word": "caught",
+    "sentence": "The dog caught the ball in mid-air."
+  },
+  {
+    "word": "caution",
+    "sentence": "Cross the busy road with caution."
+  },
+  {
+    "word": "cautious",
+    "sentence": "Ben took a cautious step onto the ice rink."
+  },
+  {
+    "word": "cemetery",
+    "sentence": "The old cemetery at the edge of the village has gravestones from the 1800s."
+  },
+  {
+    "word": "centre",
+    "sentence": "The fountain is in the centre of town."
+  },
+  {
+    "word": "century",
+    "sentence": "A century is one hundred years."
+  },
+  {
+    "word": "certain",
+    "sentence": "I am certain that I locked the door."
+  },
+  {
+    "word": "character",
+    "sentence": "Lola was the lead character in her school play."
+  },
+  {
+    "word": "chorus",
+    "sentence": "Everyone sang the chorus loudly."
+  },
+  {
+    "word": "circle",
+    "sentence": "Draw a circle with your compass."
+  },
+  {
+    "word": "climb",
+    "sentence": "We had to climb a steep hill to reach the castle."
+  },
+  {
+    "word": "committee",
+    "sentence": "The school committee met to decide on the theme for the summer fair."
+  },
+  {
+    "word": "communicate",
+    "sentence": "Dolphins communicate with each other using clicks and whistles."
+  },
+  {
+    "word": "community",
+    "sentence": "Everyone in the community helped to clean up the park after the storm."
+  },
+  {
+    "word": "competition",
+    "sentence": "She entered a writing competition and won first prize."
+  },
+  {
+    "word": "complete",
+    "sentence": "Please complete your work before lunch."
+  },
+  {
+    "word": "completely",
+    "sentence": "The puzzle was completely finished by lunchtime."
+  },
+  {
+    "word": "completion",
+    "sentence": "The completion of the project took three weeks."
+  },
+  {
+    "word": "confidently",
+    "sentence": "She confidently answered every question in the quiz."
+  },
+  {
+    "word": "confusion",
+    "sentence": "There was great confusion when the fire alarm went off."
+  },
+  {
+    "word": "conscience",
+    "sentence": "His conscience told him to own up to the mistake."
+  },
+  {
+    "word": "conscious",
+    "sentence": "She was conscious of the fact that everyone was watching her performance."
+  },
+  {
+    "word": "consider",
+    "sentence": "You should consider how others might feel."
+  },
+  {
+    "word": "continue",
+    "sentence": "Let's continue reading the story tomorrow."
+  },
+  {
+    "word": "controversy",
+    "sentence": "There was much controversy over whether the goal should have counted."
+  },
+  {
+    "word": "convenience",
+    "sentence": "The shop was nearby, which was a great convenience for the family."
+  },
+  {
+    "word": "correspond",
+    "sentence": "The two pen pals correspond by writing letters every month."
+  },
+  {
+    "word": "cough",
+    "sentence": "The dust in the air made me cough."
+  },
+  {
+    "word": "council",
+    "sentence": "Raisa was chosen to be a member of the school council."
+  },
+  {
+    "word": "couple",
+    "sentence": "We spent a couple of hours at the shops."
+  },
+  {
+    "word": "courage",
+    "sentence": "She found the courage to try something new."
+  },
+  {
+    "word": "courageous",
+    "sentence": "The courageous firefighter rescued the cat from the tree."
+  },
+  {
+    "word": "creature",
+    "sentence": "The dragon is an imaginary creature."
+  },
+  {
+    "word": "criticise",
+    "sentence": "It is not fair to criticise someone without knowing the full story."
+  },
+  {
+    "word": "crystal",
+    "sentence": "The crystal sparkled in the sunlight."
+  },
+  {
+    "word": "curiosity",
+    "sentence": "Her curiosity led her to explore every corner of the old building."
+  },
+  {
+    "word": "curiously",
+    "sentence": "Maria looked curiously at the box."
+  },
+  {
+    "word": "currant",
+    "sentence": "There was a currant bun left on the plate."
+  },
+  {
+    "word": "dangerous",
+    "sentence": "It is dangerous to swim in the deep river."
+  },
+  {
+    "word": "deceive",
+    "sentence": "The criminal tried to deceive the police."
+  },
+  {
+    "word": "decide",
+    "sentence": "I can't decide which book to read next."
+  },
+  {
+    "word": "decision",
+    "sentence": "It was a difficult decision to make."
+  },
+  {
+    "word": "definite",
+    "sentence": "We need a definite answer by Friday so we can book the hall."
+  },
+  {
+    "word": "descend",
+    "sentence": "We had to descend the staircase very carefully."
+  },
+  {
+    "word": "descendant",
+    "sentence": "Queen Elizabeth is a descendant of Queen Victoria."
+  },
+  {
+    "word": "describe",
+    "sentence": "Can you describe what the thief looked like?"
+  },
+  {
+    "word": "desperate",
+    "sentence": "The explorers were desperate to find fresh water before nightfall."
+  },
+  {
+    "word": "dessert",
+    "sentence": "We had chocolate cake for dessert."
+  },
+  {
+    "word": "determined",
+    "sentence": "She was determined to finish the marathon even though her legs ached."
+  },
+  {
+    "word": "develop",
+    "sentence": "Scientists continue to develop new medicines to fight disease."
+  },
+  {
+    "word": "dictionary",
+    "sentence": "Use a dictionary to check the meaning and spelling of a word."
+  },
+  {
+    "word": "different",
+    "sentence": "We each chose a different colour to paint with."
+  },
+  {
+    "word": "difficult",
+    "sentence": "The maths test was very difficult."
+  },
+  {
+    "word": "disagreement",
+    "sentence": "Jade and Jamie had a disagreement."
+  },
+  {
+    "word": "disappear",
+    "sentence": "The magician made the rabbit disappear from the hat."
+  },
+  {
+    "word": "disastrous",
+    "sentence": "The floods had a disastrous effect on the homes near the river."
+  },
+  {
+    "word": "discussion",
+    "sentence": "We had an interesting discussion about space travel."
+  },
+  {
+    "word": "disrespect",
+    "sentence": "Do not show disrespect to anyone."
+  },
+  {
+    "word": "division",
+    "sentence": "We learned about division in our maths lesson today."
+  },
+  {
+    "word": "doubt",
+    "sentence": "There was no doubt that she would win the race."
+  },
+  {
+    "word": "dough",
+    "sentence": "We put the bread dough in the oven."
+  },
+  {
+    "word": "early",
+    "sentence": "We woke up early to catch the train."
+  },
+  {
+    "word": "earth",
+    "sentence": "The earth goes around the Sun."
+  },
+  {
+    "word": "effect",
+    "sentence": "The effect of the medicine was almost instant."
+  },
+  {
+    "word": "eight",
+    "sentence": "There are eight legs on a spider."
+  },
+  {
+    "word": "eighth",
+    "sentence": "My birthday is on the eighth of June."
+  },
+  {
+    "word": "embarrass",
+    "sentence": "Please don't embarrass me in front of my friends."
+  },
+  {
+    "word": "enormous",
+    "sentence": "The whale was absolutely enormous."
+  },
+  {
+    "word": "enough",
+    "sentence": "Have you had enough to eat?"
+  },
+  {
+    "word": "environment",
+    "sentence": "We must protect the environment by reducing plastic waste."
+  },
+  {
+    "word": "equip",
+    "sentence": "The school will equip every classroom with a new computer."
+  },
+  {
+    "word": "equipment",
+    "sentence": "All the sports equipment is stored in the cupboard by the hall."
+  },
+  {
+    "word": "equipped",
+    "sentence": "The firefighters arrived equipped with hoses, ladders, and breathing masks."
+  },
+  {
+    "word": "especially",
+    "sentence": "I love all animals, but especially dogs because they are so loyal."
+  },
+  {
+    "word": "essential",
+    "sentence": "Water is essential to life."
+  },
+  {
+    "word": "exaggerate",
+    "sentence": "Try not to exaggerate when telling the story."
+  },
+  {
+    "word": "excellent",
+    "sentence": "The teacher said her project work was excellent."
+  },
+  {
+    "word": "except",
+    "sentence": "Everyone finished their homework except for Tom."
+  },
+  {
+    "word": "exercise",
+    "sentence": "We do exercise every morning at school."
+  },
+  {
+    "word": "existence",
+    "sentence": "Scientists are searching for the existence of life on other planets."
+  },
+  {
+    "word": "experience",
+    "sentence": "It was an amazing experience to see the whales."
+  },
+  {
+    "word": "experiment",
+    "sentence": "We did a science experiment with vinegar."
+  },
+  {
+    "word": "explanation",
+    "sentence": "He gave a clear explanation of how the experiment worked."
+  },
+  {
+    "word": "expression",
+    "sentence": "The artist captured a happy expression on the face."
+  },
+  {
+    "word": "extraordinarily",
+    "sentence": "The magician was extraordinarily talented."
+  },
+  {
+    "word": "extreme",
+    "sentence": "The extreme heat made us all very tired."
+  },
+  {
+    "word": "familiar",
+    "sentence": "The tune sounded familiar but I could not remember its name."
+  },
+  {
+    "word": "famous",
+    "sentence": "The famous singer performed at the concert."
+  },
+  {
+    "word": "favourite",
+    "sentence": "Chocolate cake is my favourite pudding."
+  },
+  {
+    "word": "February",
+    "sentence": "February is the shortest month of the year."
+  },
+  {
+    "word": "finally",
+    "sentence": "We finally arrived at the campsite after a long drive."
+  },
+  {
+    "word": "foreign",
+    "sentence": "She has always wanted to travel to a foreign country."
+  },
+  {
+    "word": "forty",
+    "sentence": "There are forty children in our year group this term."
+  },
+  {
+    "word": "forward",
+    "sentence": "Take one step forward please."
+  },
+  {
+    "word": "forwards",
+    "sentence": "The queue moved forwards very slowly."
+  },
+  {
+    "word": "frequently",
+    "sentence": "Buses run frequently along the high street."
+  },
+  {
+    "word": "fruit",
+    "sentence": "We eat fruit every day to stay healthy."
+  },
+  {
+    "word": "generous",
+    "sentence": "It was very generous of you to share your sweets."
+  },
+  {
+    "word": "glorious",
+    "sentence": "It was a glorious sunny day at the seaside."
+  },
+  {
+    "word": "gorgeous",
+    "sentence": "The sunset was absolutely gorgeous."
+  },
+  {
+    "word": "government",
+    "sentence": "The government announced new plans to build more schools across the country."
+  },
+  {
+    "word": "grammar",
+    "sentence": "Good grammar helps people understand your writing."
+  },
+  {
+    "word": "group",
+    "sentence": "Our group worked together on the project."
+  },
+  {
+    "word": "guarantee",
+    "sentence": "I can guarantee that you will enjoy the show tonight."
+  },
+  {
+    "word": "guard",
+    "sentence": "The guard stood outside the palace gates."
+  },
+  {
+    "word": "guide",
+    "sentence": "The museum guide showed us the dinosaurs."
+  },
+  {
+    "word": "gym",
+    "sentence": "We played basketball in the gym after lunch."
+  },
+  {
+    "word": "gymnast",
+    "sentence": "The gymnast performed an amazing backflip."
+  },
+  {
+    "word": "harass",
+    "sentence": "It is never acceptable to harass another person at school."
+  },
+  {
+    "word": "heard",
+    "sentence": "I heard a strange noise in the garden."
+  },
+  {
+    "word": "heart",
+    "sentence": "Your heart beats faster when you run."
+  },
+  {
+    "word": "height",
+    "sentence": "The height of the tower was fifty metres."
+  },
+  {
+    "word": "hideous",
+    "sentence": "The monster in the film was truly hideous."
+  },
+  {
+    "word": "hindrance",
+    "sentence": "The heavy rain was a hindrance to the runners during the cross-country race."
+  },
+  {
+    "word": "history",
+    "sentence": "We are learning about Roman history this term."
+  },
+  {
+    "word": "identity",
+    "sentence": "Everyone has their own unique identity that makes them special."
+  },
+  {
+    "word": "imagine",
+    "sentence": "Close your eyes and imagine a magical forest."
+  },
+  {
+    "word": "immediate",
+    "sentence": "The head teacher wanted an immediate response to the fire alarm."
+  },
+  {
+    "word": "immediately",
+    "sentence": "When the bell rang, the children immediately lined up in the corridor."
+  },
+  {
+    "word": "important",
+    "sentence": "It is important to drink enough water."
+  },
+  {
+    "word": "impossible",
+    "sentence": "Nothing is impossible if you believe in yourself."
+  },
+  {
+    "word": "inconceivable",
+    "sentence": "To give up now would be inconceivable."
+  },
+  {
+    "word": "increase",
+    "sentence": "We saw an increase in the number of birds."
+  },
+  {
+    "word": "individual",
+    "sentence": "Each individual in the class has different strengths and talents."
+  },
+  {
+    "word": "injection",
+    "sentence": "The nurse gave me an injection in my arm."
+  },
+  {
+    "word": "interest",
+    "sentence": "She has a great interest in space and planets."
+  },
+  {
+    "word": "interfere",
+    "sentence": "Please do not interfere while I am trying to explain the instructions."
+  },
+  {
+    "word": "international",
+    "sentence": "The international football match was very exciting."
+  },
+  {
+    "word": "interrupt",
+    "sentence": "It is rude to interrupt someone when they are speaking."
+  },
+  {
+    "word": "invasion",
+    "sentence": "The history book described the Roman invasion of Britain."
+  },
+  {
+    "word": "invention",
+    "sentence": "The light bulb was an amazing invention."
+  },
+  {
+    "word": "invisible",
+    "sentence": "The spy used invisible ink to write his message."
+  },
+  {
+    "word": "irregular",
+    "sentence": "The shape had irregular edges that didn't match."
+  },
+  {
+    "word": "island",
+    "sentence": "The island was surrounded by crystal-clear water."
+  },
+  {
+    "word": "knight",
+    "sentence": "The brave knight rode into battle on his horse."
+  },
+  {
+    "word": "knowledge",
+    "sentence": "Reading books gives you lots of knowledge."
+  },
+  {
+    "word": "lamb",
+    "sentence": "The little lamb followed its mother across the field."
+  },
+  {
+    "word": "language",
+    "sentence": "Learning a new language can help you make friends around the world."
+  },
+  {
+    "word": "learn",
+    "sentence": "I want to learn how to play the guitar."
+  },
+  {
+    "word": "leisure",
+    "sentence": "In her leisure time, she enjoys painting landscapes."
+  },
+  {
+    "word": "length",
+    "sentence": "Measure the length of the table with a ruler."
+  },
+  {
+    "word": "library",
+    "sentence": "We borrow books from the school library."
+  },
+  {
+    "word": "lightning",
+    "sentence": "We saw a flash of lightning during the storm last night."
+  },
+  {
+    "word": "lyrics",
+    "sentence": "She memorised the lyrics to her favourite song."
+  },
+  {
+    "word": "machine",
+    "sentence": "Rosie used a sewing machine to make her dress."
+  },
+  {
+    "word": "marvellous",
+    "sentence": "We had a marvellous time at the theme park."
+  },
+  {
+    "word": "material",
+    "sentence": "She chose a soft material for her costume."
+  },
+  {
+    "word": "measure",
+    "sentence": "You should measure your fabric carefully."
+  },
+  {
+    "word": "mechanic",
+    "sentence": "The mechanic repaired the engine of the car."
+  },
+  {
+    "word": "medicine",
+    "sentence": "The doctor gave me medicine for my cough."
+  },
+  {
+    "word": "mention",
+    "sentence": "Did the teacher mention the homework?"
+  },
+  {
+    "word": "minute",
+    "sentence": "Please wait one minute while I get ready."
+  },
+  {
+    "word": "misbehave",
+    "sentence": "Please do not misbehave during the assembly."
+  },
+  {
+    "word": "mischievous",
+    "sentence": "The mischievous puppy chewed up the slippers."
+  },
+  {
+    "word": "misconduct",
+    "sentence": "The player was sent off for misconduct."
+  },
+  {
+    "word": "mixture",
+    "sentence": "Add eggs to your cake mixture."
+  },
+  {
+    "word": "muscle",
+    "sentence": "The athlete had a strong muscle in his arm."
+  },
+  {
+    "word": "mystery",
+    "sentence": "The detective was trying to solve the mystery."
+  },
+  {
+    "word": "myth",
+    "sentence": "The ancient myth was about a fire-breathing dragon."
+  },
+  {
+    "word": "natural",
+    "sentence": "The park is full of natural beauty."
+  },
+  {
+    "word": "naughty",
+    "sentence": "The naughty puppy chewed up the cushion."
+  },
+  {
+    "word": "navigation",
+    "sentence": "navigation is easier with a compass."
+  },
+  {
+    "word": "necessary",
+    "sentence": "It is necessary to wear a helmet when cycling."
+  },
+  {
+    "word": "neighbour",
+    "sentence": "Our neighbour kindly looked after our cat while we were on holiday."
+  },
+  {
+    "word": "notice",
+    "sentence": "Did you notice the rainbow after the rain?"
+  },
+  {
+    "word": "nuisance",
+    "sentence": "The buzzing fly was a real nuisance during the quiet reading session."
+  },
+  {
+    "word": "numb",
+    "sentence": "Playing in the snow made my fingers numb."
+  },
+  {
+    "word": "numbered",
+    "sentence": "The pages in the book were numbered from one to fifty."
+  },
+  {
+    "word": "obey",
+    "sentence": "You must obey the rules of the game."
+  },
+  {
+    "word": "obtained",
+    "sentence": "Raif obtained his parents' permission to go out."
+  },
+  {
+    "word": "occasion",
+    "sentence": "A birthday is always a special occasion."
+  },
+  {
+    "word": "occasionally",
+    "sentence": "We occasionally visit our grandparents at the seaside."
+  },
+  {
+    "word": "occupy",
+    "sentence": "Board games can occupy children for hours on a rainy afternoon."
+  },
+  {
+    "word": "occur",
+    "sentence": "Earthquakes can occur without any warning at all."
+  },
+  {
+    "word": "offered",
+    "sentence": "Gran offered us a snack when we arrived."
+  },
+  {
+    "word": "official",
+    "sentence": "The referee made an official decision."
+  },
+  {
+    "word": "often",
+    "sentence": "How often do you visit your grandparents?"
+  },
+  {
+    "word": "opportunity",
+    "sentence": "This trip is a wonderful opportunity to learn about different cultures."
+  },
+  {
+    "word": "opposite",
+    "sentence": "Hot is the opposite of cold."
+  },
+  {
+    "word": "optician",
+    "sentence": "The optician tested my eyes and gave me new glasses."
+  },
+  {
+    "word": "ordering",
+    "sentence": "The children were ordering the objects from smallest to largest."
+  },
+  {
+    "word": "ordinary",
+    "sentence": "It started as an ordinary day but became amazing."
+  },
+  {
+    "word": "ought",
+    "sentence": "You ought to wear a coat because it is cold outside."
+  },
+  {
+    "word": "parliament",
+    "sentence": "Members of parliament debate and vote on new laws in London."
+  },
+  {
+    "word": "particular",
+    "sentence": "Is there a particular flavour you would like?"
+  },
+  {
+    "word": "peculiar",
+    "sentence": "There was a peculiar smell coming from the kitchen."
+  },
+  {
+    "word": "perhaps",
+    "sentence": "perhaps we could go swimming tomorrow."
+  },
+  {
+    "word": "permission",
+    "sentence": "You need permission from a teacher to leave the classroom."
+  },
+  {
+    "word": "persuade",
+    "sentence": "She tried to persuade her parents to let her stay up late."
+  },
+  {
+    "word": "physical",
+    "sentence": "Regular physical activity helps keep your body fit and healthy."
+  },
+  {
+    "word": "physically",
+    "sentence": "The obstacle course was physically demanding."
+  },
+  {
+    "word": "poisonous",
+    "sentence": "Some brightly coloured frogs are poisonous."
+  },
+  {
+    "word": "popular",
+    "sentence": "Football is the most popular sport at our school."
+  },
+  {
+    "word": "portable",
+    "sentence": "The new laptop is light and portable."
+  },
+  {
+    "word": "position",
+    "sentence": "Stand in position before the race begins."
+  },
+  {
+    "word": "possess",
+    "sentence": "Does the wizard possess magical powers?"
+  },
+  {
+    "word": "possession",
+    "sentence": "The crown was the queen's most prized possession."
+  },
+  {
+    "word": "possible",
+    "sentence": "Is it possible to finish this by lunchtime?"
+  },
+  {
+    "word": "potatoes",
+    "sentence": "We grew potatoes in the school garden."
+  },
+  {
+    "word": "practise",
+    "sentence": "You need to practise your spellings every day."
+  },
+  {
+    "word": "preference",
+    "sentence": "My preference is to have chocolate ice cream."
+  },
+  {
+    "word": "prejudice",
+    "sentence": "We should treat everyone fairly and without prejudice."
+  },
+  {
+    "word": "pressure",
+    "sentence": "Don't put too much pressure on yourself."
+  },
+  {
+    "word": "principle",
+    "sentence": "Honesty is an important principle to live by."
+  },
+  {
+    "word": "privilege",
+    "sentence": "It was a privilege to meet the author of my favourite book."
+  },
+  {
+    "word": "probably",
+    "sentence": "It will probably rain later today."
+  },
+  {
+    "word": "profession",
+    "sentence": "Teaching is a profession that requires patience, skill, and dedication."
+  },
+  {
+    "word": "programme",
+    "sentence": "The school programme listed all the events for the summer term."
+  },
+  {
+    "word": "promise",
+    "sentence": "I promise to tidy my room after school."
+  },
+  {
+    "word": "pronunciation",
+    "sentence": "The pronunciation of some English words is very different from their spelling."
+  },
+  {
+    "word": "protein",
+    "sentence": "Eggs are a good source of protein."
+  },
+  {
+    "word": "puncture",
+    "sentence": "Dad had to fix a puncture in the bicycle tyre."
+  },
+  {
+    "word": "purpose",
+    "sentence": "What is the purpose of this experiment?"
+  },
+  {
+    "word": "pyramid",
+    "sentence": "The huge pyramid was built thousands of years ago in Egypt."
+  },
+  {
+    "word": "quarter",
+    "sentence": "A quarter of the pizza was left over."
+  },
+  {
+    "word": "question",
+    "sentence": "Put your hand up if you have a question."
+  },
+  {
+    "word": "queue",
+    "sentence": "We had to queue for thirty minutes before we could enter the theme park."
+  },
+  {
+    "word": "receipt",
+    "sentence": "The till printed the receipt."
+  },
+  {
+    "word": "recent",
+    "sentence": "We talked about a recent event in the news."
+  },
+  {
+    "word": "reception",
+    "sentence": "My little brother is in reception class."
+  },
+  {
+    "word": "recognise",
+    "sentence": "I didn't recognise him at first because he had grown so much taller."
+  },
+  {
+    "word": "recommend",
+    "sentence": "I would recommend this book to anyone who loves mystery stories."
+  },
+  {
+    "word": "reconstruct",
+    "sentence": "They had to reconstruct the bridge after the flood."
+  },
+  {
+    "word": "reference",
+    "sentence": "Amy borrowed a reference book from the library."
+  },
+  {
+    "word": "regular",
+    "sentence": "We have regular spelling tests every Friday."
+  },
+  {
+    "word": "reign",
+    "sentence": "The king had a long and peaceful reign."
+  },
+  {
+    "word": "relevant",
+    "sentence": "Make sure your answer is relevant to the question."
+  },
+  {
+    "word": "reluctantly",
+    "sentence": "My sister reluctantly gave me her favourite book."
+  },
+  {
+    "word": "remember",
+    "sentence": "I must remember to bring my PE kit."
+  },
+  {
+    "word": "restaurant",
+    "sentence": "We went to an Italian restaurant to celebrate Mum's birthday."
+  },
+  {
+    "word": "rhyme",
+    "sentence": "Can you think of a word that will rhyme with moon?"
+  },
+  {
+    "word": "rhythm",
+    "sentence": "The drummer kept a steady rhythm throughout the song."
+  },
+  {
+    "word": "ridiculous",
+    "sentence": "The comedian was dressed in a ridiculous costume."
+  },
+  {
+    "word": "sacrifice",
+    "sentence": "The soldiers made a great sacrifice to protect their country."
+  },
+  {
+    "word": "scenario",
+    "sentence": "The teacher asked us to imagine a different scenario."
+  },
+  {
+    "word": "scenic",
+    "sentence": "We paused to look at the scenic view."
+  },
+  {
+    "word": "science",
+    "sentence": "My favourite subject at school is science."
+  },
+  {
+    "word": "scissors",
+    "sentence": "Please pass me the scissors so I can cut this paper."
+  },
+  {
+    "word": "secretary",
+    "sentence": "The secretary organised all the meetings and kept careful notes."
+  },
+  {
+    "word": "sentence",
+    "sentence": "Write a sentence using the word 'happy'."
+  },
+  {
+    "word": "separate",
+    "sentence": "Please separate the red beads from the blue ones."
+  },
+  {
+    "word": "shoulder",
+    "sentence": "He carried the heavy bag over his shoulder all the way home."
+  },
+  {
+    "word": "sighed",
+    "sentence": "Charlie sighed with relief."
+  },
+  {
+    "word": "signature",
+    "sentence": "Please write your signature at the bottom of the permission letter."
+  },
+  {
+    "word": "sincere",
+    "sentence": "The apology sounded sincere and she accepted it straight away."
+  },
+  {
+    "word": "sincerely",
+    "sentence": "She ended the letter with the words 'Yours sincerely'."
+  },
+  {
+    "word": "soldier",
+    "sentence": "The brave soldier marched through the rain without complaining."
+  },
+  {
+    "word": "special",
+    "sentence": "Today is a special day because it's your birthday."
+  },
+  {
+    "word": "stationary",
+    "sentence": "The car was stationary at the traffic lights."
+  },
+  {
+    "word": "stationery",
+    "sentence": "We bought new pens and stationery for school."
+  },
+  {
+    "word": "steadily",
+    "sentence": "The rain fell steadily throughout the afternoon."
+  },
+  {
+    "word": "stomach",
+    "sentence": "My stomach started rumbling because I had missed breakfast."
+  },
+  {
+    "word": "straight",
+    "sentence": "Draw a straight line with your ruler."
+  },
+  {
+    "word": "strange",
+    "sentence": "We heard a strange sound in the attic."
+  },
+  {
+    "word": "strength",
+    "sentence": "You need strength to lift that heavy box."
+  },
+  {
+    "word": "submarine",
+    "sentence": "The submarine dived deep beneath the waves."
+  },
+  {
+    "word": "substantial",
+    "sentence": "We had a substantial meal before the long walk."
+  },
+  {
+    "word": "suddenly",
+    "sentence": "The lights suddenly went out during the storm."
+  },
+  {
+    "word": "suffered",
+    "sentence": "I suffered from a cold last week."
+  },
+  {
+    "word": "sufficient",
+    "sentence": "We had sufficient food for everyone at the party."
+  },
+  {
+    "word": "suggest",
+    "sentence": "I would suggest leaving early so we don't get stuck in traffic."
+  },
+  {
+    "word": "superstar",
+    "sentence": "The singer became a superstar after winning the talent show."
+  },
+  {
+    "word": "suppose",
+    "sentence": "I suppose we could try a different way."
+  },
+  {
+    "word": "surprise",
+    "sentence": "The party was a lovely surprise for Grandma."
+  },
+  {
+    "word": "survey",
+    "sentence": "She based her research on the results of the survey."
+  },
+  {
+    "word": "symbol",
+    "sentence": "The dove is a symbol of peace."
+  },
+  {
+    "word": "syrup",
+    "sentence": "Maple syrup is sometimes poured on pancakes."
+  },
+  {
+    "word": "system",
+    "sentence": "The solar system has eight planets."
+  },
+  {
+    "word": "television",
+    "sentence": "We watched a film on television last night."
+  },
+  {
+    "word": "temperature",
+    "sentence": "The temperature dropped below zero and the pond froze overnight."
+  },
+  {
+    "word": "therefore",
+    "sentence": "It was raining, therefore we stayed inside."
+  },
+  {
+    "word": "thorough",
+    "sentence": "She did a thorough check of her homework before handing it in."
+  },
+  {
+    "word": "thoroughly",
+    "sentence": "She thoroughly cleaned her bedroom before the guests arrived."
+  },
+  {
+    "word": "though",
+    "sentence": "Even though it was cold, we still played outside."
+  },
+  {
+    "word": "thought",
+    "sentence": "I thought the film was really exciting."
+  },
+  {
+    "word": "thoughtful",
+    "sentence": "Khalid was a thoughtful boy."
+  },
+  {
+    "word": "through",
+    "sentence": "The train went through a long dark tunnel."
+  },
+  {
+    "word": "thumb",
+    "sentence": "Mum hit her thumb with the hammer."
+  },
+  {
+    "word": "tongue",
+    "sentence": "I burnt my tongue on the hot soup."
+  },
+  {
+    "word": "touch",
+    "sentence": "Please do not touch the paintings in the gallery."
+  },
+  {
+    "word": "transferred",
+    "sentence": "The football player was transferred to a different club."
+  },
+  {
+    "word": "trouble",
+    "sentence": "The boy had trouble keeping up with his elder sister."
+  },
+  {
+    "word": "twelfth",
+    "sentence": "December is the twelfth month of the year."
+  },
+  {
+    "word": "typical",
+    "sentence": "It was a typical rainy day in England."
+  },
+  {
+    "word": "undrinkable",
+    "sentence": "The water from the muddy puddle was undrinkable."
+  },
+  {
+    "word": "unique",
+    "sentence": "Every snowflake has a unique pattern."
+  },
+  {
+    "word": "usually",
+    "sentence": "Jaya usually walks to school."
+  },
+  {
+    "word": "vague",
+    "sentence": "David had a vague idea of where to find the milk."
+  },
+  {
+    "word": "variety",
+    "sentence": "The shop sells a wide variety of sweets and chocolates."
+  },
+  {
+    "word": "various",
+    "sentence": "There are various flavours of ice cream to try."
+  },
+  {
+    "word": "vegetable",
+    "sentence": "Broccoli is a vegetable that is full of vitamins and nutrients."
+  },
+  {
+    "word": "vehicle",
+    "sentence": "Every vehicle on the road must have working headlights."
+  },
+  {
+    "word": "weight",
+    "sentence": "What is the weight of this parcel?"
+  },
+  {
+    "word": "weightless",
+    "sentence": "The astronaut felt weightless in space."
+  },
+  {
+    "word": "whistle",
+    "sentence": "The referee blew the whistle to start the match."
+  },
+  {
+    "word": "woman",
+    "sentence": "The woman at the counter was very kind."
+  },
+  {
+    "word": "women",
+    "sentence": "The women in the team won the gold medal."
+  },
+  {
+    "word": "yacht",
+    "sentence": "The family sailed their yacht across the English Channel."
+  }
+]

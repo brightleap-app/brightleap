@@ -21,6 +21,15 @@ function playAudioFile(word, rate = 1.0) {
   });
 }
 
+function playSentenceAudio(word) {
+  return new Promise((resolve, reject) => {
+    const audio = new Audio(`/audio/sentences/${word.toLowerCase()}.mp3`);
+    audio.onended = () => resolve();
+    audio.onerror = () => reject(new Error('Sentence audio not found'));
+    audio.play().catch(reject);
+  });
+}
+
 // --- Web Speech API fallback ---
 
 const PREFERRED_VOICES = [
@@ -106,8 +115,11 @@ export function speakWord(word) {
   return playAudioFile(word).catch(() => speakWithWebAPI(word, 0.75));
 }
 
-export function speakSentence(sentence) {
-  // Sentences always use Web Speech API (we only pre-generated individual words)
+export function speakSentence(sentence, word) {
+  // Try pre-generated sentence MP3 (keyed by word), fall back to Web Speech API
+  if (word) {
+    return playSentenceAudio(word).catch(() => speakWithWebAPI(sentence, 0.82));
+  }
   return speakWithWebAPI(sentence, 0.82);
 }
 

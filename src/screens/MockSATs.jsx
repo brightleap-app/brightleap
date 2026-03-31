@@ -82,7 +82,7 @@ export default function MockSATs() {
     if (isSpeechAvailable() && currentWord.sentence) {
       setState(STATES.SPEAKING_SENTENCE);
       try {
-        await speakSentence(currentWord.sentence.replace('_____', currentWord.word));
+        await speakSentence(currentWord.sentence.replace('_____', currentWord.word), currentWord.word);
       } catch { /* continue */ }
 
       setState(STATES.SPEAKING_WORD);
@@ -92,7 +92,7 @@ export default function MockSATs() {
 
       setState(STATES.SPEAKING_SENTENCE_AGAIN);
       try {
-        await speakSentence(currentWord.sentence.replace('_____', currentWord.word));
+        await speakSentence(currentWord.sentence.replace('_____', currentWord.word), currentWord.word);
       } catch { /* continue */ }
     }
 
@@ -137,11 +137,11 @@ export default function MockSATs() {
     if (!isSpeechAvailable()) return;
     try {
       if (currentWord.sentence) {
-        await speakSentence(currentWord.sentence.replace('_____', currentWord.word));
+        await speakSentence(currentWord.sentence.replace('_____', currentWord.word), currentWord.word);
       }
       await speakWord(currentWord.word);
       if (currentWord.sentence) {
-        await speakSentence(currentWord.sentence.replace('_____', currentWord.word));
+        await speakSentence(currentWord.sentence.replace('_____', currentWord.word), currentWord.word);
       }
     } catch { /* ignore */ }
   };

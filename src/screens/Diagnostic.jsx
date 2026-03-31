@@ -253,7 +253,7 @@ export default function Diagnostic() {
   const handleHearSentence = async () => {
     if (!isSpeechAvailable() || !currentWord.sentence) return;
     try {
-      await speakSentence(currentWord.sentence.replace('_____', currentWord.word));
+      await speakSentence(currentWord.sentence.replace('_____', currentWord.word), currentWord.word);
     } catch {
       // Ignore
     }
