@@ -103,6 +103,12 @@ export default function Home() {
           📝 Mock SATs Test
         </Link>
         <Link
+          to="/arcade"
+          className="px-8 py-3 bg-red-100 text-red-800 rounded-2xl font-semibold hover:bg-red-200 transition-colors min-h-[48px] text-center"
+        >
+          🕹️ Arcade
+        </Link>
+        <Link
           to="/collection"
           className="px-8 py-3 bg-amber-100 text-amber-800 rounded-2xl font-semibold hover:bg-amber-200 transition-colors min-h-[48px] text-center"
         >

@@ -1,0 +1,172 @@
+import { useState, useEffect, useRef, useCallback } from 'react';
+import { Link } from 'react-router-dom';
+import habitats from '../../data/habitats.json';
+
+function getRandomWords(count = 6) {
+  const all = habitats.flatMap((h) => h.words.map((w) => w.word));
+  return [...all].sort(() => Math.random() - 0.5).slice(0, count);
+}
+
+export default function BubblePop() {
+  const [gameState, setGameState] = useState('intro');
+  const [words, setWords] = useState([]);
+  const [wordIndex, setWordIndex] = useState(0);
+  const [bubbles, setBubbles] = useState([]);
+  const [popped, setPopped] = useState([]);
+  const [score, setScore] = useState(0);
+  const [timeLeft, setTimeLeft] = useState(60);
+  const [shake, setShake] = useState(false);
+
+  const currentWord = words[wordIndex];
+
+  const setupWord = useCallback((word) => {
+    const chars = word.split('');
+    // Add some decoy letters
+    const decoys = 'abcdefghijklmnopqrstuvwxyz'.split('').sort(() => Math.random() - 0.5).slice(0, 3);
+    const allChars = [...chars, ...decoys].sort(() => Math.random() - 0.5);
+
+    setBubbles(allChars.map((ch, i) => ({
+      id: `${i}-${ch}-${Math.random()}`,
+      letter: ch,
+      x: 10 + (i % 4) * 22 + Math.random() * 10,
+      y: 15 + Math.floor(i / 4) * 25 + Math.random() * 10,
+      size: 38 + Math.random() * 12,
+      alive: true,
+    })));
+    setPopped([]);
+  }, []);
+
+  const startGame = () => {
+    const w = getRandomWords(6);
+    setWords(w);
+    setWordIndex(0);
+    setScore(0);
+    setTimeLeft(60);
+    setupWord(w[0]);
+    setGameState('playing');
+  };
+
+  // Timer
+  useEffect(() => {
+    if (gameState !== 'playing') return;
+    const t = setInterval(() => {
+      setTimeLeft((prev) => {
+        if (prev <= 1) { clearInterval(t); setGameState('complete'); return 0; }
+        return prev - 1;
+      });
+    }, 1000);
+    return () => clearInterval(t);
+  }, [gameState]);
+
+  // Gentle float animation
+  useEffect(() => {
+    if (gameState !== 'playing') return;
+    const frame = setInterval(() => {
+      setBubbles((prev) =>
+        prev.map((b) => ({
+          ...b,
+          y: b.alive ? b.y + Math.sin(Date.now() / 800 + b.x) * 0.15 : b.y,
+          x: b.alive ? b.x + Math.cos(Date.now() / 1000 + b.y) * 0.1 : b.x,
+        }))
+      );
+    }, 60);
+    return () => clearInterval(frame);
+  }, [gameState]);
+
+  const handlePop = (bubble) => {
+    if (!bubble.alive || gameState !== 'playing' || !currentWord) return;
+
+    const nextIndex = popped.length;
+    if (bubble.letter === currentWord[nextIndex]) {
+      const newPopped = [...popped, bubble.letter];
+      setPopped(newPopped);
+      setBubbles((prev) => prev.map((b) => b.id === bubble.id ? { ...b, alive: false } : b));
+
+      if (newPopped.length === currentWord.length) {
+        setScore((s) => s + 1);
+        const next = wordIndex + 1;
+        if (next < words.length) {
+          setWordIndex(next);
+          setTimeout(() => setupWord(words[next]), 400);
+        } else {
+          setGameState('complete');
+        }
+      }
+    } else {
+      setShake(true);
+      setTimeout(() => setShake(false), 300);
+    }
+  };
+
+  if (gameState === 'intro') {
+    return (
+      <main className="min-h-screen flex flex-col items-center justify-center p-6 text-center gap-6">
+        <div className="text-5xl">🫧</div>
+        <h1 className="text-2xl font-bold">Bubble Pop</h1>
+        <p className="text-gray-600">Pop the bubbles in the right order to spell the word! Watch out for decoys!</p>
+        <button onClick={startGame} className="px-8 py-4 bg-cyan-600 text-white rounded-2xl text-lg font-semibold hover:bg-cyan-700 transition-colors min-h-[48px]">
+          Play!
+        </button>
+        <Link to="/arcade" className="text-sm text-gray-400 hover:text-gray-600 min-h-[48px] flex items-center">← Back to Arcade</Link>
+      </main>
+    );
+  }
+
+  if (gameState === 'complete') {
+    return (
+      <main className="min-h-screen flex flex-col items-center justify-center p-6 text-center gap-6">
+        <div className="text-5xl">🎉</div>
+        <h1 className="text-2xl font-bold">Bubble-icious!</h1>
+        <p className="text-lg text-gray-600">You popped {score} words!</p>
+        <div className="flex gap-4">
+          <button onClick={startGame} className="px-6 py-3 bg-cyan-600 text-white rounded-xl font-semibold hover:bg-cyan-700 transition-colors min-h-[48px]">Play Again</button>
+          <Link to="/arcade" className="px-6 py-3 bg-gray-100 text-gray-700 rounded-xl font-semibold hover:bg-gray-200 transition-colors min-h-[48px]">Arcade</Link>
+        </div>
+      </main>
+    );
+  }
+
+  return (
+    <main className={`min-h-screen flex flex-col p-4 max-w-md mx-auto select-none ${shake ? 'animate-pulse' : ''}`}>
+      <div className="flex justify-between items-center mb-2">
+        <span className="text-sm font-semibold text-gray-600">⏱ {timeLeft}s</span>
+        <span className="text-sm font-bold">🫧 {score} words</span>
+      </div>
+
+      {/* Target word */}
+      <div className="flex justify-center gap-1 mb-4">
+        {currentWord?.split('').map((ch, i) => (
+          <div
+            key={i}
+            className={`w-9 h-11 rounded-lg border-2 flex items-center justify-center text-lg font-bold ${
+              i < popped.length ? 'bg-cyan-100 border-cyan-500 text-cyan-700' : 'bg-gray-50 border-gray-300'
+            }`}
+          >
+            {i < popped.length ? popped[i] : ''}
+          </div>
+        ))}
+      </div>
+
+      {/* Bubble area */}
+      <div className="flex-1 relative bg-gradient-to-b from-cyan-50 to-blue-50 rounded-2xl overflow-hidden min-h-[400px]">
+        {bubbles.filter((b) => b.alive).map((b) => (
+          <button
+            key={b.id}
+            onClick={() => handlePop(b)}
+            className="absolute rounded-full bg-gradient-to-br from-white to-cyan-100 shadow-lg border border-cyan-200 flex items-center justify-center font-bold text-cyan-800 hover:scale-110 active:scale-90 transition-transform"
+            style={{
+              left: `${b.x}%`,
+              top: `${b.y}%`,
+              width: b.size,
+              height: b.size,
+              transform: 'translate(-50%, -50%)',
+              fontSize: b.size * 0.4,
+            }}
+          >
+            {b.letter}
+          </button>
+        ))}
+      </div>
+    </main>
+  );
+}
