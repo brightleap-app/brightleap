@@ -1,0 +1,682 @@
+[
+  {
+    "id": "y56-double",
+    "name": "Double Trouble",
+    "rule": "Words with double consonants",
+    "words": [
+      {
+        "word": "accommodate",
+        "sentence": "The hotel can _____ up to two hundred guests at a time.",
+        "rule": "double consonants (cc + mm)",
+        "difficulty": "hard"
+      },
+      {
+        "word": "accompany",
+        "sentence": "Her parents will _____ her on the school trip to France.",
+        "rule": "double consonants (cc)",
+        "difficulty": "hard"
+      },
+      {
+        "word": "according",
+        "sentence": "_____ to the weather forecast, it will snow this weekend.",
+        "rule": "double consonants (cc)",
+        "difficulty": "medium"
+      },
+      {
+        "word": "aggressive",
+        "sentence": "The dog became _____ when strangers approached the gate.",
+        "rule": "double consonants (gg + ss)",
+        "difficulty": "hard"
+      },
+      {
+        "word": "apparent",
+        "sentence": "It was _____ from her smile that she had passed the test.",
+        "rule": "double consonants (pp)",
+        "difficulty": "medium"
+      },
+      {
+        "word": "appreciate",
+        "sentence": "I really _____ all the help you have given me this term.",
+        "rule": "double consonants (pp) + -ate suffix",
+        "difficulty": "medium"
+      },
+      {
+        "word": "committee",
+        "sentence": "The school _____ met to decide on the theme for the summer fair.",
+        "rule": "double consonants (mm + tt + ee)",
+        "difficulty": "hard"
+      },
+      {
+        "word": "communicate",
+        "sentence": "Dolphins _____ with each other using clicks and whistles.",
+        "rule": "double consonants (mm) + -ate suffix",
+        "difficulty": "medium"
+      },
+      {
+        "word": "community",
+        "sentence": "Everyone in the _____ helped to clean up the park after the storm.",
+        "rule": "double consonants (mm)",
+        "difficulty": "medium"
+      },
+      {
+        "word": "correspond",
+        "sentence": "The two pen pals _____ by writing letters every month.",
+        "rule": "double consonants (rr)",
+        "difficulty": "medium"
+      },
+      {
+        "word": "embarrass",
+        "sentence": "Please don't _____ me by telling that story in front of everyone.",
+        "rule": "double consonants (rr + ss)",
+        "difficulty": "hard"
+      },
+      {
+        "word": "equipped",
+        "sentence": "The firefighters arrived _____ with hoses, ladders, and breathing masks.",
+        "rule": "qu pattern + double consonants (pp) + -ed",
+        "difficulty": "hard"
+      },
+      {
+        "word": "exaggerate",
+        "sentence": "Try not to _____ when you tell the story of what happened.",
+        "rule": "double consonants (gg) + soft g",
+        "difficulty": "hard"
+      },
+      {
+        "word": "excellent",
+        "sentence": "The teacher said her project work was _____.",
+        "rule": "double consonants (ll) + soft c",
+        "difficulty": "medium"
+      },
+      {
+        "word": "immediate",
+        "sentence": "The head teacher wanted an _____ response to the fire alarm.",
+        "rule": "double consonants (mm)",
+        "difficulty": "medium"
+      },
+      {
+        "word": "immediately",
+        "sentence": "When the bell rang, the children _____ lined up in the corridor.",
+        "rule": "double consonants (mm) + -ly suffix",
+        "difficulty": "hard"
+      },
+      {
+        "word": "interrupt",
+        "sentence": "It is rude to _____ someone when they are speaking.",
+        "rule": "double consonants (rr)",
+        "difficulty": "medium"
+      },
+      {
+        "word": "marvellous",
+        "sentence": "The acrobats put on a truly _____ performance at the circus.",
+        "rule": "double consonants (ll) + -ous suffix",
+        "difficulty": "hard"
+      },
+      {
+        "word": "occupy",
+        "sentence": "Board games can _____ children for hours on a rainy afternoon.",
+        "rule": "double consonants (cc)",
+        "difficulty": "medium"
+      },
+      {
+        "word": "occur",
+        "sentence": "Earthquakes can _____ without any warning at all.",
+        "rule": "double consonants (cc)",
+        "difficulty": "medium"
+      },
+      {
+        "word": "opportunity",
+        "sentence": "This trip is a wonderful _____ to learn about different cultures.",
+        "rule": "double consonants (pp)",
+        "difficulty": "hard"
+      },
+      {
+        "word": "profession",
+        "sentence": "Teaching is a _____ that requires patience, skill, and dedication.",
+        "rule": "double consonants (ss) + -ion suffix",
+        "difficulty": "medium"
+      },
+      {
+        "word": "recommend",
+        "sentence": "I would _____ this book to anyone who loves mystery stories.",
+        "rule": "double consonants (mm)",
+        "difficulty": "medium"
+      },
+      {
+        "word": "sufficient",
+        "sentence": "Make sure you have _____ time to complete the test.",
+        "rule": "double consonants (ff) + -ient suffix",
+        "difficulty": "hard"
+      },
+      {
+        "word": "suggest",
+        "sentence": "I would _____ leaving early so we don't get stuck in traffic.",
+        "rule": "double consonants (gg)",
+        "difficulty": "medium"
+      }
+    ]
+  },
+  {
+    "id": "y56-silent",
+    "name": "Silent Letters",
+    "rule": "Words with silent letters",
+    "words": [
+      {
+        "word": "bruise",
+        "sentence": "He had a nasty _____ on his knee after falling off the swing.",
+        "rule": "ui vowel digraph + silent e",
+        "difficulty": "medium"
+      },
+      {
+        "word": "conscience",
+        "sentence": "His _____ told him it was wrong to keep the money he had found.",
+        "rule": "sc pattern (silent c) + -ence suffix",
+        "difficulty": "hard"
+      },
+      {
+        "word": "conscious",
+        "sentence": "She was _____ of the fact that everyone was watching her performance.",
+        "rule": "sc pattern (silent c) + -ious suffix",
+        "difficulty": "hard"
+      },
+      {
+        "word": "develop",
+        "sentence": "Scientists continue to _____ new medicines to fight disease.",
+        "rule": "no silent e at end",
+        "difficulty": "medium"
+      },
+      {
+        "word": "foreign",
+        "sentence": "She has always wanted to travel to a _____ country.",
+        "rule": "ie/ei pattern (ei exception) + silent g",
+        "difficulty": "hard"
+      },
+      {
+        "word": "guarantee",
+        "sentence": "I can _____ that you will enjoy the show tonight.",
+        "rule": "gu pattern (silent u) + double vowel (ee)",
+        "difficulty": "hard"
+      },
+      {
+        "word": "muscle",
+        "sentence": "You use a different _____ in your arm every time you throw a ball.",
+        "rule": "silent letters (silent c)",
+        "difficulty": "medium"
+      },
+      {
+        "word": "queue",
+        "sentence": "We had to _____ for thirty minutes before we could enter the theme park.",
+        "rule": "French-origin spelling (ueue silent)",
+        "difficulty": "hard"
+      },
+      {
+        "word": "recognise",
+        "sentence": "I didn't _____ him at first because he had grown so much taller.",
+        "rule": "-ise suffix (British spelling) + silent g",
+        "difficulty": "hard"
+      },
+      {
+        "word": "rhyme",
+        "sentence": "Can you think of a word that will _____ with moon?",
+        "rule": "silent letters (silent h) + y as vowel",
+        "difficulty": "medium"
+      },
+      {
+        "word": "rhythm",
+        "sentence": "The drummer kept a steady _____ throughout the entire song.",
+        "rule": "silent letters (silent h twice) + no vowel (y)",
+        "difficulty": "hard"
+      },
+      {
+        "word": "shoulder",
+        "sentence": "He carried the heavy bag over his _____ all the way home.",
+        "rule": "ou vowel pattern (silent l)",
+        "difficulty": "medium"
+      },
+      {
+        "word": "thorough",
+        "sentence": "She did a _____ check of her homework before handing it in.",
+        "rule": "ough pattern + silent gh",
+        "difficulty": "hard"
+      },
+      {
+        "word": "twelfth",
+        "sentence": "December is the _____ month of the year.",
+        "rule": "fth consonant cluster + silent f sound change",
+        "difficulty": "hard"
+      },
+      {
+        "word": "vehicle",
+        "sentence": "Every _____ on the road must have working headlights.",
+        "rule": "silent letters (silent h)",
+        "difficulty": "hard"
+      },
+      {
+        "word": "yacht",
+        "sentence": "The family sailed their _____ across the English Channel.",
+        "rule": "silent letters (silent ch) + unusual spelling",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "id": "y56-suffixes",
+    "name": "Suffix Challenge",
+    "rule": "Various suffixes: -ity, -ise, -ary, -ate",
+    "words": [
+      {
+        "word": "attached",
+        "sentence": "The label was firmly _____ to the outside of the suitcase.",
+        "rule": "-ed suffix + tch pattern",
+        "difficulty": "medium"
+      },
+      {
+        "word": "convenience",
+        "sentence": "The shop was nearby, which was a great _____ for the family.",
+        "rule": "-ience suffix",
+        "difficulty": "hard"
+      },
+      {
+        "word": "criticise",
+        "sentence": "It is not fair to _____ someone without knowing the full story.",
+        "rule": "-ise suffix (British spelling)",
+        "difficulty": "hard"
+      },
+      {
+        "word": "curiosity",
+        "sentence": "Her _____ led her to explore every corner of the old building.",
+        "rule": "-ity suffix + unstressed vowels",
+        "difficulty": "hard"
+      },
+      {
+        "word": "definite",
+        "sentence": "We need a _____ answer by Friday so we can book the hall.",
+        "rule": "unstressed vowels (-ite ending, not -ate)",
+        "difficulty": "hard"
+      },
+      {
+        "word": "determined",
+        "sentence": "She was _____ to finish the marathon even though her legs ached.",
+        "rule": "-ed suffix",
+        "difficulty": "medium"
+      },
+      {
+        "word": "dictionary",
+        "sentence": "Use a _____ to check the meaning and spelling of a word.",
+        "rule": "-ary suffix + unstressed vowels",
+        "difficulty": "medium"
+      },
+      {
+        "word": "environment",
+        "sentence": "We must protect the _____ by reducing plastic waste.",
+        "rule": "unstressed vowels + -ment suffix",
+        "difficulty": "hard"
+      },
+      {
+        "word": "equipment",
+        "sentence": "All the sports _____ is stored in the cupboard by the hall.",
+        "rule": "qu pattern + -ment suffix",
+        "difficulty": "medium"
+      },
+      {
+        "word": "identity",
+        "sentence": "Everyone has their own unique _____ that makes them special.",
+        "rule": "-ity suffix",
+        "difficulty": "medium"
+      },
+      {
+        "word": "necessary",
+        "sentence": "It is _____ to wear a helmet when riding your bike.",
+        "rule": "one c, double ss + -ary suffix",
+        "difficulty": "hard"
+      },
+      {
+        "word": "secretary",
+        "sentence": "The _____ organised all the meetings and kept careful notes.",
+        "rule": "unstressed vowels + -ary suffix",
+        "difficulty": "hard"
+      },
+      {
+        "word": "temperature",
+        "sentence": "The _____ dropped below zero and the pond froze overnight.",
+        "rule": "unstressed vowels + -ture suffix",
+        "difficulty": "hard"
+      },
+      {
+        "word": "variety",
+        "sentence": "The shop sells a wide _____ of sweets and chocolates.",
+        "rule": "-iety suffix",
+        "difficulty": "medium"
+      }
+    ]
+  },
+  {
+    "id": "y56-unstressed",
+    "name": "Hidden Sounds",
+    "rule": "Words with unstressed vowels",
+    "words": [
+      {
+        "word": "bargain",
+        "sentence": "We found a real _____ at the car boot sale last Sunday.",
+        "rule": "unstressed vowels (-ain ending)",
+        "difficulty": "medium"
+      },
+      {
+        "word": "category",
+        "sentence": "Each book in the library belongs to a different _____.",
+        "rule": "unstressed vowels",
+        "difficulty": "medium"
+      },
+      {
+        "word": "cemetery",
+        "sentence": "The old _____ at the edge of the village has gravestones from the 1800s.",
+        "rule": "unstressed vowels (three e sounds)",
+        "difficulty": "hard"
+      },
+      {
+        "word": "controversy",
+        "sentence": "There was much _____ over whether the goal should have counted.",
+        "rule": "unstressed vowels + -sy ending",
+        "difficulty": "hard"
+      },
+      {
+        "word": "desperate",
+        "sentence": "The explorers were _____ to find fresh water before nightfall.",
+        "rule": "unstressed vowels (-per- not -par-)",
+        "difficulty": "hard"
+      },
+      {
+        "word": "familiar",
+        "sentence": "The tune sounded _____ but I could not remember its name.",
+        "rule": "unstressed vowels (-iar ending)",
+        "difficulty": "medium"
+      },
+      {
+        "word": "government",
+        "sentence": "The _____ announced new plans to build more schools across the country.",
+        "rule": "unstressed vowels (-ern- not -en-)",
+        "difficulty": "hard"
+      },
+      {
+        "word": "individual",
+        "sentence": "Each _____ in the class has different strengths and talents.",
+        "rule": "unstressed vowels",
+        "difficulty": "hard"
+      },
+      {
+        "word": "interfere",
+        "sentence": "Please do not _____ while I am trying to explain the instructions.",
+        "rule": "-ere ending + unstressed vowels",
+        "difficulty": "hard"
+      },
+      {
+        "word": "parliament",
+        "sentence": "Members of _____ debate and vote on new laws in London.",
+        "rule": "unstressed vowels (-ia-)",
+        "difficulty": "hard"
+      },
+      {
+        "word": "privilege",
+        "sentence": "It was a _____ to meet the author of our favourite book.",
+        "rule": "unstressed vowels (-ilege ending)",
+        "difficulty": "hard"
+      },
+      {
+        "word": "pronunciation",
+        "sentence": "The _____ of some English words is very different from their spelling.",
+        "rule": "unstressed vowels (no -ounce-)",
+        "difficulty": "hard"
+      },
+      {
+        "word": "restaurant",
+        "sentence": "We went to an Italian _____ to celebrate Mum's birthday.",
+        "rule": "French-origin spelling + unstressed vowels",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "id": "y56-soft",
+    "name": "Soft Sounds",
+    "rule": "Soft c and g sounds",
+    "words": [
+      {
+        "word": "average",
+        "sentence": "The _____ temperature in July is around twenty degrees.",
+        "rule": "soft g",
+        "difficulty": "easy"
+      },
+      {
+        "word": "especially",
+        "sentence": "I love all animals, but _____ dogs because they are so loyal.",
+        "rule": "-ally suffix + soft c",
+        "difficulty": "medium"
+      },
+      {
+        "word": "language",
+        "sentence": "Learning a new _____ can help you make friends around the world.",
+        "rule": "soft g + unstressed vowels",
+        "difficulty": "medium"
+      },
+      {
+        "word": "prejudice",
+        "sentence": "We should treat everyone fairly and avoid any form of _____.",
+        "rule": "Latin prefix (pre-) + soft c",
+        "difficulty": "hard"
+      },
+      {
+        "word": "sacrifice",
+        "sentence": "The soldiers made a great _____ to protect their country.",
+        "rule": "soft c + unstressed vowels",
+        "difficulty": "hard"
+      },
+      {
+        "word": "signature",
+        "sentence": "Please write your _____ at the bottom of the permission letter.",
+        "rule": "soft g + -ture suffix",
+        "difficulty": "medium"
+      },
+      {
+        "word": "sincere",
+        "sentence": "The apology sounded _____ and she accepted it straight away.",
+        "rule": "soft c + -ere ending",
+        "difficulty": "medium"
+      },
+      {
+        "word": "sincerely",
+        "sentence": "She ended the letter with the words 'Yours _____'.",
+        "rule": "soft c + -ely suffix",
+        "difficulty": "medium"
+      },
+      {
+        "word": "vegetable",
+        "sentence": "Broccoli is a _____ that is full of vitamins and nutrients.",
+        "rule": "soft g + unstressed vowels",
+        "difficulty": "medium"
+      }
+    ]
+  },
+  {
+    "id": "y56-endings",
+    "name": "Word Endings",
+    "rule": "Suffixes: -ence, -ance, -tion, -ous",
+    "words": [
+      {
+        "word": "existence",
+        "sentence": "Scientists are searching for the _____ of life on other planets.",
+        "rule": "-ence suffix",
+        "difficulty": "hard"
+      },
+      {
+        "word": "hindrance",
+        "sentence": "The heavy rain was a _____ to the runners during the cross-country race.",
+        "rule": "-ance suffix + unstressed vowels",
+        "difficulty": "hard"
+      },
+      {
+        "word": "nuisance",
+        "sentence": "The buzzing fly was a real _____ during the quiet reading session.",
+        "rule": "ui vowel digraph + -ance suffix",
+        "difficulty": "hard"
+      },
+      {
+        "word": "relevant",
+        "sentence": "Only include information that is _____ to the topic of your essay.",
+        "rule": "unstressed vowels + -ant suffix",
+        "difficulty": "hard"
+      },
+      {
+        "word": "competition",
+        "sentence": "She entered a writing _____ and won first prize.",
+        "rule": "-tion suffix",
+        "difficulty": "medium"
+      },
+      {
+        "word": "explanation",
+        "sentence": "He gave a clear _____ of how the experiment worked.",
+        "rule": "-tion suffix + unstressed vowels",
+        "difficulty": "medium"
+      },
+      {
+        "word": "disastrous",
+        "sentence": "The floods had a _____ effect on the homes near the river.",
+        "rule": "-ous suffix (no e before -ous)",
+        "difficulty": "hard"
+      },
+      {
+        "word": "mischievous",
+        "sentence": "The _____ kitten knocked over every vase on the shelf.",
+        "rule": "-ous suffix (not -ious)",
+        "difficulty": "hard"
+      },
+      {
+        "word": "frequently",
+        "sentence": "He _____ visits the library to borrow new adventure books.",
+        "rule": "-ly suffix + qu pattern",
+        "difficulty": "medium"
+      },
+      {
+        "word": "available",
+        "sentence": "There are still a few tickets _____ for the school concert.",
+        "rule": "-able suffix",
+        "difficulty": "medium"
+      }
+    ]
+  },
+  {
+    "id": "y56-patterns",
+    "name": "Letter Patterns",
+    "rule": "ei patterns and word origins",
+    "words": [
+      {
+        "word": "achieve",
+        "sentence": "With hard work and practice, you can _____ your goals.",
+        "rule": "ie/ei pattern (i before e after ch)",
+        "difficulty": "medium"
+      },
+      {
+        "word": "ancient",
+        "sentence": "We visited an _____ castle that was built over a thousand years ago.",
+        "rule": "ie/ei pattern (ei after c exception)",
+        "difficulty": "medium"
+      },
+      {
+        "word": "leisure",
+        "sentence": "In her _____ time, she enjoys painting landscapes.",
+        "rule": "ie/ei pattern (ei exception)",
+        "difficulty": "hard"
+      },
+      {
+        "word": "neighbour",
+        "sentence": "Our _____ kindly looked after our cat while we were on holiday.",
+        "rule": "eigh pattern + -our (British spelling)",
+        "difficulty": "hard"
+      },
+      {
+        "word": "amateur",
+        "sentence": "She is an _____ photographer who takes pictures as a hobby.",
+        "rule": "French-origin spelling",
+        "difficulty": "hard"
+      },
+      {
+        "word": "equip",
+        "sentence": "The school will _____ every classroom with a new computer.",
+        "rule": "qu pattern",
+        "difficulty": "medium"
+      },
+      {
+        "word": "stomach",
+        "sentence": "My _____ started rumbling because I had missed breakfast.",
+        "rule": "ch sounds like /k/ (Greek origin)",
+        "difficulty": "medium"
+      },
+      {
+        "word": "physical",
+        "sentence": "Regular _____ activity helps keep your body fit and healthy.",
+        "rule": "ph digraph (sounds like /f/) + y as vowel",
+        "difficulty": "medium"
+      },
+      {
+        "word": "soldier",
+        "sentence": "The brave _____ marched through the rain without complaining.",
+        "rule": "unusual vowel (dier sounds like /dʒər/)",
+        "difficulty": "medium"
+      },
+      {
+        "word": "symbol",
+        "sentence": "The dove is a _____ of peace in many cultures around the world.",
+        "rule": "y as vowel",
+        "difficulty": "medium"
+      },
+      {
+        "word": "system",
+        "sentence": "The school has a reward _____ to encourage good behaviour.",
+        "rule": "y as vowel",
+        "difficulty": "easy"
+      }
+    ]
+  },
+  {
+    "id": "y56-other",
+    "name": "Tricky Words",
+    "rule": "Other challenging patterns",
+    "words": [
+      {
+        "word": "awkward",
+        "sentence": "There was an _____ silence when nobody could answer the question.",
+        "rule": "unusual consonant cluster (wkw)",
+        "difficulty": "medium"
+      },
+      {
+        "word": "forty",
+        "sentence": "There are _____ children in our year group this term.",
+        "rule": "no u (unlike four)",
+        "difficulty": "medium"
+      },
+      {
+        "word": "harass",
+        "sentence": "It is never acceptable to _____ another person at school.",
+        "rule": "single r + double ss",
+        "difficulty": "hard"
+      },
+      {
+        "word": "lightning",
+        "sentence": "We saw a flash of _____ during the storm last night.",
+        "rule": "no e (unlike lightening)",
+        "difficulty": "medium"
+      },
+      {
+        "word": "persuade",
+        "sentence": "She tried to _____ her parents to let her stay up late.",
+        "rule": "su- sounds like /sw/",
+        "difficulty": "medium"
+      },
+      {
+        "word": "programme",
+        "sentence": "The school _____ listed all the events for the summer term.",
+        "rule": "-mme ending (British spelling)",
+        "difficulty": "hard"
+      }
+    ]
+  }
+]

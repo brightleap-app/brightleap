@@ -1,0 +1,1493 @@
+[
+  {
+    "word": "accident",
+    "sentence": "There was an _____ in the playground today.",
+    "rule": "double consonants",
+    "difficulty": "medium",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "accidentally",
+    "sentence": "She _____ knocked the glass off the table.",
+    "rule": "double consonants + -ally suffix",
+    "difficulty": "hard",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "actual",
+    "sentence": "The _____ answer was not what I expected.",
+    "rule": "soft c (sounds like /tʃ/)",
+    "difficulty": "easy",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "actually",
+    "sentence": "I _____ like sprouts more than I thought.",
+    "rule": "-ally suffix",
+    "difficulty": "medium",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "address",
+    "sentence": "Please write your _____ on the envelope.",
+    "rule": "double consonants",
+    "difficulty": "medium",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "answer",
+    "sentence": "Do you know the _____ to question five?",
+    "rule": "silent letters (silent w)",
+    "difficulty": "medium",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "appear",
+    "sentence": "The stars _____ in the sky at night.",
+    "rule": "double consonants",
+    "difficulty": "easy",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "arrive",
+    "sentence": "What time will the bus _____?",
+    "rule": "double consonants",
+    "difficulty": "easy",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "believe",
+    "sentence": "I _____ you can do it if you try.",
+    "rule": "ie/ei pattern (i before e)",
+    "difficulty": "medium",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "bicycle",
+    "sentence": "She rode her _____ to school every day.",
+    "rule": "prefixes (bi- meaning two)",
+    "difficulty": "medium",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "breath",
+    "sentence": "Take a deep _____ before you begin.",
+    "rule": "ea vowel digraph",
+    "difficulty": "medium",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "breathe",
+    "sentence": "It is hard to _____ when you run fast.",
+    "rule": "ea vowel digraph + silent e",
+    "difficulty": "medium",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "build",
+    "sentence": "We helped to _____ a den in the woods.",
+    "rule": "unusual vowel spelling (ui)",
+    "difficulty": "medium",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "busy",
+    "sentence": "The shop was very _____ on Saturday.",
+    "rule": "unusual vowel spelling (u sounds like /ɪ/)",
+    "difficulty": "easy",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "business",
+    "sentence": "My aunt runs her own _____.",
+    "rule": "unusual vowel spelling (busi-)",
+    "difficulty": "hard",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "calendar",
+    "sentence": "Check the _____ to see when the trip is.",
+    "rule": "unstressed vowels (-ar ending)",
+    "difficulty": "medium",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "caught",
+    "sentence": "The dog _____ the ball in mid-air.",
+    "rule": "augh pattern",
+    "difficulty": "medium",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "centre",
+    "sentence": "The fountain is in the _____ of town.",
+    "rule": "-re ending (British spelling)",
+    "difficulty": "medium",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "century",
+    "sentence": "A _____ is one hundred years.",
+    "rule": "soft c",
+    "difficulty": "easy",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "certain",
+    "sentence": "I am _____ that I locked the door.",
+    "rule": "soft c + unstressed vowels",
+    "difficulty": "medium",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "circle",
+    "sentence": "Draw a _____ with your compass.",
+    "rule": "soft c",
+    "difficulty": "easy",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "complete",
+    "sentence": "Please _____ your work before lunch.",
+    "rule": "silent e (split digraph)",
+    "difficulty": "easy",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "consider",
+    "sentence": "You should _____ how others might feel.",
+    "rule": "unstressed vowels",
+    "difficulty": "medium",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "continue",
+    "sentence": "Let's _____ reading the story tomorrow.",
+    "rule": "unstressed vowels",
+    "difficulty": "easy",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "decide",
+    "sentence": "I can't _____ which book to read next.",
+    "rule": "soft c + silent e",
+    "difficulty": "easy",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "describe",
+    "sentence": "Can you _____ what the thief looked like?",
+    "rule": "Latin prefix (de-)",
+    "difficulty": "medium",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "different",
+    "sentence": "We each chose a _____ colour to paint with.",
+    "rule": "double consonants + unstressed vowels",
+    "difficulty": "medium",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "difficult",
+    "sentence": "The maths test was very _____.",
+    "rule": "double consonants",
+    "difficulty": "medium",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "disappear",
+    "sentence": "The rabbit seemed to _____ inside the hat.",
+    "rule": "prefixes (dis-) + double consonants",
+    "difficulty": "medium",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "early",
+    "sentence": "We woke up _____ to catch the train.",
+    "rule": "ear vowel pattern",
+    "difficulty": "easy",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "earth",
+    "sentence": "The _____ goes around the Sun.",
+    "rule": "ear vowel pattern",
+    "difficulty": "easy",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "eight",
+    "sentence": "There are _____ legs on a spider.",
+    "rule": "eigh pattern (silent gh)",
+    "difficulty": "medium",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "eighth",
+    "sentence": "My birthday is on the _____ of June.",
+    "rule": "eigh pattern + ordinal suffix",
+    "difficulty": "hard",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "enough",
+    "sentence": "Have you had _____ to eat?",
+    "rule": "ough pattern (sounds like /ʌf/)",
+    "difficulty": "medium",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "exercise",
+    "sentence": "We do _____ every morning at school.",
+    "rule": "soft c + unstressed vowels",
+    "difficulty": "medium",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "experience",
+    "sentence": "It was an amazing _____ to see the whales.",
+    "rule": "unstressed vowels + soft c",
+    "difficulty": "hard",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "experiment",
+    "sentence": "We did a science _____ with vinegar.",
+    "rule": "unstressed vowels",
+    "difficulty": "medium",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "extreme",
+    "sentence": "The _____ heat made us all very tired.",
+    "rule": "silent e (split digraph)",
+    "difficulty": "easy",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "famous",
+    "sentence": "The _____ singer visited our school.",
+    "rule": "-ous suffix",
+    "difficulty": "easy",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "favourite",
+    "sentence": "Chocolate cake is my _____ pudding.",
+    "rule": "-our spelling (British)",
+    "difficulty": "medium",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "February",
+    "sentence": "_____ is the shortest month of the year.",
+    "rule": "silent letters (silent r) + unstressed vowels",
+    "difficulty": "hard",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "forward",
+    "sentence": "Take one step _____ please.",
+    "rule": "war vowel pattern",
+    "difficulty": "easy",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "forwards",
+    "sentence": "The queue moved _____ very slowly.",
+    "rule": "war vowel pattern + plural/adverb -s",
+    "difficulty": "easy",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "fruit",
+    "sentence": "We eat _____ every day to stay healthy.",
+    "rule": "ui vowel digraph",
+    "difficulty": "easy",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "grammar",
+    "sentence": "Good _____ helps people understand your writing.",
+    "rule": "double consonants + unstressed vowels (-ar)",
+    "difficulty": "medium",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "group",
+    "sentence": "Our _____ worked together on the project.",
+    "rule": "ou vowel digraph",
+    "difficulty": "easy",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "guard",
+    "sentence": "The _____ stood outside the palace gates.",
+    "rule": "silent letters (silent u)",
+    "difficulty": "medium",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "guide",
+    "sentence": "The museum _____ showed us the dinosaurs.",
+    "rule": "silent letters (silent u)",
+    "difficulty": "medium",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "heard",
+    "sentence": "I _____ a strange noise in the garden.",
+    "rule": "ear vowel pattern (homophones: heard/herd)",
+    "difficulty": "medium",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "heart",
+    "sentence": "Your _____ beats faster when you run.",
+    "rule": "ear vowel pattern (irregular pronunciation)",
+    "difficulty": "medium",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "height",
+    "sentence": "The _____ of the tower was fifty metres.",
+    "rule": "eigh pattern + silent gh",
+    "difficulty": "hard",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "history",
+    "sentence": "We are learning about Roman _____ this term.",
+    "rule": "unstressed vowels",
+    "difficulty": "easy",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "imagine",
+    "sentence": "Close your eyes and _____ a magical forest.",
+    "rule": "soft g",
+    "difficulty": "easy",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "increase",
+    "sentence": "We saw an _____ in the number of birds.",
+    "rule": "soft c + silent e",
+    "difficulty": "medium",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "important",
+    "sentence": "It is _____ to drink enough water.",
+    "rule": "unstressed vowels",
+    "difficulty": "medium",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "interest",
+    "sentence": "She has a great _____ in space and planets.",
+    "rule": "unstressed vowels",
+    "difficulty": "medium",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "island",
+    "sentence": "We took a boat to the small _____.",
+    "rule": "silent letters (silent s)",
+    "difficulty": "medium",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "knowledge",
+    "sentence": "Reading gives you lots of _____.",
+    "rule": "silent letters (silent k + silent d)",
+    "difficulty": "hard",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "learn",
+    "sentence": "I want to _____ how to play the guitar.",
+    "rule": "ear vowel pattern",
+    "difficulty": "easy",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "length",
+    "sentence": "Measure the _____ of the table with a ruler.",
+    "rule": "ngth consonant cluster",
+    "difficulty": "medium",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "library",
+    "sentence": "We borrow books from the school _____.",
+    "rule": "unstressed vowels + r clusters",
+    "difficulty": "medium",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "material",
+    "sentence": "She chose a soft _____ for her costume.",
+    "rule": "unstressed vowels",
+    "difficulty": "medium",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "medicine",
+    "sentence": "The doctor gave me _____ for my cough.",
+    "rule": "soft c + unstressed vowels",
+    "difficulty": "medium",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "mention",
+    "sentence": "Did the teacher _____ the homework?",
+    "rule": "-tion suffix (spelled -tion)",
+    "difficulty": "medium",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "minute",
+    "sentence": "Please wait one _____ while I get ready.",
+    "rule": "unstressed vowels",
+    "difficulty": "easy",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "natural",
+    "sentence": "The park is full of _____ beauty.",
+    "rule": "unstressed vowels (-al suffix)",
+    "difficulty": "easy",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "naughty",
+    "sentence": "The _____ puppy chewed up the cushion.",
+    "rule": "augh pattern",
+    "difficulty": "medium",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "notice",
+    "sentence": "Did you _____ the rainbow after the rain?",
+    "rule": "soft c",
+    "difficulty": "easy",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "occasion",
+    "sentence": "A birthday is always a special _____.",
+    "rule": "double consonants (cc) + sion ending",
+    "difficulty": "hard",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "occasionally",
+    "sentence": "We _____ go to the seaside on Sundays.",
+    "rule": "double consonants (cc + ll) + -ally suffix",
+    "difficulty": "hard",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "often",
+    "sentence": "How _____ do you visit your grandparents?",
+    "rule": "silent letters (often silent t)",
+    "difficulty": "easy",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "opposite",
+    "sentence": "Hot is the _____ of cold.",
+    "rule": "double consonants (pp)",
+    "difficulty": "medium",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "ordinary",
+    "sentence": "It started as an _____ day but became amazing.",
+    "rule": "unstressed vowels",
+    "difficulty": "medium",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "particular",
+    "sentence": "Is there a _____ flavour you would like?",
+    "rule": "unstressed vowels",
+    "difficulty": "hard",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "peculiar",
+    "sentence": "There was a _____ smell coming from the kitchen.",
+    "rule": "unstressed vowels + unusual ending (-iar)",
+    "difficulty": "hard",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "perhaps",
+    "sentence": "_____ we could go swimming tomorrow.",
+    "rule": "unstressed vowels",
+    "difficulty": "easy",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "popular",
+    "sentence": "Football is the most _____ sport at our school.",
+    "rule": "unstressed vowels (-ar ending)",
+    "difficulty": "easy",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "position",
+    "sentence": "Stand in _____ before the race begins.",
+    "rule": "-tion suffix",
+    "difficulty": "medium",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "possess",
+    "sentence": "Does the wizard _____ magical powers?",
+    "rule": "double consonants (ss repeated)",
+    "difficulty": "hard",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "possession",
+    "sentence": "The crown was the queen's most prized _____.",
+    "rule": "double consonants (ss) + -sion suffix",
+    "difficulty": "hard",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "possible",
+    "sentence": "Is it _____ to finish this by lunchtime?",
+    "rule": "double consonants (ss) + -ible suffix",
+    "difficulty": "medium",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "potatoes",
+    "sentence": "We grew _____ in the school garden.",
+    "rule": "plural with -es (after o)",
+    "difficulty": "medium",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "pressure",
+    "sentence": "Don't put too much _____ on yourself.",
+    "rule": "double consonants (ss) + -ure suffix",
+    "difficulty": "hard",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "probably",
+    "sentence": "It will _____ rain later today.",
+    "rule": "unstressed vowels",
+    "difficulty": "medium",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "promise",
+    "sentence": "I _____ to tidy my room after school.",
+    "rule": "unstressed vowels",
+    "difficulty": "easy",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "purpose",
+    "sentence": "What is the _____ of this experiment?",
+    "rule": "unstressed vowels",
+    "difficulty": "medium",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "quarter",
+    "sentence": "A _____ of the pizza was left over.",
+    "rule": "qu pattern + unstressed vowels",
+    "difficulty": "medium",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "question",
+    "sentence": "Put your hand up if you have a _____.",
+    "rule": "qu pattern + -tion suffix",
+    "difficulty": "medium",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "recent",
+    "sentence": "We talked about a _____ event in the news.",
+    "rule": "soft c",
+    "difficulty": "easy",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "regular",
+    "sentence": "We have _____ spelling tests every Friday.",
+    "rule": "unstressed vowels (-ar ending)",
+    "difficulty": "easy",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "reign",
+    "sentence": "The king had a long and peaceful _____.",
+    "rule": "eign pattern (silent g)",
+    "difficulty": "hard",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "remember",
+    "sentence": "I must _____ to bring my PE kit.",
+    "rule": "unstressed vowels",
+    "difficulty": "easy",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "sentence",
+    "sentence": "Write a _____ using the word 'happy'.",
+    "rule": "soft c + unstressed vowels",
+    "difficulty": "medium",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "separate",
+    "sentence": "Please _____ the red beads from the blue ones.",
+    "rule": "unstressed vowels (par not per)",
+    "difficulty": "hard",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "special",
+    "sentence": "Today is a _____ day because it's your birthday.",
+    "rule": "-cial suffix",
+    "difficulty": "easy",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "straight",
+    "sentence": "Draw a _____ line with your ruler.",
+    "rule": "aigh pattern + silent gh",
+    "difficulty": "hard",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "strange",
+    "sentence": "We heard a _____ sound in the attic.",
+    "rule": "soft g",
+    "difficulty": "easy",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "strength",
+    "sentence": "You need _____ to lift that heavy box.",
+    "rule": "ngth consonant cluster",
+    "difficulty": "hard",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "suppose",
+    "sentence": "I _____ we could try a different way.",
+    "rule": "double consonants (pp)",
+    "difficulty": "medium",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "surprise",
+    "sentence": "The party was a lovely _____ for Grandma.",
+    "rule": "sur- prefix + silent e",
+    "difficulty": "medium",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "therefore",
+    "sentence": "It was raining, _____ we stayed inside.",
+    "rule": "compound word (there + fore)",
+    "difficulty": "medium",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "though",
+    "sentence": "Even _____ it was cold, we still played outside.",
+    "rule": "ough pattern (sounds like /əʊ/)",
+    "difficulty": "medium",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "although",
+    "sentence": "_____ she was tired, she finished the race.",
+    "rule": "ough pattern + al- prefix",
+    "difficulty": "medium",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "thought",
+    "sentence": "I _____ the film was really exciting.",
+    "rule": "ough pattern (sounds like /ɔː/)",
+    "difficulty": "medium",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "through",
+    "sentence": "The train went _____ a long dark tunnel.",
+    "rule": "ough pattern (sounds like /uː/)",
+    "difficulty": "medium",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "various",
+    "sentence": "There are _____ flavours of ice cream to try.",
+    "rule": "-ious suffix",
+    "difficulty": "medium",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "weight",
+    "sentence": "What is the _____ of this parcel?",
+    "rule": "eigh pattern (silent gh) + homophones (weight/wait)",
+    "difficulty": "hard",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "woman",
+    "sentence": "The _____ at the counter was very kind.",
+    "rule": "irregular vowel (o sounds like /ʊ/)",
+    "difficulty": "easy",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "women",
+    "sentence": "The _____ in the team won the gold medal.",
+    "rule": "irregular plural + vowel change (o sounds like /ɪ/)",
+    "difficulty": "medium",
+    "year_group": "Year 3/4"
+  },
+  {
+    "word": "accommodate",
+    "sentence": "The hotel can _____ up to two hundred guests at a time.",
+    "rule": "double consonants (cc + mm)",
+    "difficulty": "hard",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "accompany",
+    "sentence": "Her parents will _____ her on the school trip to France.",
+    "rule": "double consonants (cc)",
+    "difficulty": "hard",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "according",
+    "sentence": "_____ to the weather forecast, it will snow this weekend.",
+    "rule": "double consonants (cc)",
+    "difficulty": "medium",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "achieve",
+    "sentence": "With hard work and practice, you can _____ your goals.",
+    "rule": "ie/ei pattern (i before e after ch)",
+    "difficulty": "medium",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "aggressive",
+    "sentence": "The dog became _____ when strangers approached the gate.",
+    "rule": "double consonants (gg + ss)",
+    "difficulty": "hard",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "amateur",
+    "sentence": "She is an _____ photographer who takes pictures as a hobby.",
+    "rule": "French-origin spelling",
+    "difficulty": "hard",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "ancient",
+    "sentence": "We visited an _____ castle that was built over a thousand years ago.",
+    "rule": "ie/ei pattern (ei after c exception)",
+    "difficulty": "medium",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "apparent",
+    "sentence": "It was _____ from her smile that she had passed the test.",
+    "rule": "double consonants (pp)",
+    "difficulty": "medium",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "appreciate",
+    "sentence": "I really _____ all the help you have given me this term.",
+    "rule": "double consonants (pp) + -ate suffix",
+    "difficulty": "medium",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "attached",
+    "sentence": "The label was firmly _____ to the outside of the suitcase.",
+    "rule": "-ed suffix + tch pattern",
+    "difficulty": "medium",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "available",
+    "sentence": "There are still a few tickets _____ for the school concert.",
+    "rule": "-able suffix",
+    "difficulty": "medium",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "average",
+    "sentence": "The _____ temperature in July is around twenty degrees.",
+    "rule": "soft g",
+    "difficulty": "easy",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "awkward",
+    "sentence": "There was an _____ silence when nobody could answer the question.",
+    "rule": "unusual consonant cluster (wkw)",
+    "difficulty": "medium",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "bargain",
+    "sentence": "We found a real _____ at the car boot sale last Sunday.",
+    "rule": "unstressed vowels (-ain ending)",
+    "difficulty": "medium",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "bruise",
+    "sentence": "He had a nasty _____ on his knee after falling off the swing.",
+    "rule": "ui vowel digraph + silent e",
+    "difficulty": "medium",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "category",
+    "sentence": "Each book in the library belongs to a different _____.",
+    "rule": "unstressed vowels",
+    "difficulty": "medium",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "cemetery",
+    "sentence": "The old _____ at the edge of the village has gravestones from the 1800s.",
+    "rule": "unstressed vowels (three e sounds)",
+    "difficulty": "hard",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "committee",
+    "sentence": "The school _____ met to decide on the theme for the summer fair.",
+    "rule": "double consonants (mm + tt + ee)",
+    "difficulty": "hard",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "communicate",
+    "sentence": "Dolphins _____ with each other using clicks and whistles.",
+    "rule": "double consonants (mm) + -ate suffix",
+    "difficulty": "medium",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "community",
+    "sentence": "Everyone in the _____ helped to clean up the park after the storm.",
+    "rule": "double consonants (mm)",
+    "difficulty": "medium",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "competition",
+    "sentence": "She entered a writing _____ and won first prize.",
+    "rule": "-tion suffix",
+    "difficulty": "medium",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "conscience",
+    "sentence": "His _____ told him it was wrong to keep the money he had found.",
+    "rule": "sc pattern (silent c) + -ence suffix",
+    "difficulty": "hard",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "conscious",
+    "sentence": "She was _____ of the fact that everyone was watching her performance.",
+    "rule": "sc pattern (silent c) + -ious suffix",
+    "difficulty": "hard",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "controversy",
+    "sentence": "There was much _____ over whether the goal should have counted.",
+    "rule": "unstressed vowels + -sy ending",
+    "difficulty": "hard",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "convenience",
+    "sentence": "The shop was nearby, which was a great _____ for the family.",
+    "rule": "-ience suffix",
+    "difficulty": "hard",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "correspond",
+    "sentence": "The two pen pals _____ by writing letters every month.",
+    "rule": "double consonants (rr)",
+    "difficulty": "medium",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "criticise",
+    "sentence": "It is not fair to _____ someone without knowing the full story.",
+    "rule": "-ise suffix (British spelling)",
+    "difficulty": "hard",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "curiosity",
+    "sentence": "Her _____ led her to explore every corner of the old building.",
+    "rule": "-ity suffix + unstressed vowels",
+    "difficulty": "hard",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "definite",
+    "sentence": "We need a _____ answer by Friday so we can book the hall.",
+    "rule": "unstressed vowels (-ite ending, not -ate)",
+    "difficulty": "hard",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "desperate",
+    "sentence": "The explorers were _____ to find fresh water before nightfall.",
+    "rule": "unstressed vowels (-per- not -par-)",
+    "difficulty": "hard",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "determined",
+    "sentence": "She was _____ to finish the marathon even though her legs ached.",
+    "rule": "-ed suffix",
+    "difficulty": "medium",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "develop",
+    "sentence": "Scientists continue to _____ new medicines to fight disease.",
+    "rule": "no silent e at end",
+    "difficulty": "medium",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "dictionary",
+    "sentence": "Use a _____ to check the meaning and spelling of a word.",
+    "rule": "-ary suffix + unstressed vowels",
+    "difficulty": "medium",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "disastrous",
+    "sentence": "The floods had a _____ effect on the homes near the river.",
+    "rule": "-ous suffix (no e before -ous)",
+    "difficulty": "hard",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "embarrass",
+    "sentence": "Please don't _____ me by telling that story in front of everyone.",
+    "rule": "double consonants (rr + ss)",
+    "difficulty": "hard",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "environment",
+    "sentence": "We must protect the _____ by reducing plastic waste.",
+    "rule": "unstressed vowels + -ment suffix",
+    "difficulty": "hard",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "equip",
+    "sentence": "The school will _____ every classroom with a new computer.",
+    "rule": "qu pattern",
+    "difficulty": "medium",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "equipped",
+    "sentence": "The firefighters arrived _____ with hoses, ladders, and breathing masks.",
+    "rule": "qu pattern + double consonants (pp) + -ed",
+    "difficulty": "hard",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "equipment",
+    "sentence": "All the sports _____ is stored in the cupboard by the hall.",
+    "rule": "qu pattern + -ment suffix",
+    "difficulty": "medium",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "especially",
+    "sentence": "I love all animals, but _____ dogs because they are so loyal.",
+    "rule": "-ally suffix + soft c",
+    "difficulty": "medium",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "exaggerate",
+    "sentence": "Try not to _____ when you tell the story of what happened.",
+    "rule": "double consonants (gg) + soft g",
+    "difficulty": "hard",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "excellent",
+    "sentence": "The teacher said her project work was _____.",
+    "rule": "double consonants (ll) + soft c",
+    "difficulty": "medium",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "existence",
+    "sentence": "Scientists are searching for the _____ of life on other planets.",
+    "rule": "-ence suffix",
+    "difficulty": "hard",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "explanation",
+    "sentence": "He gave a clear _____ of how the experiment worked.",
+    "rule": "-tion suffix + unstressed vowels",
+    "difficulty": "medium",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "familiar",
+    "sentence": "The tune sounded _____ but I could not remember its name.",
+    "rule": "unstressed vowels (-iar ending)",
+    "difficulty": "medium",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "foreign",
+    "sentence": "She has always wanted to travel to a _____ country.",
+    "rule": "ie/ei pattern (ei exception) + silent g",
+    "difficulty": "hard",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "forty",
+    "sentence": "There are _____ children in our year group this term.",
+    "rule": "no u (unlike four)",
+    "difficulty": "medium",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "frequently",
+    "sentence": "He _____ visits the library to borrow new adventure books.",
+    "rule": "-ly suffix + qu pattern",
+    "difficulty": "medium",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "government",
+    "sentence": "The _____ announced new plans to build more schools across the country.",
+    "rule": "unstressed vowels (-ern- not -en-)",
+    "difficulty": "hard",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "guarantee",
+    "sentence": "I can _____ that you will enjoy the show tonight.",
+    "rule": "gu pattern (silent u) + double vowel (ee)",
+    "difficulty": "hard",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "harass",
+    "sentence": "It is never acceptable to _____ another person at school.",
+    "rule": "single r + double ss",
+    "difficulty": "hard",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "hindrance",
+    "sentence": "The heavy rain was a _____ to the runners during the cross-country race.",
+    "rule": "-ance suffix + unstressed vowels",
+    "difficulty": "hard",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "identity",
+    "sentence": "Everyone has their own unique _____ that makes them special.",
+    "rule": "-ity suffix",
+    "difficulty": "medium",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "immediate",
+    "sentence": "The head teacher wanted an _____ response to the fire alarm.",
+    "rule": "double consonants (mm)",
+    "difficulty": "medium",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "immediately",
+    "sentence": "When the bell rang, the children _____ lined up in the corridor.",
+    "rule": "double consonants (mm) + -ly suffix",
+    "difficulty": "hard",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "individual",
+    "sentence": "Each _____ in the class has different strengths and talents.",
+    "rule": "unstressed vowels",
+    "difficulty": "hard",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "interfere",
+    "sentence": "Please do not _____ while I am trying to explain the instructions.",
+    "rule": "-ere ending + unstressed vowels",
+    "difficulty": "hard",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "interrupt",
+    "sentence": "It is rude to _____ someone when they are speaking.",
+    "rule": "double consonants (rr)",
+    "difficulty": "medium",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "language",
+    "sentence": "Learning a new _____ can help you make friends around the world.",
+    "rule": "soft g + unstressed vowels",
+    "difficulty": "medium",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "leisure",
+    "sentence": "In her _____ time, she enjoys painting landscapes.",
+    "rule": "ie/ei pattern (ei exception)",
+    "difficulty": "hard",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "lightning",
+    "sentence": "We saw a flash of _____ during the storm last night.",
+    "rule": "no e (unlike lightening)",
+    "difficulty": "medium",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "marvellous",
+    "sentence": "The acrobats put on a truly _____ performance at the circus.",
+    "rule": "double consonants (ll) + -ous suffix",
+    "difficulty": "hard",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "mischievous",
+    "sentence": "The _____ kitten knocked over every vase on the shelf.",
+    "rule": "-ous suffix (not -ious)",
+    "difficulty": "hard",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "muscle",
+    "sentence": "You use a different _____ in your arm every time you throw a ball.",
+    "rule": "silent letters (silent c)",
+    "difficulty": "medium",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "necessary",
+    "sentence": "It is _____ to wear a helmet when riding your bike.",
+    "rule": "one c, double ss + -ary suffix",
+    "difficulty": "hard",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "neighbour",
+    "sentence": "Our _____ kindly looked after our cat while we were on holiday.",
+    "rule": "eigh pattern + -our (British spelling)",
+    "difficulty": "hard",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "nuisance",
+    "sentence": "The buzzing fly was a real _____ during the quiet reading session.",
+    "rule": "ui vowel digraph + -ance suffix",
+    "difficulty": "hard",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "occupy",
+    "sentence": "Board games can _____ children for hours on a rainy afternoon.",
+    "rule": "double consonants (cc)",
+    "difficulty": "medium",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "occur",
+    "sentence": "Earthquakes can _____ without any warning at all.",
+    "rule": "double consonants (cc)",
+    "difficulty": "medium",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "opportunity",
+    "sentence": "This trip is a wonderful _____ to learn about different cultures.",
+    "rule": "double consonants (pp)",
+    "difficulty": "hard",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "parliament",
+    "sentence": "Members of _____ debate and vote on new laws in London.",
+    "rule": "unstressed vowels (-ia-)",
+    "difficulty": "hard",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "persuade",
+    "sentence": "She tried to _____ her parents to let her stay up late.",
+    "rule": "su- sounds like /sw/",
+    "difficulty": "medium",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "physical",
+    "sentence": "Regular _____ activity helps keep your body fit and healthy.",
+    "rule": "ph digraph (sounds like /f/) + y as vowel",
+    "difficulty": "medium",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "prejudice",
+    "sentence": "We should treat everyone fairly and avoid any form of _____.",
+    "rule": "Latin prefix (pre-) + soft c",
+    "difficulty": "hard",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "privilege",
+    "sentence": "It was a _____ to meet the author of our favourite book.",
+    "rule": "unstressed vowels (-ilege ending)",
+    "difficulty": "hard",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "profession",
+    "sentence": "Teaching is a _____ that requires patience, skill, and dedication.",
+    "rule": "double consonants (ss) + -ion suffix",
+    "difficulty": "medium",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "programme",
+    "sentence": "The school _____ listed all the events for the summer term.",
+    "rule": "-mme ending (British spelling)",
+    "difficulty": "hard",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "pronunciation",
+    "sentence": "The _____ of some English words is very different from their spelling.",
+    "rule": "unstressed vowels (no -ounce-)",
+    "difficulty": "hard",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "queue",
+    "sentence": "We had to _____ for thirty minutes before we could enter the theme park.",
+    "rule": "French-origin spelling (ueue silent)",
+    "difficulty": "hard",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "recognise",
+    "sentence": "I didn't _____ him at first because he had grown so much taller.",
+    "rule": "-ise suffix (British spelling) + silent g",
+    "difficulty": "hard",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "recommend",
+    "sentence": "I would _____ this book to anyone who loves mystery stories.",
+    "rule": "double consonants (mm)",
+    "difficulty": "medium",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "relevant",
+    "sentence": "Only include information that is _____ to the topic of your essay.",
+    "rule": "unstressed vowels + -ant suffix",
+    "difficulty": "hard",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "restaurant",
+    "sentence": "We went to an Italian _____ to celebrate Mum's birthday.",
+    "rule": "French-origin spelling + unstressed vowels",
+    "difficulty": "hard",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "rhyme",
+    "sentence": "Can you think of a word that will _____ with moon?",
+    "rule": "silent letters (silent h) + y as vowel",
+    "difficulty": "medium",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "rhythm",
+    "sentence": "The drummer kept a steady _____ throughout the entire song.",
+    "rule": "silent letters (silent h twice) + no vowel (y)",
+    "difficulty": "hard",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "sacrifice",
+    "sentence": "The soldiers made a great _____ to protect their country.",
+    "rule": "soft c + unstressed vowels",
+    "difficulty": "hard",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "secretary",
+    "sentence": "The _____ organised all the meetings and kept careful notes.",
+    "rule": "unstressed vowels + -ary suffix",
+    "difficulty": "hard",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "shoulder",
+    "sentence": "He carried the heavy bag over his _____ all the way home.",
+    "rule": "ou vowel pattern (silent l)",
+    "difficulty": "medium",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "signature",
+    "sentence": "Please write your _____ at the bottom of the permission letter.",
+    "rule": "soft g + -ture suffix",
+    "difficulty": "medium",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "sincere",
+    "sentence": "The apology sounded _____ and she accepted it straight away.",
+    "rule": "soft c + -ere ending",
+    "difficulty": "medium",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "sincerely",
+    "sentence": "She ended the letter with the words 'Yours _____'.",
+    "rule": "soft c + -ely suffix",
+    "difficulty": "medium",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "soldier",
+    "sentence": "The brave _____ marched through the rain without complaining.",
+    "rule": "unusual vowel (dier sounds like /dʒər/)",
+    "difficulty": "medium",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "stomach",
+    "sentence": "My _____ started rumbling because I had missed breakfast.",
+    "rule": "ch sounds like /k/ (Greek origin)",
+    "difficulty": "medium",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "sufficient",
+    "sentence": "Make sure you have _____ time to complete the test.",
+    "rule": "double consonants (ff) + -ient suffix",
+    "difficulty": "hard",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "suggest",
+    "sentence": "I would _____ leaving early so we don't get stuck in traffic.",
+    "rule": "double consonants (gg)",
+    "difficulty": "medium",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "symbol",
+    "sentence": "The dove is a _____ of peace in many cultures around the world.",
+    "rule": "y as vowel",
+    "difficulty": "medium",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "system",
+    "sentence": "The school has a reward _____ to encourage good behaviour.",
+    "rule": "y as vowel",
+    "difficulty": "easy",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "temperature",
+    "sentence": "The _____ dropped below zero and the pond froze overnight.",
+    "rule": "unstressed vowels + -ture suffix",
+    "difficulty": "hard",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "thorough",
+    "sentence": "She did a _____ check of her homework before handing it in.",
+    "rule": "ough pattern + silent gh",
+    "difficulty": "hard",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "twelfth",
+    "sentence": "December is the _____ month of the year.",
+    "rule": "fth consonant cluster + silent f sound change",
+    "difficulty": "hard",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "variety",
+    "sentence": "The shop sells a wide _____ of sweets and chocolates.",
+    "rule": "-iety suffix",
+    "difficulty": "medium",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "vegetable",
+    "sentence": "Broccoli is a _____ that is full of vitamins and nutrients.",
+    "rule": "soft g + unstressed vowels",
+    "difficulty": "medium",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "vehicle",
+    "sentence": "Every _____ on the road must have working headlights.",
+    "rule": "silent letters (silent h)",
+    "difficulty": "hard",
+    "year_group": "Year 5/6"
+  },
+  {
+    "word": "yacht",
+    "sentence": "The family sailed their _____ across the English Channel.",
+    "rule": "silent letters (silent ch) + unusual spelling",
+    "difficulty": "hard",
+    "year_group": "Year 5/6"
+  }
+]

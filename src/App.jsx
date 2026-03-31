@@ -3,6 +3,7 @@ import { AuthProvider } from './auth/AuthContext.jsx';
 import { ThemeProvider } from './themes/ThemeContext.jsx';
 import Home from './screens/Home.jsx';
 import HabitatSelect from './screens/HabitatSelect.jsx';
+import TrailSelect from './screens/TrailSelect.jsx';
 import Quiz from './screens/Quiz.jsx';
 import AnimalReveal from './screens/AnimalReveal.jsx';
 import Collection from './screens/Collection.jsx';
@@ -27,7 +28,9 @@ function App() {
         <ThemeProvider>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/trails" element={<TrailSelect />} />
           <Route path="/habitats" element={<HabitatSelect />} />
+          <Route path="/habitats/:trailId" element={<HabitatSelect />} />
           <Route path="/quiz/:habitatId" element={<Quiz />} />
           <Route path="/reveal/:habitatId" element={<AnimalReveal />} />
           <Route path="/collection" element={<Collection />} />

@@ -23,6 +23,7 @@ import dialogue from '../data/elizabethDialogue.json';
 import { useAuth } from '../auth/AuthContext.jsx';
 import { isHabitatLocked } from '../features/gating.js';
 import RegisterPrompt from '../components/RegisterPrompt.jsx';
+import { TRAILS } from '../data/trails.js';
 
 export default function Quiz() {
   const { habitatId } = useParams();
@@ -30,11 +31,23 @@ export default function Quiz() {
   const inputRef = useRef(null);
   const { isLoggedIn } = useAuth();
 
-  const { habitats: themedHabitats, colours } = useTheme();
-  const habitat = themedHabitats.find((h) => h.id === habitatId);
+  // Get trail from URL param
+  const searchParams = new URLSearchParams(window.location.search);
+  const trailId = searchParams.get('trail') || 'easter';
 
-  // Gate locked habitats
-  if (isHabitatLocked(habitatId, isLoggedIn)) {
+  const { habitats: themedHabitats, colours } = useTheme();
+
+  // Find habitat from themed habitats (original trail) or from trail data
+  let habitat;
+  if (trailId === 'easter') {
+    habitat = themedHabitats.find((h) => h.id === habitatId);
+  } else {
+    const trail = TRAILS.find((t) => t.id === trailId);
+    habitat = trail?.habitats.find((h) => h.id === habitatId);
+  }
+
+  // Gate locked habitats (only for original trail)
+  if (trailId === 'easter' && isHabitatLocked(habitatId, isLoggedIn)) {
     return <RegisterPrompt feature="this habitat" />;
   }
 

@@ -85,7 +85,7 @@ export default function Home() {
       {/* Actions */}
       <div className="flex flex-col gap-3 mt-4 w-full max-w-xs">
         <Link
-          to="/habitats"
+          to="/trails"
           className="px-8 py-4 bg-green-600 text-white rounded-2xl text-xl font-semibold hover:bg-green-700 transition-colors min-h-[48px] text-center"
         >
           Start Exploring

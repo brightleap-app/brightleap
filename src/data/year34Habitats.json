@@ -1,0 +1,712 @@
+[
+  {
+    "id": "y34-silent",
+    "name": "Silent Letters",
+    "rule": "Words with silent letters",
+    "words": [
+      {
+        "word": "answer",
+        "sentence": "Do you know the _____ to question five?",
+        "rule": "silent letters (silent w)",
+        "difficulty": "medium"
+      },
+      {
+        "word": "breathe",
+        "sentence": "It is hard to _____ when you run fast.",
+        "rule": "ea vowel digraph + silent e",
+        "difficulty": "medium"
+      },
+      {
+        "word": "complete",
+        "sentence": "Please _____ your work before lunch.",
+        "rule": "silent e (split digraph)",
+        "difficulty": "easy"
+      },
+      {
+        "word": "decide",
+        "sentence": "I can't _____ which book to read next.",
+        "rule": "soft c + silent e",
+        "difficulty": "easy"
+      },
+      {
+        "word": "eight",
+        "sentence": "There are _____ legs on a spider.",
+        "rule": "eigh pattern (silent gh)",
+        "difficulty": "medium"
+      },
+      {
+        "word": "extreme",
+        "sentence": "The _____ heat made us all very tired.",
+        "rule": "silent e (split digraph)",
+        "difficulty": "easy"
+      },
+      {
+        "word": "February",
+        "sentence": "_____ is the shortest month of the year.",
+        "rule": "silent letters (silent r) + unstressed vowels",
+        "difficulty": "hard"
+      },
+      {
+        "word": "guard",
+        "sentence": "The _____ stood outside the palace gates.",
+        "rule": "silent letters (silent u)",
+        "difficulty": "medium"
+      },
+      {
+        "word": "guide",
+        "sentence": "The museum _____ showed us the dinosaurs.",
+        "rule": "silent letters (silent u)",
+        "difficulty": "medium"
+      },
+      {
+        "word": "height",
+        "sentence": "The _____ of the tower was fifty metres.",
+        "rule": "eigh pattern + silent gh",
+        "difficulty": "hard"
+      },
+      {
+        "word": "increase",
+        "sentence": "We saw an _____ in the number of birds.",
+        "rule": "soft c + silent e",
+        "difficulty": "medium"
+      },
+      {
+        "word": "island",
+        "sentence": "We took a boat to the small _____.",
+        "rule": "silent letters (silent s)",
+        "difficulty": "medium"
+      },
+      {
+        "word": "knowledge",
+        "sentence": "Reading gives you lots of _____.",
+        "rule": "silent letters (silent k + silent d)",
+        "difficulty": "hard"
+      },
+      {
+        "word": "often",
+        "sentence": "How _____ do you visit your grandparents?",
+        "rule": "silent letters (often silent t)",
+        "difficulty": "easy"
+      },
+      {
+        "word": "reign",
+        "sentence": "The king had a long and peaceful _____.",
+        "rule": "eign pattern (silent g)",
+        "difficulty": "hard"
+      },
+      {
+        "word": "straight",
+        "sentence": "Draw a _____ line with your ruler.",
+        "rule": "aigh pattern + silent gh",
+        "difficulty": "hard"
+      },
+      {
+        "word": "surprise",
+        "sentence": "The party was a lovely _____ for Grandma.",
+        "rule": "sur- prefix + silent e",
+        "difficulty": "medium"
+      },
+      {
+        "word": "weight",
+        "sentence": "What is the _____ of this parcel?",
+        "rule": "eigh pattern (silent gh) + homophones (weight/wait)",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "id": "y34-double",
+    "name": "Double Trouble",
+    "rule": "Words with double consonants",
+    "words": [
+      {
+        "word": "accident",
+        "sentence": "There was an _____ in the playground today.",
+        "rule": "double consonants",
+        "difficulty": "medium"
+      },
+      {
+        "word": "accidentally",
+        "sentence": "She _____ knocked the glass off the table.",
+        "rule": "double consonants + -ally suffix",
+        "difficulty": "hard"
+      },
+      {
+        "word": "address",
+        "sentence": "Please write your _____ on the envelope.",
+        "rule": "double consonants",
+        "difficulty": "medium"
+      },
+      {
+        "word": "appear",
+        "sentence": "The stars _____ in the sky at night.",
+        "rule": "double consonants",
+        "difficulty": "easy"
+      },
+      {
+        "word": "arrive",
+        "sentence": "What time will the bus _____?",
+        "rule": "double consonants",
+        "difficulty": "easy"
+      },
+      {
+        "word": "different",
+        "sentence": "We each chose a _____ colour to paint with.",
+        "rule": "double consonants + unstressed vowels",
+        "difficulty": "medium"
+      },
+      {
+        "word": "difficult",
+        "sentence": "The maths test was very _____.",
+        "rule": "double consonants",
+        "difficulty": "medium"
+      },
+      {
+        "word": "disappear",
+        "sentence": "The rabbit seemed to _____ inside the hat.",
+        "rule": "prefixes (dis-) + double consonants",
+        "difficulty": "medium"
+      },
+      {
+        "word": "grammar",
+        "sentence": "Good _____ helps people understand your writing.",
+        "rule": "double consonants + unstressed vowels (-ar)",
+        "difficulty": "medium"
+      },
+      {
+        "word": "occasion",
+        "sentence": "A birthday is always a special _____.",
+        "rule": "double consonants (cc) + sion ending",
+        "difficulty": "hard"
+      },
+      {
+        "word": "occasionally",
+        "sentence": "We _____ go to the seaside on Sundays.",
+        "rule": "double consonants (cc + ll) + -ally suffix",
+        "difficulty": "hard"
+      },
+      {
+        "word": "opposite",
+        "sentence": "Hot is the _____ of cold.",
+        "rule": "double consonants (pp)",
+        "difficulty": "medium"
+      },
+      {
+        "word": "possess",
+        "sentence": "Does the wizard _____ magical powers?",
+        "rule": "double consonants (ss repeated)",
+        "difficulty": "hard"
+      },
+      {
+        "word": "possession",
+        "sentence": "The crown was the queen's most prized _____.",
+        "rule": "double consonants (ss) + -sion suffix",
+        "difficulty": "hard"
+      },
+      {
+        "word": "possible",
+        "sentence": "Is it _____ to finish this by lunchtime?",
+        "rule": "double consonants (ss) + -ible suffix",
+        "difficulty": "medium"
+      },
+      {
+        "word": "pressure",
+        "sentence": "Don't put too much _____ on yourself.",
+        "rule": "double consonants (ss) + -ure suffix",
+        "difficulty": "hard"
+      },
+      {
+        "word": "suppose",
+        "sentence": "I _____ we could try a different way.",
+        "rule": "double consonants (pp)",
+        "difficulty": "medium"
+      }
+    ]
+  },
+  {
+    "id": "y34-unstressed",
+    "name": "Hidden Sounds",
+    "rule": "Words with unstressed vowels",
+    "words": [
+      {
+        "word": "calendar",
+        "sentence": "Check the _____ to see when the trip is.",
+        "rule": "unstressed vowels (-ar ending)",
+        "difficulty": "medium"
+      },
+      {
+        "word": "consider",
+        "sentence": "You should _____ how others might feel.",
+        "rule": "unstressed vowels",
+        "difficulty": "medium"
+      },
+      {
+        "word": "continue",
+        "sentence": "Let's _____ reading the story tomorrow.",
+        "rule": "unstressed vowels",
+        "difficulty": "easy"
+      },
+      {
+        "word": "experiment",
+        "sentence": "We did a science _____ with vinegar.",
+        "rule": "unstressed vowels",
+        "difficulty": "medium"
+      },
+      {
+        "word": "history",
+        "sentence": "We are learning about Roman _____ this term.",
+        "rule": "unstressed vowels",
+        "difficulty": "easy"
+      },
+      {
+        "word": "important",
+        "sentence": "It is _____ to drink enough water.",
+        "rule": "unstressed vowels",
+        "difficulty": "medium"
+      },
+      {
+        "word": "interest",
+        "sentence": "She has a great _____ in space and planets.",
+        "rule": "unstressed vowels",
+        "difficulty": "medium"
+      },
+      {
+        "word": "library",
+        "sentence": "We borrow books from the school _____.",
+        "rule": "unstressed vowels + r clusters",
+        "difficulty": "medium"
+      },
+      {
+        "word": "material",
+        "sentence": "She chose a soft _____ for her costume.",
+        "rule": "unstressed vowels",
+        "difficulty": "medium"
+      },
+      {
+        "word": "minute",
+        "sentence": "Please wait one _____ while I get ready.",
+        "rule": "unstressed vowels",
+        "difficulty": "easy"
+      },
+      {
+        "word": "ordinary",
+        "sentence": "It started as an _____ day but became amazing.",
+        "rule": "unstressed vowels",
+        "difficulty": "medium"
+      },
+      {
+        "word": "particular",
+        "sentence": "Is there a _____ flavour you would like?",
+        "rule": "unstressed vowels",
+        "difficulty": "hard"
+      },
+      {
+        "word": "peculiar",
+        "sentence": "There was a _____ smell coming from the kitchen.",
+        "rule": "unstressed vowels + unusual ending (-iar)",
+        "difficulty": "hard"
+      },
+      {
+        "word": "perhaps",
+        "sentence": "_____ we could go swimming tomorrow.",
+        "rule": "unstressed vowels",
+        "difficulty": "easy"
+      },
+      {
+        "word": "popular",
+        "sentence": "Football is the most _____ sport at our school.",
+        "rule": "unstressed vowels (-ar ending)",
+        "difficulty": "easy"
+      },
+      {
+        "word": "probably",
+        "sentence": "It will _____ rain later today.",
+        "rule": "unstressed vowels",
+        "difficulty": "medium"
+      },
+      {
+        "word": "promise",
+        "sentence": "I _____ to tidy my room after school.",
+        "rule": "unstressed vowels",
+        "difficulty": "easy"
+      },
+      {
+        "word": "purpose",
+        "sentence": "What is the _____ of this experiment?",
+        "rule": "unstressed vowels",
+        "difficulty": "medium"
+      },
+      {
+        "word": "quarter",
+        "sentence": "A _____ of the pizza was left over.",
+        "rule": "qu pattern + unstressed vowels",
+        "difficulty": "medium"
+      },
+      {
+        "word": "regular",
+        "sentence": "We have _____ spelling tests every Friday.",
+        "rule": "unstressed vowels (-ar ending)",
+        "difficulty": "easy"
+      },
+      {
+        "word": "remember",
+        "sentence": "I must _____ to bring my PE kit.",
+        "rule": "unstressed vowels",
+        "difficulty": "easy"
+      },
+      {
+        "word": "separate",
+        "sentence": "Please _____ the red beads from the blue ones.",
+        "rule": "unstressed vowels (par not per)",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "id": "y34-vowels",
+    "name": "Tricky Vowels",
+    "rule": "Unusual vowel patterns",
+    "words": [
+      {
+        "word": "breath",
+        "sentence": "Take a deep _____ before you begin.",
+        "rule": "ea vowel digraph",
+        "difficulty": "medium"
+      },
+      {
+        "word": "build",
+        "sentence": "We helped to _____ a den in the woods.",
+        "rule": "unusual vowel spelling (ui)",
+        "difficulty": "medium"
+      },
+      {
+        "word": "busy",
+        "sentence": "The shop was very _____ on Saturday.",
+        "rule": "unusual vowel spelling (u sounds like /ɪ/)",
+        "difficulty": "easy"
+      },
+      {
+        "word": "business",
+        "sentence": "My aunt runs her own _____.",
+        "rule": "unusual vowel spelling (busi-)",
+        "difficulty": "hard"
+      },
+      {
+        "word": "caught",
+        "sentence": "The dog _____ the ball in mid-air.",
+        "rule": "augh pattern",
+        "difficulty": "medium"
+      },
+      {
+        "word": "early",
+        "sentence": "We woke up _____ to catch the train.",
+        "rule": "ear vowel pattern",
+        "difficulty": "easy"
+      },
+      {
+        "word": "earth",
+        "sentence": "The _____ goes around the Sun.",
+        "rule": "ear vowel pattern",
+        "difficulty": "easy"
+      },
+      {
+        "word": "forward",
+        "sentence": "Take one step _____ please.",
+        "rule": "war vowel pattern",
+        "difficulty": "easy"
+      },
+      {
+        "word": "forwards",
+        "sentence": "The queue moved _____ very slowly.",
+        "rule": "war vowel pattern + plural/adverb -s",
+        "difficulty": "easy"
+      },
+      {
+        "word": "fruit",
+        "sentence": "We eat _____ every day to stay healthy.",
+        "rule": "ui vowel digraph",
+        "difficulty": "easy"
+      },
+      {
+        "word": "group",
+        "sentence": "Our _____ worked together on the project.",
+        "rule": "ou vowel digraph",
+        "difficulty": "easy"
+      },
+      {
+        "word": "heard",
+        "sentence": "I _____ a strange noise in the garden.",
+        "rule": "ear vowel pattern (homophones: heard/herd)",
+        "difficulty": "medium"
+      },
+      {
+        "word": "heart",
+        "sentence": "Your _____ beats faster when you run.",
+        "rule": "ear vowel pattern (irregular pronunciation)",
+        "difficulty": "medium"
+      },
+      {
+        "word": "learn",
+        "sentence": "I want to _____ how to play the guitar.",
+        "rule": "ear vowel pattern",
+        "difficulty": "easy"
+      },
+      {
+        "word": "naughty",
+        "sentence": "The _____ puppy chewed up the cushion.",
+        "rule": "augh pattern",
+        "difficulty": "medium"
+      },
+      {
+        "word": "woman",
+        "sentence": "The _____ at the counter was very kind.",
+        "rule": "irregular vowel (o sounds like /ʊ/)",
+        "difficulty": "easy"
+      },
+      {
+        "word": "women",
+        "sentence": "The _____ in the team won the gold medal.",
+        "rule": "irregular plural + vowel change (o sounds like /ɪ/)",
+        "difficulty": "medium"
+      },
+      {
+        "word": "enough",
+        "sentence": "Have you had _____ to eat?",
+        "rule": "ough pattern (sounds like /ʌf/)",
+        "difficulty": "medium"
+      },
+      {
+        "word": "though",
+        "sentence": "Even _____ it was cold, we still played outside.",
+        "rule": "ough pattern (sounds like /əʊ/)",
+        "difficulty": "medium"
+      },
+      {
+        "word": "although",
+        "sentence": "_____ she was tired, she finished the race.",
+        "rule": "ough pattern + al- prefix",
+        "difficulty": "medium"
+      },
+      {
+        "word": "thought",
+        "sentence": "I _____ the film was really exciting.",
+        "rule": "ough pattern (sounds like /ɔː/)",
+        "difficulty": "medium"
+      },
+      {
+        "word": "through",
+        "sentence": "The train went _____ a long dark tunnel.",
+        "rule": "ough pattern (sounds like /uː/)",
+        "difficulty": "medium"
+      }
+    ]
+  },
+  {
+    "id": "y34-soft",
+    "name": "Soft Sounds",
+    "rule": "Soft c and g sounds",
+    "words": [
+      {
+        "word": "actual",
+        "sentence": "The _____ answer was not what I expected.",
+        "rule": "soft c (sounds like /tʃ/)",
+        "difficulty": "easy"
+      },
+      {
+        "word": "century",
+        "sentence": "A _____ is one hundred years.",
+        "rule": "soft c",
+        "difficulty": "easy"
+      },
+      {
+        "word": "certain",
+        "sentence": "I am _____ that I locked the door.",
+        "rule": "soft c + unstressed vowels",
+        "difficulty": "medium"
+      },
+      {
+        "word": "circle",
+        "sentence": "Draw a _____ with your compass.",
+        "rule": "soft c",
+        "difficulty": "easy"
+      },
+      {
+        "word": "exercise",
+        "sentence": "We do _____ every morning at school.",
+        "rule": "soft c + unstressed vowels",
+        "difficulty": "medium"
+      },
+      {
+        "word": "experience",
+        "sentence": "It was an amazing _____ to see the whales.",
+        "rule": "unstressed vowels + soft c",
+        "difficulty": "hard"
+      },
+      {
+        "word": "imagine",
+        "sentence": "Close your eyes and _____ a magical forest.",
+        "rule": "soft g",
+        "difficulty": "easy"
+      },
+      {
+        "word": "medicine",
+        "sentence": "The doctor gave me _____ for my cough.",
+        "rule": "soft c + unstressed vowels",
+        "difficulty": "medium"
+      },
+      {
+        "word": "notice",
+        "sentence": "Did you _____ the rainbow after the rain?",
+        "rule": "soft c",
+        "difficulty": "easy"
+      },
+      {
+        "word": "recent",
+        "sentence": "We talked about a _____ event in the news.",
+        "rule": "soft c",
+        "difficulty": "easy"
+      },
+      {
+        "word": "sentence",
+        "sentence": "Write a _____ using the word 'happy'.",
+        "rule": "soft c + unstressed vowels",
+        "difficulty": "medium"
+      },
+      {
+        "word": "strange",
+        "sentence": "We heard a _____ sound in the attic.",
+        "rule": "soft g",
+        "difficulty": "easy"
+      }
+    ]
+  },
+  {
+    "id": "y34-endings",
+    "name": "Word Endings",
+    "rule": "Suffixes: -tion, -sion, -ous, -ly",
+    "words": [
+      {
+        "word": "mention",
+        "sentence": "Did the teacher _____ the homework?",
+        "rule": "-tion suffix (spelled -tion)",
+        "difficulty": "medium"
+      },
+      {
+        "word": "position",
+        "sentence": "Stand in _____ before the race begins.",
+        "rule": "-tion suffix",
+        "difficulty": "medium"
+      },
+      {
+        "word": "question",
+        "sentence": "Put your hand up if you have a _____.",
+        "rule": "qu pattern + -tion suffix",
+        "difficulty": "medium"
+      },
+      {
+        "word": "special",
+        "sentence": "Today is a _____ day because it's your birthday.",
+        "rule": "-cial suffix",
+        "difficulty": "easy"
+      },
+      {
+        "word": "famous",
+        "sentence": "The _____ singer visited our school.",
+        "rule": "-ous suffix",
+        "difficulty": "easy"
+      },
+      {
+        "word": "various",
+        "sentence": "There are _____ flavours of ice cream to try.",
+        "rule": "-ious suffix",
+        "difficulty": "medium"
+      },
+      {
+        "word": "actually",
+        "sentence": "I _____ like sprouts more than I thought.",
+        "rule": "-ally suffix",
+        "difficulty": "medium"
+      },
+      {
+        "word": "natural",
+        "sentence": "The park is full of _____ beauty.",
+        "rule": "unstressed vowels (-al suffix)",
+        "difficulty": "easy"
+      }
+    ]
+  },
+  {
+    "id": "y34-patterns",
+    "name": "Letter Patterns",
+    "rule": "ei, eigh, and prefix patterns",
+    "words": [
+      {
+        "word": "believe",
+        "sentence": "I _____ you can do it if you try.",
+        "rule": "ie/ei pattern (i before e)",
+        "difficulty": "medium"
+      },
+      {
+        "word": "eighth",
+        "sentence": "My birthday is on the _____ of June.",
+        "rule": "eigh pattern + ordinal suffix",
+        "difficulty": "hard"
+      },
+      {
+        "word": "bicycle",
+        "sentence": "She rode her _____ to school every day.",
+        "rule": "prefixes (bi- meaning two)",
+        "difficulty": "medium"
+      },
+      {
+        "word": "describe",
+        "sentence": "Can you _____ what the thief looked like?",
+        "rule": "Latin prefix (de-)",
+        "difficulty": "medium"
+      }
+    ]
+  },
+  {
+    "id": "y34-other",
+    "name": "Tricky Words",
+    "rule": "Other challenging patterns",
+    "words": [
+      {
+        "word": "centre",
+        "sentence": "The fountain is in the _____ of town.",
+        "rule": "-re ending (British spelling)",
+        "difficulty": "medium"
+      },
+      {
+        "word": "favourite",
+        "sentence": "Chocolate cake is my _____ pudding.",
+        "rule": "-our spelling (British)",
+        "difficulty": "medium"
+      },
+      {
+        "word": "length",
+        "sentence": "Measure the _____ of the table with a ruler.",
+        "rule": "ngth consonant cluster",
+        "difficulty": "medium"
+      },
+      {
+        "word": "potatoes",
+        "sentence": "We grew _____ in the school garden.",
+        "rule": "plural with -es (after o)",
+        "difficulty": "medium"
+      },
+      {
+        "word": "strength",
+        "sentence": "You need _____ to lift that heavy box.",
+        "rule": "ngth consonant cluster",
+        "difficulty": "hard"
+      },
+      {
+        "word": "therefore",
+        "sentence": "It was raining, _____ we stayed inside.",
+        "rule": "compound word (there + fore)",
+        "difficulty": "medium"
+      }
+    ]
+  }
+]
