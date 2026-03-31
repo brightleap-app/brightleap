@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { AuthProvider } from './auth/AuthContext.jsx';
+import { ThemeProvider } from './themes/ThemeContext.jsx';
 import Home from './screens/Home.jsx';
 import HabitatSelect from './screens/HabitatSelect.jsx';
 import Quiz from './screens/Quiz.jsx';
@@ -16,6 +17,7 @@ function App() {
   return (
     <BrowserRouter>
       <AuthProvider>
+        <ThemeProvider>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/habitats" element={<HabitatSelect />} />
@@ -29,6 +31,7 @@ function App() {
           <Route path="/mock-sats" element={<MockSATs />} />
           <Route path="/about" element={<About />} />
         </Routes>
+        </ThemeProvider>
       </AuthProvider>
     </BrowserRouter>
   );

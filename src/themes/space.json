@@ -1,0 +1,23 @@
+{
+  "id": "space",
+  "name": "Space Explorer",
+  "description": "Travel the solar system and discover alien creatures on every planet!",
+  "emoji": "🚀",
+  "colours": {
+    "primary": "#6366f1",
+    "primaryHover": "#4f46e5",
+    "accent": "#f59e0b",
+    "cardBg": "#f5f3ff",
+    "cardBorder": "#c4b5fd"
+  },
+  "habitats": {
+    "jungle": { "name": "Mercury", "emoji": "☀️", "reward": { "name": "Solar Salamander", "emoji": "🦎", "fact": "Mercury is the closest planet to the Sun and a year there lasts just 88 Earth days." } },
+    "ocean": { "name": "Venus", "emoji": "🌤️", "reward": { "name": "Cloud Serpent", "emoji": "🐉", "fact": "Venus spins backwards compared to most planets — the Sun rises in the west there!" } },
+    "savannah": { "name": "Mars", "emoji": "🔴", "reward": { "name": "Dust Devil Fox", "emoji": "🦊", "fact": "Mars has the tallest volcano in the solar system — Olympus Mons is three times higher than Everest." } },
+    "arctic": { "name": "Jupiter", "emoji": "🪐", "reward": { "name": "Storm Whale", "emoji": "🐋", "fact": "Jupiter's Great Red Spot is a storm that has been raging for over 350 years and is bigger than Earth." } },
+    "rainforest": { "name": "Saturn", "emoji": "💫", "reward": { "name": "Ring Glider", "emoji": "🦅", "fact": "Saturn's rings are made of billions of chunks of ice and rock, some as small as grains of sand." } },
+    "desert": { "name": "Uranus", "emoji": "🧊", "reward": { "name": "Ice Crystal Moth", "emoji": "🦋", "fact": "Uranus rolls around the Sun on its side — scientists think a massive collision knocked it over billions of years ago." } },
+    "mountains": { "name": "Neptune", "emoji": "🌀", "reward": { "name": "Deep Space Octopus", "emoji": "🐙", "fact": "Neptune has the strongest winds in the solar system, blowing at over 1,200 miles per hour." } },
+    "grasslands": { "name": "The Moon", "emoji": "🌙", "reward": { "name": "Lunar Rabbit", "emoji": "🐰", "fact": "The Moon has no atmosphere, so footprints left by astronauts in 1969 are still there today." } }
+  }
+}

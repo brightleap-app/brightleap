@@ -1,0 +1,23 @@
+{
+  "id": "mythic",
+  "name": "Mythic Quest",
+  "description": "Journey through ancient kingdoms and discover legendary creatures from Greek mythology!",
+  "emoji": "⚡",
+  "colours": {
+    "primary": "#b45309",
+    "primaryHover": "#92400e",
+    "accent": "#eab308",
+    "cardBg": "#fffbeb",
+    "cardBorder": "#fcd34d"
+  },
+  "habitats": {
+    "jungle": { "name": "Mount Olympus", "emoji": "⛰️", "reward": { "name": "Pegasus", "emoji": "🦄", "fact": "Pegasus was a winged horse born from the blood of Medusa. The ancient Greeks believed he carried thunderbolts for Zeus." } },
+    "ocean": { "name": "Poseidon's Ocean", "emoji": "🔱", "reward": { "name": "Hippocampus", "emoji": "🐴", "fact": "The hippocampus was a sea-horse creature that pulled Poseidon's chariot across the ocean waves." } },
+    "savannah": { "name": "The Labyrinth", "emoji": "🏛️", "reward": { "name": "Minotaur", "emoji": "🐂", "fact": "The Minotaur lived in a giant maze called the Labyrinth on the island of Crete. The hero Theseus defeated it." } },
+    "arctic": { "name": "The Underworld", "emoji": "🌑", "reward": { "name": "Cerberus", "emoji": "🐕", "fact": "Cerberus was a three-headed dog who guarded the entrance to the Underworld. Only Heracles ever got past him." } },
+    "rainforest": { "name": "The Enchanted Forest", "emoji": "🌳", "reward": { "name": "Phoenix", "emoji": "🔥", "fact": "The Phoenix is a magical bird that bursts into flames when it dies and is reborn from the ashes, living forever." } },
+    "desert": { "name": "The Sphinx's Desert", "emoji": "🏺", "reward": { "name": "Sphinx", "emoji": "🦁", "fact": "The Sphinx asked travellers a famous riddle: 'What walks on four legs in the morning, two at noon, and three in the evening?' The answer is a human!" } },
+    "mountains": { "name": "The Golden Fleece", "emoji": "✨", "reward": { "name": "Griffin", "emoji": "🦅", "fact": "Griffins had the body of a lion and the head and wings of an eagle. They were said to guard treasure and gold." } },
+    "grasslands": { "name": "Athena's Garden", "emoji": "🫒", "reward": { "name": "Owl of Athena", "emoji": "🦉", "fact": "Athena was the goddess of wisdom. Her sacred animal was the owl, which is why owls are still a symbol of knowledge today." } }
+  }
+}

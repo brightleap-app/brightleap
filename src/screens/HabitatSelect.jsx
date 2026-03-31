@@ -1,22 +1,24 @@
 import { Link } from 'react-router-dom';
-import habitats from '../data/habitats.json';
 import { loadProgress } from '../storage/progress.js';
 import { HABITAT_UNLOCK_THRESHOLD } from '../engine/quiz.js';
 import { ElizabethHelpButton } from '../components/ElizabethHelper.jsx';
+import { useTheme } from '../themes/ThemeContext.jsx';
 
 export default function HabitatSelect() {
   const progress = loadProgress();
+  const { habitats, colours, theme } = useTheme();
 
   return (
     <main className="min-h-screen p-6 max-w-2xl mx-auto">
       <div className="flex items-center justify-between mb-8">
         <Link
           to="/"
-          className="text-green-700 font-semibold min-h-[48px] min-w-[48px] flex items-center"
+          className="font-semibold min-h-[48px] min-w-[48px] flex items-center"
+          style={{ color: colours.primary }}
         >
           ← Back
         </Link>
-        <h1 className="text-2xl font-bold">Choose a Habitat</h1>
+        <h1 className="text-2xl font-bold">{theme.emoji} {theme.name}</h1>
         <div className="w-12" />
       </div>
 
@@ -31,29 +33,33 @@ export default function HabitatSelect() {
             <Link
               key={habitat.id}
               to={`/quiz/${habitat.id}`}
-              className="block p-5 rounded-2xl border-2 border-gray-200 hover:border-green-400 hover:shadow-md transition-all min-h-[140px] flex flex-col justify-between"
+              className="block p-5 rounded-2xl border-2 hover:shadow-md transition-all min-h-[140px] flex flex-col justify-between"
               style={{
-                backgroundColor: isComplete ? '#f0fdf4' : '#ffffff',
-                borderColor: isComplete ? '#86efac' : undefined,
+                backgroundColor: isComplete ? colours.cardBg : '#ffffff',
+                borderColor: isComplete ? colours.primary : colours.cardBorder,
               }}
             >
               <div>
-                <div className="text-3xl mb-2">{habitat.emoji}</div>
-                <h2 className="text-lg font-bold mb-1">{habitat.name}</h2>
+                <div className="text-3xl mb-2">{habitat.displayEmoji}</div>
+                <h2 className="text-lg font-bold mb-1">{habitat.displayName}</h2>
                 <p className="text-sm text-gray-500 leading-snug">{habitat.rule}</p>
               </div>
 
               <div className="mt-3">
                 <div className="flex items-center justify-between text-xs text-gray-500 mb-1">
                   <span>{correctCount}/{habitat.words.length} words</span>
-                  {isComplete && <span className="text-green-600 font-semibold">{habitat.animal.emoji} Unlocked!</span>}
+                  {isComplete && (
+                    <span className="font-semibold" style={{ color: colours.primary }}>
+                      {habitat.reward.emoji} Unlocked!
+                    </span>
+                  )}
                 </div>
                 <div className="w-full bg-gray-200 rounded-full h-2">
                   <div
                     className="h-2 rounded-full transition-all duration-500"
                     style={{
                       width: `${progressPercent}%`,
-                      backgroundColor: isComplete ? '#22c55e' : '#60a5fa',
+                      backgroundColor: isComplete ? colours.primary : colours.accent,
                     }}
                   />
                 </div>

@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
 import { useParams, useNavigate, Link } from 'react-router-dom';
-import habitats from '../data/habitats.json';
 import { speakWord, speakSentence, isSpeechAvailable } from '../engine/speech.js';
+import { useTheme } from '../themes/ThemeContext.jsx';
 import { getSessionWords } from '../engine/spacedRep.js';
 import {
   QUIZ_STATES,
@@ -26,7 +26,8 @@ export default function Quiz() {
   const navigate = useNavigate();
   const inputRef = useRef(null);
 
-  const habitat = habitats.find((h) => h.id === habitatId);
+  const { habitats: themedHabitats, colours } = useTheme();
+  const habitat = themedHabitats.find((h) => h.id === habitatId);
 
   const [words, setWords] = useState([]);
   const [wordIndex, setWordIndex] = useState(0);
@@ -255,7 +256,7 @@ export default function Quiz() {
           ← Back
         </Link>
         <div className="text-center">
-          <span className="text-sm text-gray-500">{habitat.emoji} {habitat.name}</span>
+          <span className="text-sm text-gray-500">{habitat.displayEmoji} {habitat.displayName}</span>
           <div className="text-xs text-gray-400">
             Word {wordIndex + 1} of {words.length}
           </div>

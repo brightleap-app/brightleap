@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { loadProgress, updateProgress } from '../storage/progress.js';
+import { ALL_THEMES } from '../themes/ThemeContext.jsx';
 
 const FONT_OPTIONS = [
   { value: 'system', label: 'System (Default)', css: "system-ui, -apple-system, 'Segoe UI', Verdana, Helvetica, Arial, sans-serif" },
@@ -72,6 +73,32 @@ export default function Settings() {
         <h1 className="text-2xl font-bold">Settings</h1>
         <div className="w-12" />
       </div>
+
+      {/* Theme */}
+      <section className="mb-8">
+        <h2 className="font-bold text-lg mb-3">Theme</h2>
+        <div className="grid grid-cols-2 gap-3">
+          {ALL_THEMES.map((t) => (
+            <button
+              key={t.id}
+              onClick={() => {
+                update('theme', t.id);
+                // Force re-render by navigating back to settings
+                window.location.reload();
+              }}
+              className={`p-4 rounded-xl border-2 text-center transition-colors min-h-[48px] ${
+                settings.theme === t.id || (!settings.theme && t.id === 'wildlife')
+                  ? 'border-green-500 bg-green-50'
+                  : 'border-gray-200 hover:border-gray-300'
+              }`}
+            >
+              <div className="text-2xl mb-1">{t.emoji}</div>
+              <div className="font-semibold text-sm">{t.name}</div>
+              <p className="text-xs text-gray-500 mt-1 leading-snug">{t.description}</p>
+            </button>
+          ))}
+        </div>
+      </section>
 
       {/* Font */}
       <section className="mb-8">

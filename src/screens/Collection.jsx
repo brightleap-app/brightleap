@@ -1,17 +1,19 @@
 import { Link } from 'react-router-dom';
-import habitats from '../data/habitats.json';
 import { loadProgress } from '../storage/progress.js';
+import { useTheme } from '../themes/ThemeContext.jsx';
 
 export default function Collection() {
   const progress = loadProgress();
   const unlockedAnimals = progress.unlockedAnimals || [];
+  const { habitats, colours, theme } = useTheme();
 
   return (
     <main className="min-h-screen p-6 max-w-2xl mx-auto">
       <div className="flex items-center justify-between mb-8">
         <Link
           to="/habitats"
-          className="text-green-700 font-semibold min-h-[48px] min-w-[48px] flex items-center"
+          className="font-semibold min-h-[48px] min-w-[48px] flex items-center"
+          style={{ color: colours.primary }}
         >
           ← Back
         </Link>
@@ -20,7 +22,7 @@ export default function Collection() {
       </div>
 
       <p className="text-gray-500 mb-6">
-        {unlockedAnimals.length} of {habitats.length} animals discovered
+        {unlockedAnimals.length} of {habitats.length} discoveries made
       </p>
 
       <div className="grid grid-cols-2 gap-4">
@@ -30,28 +32,28 @@ export default function Collection() {
           return (
             <div
               key={habitat.id}
-              className={`p-5 rounded-2xl border-2 text-center ${
-                isUnlocked
-                  ? 'border-amber-300 bg-amber-50'
-                  : 'border-gray-200 bg-gray-50'
-              }`}
+              className="p-5 rounded-2xl border-2 text-center"
+              style={{
+                borderColor: isUnlocked ? colours.accent : colours.cardBorder,
+                backgroundColor: isUnlocked ? colours.cardBg : '#f9fafb',
+              }}
             >
               <div className="text-4xl mb-2">
-                {isUnlocked ? habitat.animal.emoji : '❓'}
+                {isUnlocked ? habitat.reward.emoji : '❓'}
               </div>
               <h2 className="font-bold mb-1">
-                {isUnlocked ? habitat.animal.name : '???'}
+                {isUnlocked ? habitat.reward.name : '???'}
               </h2>
               <p className="text-xs text-gray-500 mb-2">
-                {habitat.emoji} {habitat.name}
+                {habitat.displayEmoji} {habitat.displayName}
               </p>
               {isUnlocked ? (
                 <p className="text-sm text-gray-600 leading-snug">
-                  {habitat.animal.fact}
+                  {habitat.reward.fact}
                 </p>
               ) : (
                 <p className="text-sm text-gray-400 italic">
-                  Complete the {habitat.name} habitat to discover this animal!
+                  Complete {habitat.displayName} to discover this!
                 </p>
               )}
             </div>

@@ -1,0 +1,23 @@
+{
+  "id": "wildlife",
+  "name": "Wildlife Explorer",
+  "description": "Explore animal habitats and discover incredible creatures!",
+  "emoji": "🌍",
+  "colours": {
+    "primary": "#16a34a",
+    "primaryHover": "#15803d",
+    "accent": "#f59e0b",
+    "cardBg": "#ffffff",
+    "cardBorder": "#e5e7eb"
+  },
+  "habitats": {
+    "jungle": { "name": "Jungle", "emoji": "🌴", "reward": { "name": "Jaguar", "emoji": "🐆", "fact": "Jaguars have the strongest bite of any big cat and love swimming in rivers." } },
+    "ocean": { "name": "Ocean", "emoji": "🌊", "reward": { "name": "Dolphin", "emoji": "🐬", "fact": "Dolphins sleep with one eye open and half their brain awake to watch for danger." } },
+    "savannah": { "name": "Savannah", "emoji": "🦁", "reward": { "name": "Lion", "emoji": "🦁", "fact": "A lion's roar can be heard from five miles away across the savannah." } },
+    "arctic": { "name": "Arctic", "emoji": "❄️", "reward": { "name": "Polar Bear", "emoji": "🐻‍❄️", "fact": "Polar bears have black skin under their white fur to help absorb heat from the sun." } },
+    "rainforest": { "name": "Rainforest", "emoji": "🌿", "reward": { "name": "Poison Dart Frog", "emoji": "🐸", "fact": "Poison dart frogs get their toxins from the insects they eat in the rainforest." } },
+    "desert": { "name": "Desert", "emoji": "🏜️", "reward": { "name": "Fennec Fox", "emoji": "🦊", "fact": "Fennec foxes have huge ears that help them hear prey underground and keep cool in the desert heat." } },
+    "mountains": { "name": "Mountains", "emoji": "🏔️", "reward": { "name": "Snow Leopard", "emoji": "🐆", "fact": "Snow leopards can leap up to 15 metres in a single bound across mountain gaps." } },
+    "grasslands": { "name": "Grasslands", "emoji": "🌾", "reward": { "name": "Cheetah", "emoji": "🐆", "fact": "Cheetahs are the fastest land animals and can run at 70 miles per hour." } }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "sports",
+  "name": "Sports Academy",
+  "description": "Train at world-class stadiums and unlock champion mascots!",
+  "emoji": "🏆",
+  "colours": {
+    "primary": "#dc2626",
+    "primaryHover": "#b91c1c",
+    "accent": "#eab308",
+    "cardBg": "#fef2f2",
+    "cardBorder": "#fca5a5"
+  },
+  "habitats": {
+    "jungle": { "name": "Football Stadium", "emoji": "⚽", "reward": { "name": "Golden Boot Lion", "emoji": "🦁", "fact": "The FIFA World Cup has been held every four years since 1930. Brazil has won it the most times — five!" } },
+    "ocean": { "name": "Swimming Pool", "emoji": "🏊", "reward": { "name": "Turbo Dolphin", "emoji": "🐬", "fact": "Olympic swimming pools are exactly 50 metres long and hold about 2.5 million litres of water." } },
+    "savannah": { "name": "Athletics Track", "emoji": "🏃", "reward": { "name": "Sprint Cheetah", "emoji": "🐆", "fact": "Usain Bolt's world record 100m time is 9.58 seconds. He reached a top speed of 27.8 miles per hour!" } },
+    "arctic": { "name": "Ice Rink", "emoji": "⛸️", "reward": { "name": "Ice Bear", "emoji": "🐻‍❄️", "fact": "Figure skaters can spin at over 300 revolutions per minute — that's five full spins every second!" } },
+    "rainforest": { "name": "Tennis Court", "emoji": "🎾", "reward": { "name": "Rally Hawk", "emoji": "🦅", "fact": "The longest tennis match in history lasted 11 hours and 5 minutes at Wimbledon in 2010." } },
+    "desert": { "name": "Cricket Ground", "emoji": "🏏", "reward": { "name": "Century Fox", "emoji": "🦊", "fact": "A cricket ball is harder than a baseball and can be bowled at over 100 miles per hour by fast bowlers." } },
+    "mountains": { "name": "Cycling Velodrome", "emoji": "🚴", "reward": { "name": "Pedal Panther", "emoji": "🐆", "fact": "The Tour de France covers about 3,500 kilometres over 21 stages — that's like cycling from London to Morocco!" } },
+    "grasslands": { "name": "Gymnastics Arena", "emoji": "🤸", "reward": { "name": "Vault Tiger", "emoji": "🐯", "fact": "Gymnasts experience forces of up to 14 times their own body weight when landing from a vault." } }
+  }
+}
