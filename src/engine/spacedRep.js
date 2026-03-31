@@ -24,10 +24,10 @@ export function getSessionWords(habitatWords, count = 10) {
     return { ...w, priority: 2, lastSeen: history.lastSeen };
   });
 
-  // Sort: due first, then unseen, then mastered. Within each group, oldest first.
+  // Sort: due first, then unseen, then mastered. Within each group, randomise.
   scored.sort((a, b) => {
     if (a.priority !== b.priority) return a.priority - b.priority;
-    return a.lastSeen - b.lastSeen;
+    return Math.random() - 0.5;
   });
 
   return scored.slice(0, count);
