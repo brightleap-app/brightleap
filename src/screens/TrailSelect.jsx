@@ -23,6 +23,8 @@ export default function TrailSelect() {
 
       <div className="space-y-4">
         {TRAILS.map((trail) => {
+          const locked = trail.id !== 'easter' && !isLoggedIn;
+
           // Count progress for this trail
           const trailProgress = trail.habitats.reduce((total, h) => {
             const hp = progress.habitatProgress[h.id];
@@ -33,8 +35,8 @@ export default function TrailSelect() {
           return (
             <Link
               key={trail.id}
-              to={`/habitats/${trail.id}`}
-              className="block p-6 rounded-2xl border-2 hover:shadow-md transition-all"
+              to={locked ? '/register' : `/habitats/${trail.id}`}
+              className={`block p-6 rounded-2xl border-2 hover:shadow-md transition-all ${locked ? 'opacity-60' : ''}`}
               style={{ borderColor: trail.colour + '60' }}
             >
               <div className="flex items-start gap-4">
@@ -46,22 +48,26 @@ export default function TrailSelect() {
                   </p>
                   <p className="text-xs text-gray-500 mt-1">{trail.description}</p>
 
-                  {/* Progress bar */}
-                  <div className="mt-3">
-                    <div className="flex justify-between text-xs text-gray-400 mb-1">
-                      <span>{trailProgress}/{trail.wordCount} words</span>
-                      <span>{progressPercent}%</span>
+                  {/* Progress bar or lock */}
+                  {locked ? (
+                    <p className="text-xs text-gray-400 font-semibold mt-3">🔒 Free account required</p>
+                  ) : (
+                    <div className="mt-3">
+                      <div className="flex justify-between text-xs text-gray-400 mb-1">
+                        <span>{trailProgress}/{trail.wordCount} words</span>
+                        <span>{progressPercent}%</span>
+                      </div>
+                      <div className="w-full bg-gray-200 rounded-full h-2">
+                        <div
+                          className="h-2 rounded-full transition-all duration-500"
+                          style={{
+                            width: `${progressPercent}%`,
+                            backgroundColor: trail.colour,
+                          }}
+                        />
+                      </div>
                     </div>
-                    <div className="w-full bg-gray-200 rounded-full h-2">
-                      <div
-                        className="h-2 rounded-full transition-all duration-500"
-                        style={{
-                          width: `${progressPercent}%`,
-                          backgroundColor: trail.colour,
-                        }}
-                      />
-                    </div>
-                  </div>
+                  )}
                 </div>
               </div>
             </Link>

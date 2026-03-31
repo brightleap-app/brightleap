@@ -6,6 +6,7 @@ import { useTheme } from '../themes/ThemeContext.jsx';
 import { useAuth } from '../auth/AuthContext.jsx';
 import { isHabitatLocked } from '../features/gating.js';
 import { getTrailById, TRAILS } from '../data/trails.js';
+import RegisterPrompt from '../components/RegisterPrompt.jsx';
 
 export default function HabitatSelect() {
   const { trailId } = useParams();
@@ -15,6 +16,11 @@ export default function HabitatSelect() {
 
   const trail = getTrailById(trailId);
   const isOriginalTrail = trail.id === 'easter';
+
+  // Gate: Year 3/4 and 5/6 trails require registration
+  if (!isOriginalTrail && !isLoggedIn) {
+    return <RegisterPrompt feature={`the ${trail.name}`} />;
+  }
 
   // For original trail, use themed habitats. For new trails, use trail habitats directly.
   const { habitats: themedHabitats } = useTheme();

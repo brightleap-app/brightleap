@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { AuthProvider } from './auth/AuthContext.jsx';
 import { ThemeProvider } from './themes/ThemeContext.jsx';
 import Home from './screens/Home.jsx';
@@ -29,7 +29,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/trails" element={<TrailSelect />} />
-          <Route path="/habitats" element={<HabitatSelect />} />
+          <Route path="/habitats" element={<Navigate to="/trails" replace />} />
           <Route path="/habitats/:trailId" element={<HabitatSelect />} />
           <Route path="/quiz/:habitatId" element={<Quiz />} />
           <Route path="/reveal/:habitatId" element={<AnimalReveal />} />
