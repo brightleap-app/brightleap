@@ -4,6 +4,8 @@ import diagnosticData from '../data/diagnosticWords.json';
 import { speakWord, speakSentence, isSpeechAvailable } from '../engine/speech.js';
 import { checkAnswer } from '../engine/quiz.js';
 import { loadProgress, saveProgress } from '../storage/progress.js';
+import { useAuth } from '../auth/AuthContext.jsx';
+import RegisterPrompt from '../components/RegisterPrompt.jsx';
 
 const STATES = {
   INTRO: 'INTRO',
@@ -33,8 +35,11 @@ function getScoreBand(score) {
 }
 
 export default function Diagnostic() {
+  const { isLoggedIn } = useAuth();
   const navigate = useNavigate();
   const inputRef = useRef(null);
+
+  if (!isLoggedIn) return <RegisterPrompt feature="the Explorer Quiz" />;
 
   const [words] = useState(() => buildWordList());
   const [wordIndex, setWordIndex] = useState(0);

@@ -20,14 +20,23 @@ import {
 import ElizabethHelper from '../components/ElizabethHelper.jsx';
 import { ElizabethHelpButton } from '../components/ElizabethHelper.jsx';
 import dialogue from '../data/elizabethDialogue.json';
+import { useAuth } from '../auth/AuthContext.jsx';
+import { isHabitatLocked } from '../features/gating.js';
+import RegisterPrompt from '../components/RegisterPrompt.jsx';
 
 export default function Quiz() {
   const { habitatId } = useParams();
   const navigate = useNavigate();
   const inputRef = useRef(null);
+  const { isLoggedIn } = useAuth();
 
   const { habitats: themedHabitats, colours } = useTheme();
   const habitat = themedHabitats.find((h) => h.id === habitatId);
+
+  // Gate locked habitats
+  if (isHabitatLocked(habitatId, isLoggedIn)) {
+    return <RegisterPrompt feature="this habitat" />;
+  }
 
   const [words, setWords] = useState([]);
   const [wordIndex, setWordIndex] = useState(0);

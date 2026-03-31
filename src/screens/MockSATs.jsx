@@ -4,6 +4,8 @@ import { speakWord, speakSentence, isSpeechAvailable } from '../engine/speech.js
 import { checkAnswer } from '../engine/quiz.js';
 import { selectMockTestWords } from '../engine/mockTestSelector.js';
 import { loadProgress, saveProgress } from '../storage/progress.js';
+import { useAuth } from '../auth/AuthContext.jsx';
+import RegisterPrompt from '../components/RegisterPrompt.jsx';
 
 const STATES = {
   INTRO: 'INTRO',
@@ -28,6 +30,7 @@ function getBracket(score) {
 }
 
 export default function MockSATs() {
+  const { isLoggedIn } = useAuth();
   const navigate = useNavigate();
   const inputRef = useRef(null);
   const startTimeRef = useRef(null);
@@ -102,6 +105,9 @@ export default function MockSATs() {
       handleSpeakSequence();
     }
   }, [state, currentWord, handleSpeakSequence]);
+
+  // Gate: require registration
+  if (!isLoggedIn) return <RegisterPrompt feature="Mock SATs Tests" />;
 
   // --- Handlers ---
   const formatTime = (secs) => {

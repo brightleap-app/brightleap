@@ -3,10 +3,13 @@ import { loadProgress } from '../storage/progress.js';
 import { HABITAT_UNLOCK_THRESHOLD } from '../engine/quiz.js';
 import { ElizabethHelpButton } from '../components/ElizabethHelper.jsx';
 import { useTheme } from '../themes/ThemeContext.jsx';
+import { useAuth } from '../auth/AuthContext.jsx';
+import { isHabitatLocked } from '../features/gating.js';
 
 export default function HabitatSelect() {
   const progress = loadProgress();
   const { habitats, colours, theme } = useTheme();
+  const { isLoggedIn } = useAuth();
 
   return (
     <main className="min-h-screen p-6 max-w-2xl mx-auto">
@@ -24,10 +27,30 @@ export default function HabitatSelect() {
 
       <div className="grid grid-cols-2 gap-4">
         {habitats.map((habitat) => {
+          const locked = isHabitatLocked(habitat.id, isLoggedIn);
           const hp = progress.habitatProgress[habitat.id] || { correctWords: [], attempts: 0 };
           const correctCount = hp.correctWords.length;
           const isComplete = correctCount >= HABITAT_UNLOCK_THRESHOLD;
           const progressPercent = Math.round((correctCount / habitat.words.length) * 100);
+
+          if (locked) {
+            return (
+              <Link
+                key={habitat.id}
+                to="/register"
+                className="block p-5 rounded-2xl border-2 border-gray-200 bg-gray-50 min-h-[140px] flex flex-col justify-between opacity-60"
+              >
+                <div>
+                  <div className="text-3xl mb-2">{habitat.displayEmoji}</div>
+                  <h2 className="text-lg font-bold mb-1">{habitat.displayName}</h2>
+                  <p className="text-sm text-gray-400 leading-snug">{habitat.rule}</p>
+                </div>
+                <div className="mt-3">
+                  <p className="text-xs text-gray-400 font-semibold">🔒 Free account required</p>
+                </div>
+              </Link>
+            );
+          }
 
           return (
             <Link
@@ -69,7 +92,15 @@ export default function HabitatSelect() {
         })}
       </div>
 
-      <div className="mt-8 flex justify-center gap-4">
+      {!isLoggedIn && (
+        <div className="mt-6 p-4 bg-green-50 rounded-xl text-center">
+          <p className="text-sm text-green-800">
+            <Link to="/register" className="font-semibold underline">Create a free account</Link> to unlock all 8 habitats!
+          </p>
+        </div>
+      )}
+
+      <div className="mt-6 flex justify-center gap-4">
         <Link
           to="/collection"
           className="px-6 py-3 bg-amber-100 text-amber-800 rounded-xl font-semibold hover:bg-amber-200 transition-colors min-h-[48px]"

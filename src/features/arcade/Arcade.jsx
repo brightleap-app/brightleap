@@ -1,8 +1,13 @@
 import { Link } from 'react-router-dom';
 import { loadProgress } from '../../storage/progress.js';
 import { GAMES } from './gameList.js';
+import { useAuth } from '../../auth/AuthContext.jsx';
+import RegisterPrompt from '../../components/RegisterPrompt.jsx';
 
 export default function Arcade() {
+  const { isLoggedIn } = useAuth();
+  if (!isLoggedIn) return <RegisterPrompt feature="the Arcade" />;
+
   const progress = loadProgress();
   const unlocked = progress.unlockedAnimals || [];
 
