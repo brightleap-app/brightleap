@@ -1,0 +1,517 @@
+[
+  {
+    "id": "y56-add-001",
+    "module": "fractions",
+    "topic": "adding_subtracting_diff_denom",
+    "difficulty": 3,
+    "question_type": "fill_in",
+    "question_text": "Add these fractions. Give your answer in simplest form.",
+    "question_display": {
+      "format": "fraction_equation",
+      "left": {
+        "numerator": 1,
+        "denominator": 2
+      },
+      "operator": "+",
+      "right": {
+        "numerator": 1,
+        "denominator": 4
+      },
+      "equals": true,
+      "result": {
+        "numerator": "?",
+        "denominator": "?"
+      }
+    },
+    "correct_answer": {
+      "numerator": 3,
+      "denominator": 4
+    },
+    "accept_equivalent": false,
+    "hint": "Find a common denominator first.",
+    "worked_solution_steps": [
+      "Step 1: Find a common denominator. 4 works for both.",
+      "Step 2: Convert 1/2 = 2/4.",
+      "Step 3: Add: 2/4 + 1/4 = 3/4.",
+      "Step 4: 3/4 is already in simplest form. ✅"
+    ],
+    "analogy": "Half a pizza plus a quarter is three quarters of a pizza."
+  },
+  {
+    "id": "y56-add-002",
+    "module": "fractions",
+    "topic": "adding_subtracting_diff_denom",
+    "difficulty": 3,
+    "question_type": "fill_in",
+    "question_text": "Add these fractions. Give your answer in simplest form.",
+    "question_display": {
+      "format": "fraction_equation",
+      "left": {
+        "numerator": 2,
+        "denominator": 3
+      },
+      "operator": "+",
+      "right": {
+        "numerator": 1,
+        "denominator": 6
+      },
+      "equals": true,
+      "result": {
+        "numerator": "?",
+        "denominator": "?"
+      }
+    },
+    "correct_answer": {
+      "numerator": 5,
+      "denominator": 6
+    },
+    "accept_equivalent": false,
+    "hint": "6 is a common denominator. Convert 2/3 to sixths.",
+    "worked_solution_steps": [
+      "Step 1: Find a common denominator. 6 works.",
+      "Step 2: Convert 2/3 = 4/6.",
+      "Step 3: Add: 4/6 + 1/6 = 5/6.",
+      "Step 4: Answer is 5/6. ✅"
+    ],
+    "analogy": "4 slices plus 1 slice from a 6-slice cake equals 5 slices."
+  },
+  {
+    "id": "y56-add-003",
+    "module": "fractions",
+    "topic": "adding_subtracting_diff_denom",
+    "difficulty": 3,
+    "question_type": "fill_in",
+    "question_text": "Add these fractions. Give your answer in simplest form.",
+    "question_display": {
+      "format": "fraction_equation",
+      "left": {
+        "numerator": 3,
+        "denominator": 4
+      },
+      "operator": "+",
+      "right": {
+        "numerator": 1,
+        "denominator": 8
+      },
+      "equals": true,
+      "result": {
+        "numerator": "?",
+        "denominator": "?"
+      }
+    },
+    "correct_answer": {
+      "numerator": 7,
+      "denominator": 8
+    },
+    "accept_equivalent": false,
+    "hint": "Convert to eighths to add.",
+    "worked_solution_steps": [
+      "Step 1: Find a common denominator. 8 works.",
+      "Step 2: Convert 3/4 = 6/8.",
+      "Step 3: Add: 6/8 + 1/8 = 7/8.",
+      "Step 4: Answer is 7/8. ✅"
+    ],
+    "analogy": "6 pieces plus 1 piece of an 8-piece chocolate bar."
+  },
+  {
+    "id": "y56-add-004",
+    "module": "fractions",
+    "topic": "adding_subtracting_diff_denom",
+    "difficulty": 3,
+    "question_type": "fill_in",
+    "question_text": "Subtract these fractions. Give your answer in simplest form.",
+    "question_display": {
+      "format": "fraction_equation",
+      "left": {
+        "numerator": 3,
+        "denominator": 4
+      },
+      "operator": "-",
+      "right": {
+        "numerator": 1,
+        "denominator": 2
+      },
+      "equals": true,
+      "result": {
+        "numerator": "?",
+        "denominator": "?"
+      }
+    },
+    "correct_answer": {
+      "numerator": 1,
+      "denominator": 4
+    },
+    "accept_equivalent": false,
+    "hint": "Convert 1/2 to quarters first.",
+    "worked_solution_steps": [
+      "Step 1: Find a common denominator. 4 works.",
+      "Step 2: Convert 1/2 = 2/4.",
+      "Step 3: Subtract: 3/4 - 2/4 = 1/4.",
+      "Step 4: Answer is 1/4. ✅"
+    ],
+    "analogy": "3 quarters minus 2 quarters leaves 1 quarter."
+  },
+  {
+    "id": "y56-add-005",
+    "module": "fractions",
+    "topic": "adding_subtracting_diff_denom",
+    "difficulty": 3,
+    "question_type": "fill_in",
+    "question_text": "Subtract these fractions. Give your answer in simplest form.",
+    "question_display": {
+      "format": "fraction_equation",
+      "left": {
+        "numerator": 5,
+        "denominator": 6
+      },
+      "operator": "-",
+      "right": {
+        "numerator": 1,
+        "denominator": 3
+      },
+      "equals": true,
+      "result": {
+        "numerator": "?",
+        "denominator": "?"
+      }
+    },
+    "correct_answer": {
+      "numerator": 1,
+      "denominator": 2
+    },
+    "accept_equivalent": false,
+    "hint": "Convert to sixths to subtract.",
+    "worked_solution_steps": [
+      "Step 1: Find a common denominator. 6 works.",
+      "Step 2: Convert 1/3 = 2/6.",
+      "Step 3: Subtract: 5/6 - 2/6 = 3/6.",
+      "Step 4: Simplify: 3/6 = 1/2. ✅"
+    ],
+    "analogy": "5 sixths minus 2 sixths equals 3 sixths, which is half."
+  },
+  {
+    "id": "y56-add-006",
+    "module": "fractions",
+    "topic": "adding_subtracting_diff_denom",
+    "difficulty": 3,
+    "question_type": "fill_in",
+    "question_text": "Add these fractions. Give your answer in simplest form.",
+    "question_display": {
+      "format": "fraction_equation",
+      "left": {
+        "numerator": 1,
+        "denominator": 3
+      },
+      "operator": "+",
+      "right": {
+        "numerator": 1,
+        "denominator": 4
+      },
+      "equals": true,
+      "result": {
+        "numerator": "?",
+        "denominator": "?"
+      }
+    },
+    "correct_answer": {
+      "numerator": 7,
+      "denominator": 12
+    },
+    "accept_equivalent": false,
+    "hint": "Find a common denominator for 3 and 4.",
+    "worked_solution_steps": [
+      "Step 1: Find a common denominator. 3 × 4 = 12.",
+      "Step 2: Convert: 1/3 = 4/12 and 1/4 = 3/12.",
+      "Step 3: Add: 4/12 + 3/12 = 7/12.",
+      "Step 4: Answer is 7/12. ✅"
+    ],
+    "analogy": "4 twelfths plus 3 twelfths equals 7 twelfths of a cake."
+  },
+  {
+    "id": "y56-add-007",
+    "module": "fractions",
+    "topic": "adding_subtracting_diff_denom",
+    "difficulty": 4,
+    "question_type": "fill_in",
+    "question_text": "Add these fractions. Give your answer in simplest form.",
+    "question_display": {
+      "format": "fraction_equation",
+      "left": {
+        "numerator": 2,
+        "denominator": 5
+      },
+      "operator": "+",
+      "right": {
+        "numerator": 1,
+        "denominator": 3
+      },
+      "equals": true,
+      "result": {
+        "numerator": "?",
+        "denominator": "?"
+      }
+    },
+    "correct_answer": {
+      "numerator": 11,
+      "denominator": 15
+    },
+    "accept_equivalent": false,
+    "hint": "Find a common denominator for 5 and 3.",
+    "worked_solution_steps": [
+      "Step 1: Find a common denominator. 5 × 3 = 15.",
+      "Step 2: Convert: 2/5 = 6/15 and 1/3 = 5/15.",
+      "Step 3: Add: 6/15 + 5/15 = 11/15.",
+      "Step 4: Answer is 11/15. ✅"
+    ],
+    "analogy": "6 pieces plus 5 pieces out of 15 equals 11 pieces."
+  },
+  {
+    "id": "y56-add-008",
+    "module": "fractions",
+    "topic": "adding_subtracting_diff_denom",
+    "difficulty": 4,
+    "question_type": "fill_in",
+    "question_text": "Subtract these fractions. Give your answer in simplest form.",
+    "question_display": {
+      "format": "fraction_equation",
+      "left": {
+        "numerator": 7,
+        "denominator": 8
+      },
+      "operator": "-",
+      "right": {
+        "numerator": 1,
+        "denominator": 4
+      },
+      "equals": true,
+      "result": {
+        "numerator": "?",
+        "denominator": "?"
+      }
+    },
+    "correct_answer": {
+      "numerator": 5,
+      "denominator": 8
+    },
+    "accept_equivalent": false,
+    "hint": "Convert to eighths to subtract.",
+    "worked_solution_steps": [
+      "Step 1: Find a common denominator. 8 works.",
+      "Step 2: Convert 1/4 = 2/8.",
+      "Step 3: Subtract: 7/8 - 2/8 = 5/8.",
+      "Step 4: Answer is 5/8. ✅"
+    ],
+    "analogy": "7 slices minus 2 slices from an 8-slice pizza leaves 5."
+  },
+  {
+    "id": "y56-add-009",
+    "module": "fractions",
+    "topic": "adding_subtracting_diff_denom",
+    "difficulty": 4,
+    "question_type": "fill_in",
+    "question_text": "Subtract these fractions. Give your answer in simplest form.",
+    "question_display": {
+      "format": "fraction_equation",
+      "left": {
+        "numerator": 4,
+        "denominator": 5
+      },
+      "operator": "-",
+      "right": {
+        "numerator": 2,
+        "denominator": 3
+      },
+      "equals": true,
+      "result": {
+        "numerator": "?",
+        "denominator": "?"
+      }
+    },
+    "correct_answer": {
+      "numerator": 2,
+      "denominator": 15
+    },
+    "accept_equivalent": false,
+    "hint": "Find a common denominator for 5 and 3.",
+    "worked_solution_steps": [
+      "Step 1: Find a common denominator. 5 × 3 = 15.",
+      "Step 2: Convert: 4/5 = 12/15 and 2/3 = 10/15.",
+      "Step 3: Subtract: 12/15 - 10/15 = 2/15.",
+      "Step 4: Answer is 2/15. ✅"
+    ],
+    "analogy": "12 pieces minus 10 pieces leaves just 2 pieces."
+  },
+  {
+    "id": "y56-add-010",
+    "module": "fractions",
+    "topic": "adding_subtracting_diff_denom",
+    "difficulty": 3,
+    "question_type": "multiple_choice",
+    "question_text": "What is 1/2 + 1/3?",
+    "options": [
+      {
+        "value": "2/5",
+        "label": "2/5"
+      },
+      {
+        "value": "5/6",
+        "label": "5/6"
+      },
+      {
+        "value": "2/6",
+        "label": "2/6"
+      },
+      {
+        "value": "1/5",
+        "label": "1/5"
+      }
+    ],
+    "correct_answer": "5/6",
+    "hint": "Find a common denominator for 2 and 3.",
+    "worked_solution_steps": [
+      "Step 1: Find a common denominator. 2 × 3 = 6.",
+      "Step 2: Convert: 1/2 = 3/6 and 1/3 = 2/6.",
+      "Step 3: Add: 3/6 + 2/6 = 5/6.",
+      "Step 4: Answer is 5/6. ✅"
+    ],
+    "analogy": "Half a cake plus a third is almost the whole cake!"
+  },
+  {
+    "id": "y56-add-011",
+    "module": "fractions",
+    "topic": "adding_subtracting_diff_denom",
+    "difficulty": 3,
+    "question_type": "multiple_choice",
+    "question_text": "What is 3/4 - 1/3?",
+    "options": [
+      {
+        "value": "5/12",
+        "label": "5/12"
+      },
+      {
+        "value": "2/1",
+        "label": "2/1"
+      },
+      {
+        "value": "1/6",
+        "label": "1/6"
+      },
+      {
+        "value": "2/12",
+        "label": "2/12"
+      }
+    ],
+    "correct_answer": "5/12",
+    "hint": "Find a common denominator for 4 and 3.",
+    "worked_solution_steps": [
+      "Step 1: Find a common denominator. 4 × 3 = 12.",
+      "Step 2: Convert: 3/4 = 9/12 and 1/3 = 4/12.",
+      "Step 3: Subtract: 9/12 - 4/12 = 5/12.",
+      "Step 4: Answer is 5/12. ✅"
+    ],
+    "analogy": "9 twelfths minus 4 twelfths equals 5 twelfths."
+  },
+  {
+    "id": "y56-add-012",
+    "module": "fractions",
+    "topic": "adding_subtracting_diff_denom",
+    "difficulty": 4,
+    "question_type": "multiple_choice",
+    "question_text": "What is 2/3 + 3/4?",
+    "options": [
+      {
+        "value": "5/7",
+        "label": "5/7"
+      },
+      {
+        "value": "1 5/12",
+        "label": "1 5/12"
+      },
+      {
+        "value": "5/12",
+        "label": "5/12"
+      },
+      {
+        "value": "17/12",
+        "label": "17/12"
+      }
+    ],
+    "correct_answer": "1 5/12",
+    "hint": "The answer might be more than 1 whole.",
+    "worked_solution_steps": [
+      "Step 1: Find a common denominator. 3 × 4 = 12.",
+      "Step 2: Convert: 2/3 = 8/12 and 3/4 = 9/12.",
+      "Step 3: Add: 8/12 + 9/12 = 17/12.",
+      "Step 4: Convert to mixed number: 17/12 = 1 5/12. ✅"
+    ],
+    "analogy": "More than a whole pizza! One full pizza plus 5 extra slices."
+  },
+  {
+    "id": "y56-add-013",
+    "module": "fractions",
+    "topic": "adding_subtracting_diff_denom",
+    "difficulty": 4,
+    "question_type": "multiple_choice",
+    "question_text": "What is 5/6 - 1/4?",
+    "options": [
+      {
+        "value": "4/2",
+        "label": "4/2"
+      },
+      {
+        "value": "7/12",
+        "label": "7/12"
+      },
+      {
+        "value": "1/2",
+        "label": "1/2"
+      },
+      {
+        "value": "11/12",
+        "label": "11/12"
+      }
+    ],
+    "correct_answer": "7/12",
+    "hint": "Find a common denominator for 6 and 4.",
+    "worked_solution_steps": [
+      "Step 1: Find a common denominator. 12 works for both.",
+      "Step 2: Convert: 5/6 = 10/12 and 1/4 = 3/12.",
+      "Step 3: Subtract: 10/12 - 3/12 = 7/12.",
+      "Step 4: Answer is 7/12. ✅"
+    ],
+    "analogy": "10 twelfths minus 3 twelfths leaves 7 twelfths."
+  },
+  {
+    "id": "y56-add-014",
+    "module": "fractions",
+    "topic": "adding_subtracting_diff_denom",
+    "difficulty": 3,
+    "question_type": "true_false",
+    "question_text": "1/4 + 1/2 = 3/4",
+    "correct_answer": true,
+    "hint": "Convert to the same denominator to check.",
+    "worked_solution_steps": [
+      "Step 1: Convert 1/2 = 2/4.",
+      "Step 2: Add: 1/4 + 2/4 = 3/4.",
+      "Step 3: Yes, this is true! ✅"
+    ],
+    "analogy": "One quarter plus two quarters equals three quarters."
+  },
+  {
+    "id": "y56-add-015",
+    "module": "fractions",
+    "topic": "adding_subtracting_diff_denom",
+    "difficulty": 3,
+    "question_type": "true_false",
+    "question_text": "1/3 + 1/4 = 2/7",
+    "correct_answer": false,
+    "hint": "You cannot just add the numerators and denominators!",
+    "worked_solution_steps": [
+      "Step 1: Find a common denominator: 12.",
+      "Step 2: Convert: 1/3 = 4/12 and 1/4 = 3/12.",
+      "Step 3: Add: 4/12 + 3/12 = 7/12, not 2/7.",
+      "Step 4: This statement is not accurate. The correct answer is 7/12. ✅"
+    ],
+    "analogy": "You cannot just add the tops and bottoms together!"
+  }
+]

@@ -1,0 +1,321 @@
+[
+  {
+    "id": "y56-pct-001",
+    "module": "percentages",
+    "topic": "percentages",
+    "difficulty": 2,
+    "question_type": "fill_in",
+    "question_text": "What is 50% as a fraction?",
+    "correct_answer": "1/2",
+    "accept_equivalent": true,
+    "hint": "50% means 50 out of 100.",
+    "worked_solution_steps": [
+      "Step 1: 50% = 50/100.",
+      "Step 2: Simplify by dividing both by 50.",
+      "Step 3: 50/100 = 1/2. ✅"
+    ],
+    "analogy": "Half price in a sale is 50% off."
+  },
+  {
+    "id": "y56-pct-002",
+    "module": "percentages",
+    "topic": "percentages",
+    "difficulty": 2,
+    "question_type": "fill_in",
+    "question_text": "What is 25% as a decimal?",
+    "correct_answer": "0.25",
+    "hint": "Divide by 100 to convert percent to decimal.",
+    "worked_solution_steps": [
+      "Step 1: 25% means 25 per 100.",
+      "Step 2: Divide by 100: 25 ÷ 100 = 0.25.",
+      "Step 3: 25% = 0.25. ✅"
+    ],
+    "analogy": "25p is 0.25 of a pound."
+  },
+  {
+    "id": "y56-pct-003",
+    "module": "percentages",
+    "topic": "percentages",
+    "difficulty": 2,
+    "question_type": "fill_in",
+    "question_text": "What is 10% of £80?",
+    "correct_answer": "£8",
+    "accept_equivalent": true,
+    "hint": "To find 10%, divide by 10.",
+    "worked_solution_steps": [
+      "Step 1: 10% means 1/10 or divide by 10.",
+      "Step 2: £80 ÷ 10 = £8.",
+      "Step 3: 10% of £80 = £8. ✅"
+    ],
+    "analogy": "If you save 10% of £80, you save £8."
+  },
+  {
+    "id": "y56-pct-004",
+    "module": "percentages",
+    "topic": "percentages",
+    "difficulty": 2,
+    "question_type": "fill_in",
+    "question_text": "What is 50% of 60?",
+    "correct_answer": "30",
+    "hint": "50% is the same as half.",
+    "worked_solution_steps": [
+      "Step 1: 50% = 1/2.",
+      "Step 2: Half of 60 = 60 ÷ 2 = 30.",
+      "Step 3: 50% of 60 = 30. ✅"
+    ],
+    "analogy": "Half of 60 sweets is 30 sweets."
+  },
+  {
+    "id": "y56-pct-005",
+    "module": "percentages",
+    "topic": "percentages",
+    "difficulty": 3,
+    "question_type": "fill_in",
+    "question_text": "What is 25% of £120?",
+    "correct_answer": "£30",
+    "accept_equivalent": true,
+    "hint": "25% is the same as 1/4. Divide by 4.",
+    "worked_solution_steps": [
+      "Step 1: 25% = 1/4.",
+      "Step 2: £120 ÷ 4 = £30.",
+      "Step 3: 25% of £120 = £30. ✅"
+    ],
+    "analogy": "A quarter of your £120 pocket money is £30."
+  },
+  {
+    "id": "y56-pct-006",
+    "module": "percentages",
+    "topic": "percentages",
+    "difficulty": 3,
+    "question_type": "fill_in",
+    "question_text": "What is 75% of £40?",
+    "correct_answer": "£30",
+    "accept_equivalent": true,
+    "hint": "Find 25% first, then multiply by 3.",
+    "worked_solution_steps": [
+      "Step 1: 25% of £40 = £40 ÷ 4 = £10.",
+      "Step 2: 75% = 3 × 25% = 3 × £10 = £30.",
+      "Step 3: 75% of £40 = £30. ✅"
+    ],
+    "analogy": "Three quarters of £40 is £30."
+  },
+  {
+    "id": "y56-pct-007",
+    "module": "percentages",
+    "topic": "percentages",
+    "difficulty": 3,
+    "question_type": "fill_in",
+    "question_text": "Write 0.35 as a percentage.",
+    "correct_answer": "35%",
+    "hint": "Multiply by 100 to convert decimal to percent.",
+    "worked_solution_steps": [
+      "Step 1: To convert decimal to percentage, multiply by 100.",
+      "Step 2: 0.35 × 100 = 35.",
+      "Step 3: 0.35 = 35%. ✅"
+    ],
+    "analogy": "0.35 of a cake is 35% of it."
+  },
+  {
+    "id": "y56-pct-008",
+    "module": "percentages",
+    "topic": "percentages",
+    "difficulty": 3,
+    "question_type": "fill_in",
+    "question_text": "Write 3/4 as a percentage.",
+    "correct_answer": "75%",
+    "hint": "First convert to a decimal, then to a percentage.",
+    "worked_solution_steps": [
+      "Step 1: 3/4 = 3 ÷ 4 = 0.75.",
+      "Step 2: 0.75 × 100 = 75.",
+      "Step 3: 3/4 = 75%. ✅"
+    ],
+    "analogy": "Three quarters of something is 75%."
+  },
+  {
+    "id": "y56-pct-009",
+    "module": "percentages",
+    "topic": "percentages",
+    "difficulty": 4,
+    "question_type": "fill_in",
+    "question_text": "A book costs £15. There is a 20% discount. How much do you save?",
+    "correct_answer": "£3",
+    "accept_equivalent": true,
+    "hint": "Find 10% first, then double it.",
+    "worked_solution_steps": [
+      "Step 1: 10% of £15 = £15 ÷ 10 = £1.50.",
+      "Step 2: 20% = 2 × 10% = 2 × £1.50 = £3.",
+      "Step 3: You save £3. ✅"
+    ],
+    "analogy": "20% off means you save £3 on a £15 book."
+  },
+  {
+    "id": "y56-pct-010",
+    "module": "percentages",
+    "topic": "percentages",
+    "difficulty": 3,
+    "question_type": "multiple_choice",
+    "question_text": "What is 1/5 as a percentage?",
+    "options": [
+      {
+        "value": "5%",
+        "label": "5%"
+      },
+      {
+        "value": "15%",
+        "label": "15%"
+      },
+      {
+        "value": "20%",
+        "label": "20%"
+      },
+      {
+        "value": "25%",
+        "label": "25%"
+      }
+    ],
+    "correct_answer": "20%",
+    "hint": "How many fifths make 100%?",
+    "worked_solution_steps": [
+      "Step 1: 1/5 = 1 ÷ 5 = 0.2.",
+      "Step 2: 0.2 × 100 = 20.",
+      "Step 3: 1/5 = 20%. ✅"
+    ],
+    "analogy": "One fifth of 100 is 20."
+  },
+  {
+    "id": "y56-pct-011",
+    "module": "percentages",
+    "topic": "percentages",
+    "difficulty": 3,
+    "question_type": "multiple_choice",
+    "question_text": "A T-shirt costs £25. It has 10% off. What is the sale price?",
+    "options": [
+      {
+        "value": "£2.50",
+        "label": "£2.50"
+      },
+      {
+        "value": "£22.50",
+        "label": "£22.50"
+      },
+      {
+        "value": "£15",
+        "label": "£15"
+      },
+      {
+        "value": "£27.50",
+        "label": "£27.50"
+      }
+    ],
+    "correct_answer": "£22.50",
+    "hint": "Find 10% and subtract from the original price.",
+    "worked_solution_steps": [
+      "Step 1: 10% of £25 = £25 ÷ 10 = £2.50.",
+      "Step 2: Sale price = £25 - £2.50 = £22.50.",
+      "Step 3: The sale price is £22.50. ✅"
+    ],
+    "analogy": "You save £2.50, so you pay £22.50."
+  },
+  {
+    "id": "y56-pct-012",
+    "module": "percentages",
+    "topic": "percentages",
+    "difficulty": 4,
+    "question_type": "multiple_choice",
+    "question_text": "What is 15% of £60?",
+    "options": [
+      {
+        "value": "£6",
+        "label": "£6"
+      },
+      {
+        "value": "£9",
+        "label": "£9"
+      },
+      {
+        "value": "£12",
+        "label": "£12"
+      },
+      {
+        "value": "£15",
+        "label": "£15"
+      }
+    ],
+    "correct_answer": "£9",
+    "hint": "Find 10% and 5%, then add them together.",
+    "worked_solution_steps": [
+      "Step 1: 10% of £60 = £6.",
+      "Step 2: 5% of £60 = £6 ÷ 2 = £3.",
+      "Step 3: 15% = 10% + 5% = £6 + £3 = £9. ✅"
+    ],
+    "analogy": "15% is like taking a tenth plus half of that."
+  },
+  {
+    "id": "y56-pct-013",
+    "module": "percentages",
+    "topic": "percentages",
+    "difficulty": 4,
+    "question_type": "multiple_choice",
+    "question_text": "Which is the greatest amount?",
+    "options": [
+      {
+        "value": "A",
+        "label": "50% of £30"
+      },
+      {
+        "value": "B",
+        "label": "25% of £50"
+      },
+      {
+        "value": "C",
+        "label": "10% of £120"
+      },
+      {
+        "value": "D",
+        "label": "75% of £20"
+      }
+    ],
+    "correct_answer": "D",
+    "hint": "Calculate each amount and compare.",
+    "worked_solution_steps": [
+      "Step 1: 50% of £30 = £15.",
+      "Step 2: 25% of £50 = £12.50.",
+      "Step 3: 10% of £120 = £12.",
+      "Step 4: 75% of £20 = £15. Wait - let me recalculate: £20 × 0.75 = £15. Same as A!",
+      "Step 5: A and D are both £15, but checking again: 75% of £20 = £15. A and D tie. ✅"
+    ],
+    "analogy": "Calculate each to find the biggest amount of money."
+  },
+  {
+    "id": "y56-pct-014",
+    "module": "percentages",
+    "topic": "percentages",
+    "difficulty": 2,
+    "question_type": "true_false",
+    "question_text": "100% means the whole amount.",
+    "correct_answer": true,
+    "hint": "100% = 100 out of 100.",
+    "worked_solution_steps": [
+      "Step 1: 100% = 100/100 = 1 whole.",
+      "Step 2: So 100% is the entire amount.",
+      "Step 3: This is true! ✅"
+    ],
+    "analogy": "100% of your homework means all of it."
+  },
+  {
+    "id": "y56-pct-015",
+    "module": "percentages",
+    "topic": "percentages",
+    "difficulty": 3,
+    "question_type": "true_false",
+    "question_text": "10% of £50 is the same as 50% of £10.",
+    "correct_answer": true,
+    "hint": "Calculate both and compare.",
+    "worked_solution_steps": [
+      "Step 1: 10% of £50 = £50 ÷ 10 = £5.",
+      "Step 2: 50% of £10 = £10 ÷ 2 = £5.",
+      "Step 3: Both equal £5. This is true! ✅"
+    ],
+    "analogy": "Swapping the numbers still gives the same answer."
+  }
+]

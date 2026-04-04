@@ -1,0 +1,137 @@
+[
+  {
+    "id": "frac-cmp-001",
+    "module": "fractions",
+    "topic": "comparing_fractions",
+    "difficulty": 3,
+    "question_type": "multiple_choice",
+    "question_text": "Which is bigger: 2/5 or 3/5?",
+    "options": [
+      { "value": "2/5", "label": "2/5" },
+      { "value": "3/5", "label": "3/5" },
+      { "value": "same", "label": "They're the same" }
+    ],
+    "correct_answer": "3/5",
+    "hint": "The bottoms are the same — so just compare the tops!",
+    "worked_solution_steps": [
+      "Both fractions have the same denominator (5).",
+      "When the bottoms are the same, the bigger top number wins.",
+      "3 is bigger than 2.",
+      "So 3/5 is bigger than 2/5 ✅"
+    ],
+    "analogy": "3 slices of pizza is more than 2 slices — when they're the same size slices!"
+  },
+  {
+    "id": "frac-cmp-002",
+    "module": "fractions",
+    "topic": "comparing_fractions",
+    "difficulty": 3,
+    "question_type": "multiple_choice",
+    "question_text": "Which is bigger: 1/3 or 1/4?",
+    "options": [
+      { "value": "1/3", "label": "1/3" },
+      { "value": "1/4", "label": "1/4" },
+      { "value": "same", "label": "They're the same" }
+    ],
+    "correct_answer": "1/3",
+    "hint": "More people sharing = smaller pieces. Fewer people = bigger pieces!",
+    "worked_solution_steps": [
+      "Both have 1 on top, so we compare the bottoms.",
+      "A bigger bottom number means smaller pieces.",
+      "3 is smaller than 4, so thirds are bigger than quarters.",
+      "1/3 is bigger than 1/4 ✅"
+    ],
+    "analogy": "Share a cake between 3 friends — each gets more than sharing between 4!"
+  },
+  {
+    "id": "frac-cmp-003",
+    "module": "fractions",
+    "topic": "comparing_fractions",
+    "difficulty": 3,
+    "question_type": "multiple_choice",
+    "question_text": "Which is bigger: 2/3 or 3/5?",
+    "options": [
+      { "value": "2/3", "label": "2/3" },
+      { "value": "3/5", "label": "3/5" },
+      { "value": "same", "label": "They're the same" }
+    ],
+    "correct_answer": "2/3",
+    "hint": "Make the bottoms the same first. 3 and 5 both go into 15.",
+    "worked_solution_steps": [
+      "The bottoms are different, so we need a common denominator.",
+      "3 and 5 both go into 15.",
+      "2/3 = 10/15 (multiply top and bottom by 5).",
+      "3/5 = 9/15 (multiply top and bottom by 3).",
+      "10/15 is bigger than 9/15, so 2/3 is bigger! ✅"
+    ],
+    "analogy": "Think of it like money — 2/3 of a pound (67p) is more than 3/5 of a pound (60p)!"
+  },
+  {
+    "id": "frac-cmp-004",
+    "module": "fractions",
+    "topic": "comparing_fractions",
+    "difficulty": 3,
+    "question_type": "multiple_choice",
+    "question_text": "Which is bigger: 3/4 or 2/3?",
+    "options": [
+      { "value": "3/4", "label": "3/4" },
+      { "value": "2/3", "label": "2/3" },
+      { "value": "same", "label": "They're the same" }
+    ],
+    "correct_answer": "3/4",
+    "hint": "Make the bottoms the same. 4 and 3 both go into 12.",
+    "worked_solution_steps": [
+      "The bottoms are different — find a common denominator.",
+      "4 and 3 both go into 12.",
+      "3/4 = 9/12 (multiply top and bottom by 3).",
+      "2/3 = 8/12 (multiply top and bottom by 4).",
+      "9/12 is bigger than 8/12, so 3/4 wins! ✅"
+    ],
+    "analogy": "75p is more than about 67p — three quarters beats two thirds!"
+  },
+  {
+    "id": "frac-cmp-005",
+    "module": "fractions",
+    "topic": "comparing_fractions",
+    "difficulty": 3,
+    "question_type": "multiple_choice",
+    "question_text": "Which is bigger: 4/6 or 3/4?",
+    "options": [
+      { "value": "4/6", "label": "4/6" },
+      { "value": "3/4", "label": "3/4" },
+      { "value": "same", "label": "They're the same" }
+    ],
+    "correct_answer": "3/4",
+    "hint": "Find a common denominator. 6 and 4 both go into 12.",
+    "worked_solution_steps": [
+      "Find a common denominator: 6 and 4 both go into 12.",
+      "4/6 = 8/12 (multiply top and bottom by 2).",
+      "3/4 = 9/12 (multiply top and bottom by 3).",
+      "9/12 is bigger than 8/12.",
+      "So 3/4 is bigger! ✅"
+    ],
+    "analogy": "Three quarters of a pizza is more than four sixths — even though 4 sounds bigger than 3!"
+  },
+  {
+    "id": "frac-cmp-006",
+    "module": "fractions",
+    "topic": "comparing_fractions",
+    "difficulty": 3,
+    "question_type": "multiple_choice",
+    "question_text": "Which is bigger: 5/8 or 1/2?",
+    "options": [
+      { "value": "5/8", "label": "5/8" },
+      { "value": "1/2", "label": "1/2" },
+      { "value": "same", "label": "They're the same" }
+    ],
+    "correct_answer": "5/8",
+    "hint": "Change 1/2 so it has 8 on the bottom. Then compare the tops!",
+    "worked_solution_steps": [
+      "Change 1/2 to eighths: 1/2 = 4/8.",
+      "Now compare: 5/8 vs 4/8.",
+      "5 is bigger than 4.",
+      "So 5/8 is bigger than 1/2! ✅"
+    ],
+    "analogy": "Five eighths of a chocolate bar is a bit more than half!"
+  }
+]

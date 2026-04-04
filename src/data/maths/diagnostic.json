@@ -1,0 +1,188 @@
+{
+  "rounds": [
+    {
+      "name": "Round 1 — Basics",
+      "questions": [
+        {
+          "id": "diag-001",
+          "difficulty": 1,
+          "question_type": "fill_in",
+          "question_text": "A pizza is cut into 4 equal slices. You eat 1 slice. What fraction did you eat?",
+          "question_display": {
+            "format": "fraction_equation",
+            "right": { "numerator": "?", "denominator": "?" }
+          },
+          "correct_answer": { "numerator": 1, "denominator": 4 },
+          "accept_equivalent": true,
+          "topic_tested": "identifying_fractions"
+        },
+        {
+          "id": "diag-002",
+          "difficulty": 1,
+          "question_type": "multiple_choice",
+          "question_text": "Which is bigger: 1/2 or 1/3?",
+          "options": [
+            { "value": "1/2", "label": "1/2" },
+            { "value": "1/3", "label": "1/3" }
+          ],
+          "correct_answer": "1/2",
+          "topic_tested": "comparing_fractions"
+        },
+        {
+          "id": "diag-003",
+          "difficulty": 2,
+          "question_type": "fill_in",
+          "question_text": "What is 1/4 + 1/4?",
+          "question_display": {
+            "format": "fraction_equation",
+            "right": { "numerator": "?", "denominator": "?" }
+          },
+          "correct_answer": { "numerator": 2, "denominator": 4 },
+          "accept_equivalent": true,
+          "topic_tested": "adding_fractions"
+        }
+      ]
+    },
+    {
+      "name": "Round 2A — Harder (if 2-3 correct in Round 1)",
+      "condition": "high",
+      "questions": [
+        {
+          "id": "diag-004",
+          "difficulty": 2,
+          "question_type": "fill_in",
+          "question_text": "What fraction is the same as 1/3, but with 6 on the bottom?",
+          "question_display": {
+            "format": "fraction_equation",
+            "left": { "numerator": 1, "denominator": 3 },
+            "equals": true,
+            "right": { "numerator": "?", "denominator": 6 }
+          },
+          "correct_answer": { "numerator": 2, "denominator": 6 },
+          "accept_equivalent": false,
+          "topic_tested": "equivalent_fractions"
+        },
+        {
+          "id": "diag-005",
+          "difficulty": 3,
+          "question_type": "fill_in",
+          "question_text": "Simplify 4/8 as much as you can.",
+          "question_display": {
+            "format": "fraction_equation",
+            "left": { "numerator": 4, "denominator": 8 },
+            "equals": true,
+            "right": { "numerator": "?", "denominator": "?" }
+          },
+          "correct_answer": { "numerator": 1, "denominator": 2 },
+          "accept_equivalent": false,
+          "topic_tested": "simplifying_fractions"
+        },
+        {
+          "id": "diag-006",
+          "difficulty": 3,
+          "question_type": "multiple_choice",
+          "question_text": "Which is bigger: 2/3 or 3/5?",
+          "options": [
+            { "value": "2/3", "label": "2/3" },
+            { "value": "3/5", "label": "3/5" }
+          ],
+          "correct_answer": "2/3",
+          "topic_tested": "comparing_fractions"
+        }
+      ]
+    },
+    {
+      "name": "Round 2B — Easier (if 0-1 correct in Round 1)",
+      "condition": "low",
+      "questions": [
+        {
+          "id": "diag-007",
+          "difficulty": 1,
+          "question_type": "fill_in",
+          "question_text": "A chocolate bar has 6 equal pieces. You eat 3. What fraction did you eat?",
+          "question_display": {
+            "format": "fraction_equation",
+            "right": { "numerator": "?", "denominator": "?" }
+          },
+          "correct_answer": { "numerator": 3, "denominator": 6 },
+          "accept_equivalent": true,
+          "topic_tested": "identifying_fractions"
+        },
+        {
+          "id": "diag-008",
+          "difficulty": 1,
+          "question_type": "true_false",
+          "question_text": "Is 1/2 the same as 2/4?",
+          "correct_answer": "yes",
+          "topic_tested": "equivalent_fractions"
+        },
+        {
+          "id": "diag-009",
+          "difficulty": 1,
+          "question_type": "multiple_choice",
+          "question_text": "Which is bigger: 1/2 or 1/4?",
+          "options": [
+            { "value": "1/2", "label": "1/2" },
+            { "value": "1/4", "label": "1/4" }
+          ],
+          "correct_answer": "1/2",
+          "topic_tested": "identifying_fractions"
+        }
+      ]
+    },
+    {
+      "name": "Round 3 — Decimals & Percentages Awareness",
+      "questions": [
+        {
+          "id": "diag-010",
+          "difficulty": 2,
+          "question_type": "multiple_choice",
+          "question_text": "What is 0.5 as a fraction?",
+          "options": [
+            { "value": "1/2", "label": "1/2" },
+            { "value": "1/4", "label": "1/4" },
+            { "value": "1/5", "label": "1/5" }
+          ],
+          "correct_answer": "1/2",
+          "topic_tested": "decimals_awareness"
+        },
+        {
+          "id": "diag-011",
+          "difficulty": 2,
+          "question_type": "multiple_choice",
+          "question_text": "What does 50% mean?",
+          "options": [
+            { "value": "half", "label": "Half" },
+            { "value": "quarter", "label": "A quarter" },
+            { "value": "all", "label": "All of it" }
+          ],
+          "correct_answer": "half",
+          "topic_tested": "percentages_awareness"
+        }
+      ]
+    }
+  ],
+  "placement_rules": {
+    "strong": {
+      "description": "Child scored well on harder questions — start at equivalent/simplifying fractions",
+      "startModule": "sats-fractions",
+      "startTopic": "equivalent_fractions",
+      "startDifficulty": 2,
+      "message": "Brilliant! You already know quite a lot about fractions. Let's start with equivalent fractions and build from there!"
+    },
+    "medium": {
+      "description": "Child knows basics but needs practice — start at identifying fractions difficulty 2",
+      "startModule": "sats-fractions",
+      "startTopic": "identifying_fractions",
+      "startDifficulty": 1,
+      "message": "Great start! You've got some good fraction skills. Let's begin with the basics and quickly move on to the fun stuff!"
+    },
+    "beginning": {
+      "description": "Child is just starting — start at the very beginning",
+      "startModule": "sats-fractions",
+      "startTopic": "identifying_fractions",
+      "startDifficulty": 1,
+      "message": "No worries at all! Everyone starts somewhere. Let's begin with the basics — you're going to love learning about fractions!"
+    }
+  }
+}

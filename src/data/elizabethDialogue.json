@@ -49,6 +49,26 @@
     "collection": { "mood": "happy", "message": "Here are all the animals you've discovered! Keep exploring to find more." },
     "settings": { "mood": "happy", "message": "You can change the font and colours here to make it easier to read." },
     "diagnostic": { "mood": "encouraging", "message": "This quiz helps me work out which habitats you'll enjoy the most. No pressure!" },
-    "mockSats": { "mood": "encouraging", "message": "This is like a real SATs spelling test — but just for practice. You've got this!" }
-  }
+    "mockSats": { "mood": "encouraging", "message": "This is like a real SATs spelling test — but just for practice. You've got this!" },
+    "mathsDashboard": { "mood": "happy", "message": "Welcome to Maths! Pick a topic to start learning. I'll help you along the way!" },
+    "mathsDiagnostic": { "mood": "encouraging", "message": "Let's see what you know about maths — no pressure, just a few quick questions!" },
+    "mathsSession": { "mood": "happy", "message": "Read the question carefully, and take your time. There's no rush!" }
+  },
+  "mathsFirstVisit": {
+    "mood": "excited",
+    "message": "Ooh, Maths! I love fractions — they're like puzzles! Let me show you around. Pick a topic to get started!"
+  },
+  "mathsWrongStreak": [
+    { "mood": "encouraging", "message": "Fractions can be tricky! Remember — whatever you do to the bottom, do the same to the top!" },
+    { "mood": "encouraging", "message": "Don't worry — even I had to practise these loads before they clicked!" },
+    { "mood": "encouraging", "message": "You're doing great — maths is all about practice. Let's try another!" }
+  ],
+  "mathsTopicComplete": {
+    "mood": "excited",
+    "message": "You've mastered this topic! That's amazing — I'm so proud of you! ⭐"
+  },
+  "mathsSessionEnd": [
+    { "mood": "happy", "message": "Great maths session! Your brain has been working hard — have a rest!" },
+    { "mood": "happy", "message": "Brilliant work with fractions! Come back soon for more practice!" }
+  ]
 }

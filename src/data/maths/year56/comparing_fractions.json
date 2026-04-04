@@ -1,0 +1,372 @@
+[
+  {
+    "id": "y56-cmp-001",
+    "module": "fractions",
+    "topic": "comparing_fractions",
+    "difficulty": 2,
+    "question_type": "fill_in",
+    "question_text": "Which symbol goes between these fractions?",
+    "correct_answer": ">",
+    "hint": "Think about which fraction is closer to a whole.",
+    "worked_solution_steps": [
+      "Step 1: Find a common denominator. 3 × 4 = 12.",
+      "Step 2: Convert 2/3 = 8/12 and 1/4 = 3/12.",
+      "Step 3: Compare: 8/12 is greater than 3/12.",
+      "Step 4: So 2/3 > 1/4. ✅"
+    ],
+    "analogy": "Imagine two pizzas. 2/3 of a pizza is more than 1/4 of a pizza."
+  },
+  {
+    "id": "y56-cmp-002",
+    "module": "fractions",
+    "topic": "comparing_fractions",
+    "difficulty": 2,
+    "question_type": "fill_in",
+    "question_text": "Which symbol goes between these fractions?",
+    "correct_answer": ">",
+    "hint": "Half is a useful benchmark. Is 3/8 more or less than half?",
+    "worked_solution_steps": [
+      "Step 1: Find a common denominator. 2 × 4 = 8.",
+      "Step 2: Convert 1/2 = 4/8.",
+      "Step 3: Compare: 4/8 is greater than 3/8.",
+      "Step 4: So 1/2 > 3/8. ✅"
+    ],
+    "analogy": "Half a chocolate bar is more than 3 out of 8 pieces."
+  },
+  {
+    "id": "y56-cmp-003",
+    "module": "fractions",
+    "topic": "comparing_fractions",
+    "difficulty": 2,
+    "question_type": "fill_in",
+    "question_text": "Which symbol goes between these fractions?",
+    "correct_answer": "<",
+    "hint": "Convert both to the same denominator to compare.",
+    "worked_solution_steps": [
+      "Step 1: Find a common denominator. 5 × 3 = 15.",
+      "Step 2: Convert 3/5 = 9/15 and 2/3 = 10/15.",
+      "Step 3: Compare: 9/15 is less than 10/15.",
+      "Step 4: So 3/5 < 2/3. ✅"
+    ],
+    "analogy": "9 slices out of 15 is less than 10 slices out of 15."
+  },
+  {
+    "id": "y56-cmp-004",
+    "module": "fractions",
+    "topic": "comparing_fractions",
+    "difficulty": 2,
+    "question_type": "fill_in",
+    "question_text": "Which symbol goes between these fractions?",
+    "correct_answer": "=",
+    "hint": "Can you simplify one of these fractions?",
+    "worked_solution_steps": [
+      "Step 1: Simplify 4/6 by dividing top and bottom by 2.",
+      "Step 2: 4 ÷ 2 = 2 and 6 ÷ 2 = 3.",
+      "Step 3: So 4/6 = 2/3.",
+      "Step 4: These fractions are equal. 4/6 = 2/3. ✅"
+    ],
+    "analogy": "4 slices of a 6-slice pizza is the same as 2 slices of a 3-slice pizza."
+  },
+  {
+    "id": "y56-cmp-005",
+    "module": "fractions",
+    "topic": "comparing_fractions",
+    "difficulty": 2,
+    "question_type": "fill_in",
+    "question_text": "Which symbol goes between these fractions?",
+    "correct_answer": ">",
+    "hint": "Find a common denominator to compare fairly.",
+    "worked_solution_steps": [
+      "Step 1: Find a common denominator. 24 works for both.",
+      "Step 2: Convert 5/8 = 15/24 and 7/12 = 14/24.",
+      "Step 3: Compare: 15/24 is greater than 14/24.",
+      "Step 4: So 5/8 > 7/12. ✅"
+    ],
+    "analogy": "15 pennies is more than 14 pennies when they're the same size."
+  },
+  {
+    "id": "y56-cmp-006",
+    "module": "fractions",
+    "topic": "comparing_fractions",
+    "difficulty": 2,
+    "question_type": "fill_in",
+    "question_text": "Which symbol goes between these fractions?",
+    "correct_answer": "<",
+    "hint": "Make the denominators the same first.",
+    "worked_solution_steps": [
+      "Step 1: Find a common denominator. 3 × 5 = 15.",
+      "Step 2: Convert 1/3 = 5/15 and 2/5 = 6/15.",
+      "Step 3: Compare: 5/15 is less than 6/15.",
+      "Step 4: So 1/3 < 2/5. ✅"
+    ],
+    "analogy": "5 sweets out of 15 is less than 6 sweets out of 15."
+  },
+  {
+    "id": "y56-cmp-007",
+    "module": "fractions",
+    "topic": "comparing_fractions",
+    "difficulty": 3,
+    "question_type": "fill_in",
+    "question_text": "Order these fractions from smallest to largest.",
+    "question_display": {
+      "format": "fraction_ordering",
+      "fractions": [
+        {
+          "numerator": 3,
+          "denominator": 4
+        },
+        {
+          "numerator": 2,
+          "denominator": 3
+        },
+        {
+          "numerator": 5,
+          "denominator": 6
+        }
+      ]
+    },
+    "correct_answer": "2/3, 3/4, 5/6",
+    "hint": "Convert all to twelfths to compare.",
+    "worked_solution_steps": [
+      "Step 1: Find a common denominator. 12 works for all.",
+      "Step 2: Convert: 3/4 = 9/12, 2/3 = 8/12, 5/6 = 10/12.",
+      "Step 3: Order: 8/12, 9/12, 10/12.",
+      "Step 4: So the order is 2/3, 3/4, 5/6. ✅"
+    ],
+    "analogy": "Like ordering heights: 8cm, 9cm, 10cm from shortest to tallest."
+  },
+  {
+    "id": "y56-cmp-008",
+    "module": "fractions",
+    "topic": "comparing_fractions",
+    "difficulty": 3,
+    "question_type": "fill_in",
+    "question_text": "Order these fractions from smallest to largest.",
+    "question_display": {
+      "format": "fraction_ordering",
+      "fractions": [
+        {
+          "numerator": 1,
+          "denominator": 2
+        },
+        {
+          "numerator": 3,
+          "denominator": 8
+        },
+        {
+          "numerator": 5,
+          "denominator": 8
+        }
+      ]
+    },
+    "correct_answer": "3/8, 1/2, 5/8",
+    "hint": "Change 1/2 to eighths first.",
+    "worked_solution_steps": [
+      "Step 1: Convert 1/2 to eighths: 1/2 = 4/8.",
+      "Step 2: Now compare: 3/8, 4/8, 5/8.",
+      "Step 3: Order from smallest: 3/8, 4/8, 5/8.",
+      "Step 4: So the order is 3/8, 1/2, 5/8. ✅"
+    ],
+    "analogy": "3 pieces, 4 pieces, 5 pieces of the same pizza."
+  },
+  {
+    "id": "y56-cmp-009",
+    "module": "fractions",
+    "topic": "comparing_fractions",
+    "difficulty": 3,
+    "question_type": "fill_in",
+    "question_text": "Order these fractions from largest to smallest.",
+    "question_display": {
+      "format": "fraction_ordering",
+      "fractions": [
+        {
+          "numerator": 7,
+          "denominator": 10
+        },
+        {
+          "numerator": 3,
+          "denominator": 5
+        },
+        {
+          "numerator": 4,
+          "denominator": 5
+        }
+      ]
+    },
+    "correct_answer": "4/5, 7/10, 3/5",
+    "hint": "Convert to tenths to compare easily.",
+    "worked_solution_steps": [
+      "Step 1: Convert to tenths: 3/5 = 6/10, 4/5 = 8/10.",
+      "Step 2: Now compare: 7/10, 6/10, 8/10.",
+      "Step 3: Order from largest: 8/10, 7/10, 6/10.",
+      "Step 4: So the order is 4/5, 7/10, 3/5. ✅"
+    ],
+    "analogy": "8 coins is more than 7 coins, which is more than 6 coins."
+  },
+  {
+    "id": "y56-cmp-010",
+    "module": "fractions",
+    "topic": "comparing_fractions",
+    "difficulty": 2,
+    "question_type": "multiple_choice",
+    "question_text": "Which fraction is the largest?",
+    "options": [
+      {
+        "value": "1/2",
+        "label": "1/2"
+      },
+      {
+        "value": "2/5",
+        "label": "2/5"
+      },
+      {
+        "value": "3/4",
+        "label": "3/4"
+      },
+      {
+        "value": "1/3",
+        "label": "1/3"
+      }
+    ],
+    "correct_answer": "3/4",
+    "hint": "Think about which is closest to 1 whole.",
+    "worked_solution_steps": [
+      "Step 1: Convert all to twentieths: 1/2 = 10/20, 2/5 = 8/20, 3/4 = 15/20, 1/3 ≈ 7/20.",
+      "Step 2: Compare: 15/20 is the largest.",
+      "Step 3: 3/4 is the largest fraction. ✅"
+    ],
+    "analogy": "3/4 of a pizza leaves only 1 slice. It's the most pizza!"
+  },
+  {
+    "id": "y56-cmp-011",
+    "module": "fractions",
+    "topic": "comparing_fractions",
+    "difficulty": 2,
+    "question_type": "multiple_choice",
+    "question_text": "Which fraction is the smallest?",
+    "options": [
+      {
+        "value": "3/8",
+        "label": "3/8"
+      },
+      {
+        "value": "1/2",
+        "label": "1/2"
+      },
+      {
+        "value": "5/8",
+        "label": "5/8"
+      },
+      {
+        "value": "7/8",
+        "label": "7/8"
+      }
+    ],
+    "correct_answer": "3/8",
+    "hint": "All have the same denominator. Look at the numerators.",
+    "worked_solution_steps": [
+      "Step 1: All fractions have denominator 8 (or can be converted).",
+      "Step 2: 1/2 = 4/8. Now compare: 3/8, 4/8, 5/8, 7/8.",
+      "Step 3: The smallest numerator is 3, so 3/8 is smallest. ✅"
+    ],
+    "analogy": "3 slices out of 8 is the smallest amount of pizza."
+  },
+  {
+    "id": "y56-cmp-012",
+    "module": "fractions",
+    "topic": "comparing_fractions",
+    "difficulty": 3,
+    "question_type": "multiple_choice",
+    "question_text": "Which list shows fractions in order from smallest to largest?",
+    "options": [
+      {
+        "value": "A",
+        "label": "1/4, 1/3, 1/2"
+      },
+      {
+        "value": "B",
+        "label": "1/2, 1/3, 1/4"
+      },
+      {
+        "value": "C",
+        "label": "1/3, 1/4, 1/2"
+      },
+      {
+        "value": "D",
+        "label": "1/4, 1/2, 1/3"
+      }
+    ],
+    "correct_answer": "A",
+    "hint": "With unit fractions, bigger denominators mean smaller fractions.",
+    "worked_solution_steps": [
+      "Step 1: These are unit fractions (numerator 1).",
+      "Step 2: Bigger denominator = smaller fraction.",
+      "Step 3: Order: 1/4 (smallest), 1/3, 1/2 (largest).",
+      "Step 4: Answer is A: 1/4, 1/3, 1/2. ✅"
+    ],
+    "analogy": "Sharing a cake with 4 people gives smaller slices than sharing with 2."
+  },
+  {
+    "id": "y56-cmp-013",
+    "module": "fractions",
+    "topic": "comparing_fractions",
+    "difficulty": 3,
+    "question_type": "multiple_choice",
+    "question_text": "Tom ate 3/5 of his sandwich. Mia ate 2/3 of hers. Who ate more?",
+    "options": [
+      {
+        "value": "Tom",
+        "label": "Tom"
+      },
+      {
+        "value": "Mia",
+        "label": "Mia"
+      },
+      {
+        "value": "Same",
+        "label": "They ate the same amount"
+      }
+    ],
+    "correct_answer": "Mia",
+    "hint": "Convert both to fifteenths to compare.",
+    "worked_solution_steps": [
+      "Step 1: Find a common denominator. 5 × 3 = 15.",
+      "Step 2: Tom: 3/5 = 9/15. Mia: 2/3 = 10/15.",
+      "Step 3: 10/15 > 9/15.",
+      "Step 4: Mia ate more of her sandwich. ✅"
+    ],
+    "analogy": "10 bites out of 15 is more than 9 bites out of 15."
+  },
+  {
+    "id": "y56-cmp-014",
+    "module": "fractions",
+    "topic": "comparing_fractions",
+    "difficulty": 2,
+    "question_type": "true_false",
+    "question_text": "5/6 is greater than 3/4.",
+    "correct_answer": true,
+    "hint": "Convert both to twelfths to check.",
+    "worked_solution_steps": [
+      "Step 1: Convert to twelfths: 5/6 = 10/12, 3/4 = 9/12.",
+      "Step 2: Compare: 10/12 > 9/12.",
+      "Step 3: Yes, 5/6 is greater than 3/4. ✅"
+    ],
+    "analogy": "10 out of 12 cookies is more than 9 out of 12 cookies."
+  },
+  {
+    "id": "y56-cmp-015",
+    "module": "fractions",
+    "topic": "comparing_fractions",
+    "difficulty": 2,
+    "question_type": "true_false",
+    "question_text": "2/3 is equal to 6/9.",
+    "correct_answer": true,
+    "hint": "Try simplifying 6/9 to its lowest terms.",
+    "worked_solution_steps": [
+      "Step 1: Simplify 6/9 by dividing both by 3.",
+      "Step 2: 6 ÷ 3 = 2 and 9 ÷ 3 = 3.",
+      "Step 3: So 6/9 = 2/3. They are equal. ✅"
+    ],
+    "analogy": "6 slices of a 9-slice pizza is the same as 2 slices of a 3-slice pizza."
+  }
+]

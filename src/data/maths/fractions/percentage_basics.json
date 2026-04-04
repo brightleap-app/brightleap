@@ -1,0 +1,186 @@
+[
+  {
+    "id": "pct-bas-001",
+    "module": "percentages",
+    "topic": "percentage_basics",
+    "difficulty": 2,
+    "question_type": "multiple_choice",
+    "question_text": "What does 50% mean?",
+    "options": [
+      { "value": "half", "label": "Half" },
+      { "value": "quarter", "label": "A quarter" },
+      { "value": "all", "label": "All of it" }
+    ],
+    "correct_answer": "half",
+    "hint": "Per cent means per hundred. 50 out of 100 is...",
+    "worked_solution_steps": [
+      "'Per cent' means 'per hundred'.",
+      "50% means 50 out of 100.",
+      "50 out of 100 is a half.",
+      "So 50% = half ✅"
+    ],
+    "analogy": "If 100 children voted and 50 chose pizza, that's 50% — half of them!"
+  },
+  {
+    "id": "pct-bas-002",
+    "module": "percentages",
+    "topic": "percentage_basics",
+    "difficulty": 2,
+    "question_type": "multiple_choice",
+    "question_text": "What is 25% as a fraction?",
+    "options": [
+      { "value": "1/4", "label": "1/4" },
+      { "value": "1/2", "label": "1/2" },
+      { "value": "1/5", "label": "1/5" }
+    ],
+    "correct_answer": "1/4",
+    "hint": "25 out of 100. Can you simplify that?",
+    "worked_solution_steps": [
+      "25% means 25 out of 100.",
+      "25/100 — both divide by 25.",
+      "25 ÷ 25 = 1, 100 ÷ 25 = 4.",
+      "So 25% = 1/4 ✅"
+    ],
+    "analogy": "25p is a quarter of £1. 25% is a quarter of anything!"
+  },
+  {
+    "id": "pct-bas-003",
+    "module": "percentages",
+    "topic": "percentage_basics",
+    "difficulty": 2,
+    "question_type": "fill_in",
+    "question_text": "What is 50% as a decimal?",
+    "correct_answer": "0.5",
+    "hint": "50% = half. What's half as a decimal?",
+    "worked_solution_steps": [
+      "50% means 50 out of 100.",
+      "To turn a percentage into a decimal, divide by 100.",
+      "50 ÷ 100 = 0.5.",
+      "So 50% = 0.5 ✅"
+    ],
+    "analogy": "50% = 1/2 = 0.5. Three ways to say the same thing!"
+  },
+  {
+    "id": "pct-bas-004",
+    "module": "percentages",
+    "topic": "percentage_basics",
+    "difficulty": 2,
+    "question_type": "true_false",
+    "question_text": "Is 10% the same as 1/10?",
+    "correct_answer": "yes",
+    "hint": "10 out of 100 — can you simplify that?",
+    "worked_solution_steps": [
+      "10% means 10 out of 100.",
+      "10/100 simplifies: both divide by 10.",
+      "10 ÷ 10 = 1, 100 ÷ 10 = 10.",
+      "So 10% = 1/10. Yes! ✅"
+    ],
+    "analogy": "10% of your pocket money is one tenth — one 10p coin out of every pound!"
+  },
+  {
+    "id": "pct-bas-005",
+    "module": "percentages",
+    "topic": "percentage_basics",
+    "difficulty": 2,
+    "question_type": "multiple_choice",
+    "question_text": "What is 100% of something?",
+    "options": [
+      { "value": "all", "label": "All of it" },
+      { "value": "half", "label": "Half of it" },
+      { "value": "none", "label": "None of it" }
+    ],
+    "correct_answer": "all",
+    "hint": "100 out of 100 means...",
+    "worked_solution_steps": [
+      "100% means 100 out of 100.",
+      "That's everything — the whole thing!",
+      "100% = all of it ✅"
+    ],
+    "analogy": "If you eat 100% of your dinner, you've eaten everything on the plate!"
+  },
+  {
+    "id": "pct-bas-006",
+    "module": "percentages",
+    "topic": "percentage_basics",
+    "difficulty": 2,
+    "question_type": "fill_in",
+    "question_text": "What is 75% as a fraction?",
+    "correct_answer": "3/4",
+    "hint": "75 out of 100. Both divide by 25.",
+    "worked_solution_steps": [
+      "75% means 75 out of 100.",
+      "75/100 — both divide by 25.",
+      "75 ÷ 25 = 3, 100 ÷ 25 = 4.",
+      "So 75% = 3/4 ✅"
+    ],
+    "analogy": "75p is three quarters of a pound. 75% is three quarters of anything!"
+  },
+  {
+    "id": "pct-bas-007",
+    "module": "percentages",
+    "topic": "percentage_basics",
+    "difficulty": 2,
+    "question_type": "true_false",
+    "question_text": "Is 50% the same as 0.5?",
+    "correct_answer": "yes",
+    "hint": "Divide 50 by 100 to turn it into a decimal.",
+    "worked_solution_steps": [
+      "50% = 50 ÷ 100 = 0.5.",
+      "Yes, they are the same! ✅"
+    ],
+    "analogy": "50%, 1/2, and 0.5 are three different ways to write 'half'."
+  },
+  {
+    "id": "pct-bas-008",
+    "module": "percentages",
+    "topic": "percentage_basics",
+    "difficulty": 2,
+    "question_type": "multiple_choice",
+    "question_text": "Which of these is the same as 1/2?",
+    "options": [
+      { "value": "50%", "label": "50%" },
+      { "value": "25%", "label": "25%" },
+      { "value": "75%", "label": "75%" }
+    ],
+    "correct_answer": "50%",
+    "hint": "Half of 100 is...",
+    "worked_solution_steps": [
+      "1/2 means half.",
+      "Half of 100 is 50.",
+      "So 1/2 = 50% ✅"
+    ],
+    "analogy": "Half price in a sale means 50% off!"
+  },
+  {
+    "id": "pct-bas-009",
+    "module": "percentages",
+    "topic": "percentage_basics",
+    "difficulty": 3,
+    "question_type": "fill_in",
+    "question_text": "What is 1% as a decimal?",
+    "correct_answer": "0.01",
+    "hint": "1 out of 100. That's one hundredth.",
+    "worked_solution_steps": [
+      "1% means 1 out of 100.",
+      "1 ÷ 100 = 0.01.",
+      "So 1% = 0.01 ✅"
+    ],
+    "analogy": "1% of £1 is just 1p — a tiny amount!"
+  },
+  {
+    "id": "pct-bas-010",
+    "module": "percentages",
+    "topic": "percentage_basics",
+    "difficulty": 3,
+    "question_type": "fill_in",
+    "question_text": "What percentage is the same as 0.1?",
+    "correct_answer": "10",
+    "hint": "To turn a decimal into a percentage, multiply by 100.",
+    "worked_solution_steps": [
+      "To convert a decimal to a percentage, multiply by 100.",
+      "0.1 × 100 = 10.",
+      "So 0.1 = 10% ✅"
+    ],
+    "analogy": "0.1 of a pound is 10p — that's 10% of a pound!"
+  }
+]

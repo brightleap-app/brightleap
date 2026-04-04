@@ -20,6 +20,12 @@ import WordCatcher from './features/arcade/WordCatcher.jsx';
 import BubblePop from './features/arcade/BubblePop.jsx';
 import SpeedSpell from './features/arcade/SpeedSpell.jsx';
 import MemoryMatch from './features/arcade/MemoryMatch.jsx';
+import MathsDashboard from './screens/maths/MathsDashboard.jsx';
+import MathsModuleSelect from './screens/maths/MathsModuleSelect.jsx';
+import MathsTopicSelect from './screens/maths/MathsTopicSelect.jsx';
+import MathsSession from './screens/maths/MathsSession.jsx';
+import MathsDiagnostic from './screens/maths/MathsDiagnostic.jsx';
+import MathsAnimalReveal from './screens/maths/MathsAnimalReveal.jsx';
 
 function App() {
   return (
@@ -47,6 +53,13 @@ function App() {
           <Route path="/arcade/bubble-pop" element={<BubblePop />} />
           <Route path="/arcade/speed-spell" element={<SpeedSpell />} />
           <Route path="/arcade/memory-match" element={<MemoryMatch />} />
+          {/* Maths routes */}
+          <Route path="/maths" element={<MathsDashboard />} />
+          <Route path="/maths/trail/:trailId" element={<MathsModuleSelect />} />
+          <Route path="/maths/trail/:trailId/topic/:moduleId" element={<MathsTopicSelect />} />
+          <Route path="/maths/session/:moduleId/:topicId" element={<MathsSession />} />
+          <Route path="/maths/diagnostic" element={<MathsDiagnostic />} />
+          <Route path="/maths/reveal/:topicId" element={<MathsAnimalReveal />} />
         </Routes>
         </ThemeProvider>
       </AuthProvider>

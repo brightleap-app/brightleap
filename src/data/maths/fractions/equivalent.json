@@ -1,0 +1,187 @@
+[
+  {
+    "id": "frac-eq-001",
+    "module": "fractions",
+    "topic": "equivalent_fractions",
+    "difficulty": 2,
+    "question_type": "fill_in",
+    "question_text": "What fraction is the same as 1/2, but with 4 on the bottom?",
+    "question_display": {
+      "format": "fraction_equation",
+      "left": { "numerator": 1, "denominator": 2 },
+      "equals": true,
+      "right": { "numerator": "?", "denominator": 4 }
+    },
+    "correct_answer": { "numerator": 2, "denominator": 4 },
+    "accept_equivalent": false,
+    "hint": "What do you multiply 2 by to get 4? Do the same to the top!",
+    "worked_solution_steps": [
+      "We need to change the bottom from 2 to 4.",
+      "2 × 2 = 4, so we multiply by 2.",
+      "Do the same to the top: 1 × 2 = 2.",
+      "So 1/2 = 2/4 ✅"
+    ],
+    "analogy": "Cut each half of the pizza in half again — now you have quarters, but the same amount!"
+  },
+  {
+    "id": "frac-eq-002",
+    "module": "fractions",
+    "topic": "equivalent_fractions",
+    "difficulty": 2,
+    "question_type": "fill_in",
+    "question_text": "What fraction is the same as 1/3, but with 6 on the bottom?",
+    "question_display": {
+      "format": "fraction_equation",
+      "left": { "numerator": 1, "denominator": 3 },
+      "equals": true,
+      "right": { "numerator": "?", "denominator": 6 }
+    },
+    "correct_answer": { "numerator": 2, "denominator": 6 },
+    "accept_equivalent": false,
+    "hint": "What do you multiply 3 by to get 6? Do the same to the top!",
+    "worked_solution_steps": [
+      "We need to change the bottom from 3 to 6.",
+      "3 × 2 = 6, so we multiply by 2.",
+      "Do the same to the top: 1 × 2 = 2.",
+      "So 1/3 = 2/6 ✅"
+    ],
+    "analogy": "Imagine cutting each third of a pizza in half — now you have sixths, but the same amount of pizza!"
+  },
+  {
+    "id": "frac-eq-003",
+    "module": "fractions",
+    "topic": "equivalent_fractions",
+    "difficulty": 2,
+    "question_type": "fill_in",
+    "question_text": "What fraction is the same as 2/5, but with 10 on the bottom?",
+    "question_display": {
+      "format": "fraction_equation",
+      "left": { "numerator": 2, "denominator": 5 },
+      "equals": true,
+      "right": { "numerator": "?", "denominator": 10 }
+    },
+    "correct_answer": { "numerator": 4, "denominator": 10 },
+    "accept_equivalent": false,
+    "hint": "What do you multiply 5 by to get 10? Do the same to the top!",
+    "worked_solution_steps": [
+      "We need to change the bottom from 5 to 10.",
+      "5 × 2 = 10, so we multiply by 2.",
+      "Do the same to the top: 2 × 2 = 4.",
+      "So 2/5 = 4/10 ✅"
+    ],
+    "analogy": "Same amount of chocolate, just broken into more pieces!"
+  },
+  {
+    "id": "frac-eq-004",
+    "module": "fractions",
+    "topic": "equivalent_fractions",
+    "difficulty": 2,
+    "question_type": "fill_in",
+    "question_text": "What fraction is the same as 3/4, but with 12 on the bottom?",
+    "question_display": {
+      "format": "fraction_equation",
+      "left": { "numerator": 3, "denominator": 4 },
+      "equals": true,
+      "right": { "numerator": "?", "denominator": 12 }
+    },
+    "correct_answer": { "numerator": 9, "denominator": 12 },
+    "accept_equivalent": false,
+    "hint": "What do you multiply 4 by to get 12? Do the same to the top!",
+    "worked_solution_steps": [
+      "We need to change the bottom from 4 to 12.",
+      "4 × 3 = 12, so we multiply by 3.",
+      "Do the same to the top: 3 × 3 = 9.",
+      "So 3/4 = 9/12 ✅"
+    ],
+    "analogy": "Three quarters of a pizza — whether it's cut into 4 big slices or 12 small ones, you eat the same amount!"
+  },
+  {
+    "id": "frac-eq-005",
+    "module": "fractions",
+    "topic": "equivalent_fractions",
+    "difficulty": 2,
+    "question_type": "fill_in",
+    "question_text": "What fraction is the same as 1/4, but with 8 on the bottom?",
+    "question_display": {
+      "format": "fraction_equation",
+      "left": { "numerator": 1, "denominator": 4 },
+      "equals": true,
+      "right": { "numerator": "?", "denominator": 8 }
+    },
+    "correct_answer": { "numerator": 2, "denominator": 8 },
+    "accept_equivalent": false,
+    "hint": "What do you multiply 4 by to get 8? Do the same to the top!",
+    "worked_solution_steps": [
+      "We need to change the bottom from 4 to 8.",
+      "4 × 2 = 8, so we multiply by 2.",
+      "Do the same to the top: 1 × 2 = 2.",
+      "So 1/4 = 2/8 ✅"
+    ],
+    "analogy": "A quarter is a quarter — whether it's one big slice from 4 or two small slices from 8!"
+  },
+  {
+    "id": "frac-eq-006",
+    "module": "fractions",
+    "topic": "equivalent_fractions",
+    "difficulty": 2,
+    "question_type": "fill_in",
+    "question_text": "What fraction is the same as 2/3, but with 9 on the bottom?",
+    "question_display": {
+      "format": "fraction_equation",
+      "left": { "numerator": 2, "denominator": 3 },
+      "equals": true,
+      "right": { "numerator": "?", "denominator": 9 }
+    },
+    "correct_answer": { "numerator": 6, "denominator": 9 },
+    "accept_equivalent": false,
+    "hint": "What do you multiply 3 by to get 9? Do the same to the top!",
+    "worked_solution_steps": [
+      "We need to change the bottom from 3 to 9.",
+      "3 × 3 = 9, so we multiply by 3.",
+      "Do the same to the top: 2 × 3 = 6.",
+      "So 2/3 = 6/9 ✅"
+    ],
+    "analogy": "Two thirds of a pie — same amount whether you cut into 3 pieces or 9!"
+  },
+  {
+    "id": "frac-eq-007",
+    "module": "fractions",
+    "topic": "equivalent_fractions",
+    "difficulty": 2,
+    "question_type": "true_false",
+    "question_text": "Is 2/4 the same as 1/2?",
+    "correct_answer": "yes",
+    "hint": "Can you simplify 2/4? What number goes into both 2 and 4?",
+    "worked_solution_steps": [
+      "2/4 — both 2 and 4 can be divided by 2.",
+      "2 ÷ 2 = 1, and 4 ÷ 2 = 2.",
+      "So 2/4 = 1/2.",
+      "Yes, they are the same! ✅"
+    ],
+    "analogy": "Two slices out of four is the same as one slice out of two — half the pizza!"
+  },
+  {
+    "id": "frac-eq-008",
+    "module": "fractions",
+    "topic": "equivalent_fractions",
+    "difficulty": 2,
+    "question_type": "fill_in",
+    "question_text": "What fraction is the same as 1/5, but with 10 on the bottom?",
+    "question_display": {
+      "format": "fraction_equation",
+      "left": { "numerator": 1, "denominator": 5 },
+      "equals": true,
+      "right": { "numerator": "?", "denominator": 10 }
+    },
+    "correct_answer": { "numerator": 2, "denominator": 10 },
+    "accept_equivalent": false,
+    "hint": "What do you multiply 5 by to get 10? Do the same to the top!",
+    "worked_solution_steps": [
+      "We need to change the bottom from 5 to 10.",
+      "5 × 2 = 10, so we multiply by 2.",
+      "Do the same to the top: 1 × 2 = 2.",
+      "So 1/5 = 2/10 ✅"
+    ],
+    "analogy": "One fifth is the same as two tenths — just more slices!"
+  }
+]

@@ -1,0 +1,373 @@
+[
+  {
+    "id": "y34-tenths-001",
+    "module": "fractions",
+    "topic": "counting_tenths",
+    "difficulty": 1,
+    "question_type": "fill_in",
+    "question_text": "A bar is split into 10 parts. 1 part is shaded. What fraction is this?",
+    "question_display": {
+      "format": "fraction_equation",
+      "right": {
+        "numerator": "?",
+        "denominator": "?"
+      }
+    },
+    "correct_answer": {
+      "numerator": 1,
+      "denominator": 10
+    },
+    "accept_equivalent": false,
+    "hint": "When something is split into 10 equal parts, each part is one tenth.",
+    "worked_solution_steps": [
+      "The bar has 10 equal parts.",
+      "1 part is shaded.",
+      "1 out of 10 is written as 1/10.",
+      "The answer is 1/10 ✅"
+    ],
+    "analogy": "Like one finger out of your ten fingers."
+  },
+  {
+    "id": "y34-tenths-002",
+    "module": "fractions",
+    "topic": "counting_tenths",
+    "difficulty": 1,
+    "question_type": "fill_in",
+    "question_text": "Count in tenths: 1/10, 2/10, 3/10, _____",
+    "correct_answer": {
+      "numerator": 4,
+      "denominator": 10
+    },
+    "accept_equivalent": false,
+    "hint": "Each time we add one more tenth. What comes after 3?",
+    "worked_solution_steps": [
+      "We are counting up in tenths.",
+      "1, 2, 3... the next number is 4.",
+      "So the next fraction is 4/10.",
+      "The answer is 4/10 ✅"
+    ],
+    "analogy": "Like counting pennies. 1p, 2p, 3p, 4p..."
+  },
+  {
+    "id": "y34-tenths-003",
+    "module": "decimals",
+    "topic": "counting_tenths",
+    "difficulty": 1,
+    "question_type": "fill_in",
+    "question_text": "What is 1/10 written as a decimal?",
+    "correct_answer": "0.1",
+    "hint": "One tenth is the first place after the decimal point.",
+    "worked_solution_steps": [
+      "1/10 means one tenth.",
+      "Tenths go in the first column after the decimal point.",
+      "We write 0.1",
+      "The answer is 0.1 ✅"
+    ],
+    "analogy": "Like 10p is £0.10 or one tenth of a pound."
+  },
+  {
+    "id": "y34-tenths-004",
+    "module": "decimals",
+    "topic": "counting_tenths",
+    "difficulty": 1,
+    "question_type": "multiple_choice",
+    "question_text": "What is 3/10 as a decimal?",
+    "options": [
+      {
+        "value": "0.3",
+        "label": "0.3"
+      },
+      {
+        "value": "3.0",
+        "label": "3.0"
+      },
+      {
+        "value": "0.03",
+        "label": "0.03"
+      },
+      {
+        "value": "3.10",
+        "label": "3.10"
+      }
+    ],
+    "correct_answer": "0.3",
+    "accept_equivalent": false,
+    "hint": "3 tenths means 3 in the tenths column after the decimal point.",
+    "worked_solution_steps": [
+      "3/10 means 3 tenths.",
+      "Tenths go after the decimal point.",
+      "We write 0.3",
+      "The answer is 0.3 ✅"
+    ],
+    "analogy": "Like 30p written as £0.30 (three tenths of a pound)."
+  },
+  {
+    "id": "y34-tenths-005",
+    "module": "fractions",
+    "topic": "counting_tenths",
+    "difficulty": 1,
+    "question_type": "fill_in",
+    "question_text": "What is 0.7 as a fraction in tenths?",
+    "correct_answer": {
+      "numerator": 7,
+      "denominator": 10
+    },
+    "accept_equivalent": false,
+    "hint": "The number after the decimal point tells you how many tenths.",
+    "worked_solution_steps": [
+      "0.7 has a 7 in the tenths place.",
+      "This means 7 tenths.",
+      "We write 7/10.",
+      "The answer is 7/10 ✅"
+    ],
+    "analogy": "Like 70p is 7 tenths of a pound."
+  },
+  {
+    "id": "y34-tenths-006",
+    "module": "fractions",
+    "topic": "counting_tenths",
+    "difficulty": 1,
+    "question_type": "fill_in",
+    "question_text": "On a number line, the arrow points between 0 and 1. It is at 5/10. Where is it?",
+    "question_display": {
+      "format": "number_line",
+      "start": 0,
+      "end": 1,
+      "divisions": 10,
+      "marker_position": 5
+    },
+    "correct_answer": "0.5",
+    "hint": "5 out of 10 parts. Where is the arrow pointing?",
+    "worked_solution_steps": [
+      "The number line goes from 0 to 1.",
+      "It is split into 10 equal parts.",
+      "5/10 is halfway along.",
+      "5/10 = 0.5 ✅"
+    ],
+    "analogy": "Like walking halfway down a 10-metre path."
+  },
+  {
+    "id": "y34-tenths-007",
+    "module": "fractions",
+    "topic": "counting_tenths",
+    "difficulty": 1,
+    "question_type": "multiple_choice",
+    "question_text": "How many tenths make 1 whole?",
+    "options": [
+      {
+        "value": "5",
+        "label": "5 tenths"
+      },
+      {
+        "value": "10",
+        "label": "10 tenths"
+      },
+      {
+        "value": "100",
+        "label": "100 tenths"
+      },
+      {
+        "value": "1",
+        "label": "1 tenth"
+      }
+    ],
+    "correct_answer": "10",
+    "accept_equivalent": false,
+    "hint": "If something is split into 10 parts, you need all 10 to make a whole.",
+    "worked_solution_steps": [
+      "Tenths means split into 10 equal parts.",
+      "10/10 makes 1 whole.",
+      "So 10 tenths make 1 whole.",
+      "The answer is 10 tenths ✅"
+    ],
+    "analogy": "Like needing all 10 slices to have the whole pizza."
+  },
+  {
+    "id": "y34-tenths-008",
+    "module": "decimals",
+    "topic": "counting_tenths",
+    "difficulty": 1,
+    "question_type": "fill_in",
+    "question_text": "Write 0.9 as a fraction with 10 on the bottom.",
+    "correct_answer": {
+      "numerator": 9,
+      "denominator": 10
+    },
+    "accept_equivalent": false,
+    "hint": "The digit after the decimal point tells you the number of tenths.",
+    "worked_solution_steps": [
+      "0.9 has 9 in the tenths place.",
+      "This means 9 tenths.",
+      "We write 9/10.",
+      "The answer is 9/10 ✅"
+    ],
+    "analogy": "Like having 90p which is 9 tenths of £1."
+  },
+  {
+    "id": "y34-tenths-009",
+    "module": "fractions",
+    "topic": "counting_tenths",
+    "difficulty": 1,
+    "question_type": "true_false",
+    "question_text": "6/10 is the same as 0.6",
+    "correct_answer": true,
+    "hint": "6 tenths as a fraction is 6/10. As a decimal it uses the tenths column.",
+    "worked_solution_steps": [
+      "6/10 means 6 tenths.",
+      "In decimal form, 6 goes in the tenths place.",
+      "0.6 also means 6 tenths.",
+      "They are the same ✅"
+    ],
+    "analogy": "60p can be written as £0.60 or as 6/10 of a pound."
+  },
+  {
+    "id": "y34-tenths-010",
+    "module": "fractions",
+    "topic": "counting_tenths",
+    "difficulty": 1,
+    "question_type": "fill_in",
+    "question_text": "Count backwards: 8/10, 7/10, 6/10, _____",
+    "correct_answer": {
+      "numerator": 5,
+      "denominator": 10
+    },
+    "accept_equivalent": false,
+    "hint": "We are counting down. What comes before 6?",
+    "worked_solution_steps": [
+      "We are counting backwards in tenths.",
+      "8, 7, 6... the next is 5.",
+      "So the next fraction is 5/10.",
+      "The answer is 5/10 ✅"
+    ],
+    "analogy": "Like a countdown: 8, 7, 6, 5..."
+  },
+  {
+    "id": "y34-tenths-011",
+    "module": "decimals",
+    "topic": "counting_tenths",
+    "difficulty": 1,
+    "question_type": "multiple_choice",
+    "question_text": "What is 10/10 as a whole number?",
+    "options": [
+      {
+        "value": "0",
+        "label": "0"
+      },
+      {
+        "value": "1",
+        "label": "1"
+      },
+      {
+        "value": "10",
+        "label": "10"
+      },
+      {
+        "value": "0.1",
+        "label": "0.1"
+      }
+    ],
+    "correct_answer": "1",
+    "accept_equivalent": false,
+    "hint": "When the top and bottom numbers are the same, you have 1 whole.",
+    "worked_solution_steps": [
+      "10/10 means 10 tenths.",
+      "10 tenths fills all the parts.",
+      "That makes 1 whole.",
+      "The answer is 1 ✅"
+    ],
+    "analogy": "Like having all 10 slices of a pizza makes 1 whole pizza."
+  },
+  {
+    "id": "y34-tenths-012",
+    "module": "fractions",
+    "topic": "counting_tenths",
+    "difficulty": 1,
+    "question_type": "fill_in",
+    "question_text": "A bar has 10 equal parts. 4 are shaded. Write this as a decimal.",
+    "question_display": {
+      "format": "fraction_equation",
+      "right": {
+        "numerator": "?",
+        "denominator": "?"
+      }
+    },
+    "correct_answer": "0.4",
+    "hint": "4 parts out of 10 is 4 tenths. How do you write 4 tenths as a decimal?",
+    "worked_solution_steps": [
+      "4 parts out of 10 = 4/10.",
+      "4/10 means 4 tenths.",
+      "4 tenths as a decimal is 0.4.",
+      "The answer is 0.4 ✅"
+    ],
+    "analogy": "Like 40p written as £0.40."
+  },
+  {
+    "id": "y34-tenths-013",
+    "module": "fractions",
+    "topic": "counting_tenths",
+    "difficulty": 1,
+    "question_type": "true_false",
+    "question_text": "0.2 is the same as 2/10",
+    "correct_answer": true,
+    "hint": "0.2 has a 2 in the tenths column. Does that match 2/10?",
+    "worked_solution_steps": [
+      "0.2 means 2 tenths.",
+      "2/10 also means 2 tenths.",
+      "They are the same number.",
+      "The answer is True ✅"
+    ],
+    "analogy": "20p is the same as 2/10 of a pound."
+  },
+  {
+    "id": "y34-tenths-014",
+    "module": "decimals",
+    "topic": "counting_tenths",
+    "difficulty": 1,
+    "question_type": "fill_in",
+    "question_text": "Count in decimals: 0.1, 0.2, 0.3, _____",
+    "correct_answer": "0.4",
+    "hint": "Each time we add one tenth. What comes after 0.3?",
+    "worked_solution_steps": [
+      "We are counting up by one tenth each time.",
+      "0.1, 0.2, 0.3... next is 0.4.",
+      "The answer is 0.4 ✅"
+    ],
+    "analogy": "Like counting 10p coins: 10p, 20p, 30p, 40p."
+  },
+  {
+    "id": "y34-tenths-015",
+    "module": "fractions",
+    "topic": "counting_tenths",
+    "difficulty": 1,
+    "question_type": "multiple_choice",
+    "question_text": "Which decimal equals 8/10?",
+    "options": [
+      {
+        "value": "8.0",
+        "label": "8.0"
+      },
+      {
+        "value": "0.8",
+        "label": "0.8"
+      },
+      {
+        "value": "0.08",
+        "label": "0.08"
+      },
+      {
+        "value": "80",
+        "label": "80"
+      }
+    ],
+    "correct_answer": "0.8",
+    "accept_equivalent": false,
+    "hint": "8 tenths means 8 in the tenths place after the decimal.",
+    "worked_solution_steps": [
+      "8/10 means 8 tenths.",
+      "The 8 goes in the tenths column.",
+      "We write 0.8.",
+      "The answer is 0.8 ✅"
+    ],
+    "analogy": "80p is £0.80, which is 8 tenths of a pound."
+  }
+]

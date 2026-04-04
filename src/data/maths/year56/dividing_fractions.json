@@ -1,0 +1,494 @@
+[
+  {
+    "id": "y56-div-001",
+    "module": "fractions",
+    "topic": "dividing_fractions",
+    "difficulty": 3,
+    "question_type": "fill_in",
+    "question_text": "Divide this fraction by the whole number.",
+    "question_display": {
+      "format": "fraction_equation",
+      "left": {
+        "numerator": 1,
+        "denominator": 2
+      },
+      "operator": "÷",
+      "right": {
+        "whole": 2
+      },
+      "equals": true,
+      "result": {
+        "numerator": "?",
+        "denominator": "?"
+      }
+    },
+    "correct_answer": {
+      "numerator": 1,
+      "denominator": 4
+    },
+    "accept_equivalent": true,
+    "hint": "Dividing by 2 is the same as finding half.",
+    "worked_solution_steps": [
+      "Step 1: Dividing by 2 = multiplying by 1/2.",
+      "Step 2: 1/2 × 1/2 = 1/4.",
+      "Step 3: Answer is 1/4. ✅"
+    ],
+    "analogy": "If you split half a pizza between 2 people, each gets a quarter."
+  },
+  {
+    "id": "y56-div-002",
+    "module": "fractions",
+    "topic": "dividing_fractions",
+    "difficulty": 3,
+    "question_type": "fill_in",
+    "question_text": "Divide this fraction by the whole number.",
+    "question_display": {
+      "format": "fraction_equation",
+      "left": {
+        "numerator": 3,
+        "denominator": 4
+      },
+      "operator": "÷",
+      "right": {
+        "whole": 3
+      },
+      "equals": true,
+      "result": {
+        "numerator": "?",
+        "denominator": "?"
+      }
+    },
+    "correct_answer": {
+      "numerator": 1,
+      "denominator": 4
+    },
+    "accept_equivalent": true,
+    "hint": "Dividing by 3 means splitting into 3 equal parts.",
+    "worked_solution_steps": [
+      "Step 1: Dividing by 3 = multiplying by 1/3.",
+      "Step 2: 3/4 × 1/3 = 3/12.",
+      "Step 3: Simplify: 3/12 = 1/4. ✅"
+    ],
+    "analogy": "Three quarters of a cake shared by 3 people gives each a quarter."
+  },
+  {
+    "id": "y56-div-003",
+    "module": "fractions",
+    "topic": "dividing_fractions",
+    "difficulty": 3,
+    "question_type": "fill_in",
+    "question_text": "Divide this fraction by the whole number.",
+    "question_display": {
+      "format": "fraction_equation",
+      "left": {
+        "numerator": 2,
+        "denominator": 3
+      },
+      "operator": "÷",
+      "right": {
+        "whole": 2
+      },
+      "equals": true,
+      "result": {
+        "numerator": "?",
+        "denominator": "?"
+      }
+    },
+    "correct_answer": {
+      "numerator": 1,
+      "denominator": 3
+    },
+    "accept_equivalent": true,
+    "hint": "Half of 2/3 is what you're looking for.",
+    "worked_solution_steps": [
+      "Step 1: Dividing by 2 = multiplying by 1/2.",
+      "Step 2: 2/3 × 1/2 = 2/6.",
+      "Step 3: Simplify: 2/6 = 1/3. ✅"
+    ],
+    "analogy": "Split 2/3 of a chocolate bar between 2 friends. Each gets 1/3."
+  },
+  {
+    "id": "y56-div-004",
+    "module": "fractions",
+    "topic": "dividing_fractions",
+    "difficulty": 3,
+    "question_type": "fill_in",
+    "question_text": "Divide this fraction by the whole number.",
+    "question_display": {
+      "format": "fraction_equation",
+      "left": {
+        "numerator": 4,
+        "denominator": 5
+      },
+      "operator": "÷",
+      "right": {
+        "whole": 4
+      },
+      "equals": true,
+      "result": {
+        "numerator": "?",
+        "denominator": "?"
+      }
+    },
+    "correct_answer": {
+      "numerator": 1,
+      "denominator": 5
+    },
+    "accept_equivalent": true,
+    "hint": "Divide by 4 means split into 4 equal parts.",
+    "worked_solution_steps": [
+      "Step 1: Dividing by 4 = multiplying by 1/4.",
+      "Step 2: 4/5 × 1/4 = 4/20.",
+      "Step 3: Simplify: 4/20 = 1/5. ✅"
+    ],
+    "analogy": "4 fifths shared among 4 people gives each person 1 fifth."
+  },
+  {
+    "id": "y56-div-005",
+    "module": "fractions",
+    "topic": "dividing_fractions",
+    "difficulty": 3,
+    "question_type": "fill_in",
+    "question_text": "Divide this fraction by the whole number.",
+    "question_display": {
+      "format": "fraction_equation",
+      "left": {
+        "numerator": 5,
+        "denominator": 6
+      },
+      "operator": "÷",
+      "right": {
+        "whole": 5
+      },
+      "equals": true,
+      "result": {
+        "numerator": "?",
+        "denominator": "?"
+      }
+    },
+    "correct_answer": {
+      "numerator": 1,
+      "denominator": 6
+    },
+    "accept_equivalent": true,
+    "hint": "Notice the numerator and the divisor are the same.",
+    "worked_solution_steps": [
+      "Step 1: Dividing by 5 = multiplying by 1/5.",
+      "Step 2: 5/6 × 1/5 = 5/30.",
+      "Step 3: Simplify: 5/30 = 1/6. ✅"
+    ],
+    "analogy": "5 sixths divided by 5 gives 1 sixth to each."
+  },
+  {
+    "id": "y56-div-006",
+    "module": "fractions",
+    "topic": "dividing_fractions",
+    "difficulty": 4,
+    "question_type": "fill_in",
+    "question_text": "Divide this fraction by the whole number.",
+    "question_display": {
+      "format": "fraction_equation",
+      "left": {
+        "numerator": 3,
+        "denominator": 8
+      },
+      "operator": "÷",
+      "right": {
+        "whole": 3
+      },
+      "equals": true,
+      "result": {
+        "numerator": "?",
+        "denominator": "?"
+      }
+    },
+    "correct_answer": {
+      "numerator": 1,
+      "denominator": 8
+    },
+    "accept_equivalent": true,
+    "hint": "Divide by 3 means multiply by 1/3.",
+    "worked_solution_steps": [
+      "Step 1: Dividing by 3 = multiplying by 1/3.",
+      "Step 2: 3/8 × 1/3 = 3/24.",
+      "Step 3: Simplify: 3/24 = 1/8. ✅"
+    ],
+    "analogy": "3 eighths split 3 ways gives 1 eighth each."
+  },
+  {
+    "id": "y56-div-007",
+    "module": "fractions",
+    "topic": "dividing_fractions",
+    "difficulty": 4,
+    "question_type": "fill_in",
+    "question_text": "Divide this fraction by the whole number.",
+    "question_display": {
+      "format": "fraction_equation",
+      "left": {
+        "numerator": 6,
+        "denominator": 7
+      },
+      "operator": "÷",
+      "right": {
+        "whole": 2
+      },
+      "equals": true,
+      "result": {
+        "numerator": "?",
+        "denominator": "?"
+      }
+    },
+    "correct_answer": {
+      "numerator": 3,
+      "denominator": 7
+    },
+    "accept_equivalent": true,
+    "hint": "Half of 6/7 is what you need.",
+    "worked_solution_steps": [
+      "Step 1: Dividing by 2 = multiplying by 1/2.",
+      "Step 2: 6/7 × 1/2 = 6/14.",
+      "Step 3: Simplify: 6/14 = 3/7. ✅"
+    ],
+    "analogy": "Half of 6 sevenths is 3 sevenths."
+  },
+  {
+    "id": "y56-div-008",
+    "module": "fractions",
+    "topic": "dividing_fractions",
+    "difficulty": 4,
+    "question_type": "fill_in",
+    "question_text": "Divide this fraction by the whole number.",
+    "question_display": {
+      "format": "fraction_equation",
+      "left": {
+        "numerator": 9,
+        "denominator": 10
+      },
+      "operator": "÷",
+      "right": {
+        "whole": 3
+      },
+      "equals": true,
+      "result": {
+        "numerator": "?",
+        "denominator": "?"
+      }
+    },
+    "correct_answer": {
+      "numerator": 3,
+      "denominator": 10
+    },
+    "accept_equivalent": true,
+    "hint": "Split 9/10 into 3 equal groups.",
+    "worked_solution_steps": [
+      "Step 1: Dividing by 3 = multiplying by 1/3.",
+      "Step 2: 9/10 × 1/3 = 9/30.",
+      "Step 3: Simplify: 9/30 = 3/10. ✅"
+    ],
+    "analogy": "9 tenths shared among 3 gives 3 tenths each."
+  },
+  {
+    "id": "y56-div-009",
+    "module": "fractions",
+    "topic": "dividing_fractions",
+    "difficulty": 4,
+    "question_type": "fill_in",
+    "question_text": "Divide this fraction by the whole number.",
+    "question_display": {
+      "format": "fraction_equation",
+      "left": {
+        "numerator": 7,
+        "denominator": 8
+      },
+      "operator": "÷",
+      "right": {
+        "whole": 7
+      },
+      "equals": true,
+      "result": {
+        "numerator": "?",
+        "denominator": "?"
+      }
+    },
+    "correct_answer": {
+      "numerator": 1,
+      "denominator": 8
+    },
+    "accept_equivalent": true,
+    "hint": "The 7s will cancel out.",
+    "worked_solution_steps": [
+      "Step 1: Dividing by 7 = multiplying by 1/7.",
+      "Step 2: 7/8 × 1/7 = 7/56.",
+      "Step 3: Simplify: 7/56 = 1/8. ✅"
+    ],
+    "analogy": "7 eighths shared by 7 people gives 1 eighth each."
+  },
+  {
+    "id": "y56-div-010",
+    "module": "fractions",
+    "topic": "dividing_fractions",
+    "difficulty": 3,
+    "question_type": "multiple_choice",
+    "question_text": "What is 1/2 ÷ 4?",
+    "options": [
+      {
+        "value": "1/8",
+        "label": "1/8"
+      },
+      {
+        "value": "2",
+        "label": "2"
+      },
+      {
+        "value": "1/6",
+        "label": "1/6"
+      },
+      {
+        "value": "4/2",
+        "label": "4/2"
+      }
+    ],
+    "correct_answer": "1/8",
+    "hint": "Half a pizza shared by 4 people...",
+    "worked_solution_steps": [
+      "Step 1: Dividing by 4 = multiplying by 1/4.",
+      "Step 2: 1/2 × 1/4 = 1/8.",
+      "Step 3: Answer is 1/8. ✅"
+    ],
+    "analogy": "Split half a pizza among 4 friends. Each gets 1/8."
+  },
+  {
+    "id": "y56-div-011",
+    "module": "fractions",
+    "topic": "dividing_fractions",
+    "difficulty": 3,
+    "question_type": "multiple_choice",
+    "question_text": "What is 2/3 ÷ 4?",
+    "options": [
+      {
+        "value": "8/3",
+        "label": "8/3"
+      },
+      {
+        "value": "1/6",
+        "label": "1/6"
+      },
+      {
+        "value": "2/12",
+        "label": "2/12"
+      },
+      {
+        "value": "6/4",
+        "label": "6/4"
+      }
+    ],
+    "correct_answer": "1/6",
+    "hint": "Multiply by 1/4 instead of dividing by 4.",
+    "worked_solution_steps": [
+      "Step 1: Dividing by 4 = multiplying by 1/4.",
+      "Step 2: 2/3 × 1/4 = 2/12.",
+      "Step 3: Simplify: 2/12 = 1/6. ✅"
+    ],
+    "analogy": "2/3 of a cake shared by 4 gives 1/6 each."
+  },
+  {
+    "id": "y56-div-012",
+    "module": "fractions",
+    "topic": "dividing_fractions",
+    "difficulty": 4,
+    "question_type": "multiple_choice",
+    "question_text": "What is 4/5 ÷ 2?",
+    "options": [
+      {
+        "value": "8/5",
+        "label": "8/5"
+      },
+      {
+        "value": "2/5",
+        "label": "2/5"
+      },
+      {
+        "value": "4/10",
+        "label": "4/10"
+      },
+      {
+        "value": "2/10",
+        "label": "2/10"
+      }
+    ],
+    "correct_answer": "2/5",
+    "hint": "Half of 4/5 is what?",
+    "worked_solution_steps": [
+      "Step 1: Dividing by 2 = multiplying by 1/2.",
+      "Step 2: 4/5 × 1/2 = 4/10.",
+      "Step 3: Simplify: 4/10 = 2/5. ✅"
+    ],
+    "analogy": "Half of four fifths is two fifths."
+  },
+  {
+    "id": "y56-div-013",
+    "module": "fractions",
+    "topic": "dividing_fractions",
+    "difficulty": 4,
+    "question_type": "multiple_choice",
+    "question_text": "What is 5/6 ÷ 5?",
+    "options": [
+      {
+        "value": "1/6",
+        "label": "1/6"
+      },
+      {
+        "value": "25/6",
+        "label": "25/6"
+      },
+      {
+        "value": "1/30",
+        "label": "1/30"
+      },
+      {
+        "value": "5/30",
+        "label": "5/30"
+      }
+    ],
+    "correct_answer": "1/6",
+    "hint": "The 5s will cancel when you multiply by 1/5.",
+    "worked_solution_steps": [
+      "Step 1: Dividing by 5 = multiplying by 1/5.",
+      "Step 2: 5/6 × 1/5 = 5/30.",
+      "Step 3: Simplify: 5/30 = 1/6. ✅"
+    ],
+    "analogy": "5 sixths shared by 5 gives 1 sixth each."
+  },
+  {
+    "id": "y56-div-014",
+    "module": "fractions",
+    "topic": "dividing_fractions",
+    "difficulty": 3,
+    "question_type": "true_false",
+    "question_text": "Dividing by 2 gives the same result as multiplying by 1/2.",
+    "correct_answer": true,
+    "hint": "Try it with a simple example like 1/4 ÷ 2.",
+    "worked_solution_steps": [
+      "Step 1: 1/4 ÷ 2 = 1/4 × 1/2 = 1/8.",
+      "Step 2: Both methods give the same answer.",
+      "Step 3: Yes, this is true! ✅"
+    ],
+    "analogy": "Sharing in half is the same as taking half."
+  },
+  {
+    "id": "y56-div-015",
+    "module": "fractions",
+    "topic": "dividing_fractions",
+    "difficulty": 3,
+    "question_type": "true_false",
+    "question_text": "3/4 ÷ 3 = 3/12",
+    "correct_answer": false,
+    "hint": "Work it out. Does 3/12 simplify to the correct answer?",
+    "worked_solution_steps": [
+      "Step 1: 3/4 ÷ 3 = 3/4 × 1/3 = 3/12.",
+      "Step 2: 3/12 simplifies to 1/4.",
+      "Step 3: The answer should be written as 1/4, not 3/12. ✅"
+    ],
+    "analogy": "3/12 and 1/4 are equivalent, but 1/4 is the simplest form."
+  }
+]

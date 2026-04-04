@@ -1,0 +1,203 @@
+[
+  {
+    "id": "dec-cmp-001",
+    "module": "decimals",
+    "topic": "comparing_decimals",
+    "difficulty": 2,
+    "question_type": "multiple_choice",
+    "question_text": "Which is bigger: 0.5 or 0.35?",
+    "options": [
+      { "value": "0.5", "label": "0.5" },
+      { "value": "0.35", "label": "0.35" },
+      { "value": "same", "label": "They're the same" }
+    ],
+    "correct_answer": "0.5",
+    "hint": "Think about money — would you rather have 50p or 35p?",
+    "worked_solution_steps": [
+      "0.5 is the same as 50p.",
+      "0.35 is the same as 35p.",
+      "50p is more than 35p.",
+      "So 0.5 is bigger than 0.35 ✅"
+    ],
+    "analogy": "More digits doesn't mean bigger! 50p beats 35p every time."
+  },
+  {
+    "id": "dec-cmp-002",
+    "module": "decimals",
+    "topic": "comparing_decimals",
+    "difficulty": 2,
+    "question_type": "multiple_choice",
+    "question_text": "Which is bigger: 0.7 or 0.65?",
+    "options": [
+      { "value": "0.7", "label": "0.7" },
+      { "value": "0.65", "label": "0.65" },
+      { "value": "same", "label": "They're the same" }
+    ],
+    "correct_answer": "0.7",
+    "hint": "Compare the tenths first. 7 tenths vs 6 tenths.",
+    "worked_solution_steps": [
+      "0.7 = 70p. 0.65 = 65p.",
+      "Look at the tenths digit first: 7 vs 6.",
+      "7 tenths is more than 6 tenths.",
+      "So 0.7 is bigger ✅"
+    ],
+    "analogy": "70p is more than 65p — always compare the tenths first!"
+  },
+  {
+    "id": "dec-cmp-003",
+    "module": "decimals",
+    "topic": "comparing_decimals",
+    "difficulty": 2,
+    "question_type": "multiple_choice",
+    "question_text": "Which is smaller: 0.4 or 0.25?",
+    "options": [
+      { "value": "0.25", "label": "0.25" },
+      { "value": "0.4", "label": "0.4" },
+      { "value": "same", "label": "They're the same" }
+    ],
+    "correct_answer": "0.25",
+    "hint": "25p or 40p — which would you rather have?",
+    "worked_solution_steps": [
+      "0.4 = 40p. 0.25 = 25p.",
+      "25p is less than 40p.",
+      "So 0.25 is smaller ✅"
+    ],
+    "analogy": "A 25p coin is worth less than two 20p coins (40p)!"
+  },
+  {
+    "id": "dec-cmp-004",
+    "module": "decimals",
+    "topic": "comparing_decimals",
+    "difficulty": 2,
+    "question_type": "true_false",
+    "question_text": "Is 0.8 bigger than 0.75?",
+    "correct_answer": "yes",
+    "hint": "Think money: 80p vs 75p.",
+    "worked_solution_steps": [
+      "0.8 = 80p. 0.75 = 75p.",
+      "80p is more than 75p.",
+      "Yes, 0.8 is bigger than 0.75 ✅"
+    ],
+    "analogy": "80p beats 75p — even though 75 has more digits!"
+  },
+  {
+    "id": "dec-cmp-005",
+    "module": "decimals",
+    "topic": "comparing_decimals",
+    "difficulty": 2,
+    "question_type": "multiple_choice",
+    "question_text": "Put these in order from smallest to biggest: 0.3, 0.15, 0.5",
+    "options": [
+      { "value": "0.15,0.3,0.5", "label": "0.15, 0.3, 0.5" },
+      { "value": "0.3,0.15,0.5", "label": "0.3, 0.15, 0.5" },
+      { "value": "0.5,0.3,0.15", "label": "0.5, 0.3, 0.15" }
+    ],
+    "correct_answer": "0.15,0.3,0.5",
+    "hint": "Think of them as money: 15p, 30p, 50p.",
+    "worked_solution_steps": [
+      "0.15 = 15p. 0.3 = 30p. 0.5 = 50p.",
+      "15p < 30p < 50p.",
+      "So the order is: 0.15, 0.3, 0.5 ✅"
+    ],
+    "analogy": "Line up the coins from smallest to biggest!"
+  },
+  {
+    "id": "dec-cmp-006",
+    "module": "decimals",
+    "topic": "comparing_decimals",
+    "difficulty": 2,
+    "question_type": "true_false",
+    "question_text": "Is 0.09 bigger than 0.1?",
+    "correct_answer": "no",
+    "hint": "9p or 10p — which is more?",
+    "worked_solution_steps": [
+      "0.09 = 9p. 0.1 = 10p.",
+      "10p is more than 9p.",
+      "So 0.1 is bigger. 0.09 is NOT bigger ✅"
+    ],
+    "analogy": "This is a common trick! 0.09 looks bigger because of the 9, but it's only 9p vs 10p."
+  },
+  {
+    "id": "dec-cmp-007",
+    "module": "decimals",
+    "topic": "comparing_decimals",
+    "difficulty": 3,
+    "question_type": "multiple_choice",
+    "question_text": "Which is closest to 1/2: 0.4, 0.6, or 0.45?",
+    "options": [
+      { "value": "0.45", "label": "0.45" },
+      { "value": "0.4", "label": "0.4" },
+      { "value": "0.6", "label": "0.6" }
+    ],
+    "correct_answer": "0.45",
+    "hint": "1/2 = 0.5. Which number is nearest to 0.5?",
+    "worked_solution_steps": [
+      "1/2 = 0.5.",
+      "0.4 is 0.1 away from 0.5.",
+      "0.6 is 0.1 away from 0.5.",
+      "0.45 is only 0.05 away from 0.5.",
+      "So 0.45 is closest ✅"
+    ],
+    "analogy": "45p is just 5p away from 50p — really close to half!"
+  },
+  {
+    "id": "dec-cmp-008",
+    "module": "decimals",
+    "topic": "comparing_decimals",
+    "difficulty": 3,
+    "question_type": "multiple_choice",
+    "question_text": "Put these in order from biggest to smallest: 0.25, 0.3, 0.09",
+    "options": [
+      { "value": "0.3,0.25,0.09", "label": "0.3, 0.25, 0.09" },
+      { "value": "0.25,0.3,0.09", "label": "0.25, 0.3, 0.09" },
+      { "value": "0.09,0.25,0.3", "label": "0.09, 0.25, 0.3" }
+    ],
+    "correct_answer": "0.3,0.25,0.09",
+    "hint": "Think of them as money: 30p, 25p, 9p.",
+    "worked_solution_steps": [
+      "0.3 = 30p. 0.25 = 25p. 0.09 = 9p.",
+      "30p > 25p > 9p.",
+      "So biggest to smallest: 0.3, 0.25, 0.09 ✅"
+    ],
+    "analogy": "Which pile of coins would you pick first?"
+  },
+  {
+    "id": "dec-cmp-009",
+    "module": "decimals",
+    "topic": "comparing_decimals",
+    "difficulty": 2,
+    "question_type": "true_false",
+    "question_text": "Is 0.50 the same as 0.5?",
+    "correct_answer": "yes",
+    "hint": "Is 50p the same as 50p?",
+    "worked_solution_steps": [
+      "0.50 = 50p. 0.5 = 50p.",
+      "They are the same amount!",
+      "Adding a zero after the last digit doesn't change the value.",
+      "Yes, 0.50 = 0.5 ✅"
+    ],
+    "analogy": "£0.50 and £0.5 are the same — the extra zero doesn't add any money!"
+  },
+  {
+    "id": "dec-cmp-010",
+    "module": "decimals",
+    "topic": "comparing_decimals",
+    "difficulty": 3,
+    "question_type": "multiple_choice",
+    "question_text": "Which is bigger: 0.125 or 0.2?",
+    "options": [
+      { "value": "0.2", "label": "0.2" },
+      { "value": "0.125", "label": "0.125" },
+      { "value": "same", "label": "They're the same" }
+    ],
+    "correct_answer": "0.2",
+    "hint": "Compare the tenths first: 1 tenth vs 2 tenths.",
+    "worked_solution_steps": [
+      "Look at the tenths digit: 0.125 has 1 tenth, 0.2 has 2 tenths.",
+      "2 tenths is more than 1 tenth.",
+      "So 0.2 is bigger, even though 125 looks bigger than 2!",
+      "0.2 > 0.125 ✅"
+    ],
+    "analogy": "20p is more than 12.5p — always start by comparing the tenths!"
+  }
+]

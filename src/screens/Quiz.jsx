@@ -373,32 +373,42 @@ export default function Quiz() {
           </div>
         )}
 
-        {/* Wrong feedback */}
+        {/* Wrong feedback — scaffolded explanation */}
         {quizState === QUIZ_STATES.WRONG_FEEDBACK && (
           <div className="text-center space-y-4">
-            <p className="text-lg text-gray-600">{feedbackMsg}</p>
-            <div className="text-3xl font-bold tracking-wider">
-              {currentWord.word.split('').map((letter, i) => (
-                <span
-                  key={i}
-                  className={
-                    currentWord.trickyParts?.includes(i)
-                      ? 'text-amber-600 underline decoration-2 underline-offset-4'
-                      : 'text-gray-800'
-                  }
-                >
-                  {letter}
-                </span>
-              ))}
-            </div>
-            <p className="text-sm text-gray-500">
-              The highlighted letters are the tricky parts to remember.
-            </p>
-            {currentWord.sentence && (
-              <p className="text-sm text-gray-400 italic">
-                {currentWord.sentence.replace('_____', currentWord.word)}
+            <p className="text-lg font-semibold text-amber-700">{feedbackMsg}</p>
+            <p className="text-sm text-gray-500">Let me show you this word:</p>
+            <div className="bg-blue-50 rounded-2xl p-5 space-y-3">
+              <div className="text-3xl font-bold tracking-wider">
+                {currentWord.word.split('').map((letter, i) => (
+                  <span
+                    key={i}
+                    className={
+                      currentWord.trickyParts?.includes(i)
+                        ? 'text-amber-600 underline decoration-2 underline-offset-4'
+                        : 'text-gray-800'
+                    }
+                  >
+                    {letter}
+                  </span>
+                ))}
+              </div>
+              <p className="text-sm text-gray-600">
+                The highlighted letters are the tricky parts to watch out for.
               </p>
-            )}
+              {habitat.rule && (
+                <div className="bg-white rounded-xl p-3 border border-blue-200">
+                  <p className="text-sm text-blue-800">
+                    💡 <span className="font-semibold">Spelling rule:</span> {habitat.rule}
+                  </p>
+                </div>
+              )}
+              {currentWord.sentence && (
+                <p className="text-sm text-gray-500 italic">
+                  "{currentWord.sentence.replace('_____', currentWord.word)}"
+                </p>
+              )}
+            </div>
             <div className="flex gap-3 justify-center mt-4">
               <button
                 onClick={handleTryAgain}

@@ -1,0 +1,170 @@
+[
+  {
+    "id": "pct-find-001",
+    "module": "percentages",
+    "topic": "finding_percentages",
+    "difficulty": 2,
+    "question_type": "fill_in",
+    "question_text": "What is 50% of £20?",
+    "correct_answer": "10",
+    "hint": "50% means half. What's half of £20?",
+    "worked_solution_steps": [
+      "50% means half.",
+      "Half of £20 = £20 ÷ 2 = £10.",
+      "50% of £20 = £10 ✅"
+    ],
+    "analogy": "Half price on a £20 t-shirt — you pay a tenner!"
+  },
+  {
+    "id": "pct-find-002",
+    "module": "percentages",
+    "topic": "finding_percentages",
+    "difficulty": 2,
+    "question_type": "fill_in",
+    "question_text": "What is 10% of £30?",
+    "correct_answer": "3",
+    "hint": "To find 10%, divide by 10.",
+    "worked_solution_steps": [
+      "10% means one tenth.",
+      "To find 10%, divide by 10.",
+      "£30 ÷ 10 = £3.",
+      "10% of £30 = £3 ✅"
+    ],
+    "analogy": "10% is easy — just knock off the last zero! £30 → £3."
+  },
+  {
+    "id": "pct-find-003",
+    "module": "percentages",
+    "topic": "finding_percentages",
+    "difficulty": 2,
+    "question_type": "fill_in",
+    "question_text": "What is 25% of £40?",
+    "correct_answer": "10",
+    "hint": "25% means a quarter. Divide by 4.",
+    "worked_solution_steps": [
+      "25% means one quarter.",
+      "To find a quarter, divide by 4.",
+      "£40 ÷ 4 = £10.",
+      "25% of £40 = £10 ✅"
+    ],
+    "analogy": "A 25% discount on a £40 jumper saves you £10!"
+  },
+  {
+    "id": "pct-find-004",
+    "module": "percentages",
+    "topic": "finding_percentages",
+    "difficulty": 3,
+    "question_type": "fill_in",
+    "question_text": "What is 10% of 150?",
+    "correct_answer": "15",
+    "hint": "Divide by 10.",
+    "worked_solution_steps": [
+      "10% means divide by 10.",
+      "150 ÷ 10 = 15.",
+      "10% of 150 = 15 ✅"
+    ],
+    "analogy": "150 children in a school — 10% is 15 children. That's about one class!"
+  },
+  {
+    "id": "pct-find-005",
+    "module": "percentages",
+    "topic": "finding_percentages",
+    "difficulty": 3,
+    "question_type": "fill_in",
+    "question_text": "What is 20% of £50?",
+    "correct_answer": "10",
+    "hint": "Find 10% first, then double it.",
+    "worked_solution_steps": [
+      "10% of £50 = £5 (divide by 10).",
+      "20% is double 10%.",
+      "£5 × 2 = £10.",
+      "20% of £50 = £10 ✅"
+    ],
+    "analogy": "A 20% tip on a £50 meal would be £10. Generous!"
+  },
+  {
+    "id": "pct-find-006",
+    "module": "percentages",
+    "topic": "finding_percentages",
+    "difficulty": 3,
+    "question_type": "fill_in",
+    "question_text": "What is 5% of £60?",
+    "correct_answer": "3",
+    "hint": "Find 10% first, then halve it.",
+    "worked_solution_steps": [
+      "10% of £60 = £6 (divide by 10).",
+      "5% is half of 10%.",
+      "£6 ÷ 2 = £3.",
+      "5% of £60 = £3 ✅"
+    ],
+    "analogy": "5% off a £60 game saves you £3 — enough for a snack!"
+  },
+  {
+    "id": "pct-find-007",
+    "module": "percentages",
+    "topic": "finding_percentages",
+    "difficulty": 3,
+    "question_type": "fill_in",
+    "question_text": "A jumper costs £40. There is a 25% discount. What is the sale price?",
+    "correct_answer": "30",
+    "hint": "First find 25% of £40, then take it away from £40.",
+    "worked_solution_steps": [
+      "25% of £40 = £40 ÷ 4 = £10.",
+      "The discount is £10.",
+      "Sale price = £40 - £10 = £30.",
+      "The sale price is £30 ✅"
+    ],
+    "analogy": "Quarter off a £40 jumper — you save a tenner!"
+  },
+  {
+    "id": "pct-find-008",
+    "module": "percentages",
+    "topic": "finding_percentages",
+    "difficulty": 3,
+    "question_type": "fill_in",
+    "question_text": "What is 75% of £20?",
+    "correct_answer": "15",
+    "hint": "75% is three quarters. Find a quarter, then multiply by 3.",
+    "worked_solution_steps": [
+      "25% of £20 = £20 ÷ 4 = £5.",
+      "75% is three quarters = 3 × 25%.",
+      "£5 × 3 = £15.",
+      "75% of £20 = £15 ✅"
+    ],
+    "analogy": "Three quarters of £20 is £15 — only a fiver left!"
+  },
+  {
+    "id": "pct-find-009",
+    "module": "percentages",
+    "topic": "finding_percentages",
+    "difficulty": 4,
+    "question_type": "fill_in",
+    "question_text": "30 out of 50 children chose pizza. What percentage is that?",
+    "correct_answer": "60",
+    "hint": "Make it out of 100. If 30 out of 50, what's that out of 100?",
+    "worked_solution_steps": [
+      "30 out of 50 = 30/50.",
+      "To make it out of 100, multiply top and bottom by 2.",
+      "30 × 2 = 60, 50 × 2 = 100.",
+      "60 out of 100 = 60% ✅"
+    ],
+    "analogy": "More than half the class chose pizza! 30 out of 50 = 60%."
+  },
+  {
+    "id": "pct-find-010",
+    "module": "percentages",
+    "topic": "finding_percentages",
+    "difficulty": 4,
+    "question_type": "fill_in",
+    "question_text": "What is 15% of £80?",
+    "correct_answer": "12",
+    "hint": "Break it up: 15% = 10% + 5%.",
+    "worked_solution_steps": [
+      "10% of £80 = £8.",
+      "5% of £80 = half of 10% = £4.",
+      "15% = 10% + 5% = £8 + £4 = £12.",
+      "15% of £80 = £12 ✅"
+    ],
+    "analogy": "The trick with tricky percentages: break them into 10% and 5% — easy building blocks!"
+  }
+]

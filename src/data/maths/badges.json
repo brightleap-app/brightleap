@@ -1,0 +1,41 @@
+[
+  {
+    "id": "number_ninja",
+    "name": "Number Ninja",
+    "emoji": "🥷",
+    "description": "Complete 50 maths questions",
+    "type": "questions_count",
+    "threshold": 50
+  },
+  {
+    "id": "fraction_master",
+    "name": "Fraction Master",
+    "emoji": "🍕",
+    "description": "Master all fraction subtopics",
+    "type": "module_mastery",
+    "module": "fractions"
+  },
+  {
+    "id": "decimal_detective",
+    "name": "Decimal Detective",
+    "emoji": "🔍",
+    "description": "Master all decimal subtopics",
+    "type": "module_mastery",
+    "module": "decimals"
+  },
+  {
+    "id": "percentage_pro",
+    "name": "Percentage Pro",
+    "emoji": "📊",
+    "description": "Master all percentage subtopics",
+    "type": "module_mastery",
+    "module": "percentages"
+  },
+  {
+    "id": "maths_explorer",
+    "name": "Maths Explorer",
+    "emoji": "🏆",
+    "description": "Master all three maths modules",
+    "type": "all_mastery"
+  }
+]

@@ -3,12 +3,41 @@ import { supabase } from '../lib/supabase.js';
 
 const AuthContext = createContext(null);
 
+// Dev-only bypass: type devlogin() in browser console on localhost to unlock all features
+const IS_DEV = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
+const DEV_SESSION_KEY = 'brightleap_dev_login';
+
 export function AuthProvider({ children }) {
   const [session, setSession] = useState(null);
   const [profile, setProfile] = useState(null);
   const [loading, setLoading] = useState(true);
+  const [devMode, setDevMode] = useState(() => IS_DEV && localStorage.getItem(DEV_SESSION_KEY) === 'true');
+
+  // Expose dev login to browser console
+  useEffect(() => {
+    if (IS_DEV) {
+      window.devlogin = () => {
+        localStorage.setItem(DEV_SESSION_KEY, 'true');
+        setDevMode(true);
+        console.log('Dev login activated — all features unlocked. Refresh to apply.');
+        window.location.reload();
+      };
+      window.devlogout = () => {
+        localStorage.removeItem(DEV_SESSION_KEY);
+        setDevMode(false);
+        console.log('Dev login deactivated. Refresh to apply.');
+        window.location.reload();
+      };
+    }
+  }, []);
 
   useEffect(() => {
+    if (devMode) {
+      setProfile({ child_name: 'Elizabeth (Dev)' });
+      setLoading(false);
+      return;
+    }
+
     // Get initial session
     supabase.auth.getSession().then(({ data: { session } }) => {
       setSession(session);
@@ -27,7 +56,7 @@ export function AuthProvider({ children }) {
     });
 
     return () => subscription.unsubscribe();
-  }, []);
+  }, [devMode]);
 
   async function fetchProfile(userId) {
     const { data } = await supabase
@@ -76,7 +105,7 @@ export function AuthProvider({ children }) {
     session,
     profile,
     loading,
-    isLoggedIn: !!session,
+    isLoggedIn: !!session || devMode,
     userId: session?.user?.id || null,
     childName: profile?.child_name || null,
     register,

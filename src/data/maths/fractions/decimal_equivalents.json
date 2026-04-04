@@ -1,0 +1,186 @@
+[
+  {
+    "id": "dec-eq-001",
+    "module": "decimals",
+    "topic": "decimal_equivalents",
+    "difficulty": 1,
+    "question_type": "fill_in",
+    "question_text": "What is 1/2 as a decimal?",
+    "correct_answer": "0.5",
+    "hint": "Think about money — half of £1 is 50p, which is £0.50.",
+    "worked_solution_steps": [
+      "1/2 means one half.",
+      "Half of £1 is 50p.",
+      "50p written as a decimal is 0.5.",
+      "So 1/2 = 0.5 ✅"
+    ],
+    "analogy": "Half a pound is 50p — that's 0.5!"
+  },
+  {
+    "id": "dec-eq-002",
+    "module": "decimals",
+    "topic": "decimal_equivalents",
+    "difficulty": 1,
+    "question_type": "fill_in",
+    "question_text": "What is 1/4 as a decimal?",
+    "correct_answer": "0.25",
+    "hint": "A quarter of £1 is 25p.",
+    "worked_solution_steps": [
+      "1/4 means one quarter.",
+      "A quarter of £1 is 25p.",
+      "25p written as a decimal is 0.25.",
+      "So 1/4 = 0.25 ✅"
+    ],
+    "analogy": "A 25p coin is a quarter of a pound!"
+  },
+  {
+    "id": "dec-eq-003",
+    "module": "decimals",
+    "topic": "decimal_equivalents",
+    "difficulty": 1,
+    "question_type": "fill_in",
+    "question_text": "What is 3/4 as a decimal?",
+    "correct_answer": "0.75",
+    "hint": "Three quarters of £1 is 75p.",
+    "worked_solution_steps": [
+      "3/4 means three quarters.",
+      "Three quarters of £1 is 75p.",
+      "75p written as a decimal is 0.75.",
+      "So 3/4 = 0.75 ✅"
+    ],
+    "analogy": "75p is three quarters of a pound — nearly the whole thing!"
+  },
+  {
+    "id": "dec-eq-004",
+    "module": "decimals",
+    "topic": "decimal_equivalents",
+    "difficulty": 1,
+    "question_type": "multiple_choice",
+    "question_text": "Which fraction is the same as 0.5?",
+    "options": [
+      { "value": "1/2", "label": "1/2" },
+      { "value": "1/4", "label": "1/4" },
+      { "value": "1/5", "label": "1/5" }
+    ],
+    "correct_answer": "1/2",
+    "hint": "0.5 is the same as 50p out of £1.",
+    "worked_solution_steps": [
+      "0.5 means 5 tenths.",
+      "5 tenths is the same as a half.",
+      "So 0.5 = 1/2 ✅"
+    ],
+    "analogy": "50p is half of £1 — and 0.5 is half of 1!"
+  },
+  {
+    "id": "dec-eq-005",
+    "module": "decimals",
+    "topic": "decimal_equivalents",
+    "difficulty": 1,
+    "question_type": "fill_in",
+    "question_text": "What is 1/10 as a decimal?",
+    "correct_answer": "0.1",
+    "hint": "One tenth of £1 is 10p.",
+    "worked_solution_steps": [
+      "1/10 means one tenth.",
+      "One tenth of £1 is 10p.",
+      "10p as a decimal is 0.1.",
+      "So 1/10 = 0.1 ✅"
+    ],
+    "analogy": "A 10p coin is one tenth of a pound!"
+  },
+  {
+    "id": "dec-eq-006",
+    "module": "decimals",
+    "topic": "decimal_equivalents",
+    "difficulty": 2,
+    "question_type": "multiple_choice",
+    "question_text": "Which decimal is the same as 1/5?",
+    "options": [
+      { "value": "0.2", "label": "0.2" },
+      { "value": "0.5", "label": "0.5" },
+      { "value": "0.15", "label": "0.15" }
+    ],
+    "correct_answer": "0.2",
+    "hint": "Divide 1 by 5. Or think: 1/5 of £1 is 20p.",
+    "worked_solution_steps": [
+      "1/5 means one fifth.",
+      "One fifth of £1 is 20p.",
+      "20p as a decimal is 0.2.",
+      "So 1/5 = 0.2 ✅"
+    ],
+    "analogy": "Split £1 between 5 people — each gets 20p, which is 0.2!"
+  },
+  {
+    "id": "dec-eq-007",
+    "module": "decimals",
+    "topic": "decimal_equivalents",
+    "difficulty": 2,
+    "question_type": "true_false",
+    "question_text": "Is 0.25 the same as 1/4?",
+    "correct_answer": "yes",
+    "hint": "What's a quarter of £1?",
+    "worked_solution_steps": [
+      "0.25 means 25 hundredths.",
+      "A quarter of 100 is 25.",
+      "So 25 hundredths = 1/4.",
+      "Yes, 0.25 = 1/4 ✅"
+    ],
+    "analogy": "25p is a quarter — same thing written differently!"
+  },
+  {
+    "id": "dec-eq-008",
+    "module": "decimals",
+    "topic": "decimal_equivalents",
+    "difficulty": 2,
+    "question_type": "fill_in",
+    "question_text": "What is 2/5 as a decimal?",
+    "correct_answer": "0.4",
+    "hint": "If 1/5 is 0.2, what's two lots of 0.2?",
+    "worked_solution_steps": [
+      "1/5 = 0.2.",
+      "2/5 is two lots of one fifth.",
+      "0.2 + 0.2 = 0.4.",
+      "So 2/5 = 0.4 ✅"
+    ],
+    "analogy": "Two 20p coins make 40p — that's 0.4 of a pound!"
+  },
+  {
+    "id": "dec-eq-009",
+    "module": "decimals",
+    "topic": "decimal_equivalents",
+    "difficulty": 2,
+    "question_type": "multiple_choice",
+    "question_text": "What is 0.75 as a fraction?",
+    "options": [
+      { "value": "3/4", "label": "3/4" },
+      { "value": "7/5", "label": "7/5" },
+      { "value": "3/5", "label": "3/5" }
+    ],
+    "correct_answer": "3/4",
+    "hint": "75p is how many quarters of a pound?",
+    "worked_solution_steps": [
+      "0.75 means 75 hundredths.",
+      "75 out of 100 simplifies: both divide by 25.",
+      "75 ÷ 25 = 3, and 100 ÷ 25 = 4.",
+      "So 0.75 = 3/4 ✅"
+    ],
+    "analogy": "75p is three quarters of a pound!"
+  },
+  {
+    "id": "dec-eq-010",
+    "module": "decimals",
+    "topic": "decimal_equivalents",
+    "difficulty": 2,
+    "question_type": "fill_in",
+    "question_text": "What is 3/10 as a decimal?",
+    "correct_answer": "0.3",
+    "hint": "Tenths go straight after the decimal point. 3 tenths = 0.?",
+    "worked_solution_steps": [
+      "3/10 means 3 tenths.",
+      "The first number after the decimal point is tenths.",
+      "So 3 tenths = 0.3.",
+      "3/10 = 0.3 ✅"
+    ],
+    "analogy": "3 lots of 10p is 30p — that's 0.3 of a pound!"
+  }
+]

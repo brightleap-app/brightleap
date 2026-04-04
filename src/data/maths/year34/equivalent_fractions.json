@@ -1,0 +1,489 @@
+[
+  {
+    "id": "y34-equiv-001",
+    "module": "fractions",
+    "topic": "equivalent_fractions",
+    "difficulty": 2,
+    "question_type": "fill_in",
+    "question_text": "Find the missing number: 1/2 = ?/4",
+    "question_display": {
+      "format": "fraction_equation",
+      "left": {
+        "numerator": 1,
+        "denominator": 2
+      },
+      "equals": true,
+      "right": {
+        "numerator": "?",
+        "denominator": 4
+      }
+    },
+    "correct_answer": {
+      "numerator": 2,
+      "denominator": 4
+    },
+    "accept_equivalent": false,
+    "hint": "The bottom doubled from 2 to 4. Do the same to the top.",
+    "worked_solution_steps": [
+      "Look at the bottom: 2 became 4.",
+      "That means we multiplied by 2.",
+      "Do the same to the top: 1 × 2 = 2.",
+      "The answer is 2/4 ✅"
+    ],
+    "analogy": "Like cutting each pizza slice in half. You have twice as many slices."
+  },
+  {
+    "id": "y34-equiv-002",
+    "module": "fractions",
+    "topic": "equivalent_fractions",
+    "difficulty": 2,
+    "question_type": "fill_in",
+    "question_text": "Find the missing number: 1/3 = ?/6",
+    "question_display": {
+      "format": "fraction_equation",
+      "left": {
+        "numerator": 1,
+        "denominator": 3
+      },
+      "equals": true,
+      "right": {
+        "numerator": "?",
+        "denominator": 6
+      }
+    },
+    "correct_answer": {
+      "numerator": 2,
+      "denominator": 6
+    },
+    "accept_equivalent": false,
+    "hint": "The bottom doubled from 3 to 6. Double the top too.",
+    "worked_solution_steps": [
+      "Look at the bottom: 3 became 6.",
+      "3 × 2 = 6, so we multiplied by 2.",
+      "Multiply the top by 2: 1 × 2 = 2.",
+      "The answer is 2/6 ✅"
+    ],
+    "analogy": "One third of a pizza is the same as two sixths."
+  },
+  {
+    "id": "y34-equiv-003",
+    "module": "fractions",
+    "topic": "equivalent_fractions",
+    "difficulty": 2,
+    "question_type": "fill_in",
+    "question_text": "Find the missing number: 2/4 = 1/?",
+    "question_display": {
+      "format": "fraction_equation",
+      "left": {
+        "numerator": 2,
+        "denominator": 4
+      },
+      "equals": true,
+      "right": {
+        "numerator": 1,
+        "denominator": "?"
+      }
+    },
+    "correct_answer": {
+      "numerator": 1,
+      "denominator": 2
+    },
+    "accept_equivalent": false,
+    "hint": "The top went from 2 to 1. It was halved. Do the same to the bottom.",
+    "worked_solution_steps": [
+      "Look at the top: 2 became 1.",
+      "2 ÷ 2 = 1, so we divided by 2.",
+      "Divide the bottom by 2: 4 ÷ 2 = 2.",
+      "The answer is 1/2 ✅"
+    ],
+    "analogy": "Two quarters is the same as one half."
+  },
+  {
+    "id": "y34-equiv-004",
+    "module": "fractions",
+    "topic": "equivalent_fractions",
+    "difficulty": 2,
+    "question_type": "multiple_choice",
+    "question_text": "Which fraction is the same as 1/2?",
+    "options": [
+      {
+        "value": "2/4",
+        "label": "2/4"
+      },
+      {
+        "value": "1/4",
+        "label": "1/4"
+      },
+      {
+        "value": "3/4",
+        "label": "3/4"
+      },
+      {
+        "value": "1/3",
+        "label": "1/3"
+      }
+    ],
+    "correct_answer": "2/4",
+    "hint": "Double both the top and the bottom of 1/2.",
+    "worked_solution_steps": [
+      "1/2: multiply top and bottom by 2.",
+      "1 × 2 = 2 and 2 × 2 = 4.",
+      "So 1/2 = 2/4.",
+      "The answer is 2/4 ✅"
+    ],
+    "analogy": "Half a chocolate bar is the same as 2 quarters."
+  },
+  {
+    "id": "y34-equiv-005",
+    "module": "fractions",
+    "topic": "equivalent_fractions",
+    "difficulty": 2,
+    "question_type": "fill_in",
+    "question_text": "Find the missing number: 1/2 = 3/?",
+    "question_display": {
+      "format": "fraction_equation",
+      "left": {
+        "numerator": 1,
+        "denominator": 2
+      },
+      "equals": true,
+      "right": {
+        "numerator": 3,
+        "denominator": "?"
+      }
+    },
+    "correct_answer": {
+      "numerator": 3,
+      "denominator": 6
+    },
+    "accept_equivalent": false,
+    "hint": "The top went from 1 to 3. That's times 3. Do the same to the bottom.",
+    "worked_solution_steps": [
+      "Look at the top: 1 became 3.",
+      "1 × 3 = 3, so we multiplied by 3.",
+      "Multiply the bottom by 3: 2 × 3 = 6.",
+      "The answer is 3/6 ✅"
+    ],
+    "analogy": "Half equals 3 sixths, like 3 slices of a 6-slice pizza."
+  },
+  {
+    "id": "y34-equiv-006",
+    "module": "fractions",
+    "topic": "equivalent_fractions",
+    "difficulty": 2,
+    "question_type": "fill_in",
+    "question_text": "Find the missing number: 2/3 = ?/6",
+    "question_display": {
+      "format": "fraction_equation",
+      "left": {
+        "numerator": 2,
+        "denominator": 3
+      },
+      "equals": true,
+      "right": {
+        "numerator": "?",
+        "denominator": 6
+      }
+    },
+    "correct_answer": {
+      "numerator": 4,
+      "denominator": 6
+    },
+    "accept_equivalent": false,
+    "hint": "The bottom doubled from 3 to 6. Double the top too.",
+    "worked_solution_steps": [
+      "Look at the bottom: 3 became 6.",
+      "3 × 2 = 6, so we multiplied by 2.",
+      "Multiply the top by 2: 2 × 2 = 4.",
+      "The answer is 4/6 ✅"
+    ],
+    "analogy": "Two thirds equals four sixths of a shape."
+  },
+  {
+    "id": "y34-equiv-007",
+    "module": "fractions",
+    "topic": "equivalent_fractions",
+    "difficulty": 2,
+    "question_type": "multiple_choice",
+    "question_text": "Which fraction equals 2/4?",
+    "options": [
+      {
+        "value": "1/2",
+        "label": "1/2"
+      },
+      {
+        "value": "2/3",
+        "label": "2/3"
+      },
+      {
+        "value": "3/4",
+        "label": "3/4"
+      },
+      {
+        "value": "1/4",
+        "label": "1/4"
+      }
+    ],
+    "correct_answer": "1/2",
+    "hint": "Simplify 2/4 by dividing top and bottom by the same number.",
+    "worked_solution_steps": [
+      "2/4: divide top and bottom by 2.",
+      "2 ÷ 2 = 1 and 4 ÷ 2 = 2.",
+      "So 2/4 = 1/2.",
+      "The answer is 1/2 ✅"
+    ],
+    "analogy": "2 slices out of 4 is the same as half."
+  },
+  {
+    "id": "y34-equiv-008",
+    "module": "fractions",
+    "topic": "equivalent_fractions",
+    "difficulty": 2,
+    "question_type": "true_false",
+    "question_text": "1/2 = 2/4",
+    "correct_answer": true,
+    "hint": "Are these fractions equal? Check by doubling 1/2.",
+    "worked_solution_steps": [
+      "Take 1/2 and multiply both by 2.",
+      "1 × 2 = 2 and 2 × 2 = 4.",
+      "1/2 = 2/4.",
+      "The answer is True ✅"
+    ],
+    "analogy": "Half a cake is the same as two quarters."
+  },
+  {
+    "id": "y34-equiv-009",
+    "module": "fractions",
+    "topic": "equivalent_fractions",
+    "difficulty": 2,
+    "question_type": "fill_in",
+    "question_text": "Find the missing number: 3/6 = ?/2",
+    "question_display": {
+      "format": "fraction_equation",
+      "left": {
+        "numerator": 3,
+        "denominator": 6
+      },
+      "equals": true,
+      "right": {
+        "numerator": "?",
+        "denominator": 2
+      }
+    },
+    "correct_answer": {
+      "numerator": 1,
+      "denominator": 2
+    },
+    "accept_equivalent": false,
+    "hint": "The bottom went from 6 to 2. It was divided by 3. Do the same to the top.",
+    "worked_solution_steps": [
+      "Look at the bottom: 6 became 2.",
+      "6 ÷ 3 = 2, so we divided by 3.",
+      "Divide the top by 3: 3 ÷ 3 = 1.",
+      "The answer is 1/2 ✅"
+    ],
+    "analogy": "3 sixths simplifies to one half."
+  },
+  {
+    "id": "y34-equiv-010",
+    "module": "fractions",
+    "topic": "equivalent_fractions",
+    "difficulty": 2,
+    "question_type": "fill_in",
+    "question_text": "Find the missing number: 1/4 = 2/?",
+    "question_display": {
+      "format": "fraction_equation",
+      "left": {
+        "numerator": 1,
+        "denominator": 4
+      },
+      "equals": true,
+      "right": {
+        "numerator": 2,
+        "denominator": "?"
+      }
+    },
+    "correct_answer": {
+      "numerator": 2,
+      "denominator": 8
+    },
+    "accept_equivalent": false,
+    "hint": "The top doubled from 1 to 2. Double the bottom too.",
+    "worked_solution_steps": [
+      "Look at the top: 1 became 2.",
+      "1 × 2 = 2, so we multiplied by 2.",
+      "Multiply the bottom by 2: 4 × 2 = 8.",
+      "The answer is 2/8 ✅"
+    ],
+    "analogy": "One quarter is the same as two eighths."
+  },
+  {
+    "id": "y34-equiv-011",
+    "module": "fractions",
+    "topic": "equivalent_fractions",
+    "difficulty": 2,
+    "question_type": "multiple_choice",
+    "question_text": "Which fraction is NOT equal to 1/2?",
+    "options": [
+      {
+        "value": "2/4",
+        "label": "2/4"
+      },
+      {
+        "value": "3/6",
+        "label": "3/6"
+      },
+      {
+        "value": "4/8",
+        "label": "4/8"
+      },
+      {
+        "value": "2/3",
+        "label": "2/3"
+      }
+    ],
+    "correct_answer": "2/3",
+    "hint": "Check each one. Which one doesn't simplify to 1/2?",
+    "worked_solution_steps": [
+      "2/4 = 1/2 ✓",
+      "3/6 = 1/2 ✓",
+      "4/8 = 1/2 ✓",
+      "2/3 does NOT equal 1/2 ✅"
+    ],
+    "analogy": "Two thirds is more than half."
+  },
+  {
+    "id": "y34-equiv-012",
+    "module": "fractions",
+    "topic": "equivalent_fractions",
+    "difficulty": 2,
+    "question_type": "true_false",
+    "question_text": "2/6 = 1/3",
+    "correct_answer": true,
+    "hint": "Simplify 2/6 by dividing both numbers by 2.",
+    "worked_solution_steps": [
+      "Take 2/6 and divide both by 2.",
+      "2 ÷ 2 = 1 and 6 ÷ 2 = 3.",
+      "So 2/6 = 1/3.",
+      "The answer is True ✅"
+    ],
+    "analogy": "Two sixths of a pizza is one third."
+  },
+  {
+    "id": "y34-equiv-013",
+    "module": "fractions",
+    "topic": "equivalent_fractions",
+    "difficulty": 2,
+    "question_type": "fill_in",
+    "question_text": "Find the missing number: 1/5 = ?/10",
+    "question_display": {
+      "format": "fraction_equation",
+      "left": {
+        "numerator": 1,
+        "denominator": 5
+      },
+      "equals": true,
+      "right": {
+        "numerator": "?",
+        "denominator": 10
+      }
+    },
+    "correct_answer": {
+      "numerator": 2,
+      "denominator": 10
+    },
+    "accept_equivalent": false,
+    "hint": "The bottom doubled from 5 to 10. Double the top too.",
+    "worked_solution_steps": [
+      "Look at the bottom: 5 became 10.",
+      "5 × 2 = 10, so we multiplied by 2.",
+      "Multiply the top by 2: 1 × 2 = 2.",
+      "The answer is 2/10 ✅"
+    ],
+    "analogy": "One fifth equals two tenths."
+  },
+  {
+    "id": "y34-equiv-014",
+    "module": "fractions",
+    "topic": "equivalent_fractions",
+    "difficulty": 2,
+    "question_type": "fill_in",
+    "question_text": "Find the missing number: 4/8 = 1/?",
+    "question_display": {
+      "format": "fraction_equation",
+      "left": {
+        "numerator": 4,
+        "denominator": 8
+      },
+      "equals": true,
+      "right": {
+        "numerator": 1,
+        "denominator": "?"
+      }
+    },
+    "correct_answer": {
+      "numerator": 1,
+      "denominator": 2
+    },
+    "accept_equivalent": false,
+    "hint": "The top went from 4 to 1. Divide by 4. Do the same to the bottom.",
+    "worked_solution_steps": [
+      "Look at the top: 4 became 1.",
+      "4 ÷ 4 = 1, so we divided by 4.",
+      "Divide the bottom by 4: 8 ÷ 4 = 2.",
+      "The answer is 1/2 ✅"
+    ],
+    "analogy": "Four eighths simplifies to one half."
+  },
+  {
+    "id": "y34-equiv-015",
+    "module": "fractions",
+    "topic": "equivalent_fractions",
+    "difficulty": 2,
+    "question_type": "multiple_choice",
+    "question_text": "1/2 = 2/4 = ?/6",
+    "question_display": {
+      "format": "fraction_equation",
+      "left": {
+        "numerator": 1,
+        "denominator": 2
+      },
+      "equals": true,
+      "middle": {
+        "numerator": 2,
+        "denominator": 4
+      },
+      "right": {
+        "numerator": "?",
+        "denominator": 6
+      }
+    },
+    "options": [
+      {
+        "value": "2/6",
+        "label": "2/6"
+      },
+      {
+        "value": "3/6",
+        "label": "3/6"
+      },
+      {
+        "value": "4/6",
+        "label": "4/6"
+      },
+      {
+        "value": "1/6",
+        "label": "1/6"
+      }
+    ],
+    "correct_answer": "3/6",
+    "hint": "What times 2 equals 6? Do the same to the top of 1/2.",
+    "worked_solution_steps": [
+      "Start with 1/2.",
+      "2 × 3 = 6 for the bottom.",
+      "1 × 3 = 3 for the top.",
+      "The answer is 3/6 ✅"
+    ],
+    "analogy": "Half a cake is three sixths of it."
+  }
+]

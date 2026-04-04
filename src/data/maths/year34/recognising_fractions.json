@@ -1,0 +1,433 @@
+[
+  {
+    "id": "y34-recog-001",
+    "module": "fractions",
+    "topic": "recognising_fractions",
+    "difficulty": 1,
+    "question_type": "fill_in",
+    "question_text": "A pizza is cut into 4 equal slices. What fraction is one slice?",
+    "question_display": {
+      "format": "fraction_equation",
+      "right": {
+        "numerator": "?",
+        "denominator": "?"
+      }
+    },
+    "correct_answer": {
+      "numerator": 1,
+      "denominator": 4
+    },
+    "accept_equivalent": false,
+    "hint": "Count how many slices the pizza has. One slice out of that many.",
+    "worked_solution_steps": [
+      "The pizza has 4 equal slices in total.",
+      "We are looking at 1 slice.",
+      "So we write 1 on top and 4 on the bottom.",
+      "The answer is 1/4 ✅"
+    ],
+    "analogy": "Think of sharing a pizza with 3 friends. Each person gets one slice out of four."
+  },
+  {
+    "id": "y34-recog-002",
+    "module": "fractions",
+    "topic": "recognising_fractions",
+    "difficulty": 1,
+    "question_type": "fill_in",
+    "question_text": "A chocolate bar is split in half. What fraction is each piece?",
+    "question_display": {
+      "format": "fraction_equation",
+      "right": {
+        "numerator": "?",
+        "denominator": "?"
+      }
+    },
+    "correct_answer": {
+      "numerator": 1,
+      "denominator": 2
+    },
+    "accept_equivalent": false,
+    "hint": "Half means 2 equal parts. You have one of them.",
+    "worked_solution_steps": [
+      "The chocolate bar is split into 2 equal pieces.",
+      "Each piece is one part out of two.",
+      "We write 1 on top and 2 on the bottom.",
+      "The answer is 1/2 ✅"
+    ],
+    "analogy": "Like sharing a sandwich with a friend. You each get half."
+  },
+  {
+    "id": "y34-recog-003",
+    "module": "fractions",
+    "topic": "recognising_fractions",
+    "difficulty": 1,
+    "question_type": "fill_in",
+    "question_text": "A cake is cut into 3 equal pieces. What fraction is one piece?",
+    "question_display": {
+      "format": "fraction_equation",
+      "right": {
+        "numerator": "?",
+        "denominator": "?"
+      }
+    },
+    "correct_answer": {
+      "numerator": 1,
+      "denominator": 3
+    },
+    "accept_equivalent": false,
+    "hint": "Three equal pieces means thirds. One piece is one third.",
+    "worked_solution_steps": [
+      "The cake has 3 equal pieces.",
+      "We are looking at 1 piece.",
+      "1 out of 3 pieces is written as 1/3.",
+      "The answer is 1/3 ✅"
+    ],
+    "analogy": "Like sharing a cake between 3 people at a party."
+  },
+  {
+    "id": "y34-recog-004",
+    "module": "fractions",
+    "topic": "recognising_fractions",
+    "difficulty": 1,
+    "question_type": "multiple_choice",
+    "question_text": "What fraction of this shape is shaded?",
+    "question_display": {
+      "format": "fraction_equation",
+      "right": {
+        "numerator": "?",
+        "denominator": "?"
+      }
+    },
+    "options": [
+      {
+        "value": "1/4",
+        "label": "1/4"
+      },
+      {
+        "value": "2/4",
+        "label": "2/4"
+      },
+      {
+        "value": "3/4",
+        "label": "3/4"
+      },
+      {
+        "value": "1/2",
+        "label": "1/2"
+      }
+    ],
+    "correct_answer": "2/4",
+    "accept_equivalent": true,
+    "hint": "Count the shaded parts. Count all the parts. Put shaded on top.",
+    "worked_solution_steps": [
+      "Count the total parts: 4 parts.",
+      "Count the shaded parts: 2 parts.",
+      "Write 2 on top and 4 on the bottom.",
+      "The answer is 2/4 ✅"
+    ],
+    "analogy": "Like colouring 2 squares out of 4 squares on a grid."
+  },
+  {
+    "id": "y34-recog-005",
+    "module": "fractions",
+    "topic": "recognising_fractions",
+    "difficulty": 1,
+    "question_type": "fill_in",
+    "question_text": "There are 8 sweets. 2 are red. What fraction are red?",
+    "correct_answer": {
+      "numerator": 2,
+      "denominator": 8
+    },
+    "accept_equivalent": true,
+    "hint": "Put the red sweets on top. Put all the sweets on the bottom.",
+    "worked_solution_steps": [
+      "There are 8 sweets in total.",
+      "2 of them are red.",
+      "Red sweets go on top: 2.",
+      "Total sweets go on bottom: 8.",
+      "The answer is 2/8 ✅"
+    ],
+    "analogy": "Like picking out red sweets from a bag of mixed sweets."
+  },
+  {
+    "id": "y34-recog-006",
+    "module": "fractions",
+    "topic": "recognising_fractions",
+    "difficulty": 1,
+    "question_type": "fill_in",
+    "question_text": "A shape has 6 parts. 3 are shaded. What fraction is shaded?",
+    "question_display": {
+      "format": "fraction_equation",
+      "right": {
+        "numerator": "?",
+        "denominator": "?"
+      }
+    },
+    "correct_answer": {
+      "numerator": 3,
+      "denominator": 6
+    },
+    "accept_equivalent": true,
+    "hint": "Shaded parts on top. All parts on the bottom.",
+    "worked_solution_steps": [
+      "Count total parts: 6.",
+      "Count shaded parts: 3.",
+      "Write 3/6.",
+      "The answer is 3/6 ✅"
+    ],
+    "analogy": "Like colouring half the squares in a row."
+  },
+  {
+    "id": "y34-recog-007",
+    "module": "fractions",
+    "topic": "recognising_fractions",
+    "difficulty": 1,
+    "question_type": "multiple_choice",
+    "question_text": "What fraction of the circle is shaded?",
+    "question_display": {
+      "format": "fraction_equation",
+      "right": {
+        "numerator": "?",
+        "denominator": "?"
+      }
+    },
+    "options": [
+      {
+        "value": "1/4",
+        "label": "1/4"
+      },
+      {
+        "value": "2/4",
+        "label": "2/4"
+      },
+      {
+        "value": "3/4",
+        "label": "3/4"
+      },
+      {
+        "value": "4/4",
+        "label": "4/4"
+      }
+    ],
+    "correct_answer": "3/4",
+    "accept_equivalent": false,
+    "hint": "How many parts are coloured in? How many parts in total?",
+    "worked_solution_steps": [
+      "The circle has 4 equal parts.",
+      "3 parts are shaded.",
+      "Shaded parts on top: 3. Total parts on bottom: 4.",
+      "The answer is 3/4 ✅"
+    ],
+    "analogy": "Like eating 3 slices of a pizza that was cut into 4 slices."
+  },
+  {
+    "id": "y34-recog-008",
+    "module": "fractions",
+    "topic": "recognising_fractions",
+    "difficulty": 1,
+    "question_type": "true_false",
+    "question_text": "This shape shows 1/2 shaded.",
+    "question_display": {
+      "format": "fraction_equation",
+      "right": {
+        "numerator": "?",
+        "denominator": "?"
+      }
+    },
+    "correct_answer": true,
+    "hint": "Is half of the shape coloured in? Check if the shaded part equals half.",
+    "worked_solution_steps": [
+      "The shape has 4 parts. 2 are shaded.",
+      "2 out of 4 is the same as 1 out of 2.",
+      "Yes, half is shaded.",
+      "The answer is True ✅"
+    ],
+    "analogy": "2 slices out of 4 is the same as half a pizza."
+  },
+  {
+    "id": "y34-recog-009",
+    "module": "fractions",
+    "topic": "recognising_fractions",
+    "difficulty": 1,
+    "question_type": "fill_in",
+    "question_text": "There are 10 children. 5 are girls. What fraction are girls?",
+    "correct_answer": {
+      "numerator": 5,
+      "denominator": 10
+    },
+    "accept_equivalent": true,
+    "hint": "Girls on top. All children on the bottom.",
+    "worked_solution_steps": [
+      "Total children: 10.",
+      "Number of girls: 5.",
+      "Fraction of girls: 5/10.",
+      "The answer is 5/10 ✅"
+    ],
+    "analogy": "Like counting how many in your class are girls."
+  },
+  {
+    "id": "y34-recog-010",
+    "module": "fractions",
+    "topic": "recognising_fractions",
+    "difficulty": 1,
+    "question_type": "multiple_choice",
+    "question_text": "A bar is split into 5 parts. 1 is shaded. What fraction is shaded?",
+    "question_display": {
+      "format": "fraction_equation",
+      "right": {
+        "numerator": "?",
+        "denominator": "?"
+      }
+    },
+    "options": [
+      {
+        "value": "1/5",
+        "label": "1/5"
+      },
+      {
+        "value": "1/4",
+        "label": "1/4"
+      },
+      {
+        "value": "2/5",
+        "label": "2/5"
+      },
+      {
+        "value": "5/1",
+        "label": "5/1"
+      }
+    ],
+    "correct_answer": "1/5",
+    "accept_equivalent": false,
+    "hint": "One part is coloured. There are 5 parts in total.",
+    "worked_solution_steps": [
+      "Count all parts: 5.",
+      "Count shaded parts: 1.",
+      "Write 1 on top and 5 on the bottom.",
+      "The answer is 1/5 ✅"
+    ],
+    "analogy": "Like one finger out of five on your hand."
+  },
+  {
+    "id": "y34-recog-011",
+    "module": "fractions",
+    "topic": "recognising_fractions",
+    "difficulty": 1,
+    "question_type": "fill_in",
+    "question_text": "A ribbon is cut into 4 parts. Tom takes 1 part. What fraction does Tom have?",
+    "correct_answer": {
+      "numerator": 1,
+      "denominator": 4
+    },
+    "accept_equivalent": false,
+    "hint": "Tom has 1 piece. The ribbon had 4 pieces.",
+    "worked_solution_steps": [
+      "The ribbon has 4 equal parts.",
+      "Tom takes 1 part.",
+      "1 out of 4 is written as 1/4.",
+      "The answer is 1/4 ✅"
+    ],
+    "analogy": "Like cutting a ribbon for 4 presents and using one piece."
+  },
+  {
+    "id": "y34-recog-012",
+    "module": "fractions",
+    "topic": "recognising_fractions",
+    "difficulty": 1,
+    "question_type": "true_false",
+    "question_text": "This shape shows 1/3 shaded.",
+    "question_display": {
+      "format": "fraction_equation",
+      "right": {
+        "numerator": "?",
+        "denominator": "?"
+      }
+    },
+    "correct_answer": false,
+    "hint": "Count the shaded parts carefully. Is it 1 out of 3?",
+    "worked_solution_steps": [
+      "The shape has 3 parts.",
+      "2 parts are shaded, not 1.",
+      "2 out of 3 is 2/3, not 1/3.",
+      "The answer is False ✅"
+    ],
+    "analogy": "If you ate 2 slices of a 3-slice pizza, you ate 2/3, not 1/3."
+  },
+  {
+    "id": "y34-recog-013",
+    "module": "fractions",
+    "topic": "recognising_fractions",
+    "difficulty": 1,
+    "question_type": "fill_in",
+    "question_text": "A bag has 6 apples. 2 are green. What fraction are green?",
+    "correct_answer": {
+      "numerator": 2,
+      "denominator": 6
+    },
+    "accept_equivalent": true,
+    "hint": "Green apples on top. All apples on bottom.",
+    "worked_solution_steps": [
+      "Total apples: 6.",
+      "Green apples: 2.",
+      "Fraction: 2/6.",
+      "The answer is 2/6 ✅"
+    ],
+    "analogy": "Like picking green apples from a fruit bowl."
+  },
+  {
+    "id": "y34-recog-014",
+    "module": "fractions",
+    "topic": "recognising_fractions",
+    "difficulty": 1,
+    "question_type": "multiple_choice",
+    "question_text": "4 out of 8 squares are coloured. What fraction is coloured?",
+    "options": [
+      {
+        "value": "4/8",
+        "label": "4/8"
+      },
+      {
+        "value": "8/4",
+        "label": "8/4"
+      },
+      {
+        "value": "4/4",
+        "label": "4/4"
+      },
+      {
+        "value": "1/8",
+        "label": "1/8"
+      }
+    ],
+    "correct_answer": "4/8",
+    "accept_equivalent": true,
+    "hint": "Coloured squares go on top. All squares go on the bottom.",
+    "worked_solution_steps": [
+      "Coloured squares: 4.",
+      "Total squares: 8.",
+      "Write 4 on top and 8 on the bottom.",
+      "The answer is 4/8 ✅"
+    ],
+    "analogy": "Like colouring half the boxes on a checkerboard."
+  },
+  {
+    "id": "y34-recog-015",
+    "module": "fractions",
+    "topic": "recognising_fractions",
+    "difficulty": 1,
+    "question_type": "fill_in",
+    "question_text": "A set of 12 pencils has 3 red ones. What fraction are red?",
+    "correct_answer": {
+      "numerator": 3,
+      "denominator": 12
+    },
+    "accept_equivalent": true,
+    "hint": "Red pencils on top. All pencils on bottom.",
+    "worked_solution_steps": [
+      "Total pencils: 12.",
+      "Red pencils: 3.",
+      "Fraction of red: 3/12.",
+      "The answer is 3/12 ✅"
+    ],
+    "analogy": "Like sorting coloured pencils in your pencil case."
+  }
+]

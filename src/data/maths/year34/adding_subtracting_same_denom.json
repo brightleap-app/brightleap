@@ -1,0 +1,612 @@
+[
+  {
+    "id": "y34-add-001",
+    "module": "fractions",
+    "topic": "adding_subtracting_same_denom",
+    "difficulty": 1,
+    "question_type": "fill_in",
+    "question_text": "Work out 1/5 + 2/5",
+    "question_display": {
+      "format": "fraction_equation",
+      "left": {
+        "numerator": 1,
+        "denominator": 5
+      },
+      "operator": "+",
+      "middle": {
+        "numerator": 2,
+        "denominator": 5
+      },
+      "equals": true,
+      "right": {
+        "numerator": "?",
+        "denominator": 5
+      }
+    },
+    "correct_answer": {
+      "numerator": 3,
+      "denominator": 5
+    },
+    "accept_equivalent": false,
+    "hint": "When the bottom numbers are the same, just add the top numbers.",
+    "worked_solution_steps": [
+      "Both fractions have 5 on the bottom.",
+      "Add the top numbers: 1 + 2 = 3.",
+      "Keep the bottom number: 5.",
+      "The answer is 3/5 ✅"
+    ],
+    "analogy": "Like adding pizza slices: 1 slice plus 2 slices equals 3 slices."
+  },
+  {
+    "id": "y34-add-002",
+    "module": "fractions",
+    "topic": "adding_subtracting_same_denom",
+    "difficulty": 1,
+    "question_type": "fill_in",
+    "question_text": "Work out 3/8 + 2/8",
+    "question_display": {
+      "format": "fraction_equation",
+      "left": {
+        "numerator": 3,
+        "denominator": 8
+      },
+      "operator": "+",
+      "middle": {
+        "numerator": 2,
+        "denominator": 8
+      },
+      "equals": true,
+      "right": {
+        "numerator": "?",
+        "denominator": 8
+      }
+    },
+    "correct_answer": {
+      "numerator": 5,
+      "denominator": 8
+    },
+    "accept_equivalent": false,
+    "hint": "Same bottom number means add the tops and keep the bottom.",
+    "worked_solution_steps": [
+      "Both fractions have 8 on the bottom.",
+      "Add the top numbers: 3 + 2 = 5.",
+      "Keep the bottom number: 8.",
+      "The answer is 5/8 ✅"
+    ],
+    "analogy": "Like having 3 pieces of chocolate and getting 2 more."
+  },
+  {
+    "id": "y34-add-003",
+    "module": "fractions",
+    "topic": "adding_subtracting_same_denom",
+    "difficulty": 1,
+    "question_type": "fill_in",
+    "question_text": "Work out 4/6 - 1/6",
+    "question_display": {
+      "format": "fraction_equation",
+      "left": {
+        "numerator": 4,
+        "denominator": 6
+      },
+      "operator": "-",
+      "middle": {
+        "numerator": 1,
+        "denominator": 6
+      },
+      "equals": true,
+      "right": {
+        "numerator": "?",
+        "denominator": 6
+      }
+    },
+    "correct_answer": {
+      "numerator": 3,
+      "denominator": 6
+    },
+    "accept_equivalent": true,
+    "hint": "To subtract, take away the top numbers. Keep the bottom the same.",
+    "worked_solution_steps": [
+      "Both fractions have 6 on the bottom.",
+      "Subtract the top numbers: 4 - 1 = 3.",
+      "Keep the bottom number: 6.",
+      "The answer is 3/6 ✅"
+    ],
+    "analogy": "Like having 4 cake slices and eating 1."
+  },
+  {
+    "id": "y34-add-004",
+    "module": "fractions",
+    "topic": "adding_subtracting_same_denom",
+    "difficulty": 1,
+    "question_type": "multiple_choice",
+    "question_text": "What is 2/7 + 3/7?",
+    "question_display": {
+      "format": "fraction_equation",
+      "left": {
+        "numerator": 2,
+        "denominator": 7
+      },
+      "operator": "+",
+      "middle": {
+        "numerator": 3,
+        "denominator": 7
+      },
+      "equals": true,
+      "right": "?"
+    },
+    "options": [
+      {
+        "value": "5/7",
+        "label": "5/7"
+      },
+      {
+        "value": "5/14",
+        "label": "5/14"
+      },
+      {
+        "value": "6/7",
+        "label": "6/7"
+      },
+      {
+        "value": "1/7",
+        "label": "1/7"
+      }
+    ],
+    "correct_answer": "5/7",
+    "accept_equivalent": false,
+    "hint": "Add the tops. The bottom stays the same.",
+    "worked_solution_steps": [
+      "Both fractions have 7 on the bottom.",
+      "Add the top numbers: 2 + 3 = 5.",
+      "Keep the bottom: 7.",
+      "The answer is 5/7 ✅"
+    ],
+    "analogy": "Like adding counters: 2 red plus 3 blue makes 5 counters."
+  },
+  {
+    "id": "y34-add-005",
+    "module": "fractions",
+    "topic": "adding_subtracting_same_denom",
+    "difficulty": 1,
+    "question_type": "fill_in",
+    "question_text": "Work out 5/10 - 3/10",
+    "question_display": {
+      "format": "fraction_equation",
+      "left": {
+        "numerator": 5,
+        "denominator": 10
+      },
+      "operator": "-",
+      "middle": {
+        "numerator": 3,
+        "denominator": 10
+      },
+      "equals": true,
+      "right": {
+        "numerator": "?",
+        "denominator": 10
+      }
+    },
+    "correct_answer": {
+      "numerator": 2,
+      "denominator": 10
+    },
+    "accept_equivalent": true,
+    "hint": "Subtract the tops. Keep the bottom number the same.",
+    "worked_solution_steps": [
+      "Both fractions have 10 on the bottom.",
+      "Subtract the top numbers: 5 - 3 = 2.",
+      "Keep the bottom: 10.",
+      "The answer is 2/10 ✅"
+    ],
+    "analogy": "Like having 50p and spending 30p. You have 20p left."
+  },
+  {
+    "id": "y34-add-006",
+    "module": "fractions",
+    "topic": "adding_subtracting_same_denom",
+    "difficulty": 2,
+    "question_type": "fill_in",
+    "question_text": "Work out 1/4 + 2/4",
+    "question_display": {
+      "format": "fraction_equation",
+      "left": {
+        "numerator": 1,
+        "denominator": 4
+      },
+      "operator": "+",
+      "middle": {
+        "numerator": 2,
+        "denominator": 4
+      },
+      "equals": true,
+      "right": {
+        "numerator": "?",
+        "denominator": 4
+      }
+    },
+    "correct_answer": {
+      "numerator": 3,
+      "denominator": 4
+    },
+    "accept_equivalent": false,
+    "hint": "1 quarter plus 2 quarters equals how many quarters?",
+    "worked_solution_steps": [
+      "Both fractions are quarters (4 on the bottom).",
+      "Add the tops: 1 + 2 = 3.",
+      "Keep the bottom: 4.",
+      "The answer is 3/4 ✅"
+    ],
+    "analogy": "Like having 1 slice of pizza and getting 2 more from a 4-slice pizza."
+  },
+  {
+    "id": "y34-add-007",
+    "module": "fractions",
+    "topic": "adding_subtracting_same_denom",
+    "difficulty": 2,
+    "question_type": "multiple_choice",
+    "question_text": "What is 6/9 - 2/9?",
+    "question_display": {
+      "format": "fraction_equation",
+      "left": {
+        "numerator": 6,
+        "denominator": 9
+      },
+      "operator": "-",
+      "middle": {
+        "numerator": 2,
+        "denominator": 9
+      },
+      "equals": true,
+      "right": "?"
+    },
+    "options": [
+      {
+        "value": "4/9",
+        "label": "4/9"
+      },
+      {
+        "value": "8/9",
+        "label": "8/9"
+      },
+      {
+        "value": "4/18",
+        "label": "4/18"
+      },
+      {
+        "value": "3/9",
+        "label": "3/9"
+      }
+    ],
+    "correct_answer": "4/9",
+    "accept_equivalent": false,
+    "hint": "Subtract 2 from 6. Keep 9 on the bottom.",
+    "worked_solution_steps": [
+      "Both fractions have 9 on the bottom.",
+      "Subtract the tops: 6 - 2 = 4.",
+      "Keep the bottom: 9.",
+      "The answer is 4/9 ✅"
+    ],
+    "analogy": "Like having 6 sweets and giving away 2."
+  },
+  {
+    "id": "y34-add-008",
+    "module": "fractions",
+    "topic": "adding_subtracting_same_denom",
+    "difficulty": 1,
+    "question_type": "true_false",
+    "question_text": "2/5 + 1/5 = 3/10",
+    "question_display": {
+      "format": "fraction_equation",
+      "left": {
+        "numerator": 2,
+        "denominator": 5
+      },
+      "operator": "+",
+      "middle": {
+        "numerator": 1,
+        "denominator": 5
+      },
+      "equals": true,
+      "right": {
+        "numerator": 3,
+        "denominator": 10
+      }
+    },
+    "correct_answer": false,
+    "hint": "When you add fractions with the same bottom, the bottom stays the same.",
+    "worked_solution_steps": [
+      "Both fractions have 5 on the bottom.",
+      "Add the tops: 2 + 1 = 3.",
+      "The bottom stays as 5, not 10.",
+      "The correct answer is 3/5, so this is False ✅"
+    ],
+    "analogy": "You don't change the size of the slices when adding them."
+  },
+  {
+    "id": "y34-add-009",
+    "module": "fractions",
+    "topic": "adding_subtracting_same_denom",
+    "difficulty": 2,
+    "question_type": "fill_in",
+    "question_text": "Work out 4/12 + 5/12",
+    "question_display": {
+      "format": "fraction_equation",
+      "left": {
+        "numerator": 4,
+        "denominator": 12
+      },
+      "operator": "+",
+      "middle": {
+        "numerator": 5,
+        "denominator": 12
+      },
+      "equals": true,
+      "right": {
+        "numerator": "?",
+        "denominator": 12
+      }
+    },
+    "correct_answer": {
+      "numerator": 9,
+      "denominator": 12
+    },
+    "accept_equivalent": true,
+    "hint": "Add 4 and 5. Keep 12 on the bottom.",
+    "worked_solution_steps": [
+      "Both fractions have 12 on the bottom.",
+      "Add the tops: 4 + 5 = 9.",
+      "Keep the bottom: 12.",
+      "The answer is 9/12 ✅"
+    ],
+    "analogy": "Like counting months: 4 months plus 5 months is 9 months."
+  },
+  {
+    "id": "y34-add-010",
+    "module": "fractions",
+    "topic": "adding_subtracting_same_denom",
+    "difficulty": 2,
+    "question_type": "fill_in",
+    "question_text": "Work out 7/8 - 4/8",
+    "question_display": {
+      "format": "fraction_equation",
+      "left": {
+        "numerator": 7,
+        "denominator": 8
+      },
+      "operator": "-",
+      "middle": {
+        "numerator": 4,
+        "denominator": 8
+      },
+      "equals": true,
+      "right": {
+        "numerator": "?",
+        "denominator": 8
+      }
+    },
+    "correct_answer": {
+      "numerator": 3,
+      "denominator": 8
+    },
+    "accept_equivalent": false,
+    "hint": "Take 4 away from 7. Keep the bottom the same.",
+    "worked_solution_steps": [
+      "Both fractions have 8 on the bottom.",
+      "Subtract the tops: 7 - 4 = 3.",
+      "Keep the bottom: 8.",
+      "The answer is 3/8 ✅"
+    ],
+    "analogy": "Like having 7 slices of pizza and eating 4."
+  },
+  {
+    "id": "y34-add-011",
+    "module": "fractions",
+    "topic": "adding_subtracting_same_denom",
+    "difficulty": 1,
+    "question_type": "multiple_choice",
+    "question_text": "What is 1/3 + 1/3?",
+    "question_display": {
+      "format": "fraction_equation",
+      "left": {
+        "numerator": 1,
+        "denominator": 3
+      },
+      "operator": "+",
+      "middle": {
+        "numerator": 1,
+        "denominator": 3
+      },
+      "equals": true,
+      "right": "?"
+    },
+    "options": [
+      {
+        "value": "2/3",
+        "label": "2/3"
+      },
+      {
+        "value": "2/6",
+        "label": "2/6"
+      },
+      {
+        "value": "1/6",
+        "label": "1/6"
+      },
+      {
+        "value": "3/3",
+        "label": "3/3"
+      }
+    ],
+    "correct_answer": "2/3",
+    "accept_equivalent": false,
+    "hint": "One third plus one third. Add the tops, keep the bottom.",
+    "worked_solution_steps": [
+      "Both fractions have 3 on the bottom.",
+      "Add the tops: 1 + 1 = 2.",
+      "Keep the bottom: 3.",
+      "The answer is 2/3 ✅"
+    ],
+    "analogy": "Like having one third of a cake and getting another third."
+  },
+  {
+    "id": "y34-add-012",
+    "module": "fractions",
+    "topic": "adding_subtracting_same_denom",
+    "difficulty": 2,
+    "question_type": "fill_in",
+    "question_text": "Work out 8/10 - 5/10",
+    "question_display": {
+      "format": "fraction_equation",
+      "left": {
+        "numerator": 8,
+        "denominator": 10
+      },
+      "operator": "-",
+      "middle": {
+        "numerator": 5,
+        "denominator": 10
+      },
+      "equals": true,
+      "right": {
+        "numerator": "?",
+        "denominator": 10
+      }
+    },
+    "correct_answer": {
+      "numerator": 3,
+      "denominator": 10
+    },
+    "accept_equivalent": false,
+    "hint": "8 take away 5. Keep 10 on the bottom.",
+    "worked_solution_steps": [
+      "Both fractions have 10 on the bottom.",
+      "Subtract: 8 - 5 = 3.",
+      "Keep the bottom: 10.",
+      "The answer is 3/10 ✅"
+    ],
+    "analogy": "Like having 80p and spending 50p. You have 30p left."
+  },
+  {
+    "id": "y34-add-013",
+    "module": "fractions",
+    "topic": "adding_subtracting_same_denom",
+    "difficulty": 1,
+    "question_type": "true_false",
+    "question_text": "3/4 - 1/4 = 2/4",
+    "question_display": {
+      "format": "fraction_equation",
+      "left": {
+        "numerator": 3,
+        "denominator": 4
+      },
+      "operator": "-",
+      "middle": {
+        "numerator": 1,
+        "denominator": 4
+      },
+      "equals": true,
+      "right": {
+        "numerator": 2,
+        "denominator": 4
+      }
+    },
+    "correct_answer": true,
+    "hint": "Subtract the top numbers. Does 3 - 1 = 2?",
+    "worked_solution_steps": [
+      "Both fractions have 4 on the bottom.",
+      "Subtract the tops: 3 - 1 = 2.",
+      "The answer is 2/4.",
+      "This is True ✅"
+    ],
+    "analogy": "Like having 3 quarters and giving away 1 quarter."
+  },
+  {
+    "id": "y34-add-014",
+    "module": "fractions",
+    "topic": "adding_subtracting_same_denom",
+    "difficulty": 2,
+    "question_type": "fill_in",
+    "question_text": "Work out 2/6 + 3/6",
+    "question_display": {
+      "format": "fraction_equation",
+      "left": {
+        "numerator": 2,
+        "denominator": 6
+      },
+      "operator": "+",
+      "middle": {
+        "numerator": 3,
+        "denominator": 6
+      },
+      "equals": true,
+      "right": {
+        "numerator": "?",
+        "denominator": 6
+      }
+    },
+    "correct_answer": {
+      "numerator": 5,
+      "denominator": 6
+    },
+    "accept_equivalent": false,
+    "hint": "Add 2 and 3. Keep 6 on the bottom.",
+    "worked_solution_steps": [
+      "Both fractions have 6 on the bottom.",
+      "Add the tops: 2 + 3 = 5.",
+      "Keep the bottom: 6.",
+      "The answer is 5/6 ✅"
+    ],
+    "analogy": "Like collecting stickers: 2 stickers plus 3 more makes 5."
+  },
+  {
+    "id": "y34-add-015",
+    "module": "fractions",
+    "topic": "adding_subtracting_same_denom",
+    "difficulty": 2,
+    "question_type": "multiple_choice",
+    "question_text": "What is 5/9 + 3/9?",
+    "question_display": {
+      "format": "fraction_equation",
+      "left": {
+        "numerator": 5,
+        "denominator": 9
+      },
+      "operator": "+",
+      "middle": {
+        "numerator": 3,
+        "denominator": 9
+      },
+      "equals": true,
+      "right": "?"
+    },
+    "options": [
+      {
+        "value": "8/9",
+        "label": "8/9"
+      },
+      {
+        "value": "8/18",
+        "label": "8/18"
+      },
+      {
+        "value": "2/9",
+        "label": "2/9"
+      },
+      {
+        "value": "9/9",
+        "label": "9/9"
+      }
+    ],
+    "correct_answer": "8/9",
+    "accept_equivalent": false,
+    "hint": "5 plus 3 on top. Keep 9 on the bottom.",
+    "worked_solution_steps": [
+      "Both fractions have 9 on the bottom.",
+      "Add the tops: 5 + 3 = 8.",
+      "Keep the bottom: 9.",
+      "The answer is 8/9 ✅"
+    ],
+    "analogy": "Like filling a box: 5 items plus 3 more makes 8 items."
+  }
+]

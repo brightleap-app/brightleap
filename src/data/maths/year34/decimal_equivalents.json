@@ -1,0 +1,331 @@
+[
+  {
+    "id": "y34-dec-001",
+    "module": "decimals",
+    "topic": "decimal_equivalents",
+    "difficulty": 1,
+    "question_type": "fill_in",
+    "question_text": "What is 1/2 as a decimal?",
+    "correct_answer": "0.5",
+    "hint": "Half is the same as 5 tenths.",
+    "worked_solution_steps": [
+      "1/2 means one half.",
+      "Half is the same as 5 out of 10.",
+      "5 tenths is written as 0.5.",
+      "The answer is 0.5 ✅"
+    ],
+    "analogy": "50p is half of £1. We write it as £0.50."
+  },
+  {
+    "id": "y34-dec-002",
+    "module": "decimals",
+    "topic": "decimal_equivalents",
+    "difficulty": 1,
+    "question_type": "fill_in",
+    "question_text": "What is 1/4 as a decimal?",
+    "correct_answer": "0.25",
+    "hint": "A quarter is 25 hundredths.",
+    "worked_solution_steps": [
+      "1/4 means one quarter.",
+      "A quarter of 100 is 25.",
+      "So 1/4 = 25/100 = 0.25.",
+      "The answer is 0.25 ✅"
+    ],
+    "analogy": "25p is a quarter of £1. We write it as £0.25."
+  },
+  {
+    "id": "y34-dec-003",
+    "module": "decimals",
+    "topic": "decimal_equivalents",
+    "difficulty": 1,
+    "question_type": "fill_in",
+    "question_text": "What is 3/4 as a decimal?",
+    "correct_answer": "0.75",
+    "hint": "Three quarters is 75 hundredths.",
+    "worked_solution_steps": [
+      "3/4 means three quarters.",
+      "3 quarters of 100 is 75.",
+      "So 3/4 = 75/100 = 0.75.",
+      "The answer is 0.75 ✅"
+    ],
+    "analogy": "75p is three quarters of £1. We write it as £0.75."
+  },
+  {
+    "id": "y34-dec-004",
+    "module": "decimals",
+    "topic": "decimal_equivalents",
+    "difficulty": 1,
+    "question_type": "multiple_choice",
+    "question_text": "Which decimal equals 1/2?",
+    "options": [
+      {
+        "value": "0.2",
+        "label": "0.2"
+      },
+      {
+        "value": "0.5",
+        "label": "0.5"
+      },
+      {
+        "value": "0.12",
+        "label": "0.12"
+      },
+      {
+        "value": "0.25",
+        "label": "0.25"
+      }
+    ],
+    "correct_answer": "0.5",
+    "hint": "Half means 5 out of 10.",
+    "worked_solution_steps": [
+      "1/2 is one half.",
+      "Half is the same as 5/10.",
+      "5/10 as a decimal is 0.5.",
+      "The answer is 0.5 ✅"
+    ],
+    "analogy": "Half a litre is 500ml or 0.5 litres."
+  },
+  {
+    "id": "y34-dec-005",
+    "module": "fractions",
+    "topic": "decimal_equivalents",
+    "difficulty": 1,
+    "question_type": "fill_in",
+    "question_text": "What fraction is 0.5?",
+    "correct_answer": {
+      "numerator": 1,
+      "denominator": 2
+    },
+    "accept_equivalent": true,
+    "hint": "0.5 is the same as one half.",
+    "worked_solution_steps": [
+      "0.5 means 5 tenths.",
+      "5/10 can be simplified.",
+      "5/10 = 1/2.",
+      "The answer is 1/2 ✅"
+    ],
+    "analogy": "£0.50 is half of £1."
+  },
+  {
+    "id": "y34-dec-006",
+    "module": "fractions",
+    "topic": "decimal_equivalents",
+    "difficulty": 1,
+    "question_type": "fill_in",
+    "question_text": "What fraction is 0.25?",
+    "correct_answer": {
+      "numerator": 1,
+      "denominator": 4
+    },
+    "accept_equivalent": true,
+    "hint": "0.25 is the same as one quarter.",
+    "worked_solution_steps": [
+      "0.25 means 25 hundredths.",
+      "25/100 can be simplified.",
+      "25/100 = 1/4.",
+      "The answer is 1/4 ✅"
+    ],
+    "analogy": "£0.25 is a quarter of £1."
+  },
+  {
+    "id": "y34-dec-007",
+    "module": "decimals",
+    "topic": "decimal_equivalents",
+    "difficulty": 2,
+    "question_type": "multiple_choice",
+    "question_text": "Which fraction equals 0.75?",
+    "options": [
+      {
+        "value": "1/4",
+        "label": "1/4"
+      },
+      {
+        "value": "1/2",
+        "label": "1/2"
+      },
+      {
+        "value": "3/4",
+        "label": "3/4"
+      },
+      {
+        "value": "7/5",
+        "label": "7/5"
+      }
+    ],
+    "correct_answer": "3/4",
+    "hint": "0.75 is 75 hundredths. That's three quarters.",
+    "worked_solution_steps": [
+      "0.75 means 75 hundredths.",
+      "75/100 simplifies to 3/4.",
+      "Divide both by 25: 75÷25=3, 100÷25=4.",
+      "The answer is 3/4 ✅"
+    ],
+    "analogy": "75p out of £1 is three quarters."
+  },
+  {
+    "id": "y34-dec-008",
+    "module": "decimals",
+    "topic": "decimal_equivalents",
+    "difficulty": 1,
+    "question_type": "true_false",
+    "question_text": "0.5 is the same as 1/2",
+    "correct_answer": true,
+    "hint": "Does 0.5 equal half?",
+    "worked_solution_steps": [
+      "0.5 means 5 tenths.",
+      "5/10 simplifies to 1/2.",
+      "So yes, 0.5 = 1/2.",
+      "The answer is True ✅"
+    ],
+    "analogy": "50p equals half of £1."
+  },
+  {
+    "id": "y34-dec-009",
+    "module": "decimals",
+    "topic": "decimal_equivalents",
+    "difficulty": 2,
+    "question_type": "fill_in",
+    "question_text": "Write 2/4 as a decimal.",
+    "correct_answer": "0.5",
+    "hint": "2/4 is the same as 1/2. What is 1/2 as a decimal?",
+    "worked_solution_steps": [
+      "2/4 can be simplified.",
+      "2/4 = 1/2.",
+      "1/2 as a decimal is 0.5.",
+      "The answer is 0.5 ✅"
+    ],
+    "analogy": "Two quarters equals one half."
+  },
+  {
+    "id": "y34-dec-010",
+    "module": "decimals",
+    "topic": "decimal_equivalents",
+    "difficulty": 2,
+    "question_type": "multiple_choice",
+    "question_text": "Which decimal is greater: 0.25 or 0.5?",
+    "options": [
+      {
+        "value": "0.25",
+        "label": "0.25"
+      },
+      {
+        "value": "0.5",
+        "label": "0.5"
+      },
+      {
+        "value": "same",
+        "label": "They are the same"
+      }
+    ],
+    "correct_answer": "0.5",
+    "hint": "Compare 25 hundredths with 50 hundredths.",
+    "worked_solution_steps": [
+      "0.25 = 25 hundredths.",
+      "0.5 = 50 hundredths.",
+      "50 is greater than 25.",
+      "So 0.5 is greater ✅"
+    ],
+    "analogy": "50p is more money than 25p."
+  },
+  {
+    "id": "y34-dec-011",
+    "module": "decimals",
+    "topic": "decimal_equivalents",
+    "difficulty": 1,
+    "question_type": "true_false",
+    "question_text": "0.25 is the same as 1/4",
+    "correct_answer": true,
+    "hint": "Is 25 hundredths equal to one quarter?",
+    "worked_solution_steps": [
+      "0.25 means 25 hundredths.",
+      "25/100 simplifies to 1/4.",
+      "Yes, 0.25 = 1/4.",
+      "The answer is True ✅"
+    ],
+    "analogy": "25p is a quarter of £1."
+  },
+  {
+    "id": "y34-dec-012",
+    "module": "decimals",
+    "topic": "decimal_equivalents",
+    "difficulty": 2,
+    "question_type": "fill_in",
+    "question_text": "Write 50/100 as a decimal.",
+    "correct_answer": "0.5",
+    "hint": "50 hundredths. How do you write that after the decimal point?",
+    "worked_solution_steps": [
+      "50/100 means 50 hundredths.",
+      "50 hundredths is the same as 5 tenths.",
+      "We write 0.5.",
+      "The answer is 0.5 ✅"
+    ],
+    "analogy": "50p out of 100p is half."
+  },
+  {
+    "id": "y34-dec-013",
+    "module": "fractions",
+    "topic": "decimal_equivalents",
+    "difficulty": 2,
+    "question_type": "fill_in",
+    "question_text": "What fraction is 0.75?",
+    "correct_answer": {
+      "numerator": 3,
+      "denominator": 4
+    },
+    "accept_equivalent": true,
+    "hint": "0.75 is three quarters.",
+    "worked_solution_steps": [
+      "0.75 means 75 hundredths.",
+      "75/100 = 3/4.",
+      "The answer is 3/4 ✅"
+    ],
+    "analogy": "75p is three quarters of £1."
+  },
+  {
+    "id": "y34-dec-014",
+    "module": "decimals",
+    "topic": "decimal_equivalents",
+    "difficulty": 2,
+    "question_type": "multiple_choice",
+    "question_text": "Which is smaller: 1/4 or 0.5?",
+    "options": [
+      {
+        "value": "1/4",
+        "label": "1/4"
+      },
+      {
+        "value": "0.5",
+        "label": "0.5"
+      },
+      {
+        "value": "same",
+        "label": "They are the same"
+      }
+    ],
+    "correct_answer": "1/4",
+    "hint": "Change 1/4 to a decimal and compare.",
+    "worked_solution_steps": [
+      "1/4 = 0.25.",
+      "Compare 0.25 and 0.5.",
+      "0.25 is smaller than 0.5.",
+      "So 1/4 is smaller ✅"
+    ],
+    "analogy": "25p is less money than 50p."
+  },
+  {
+    "id": "y34-dec-015",
+    "module": "decimals",
+    "topic": "decimal_equivalents",
+    "difficulty": 1,
+    "question_type": "fill_in",
+    "question_text": "Tom has half a cake. Write this as a decimal.",
+    "correct_answer": "0.5",
+    "hint": "Half is the same as 0.5.",
+    "worked_solution_steps": [
+      "Half means 1/2.",
+      "1/2 as a decimal is 0.5.",
+      "The answer is 0.5 ✅"
+    ],
+    "analogy": "Half a metre is 0.5 metres."
+  }
+]

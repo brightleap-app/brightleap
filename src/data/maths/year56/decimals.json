@@ -1,0 +1,323 @@
+[
+  {
+    "id": "y56-dec-001",
+    "module": "decimals",
+    "topic": "decimals",
+    "difficulty": 2,
+    "question_type": "fill_in",
+    "question_text": "What is the value of the digit 7 in 3.75?",
+    "correct_answer": "7 tenths",
+    "accept_equivalent": true,
+    "hint": "Look at the first place after the decimal point.",
+    "worked_solution_steps": [
+      "Step 1: The first place after the decimal is tenths.",
+      "Step 2: The 7 is in the tenths place.",
+      "Step 3: So 7 represents 7 tenths or 0.7. ✅"
+    ],
+    "analogy": "Like 7 ten-pence coins making 70p."
+  },
+  {
+    "id": "y56-dec-002",
+    "module": "decimals",
+    "topic": "decimals",
+    "difficulty": 2,
+    "question_type": "fill_in",
+    "question_text": "What is the value of the digit 4 in 2.346?",
+    "correct_answer": "4 hundredths",
+    "accept_equivalent": true,
+    "hint": "Count the places after the decimal point.",
+    "worked_solution_steps": [
+      "Step 1: First place = tenths (3), second place = hundredths (4).",
+      "Step 2: The 4 is in the hundredths place.",
+      "Step 3: So 4 represents 4 hundredths or 0.04. ✅"
+    ],
+    "analogy": "Like 4 pennies in £2.34 and 6 tenths of a penny."
+  },
+  {
+    "id": "y56-dec-003",
+    "module": "decimals",
+    "topic": "decimals",
+    "difficulty": 3,
+    "question_type": "fill_in",
+    "question_text": "What is the value of the digit 8 in 5.128?",
+    "correct_answer": "8 thousandths",
+    "accept_equivalent": true,
+    "hint": "The third place after the decimal is thousandths.",
+    "worked_solution_steps": [
+      "Step 1: First = tenths (1), second = hundredths (2), third = thousandths (8).",
+      "Step 2: The 8 is in the thousandths place.",
+      "Step 3: So 8 represents 8 thousandths or 0.008. ✅"
+    ],
+    "analogy": "8 thousandths is a very tiny amount, like 8mm in a metre."
+  },
+  {
+    "id": "y56-dec-004",
+    "module": "decimals",
+    "topic": "decimals",
+    "difficulty": 2,
+    "question_type": "fill_in",
+    "question_text": "Order these decimals from smallest to largest: 0.5, 0.35, 0.53",
+    "correct_answer": "0.35, 0.5, 0.53",
+    "hint": "Compare the tenths first, then hundredths.",
+    "worked_solution_steps": [
+      "Step 1: Compare tenths: 0.35 has 3 tenths, others have 5 tenths.",
+      "Step 2: 0.35 is smallest. Now compare 0.5 and 0.53.",
+      "Step 3: 0.5 = 0.50, so 0.50 < 0.53.",
+      "Step 4: Order: 0.35, 0.5, 0.53. ✅"
+    ],
+    "analogy": "35p, 50p, 53p in order from least to most."
+  },
+  {
+    "id": "y56-dec-005",
+    "module": "decimals",
+    "topic": "decimals",
+    "difficulty": 3,
+    "question_type": "fill_in",
+    "question_text": "Calculate: 3.45 + 2.7",
+    "correct_answer": "6.15",
+    "hint": "Line up the decimal points. Add a zero: 2.7 = 2.70.",
+    "worked_solution_steps": [
+      "Step 1: Write as column addition, line up decimals.",
+      "Step 2: 3.45 + 2.70 (add a zero to help).",
+      "Step 3: 5 + 0 = 5, 4 + 7 = 11 (carry 1), 3 + 2 + 1 = 6.",
+      "Step 4: Answer is 6.15. ✅"
+    ],
+    "analogy": "£3.45 + £2.70 = £6.15."
+  },
+  {
+    "id": "y56-dec-006",
+    "module": "decimals",
+    "topic": "decimals",
+    "difficulty": 3,
+    "question_type": "fill_in",
+    "question_text": "Calculate: 5.2 - 1.85",
+    "correct_answer": "3.35",
+    "hint": "Write 5.2 as 5.20 to help with subtraction.",
+    "worked_solution_steps": [
+      "Step 1: Write as column subtraction: 5.20 - 1.85.",
+      "Step 2: Borrow as needed: 0 - 5, borrow to get 10 - 5 = 5.",
+      "Step 3: Continue borrowing: 1 - 8 becomes 11 - 8 = 3.",
+      "Step 4: 4 - 1 = 3. Answer is 3.35. ✅"
+    ],
+    "analogy": "£5.20 - £1.85 = £3.35 change."
+  },
+  {
+    "id": "y56-dec-007",
+    "module": "decimals",
+    "topic": "decimals",
+    "difficulty": 3,
+    "question_type": "fill_in",
+    "question_text": "Calculate: 4.56 × 10",
+    "correct_answer": "45.6",
+    "hint": "Move the decimal point one place to the right.",
+    "worked_solution_steps": [
+      "Step 1: Multiplying by 10 moves the decimal one place right.",
+      "Step 2: 4.56 → 45.6.",
+      "Step 3: Answer is 45.6. ✅"
+    ],
+    "analogy": "4.56 metres becomes 45.6 decimetres (10 times bigger)."
+  },
+  {
+    "id": "y56-dec-008",
+    "module": "decimals",
+    "topic": "decimals",
+    "difficulty": 3,
+    "question_type": "fill_in",
+    "question_text": "Calculate: 2.3 × 100",
+    "correct_answer": "230",
+    "hint": "Move the decimal point two places to the right.",
+    "worked_solution_steps": [
+      "Step 1: Multiplying by 100 moves the decimal two places right.",
+      "Step 2: 2.3 → 2.30 → 230.",
+      "Step 3: Answer is 230. ✅"
+    ],
+    "analogy": "2.3 metres = 230 centimetres."
+  },
+  {
+    "id": "y56-dec-009",
+    "module": "decimals",
+    "topic": "decimals",
+    "difficulty": 4,
+    "question_type": "fill_in",
+    "question_text": "Calculate: 78.5 ÷ 10",
+    "correct_answer": "7.85",
+    "hint": "Move the decimal point one place to the left.",
+    "worked_solution_steps": [
+      "Step 1: Dividing by 10 moves the decimal one place left.",
+      "Step 2: 78.5 → 7.85.",
+      "Step 3: Answer is 7.85. ✅"
+    ],
+    "analogy": "78.5 centimetres = 7.85 decimetres (10 times smaller)."
+  },
+  {
+    "id": "y56-dec-010",
+    "module": "decimals",
+    "topic": "decimals",
+    "difficulty": 2,
+    "question_type": "multiple_choice",
+    "question_text": "Which decimal is largest?",
+    "options": [
+      {
+        "value": "0.45",
+        "label": "0.45"
+      },
+      {
+        "value": "0.5",
+        "label": "0.5"
+      },
+      {
+        "value": "0.405",
+        "label": "0.405"
+      },
+      {
+        "value": "0.54",
+        "label": "0.54"
+      }
+    ],
+    "correct_answer": "0.54",
+    "hint": "Compare the tenths digit first.",
+    "worked_solution_steps": [
+      "Step 1: Compare tenths: 0.45 (4), 0.5 (5), 0.405 (4), 0.54 (5).",
+      "Step 2: 0.5 and 0.54 both have 5 tenths. Compare hundredths.",
+      "Step 3: 0.5 = 0.50, so 0.54 > 0.50.",
+      "Step 4: 0.54 is the largest. ✅"
+    ],
+    "analogy": "54p is more than 50p, 45p, or 40.5p."
+  },
+  {
+    "id": "y56-dec-011",
+    "module": "decimals",
+    "topic": "decimals",
+    "difficulty": 3,
+    "question_type": "multiple_choice",
+    "question_text": "What is 0.725 × 1000?",
+    "options": [
+      {
+        "value": "725",
+        "label": "725"
+      },
+      {
+        "value": "72.5",
+        "label": "72.5"
+      },
+      {
+        "value": "7250",
+        "label": "7250"
+      },
+      {
+        "value": "7.25",
+        "label": "7.25"
+      }
+    ],
+    "correct_answer": "725",
+    "hint": "Move the decimal three places to the right.",
+    "worked_solution_steps": [
+      "Step 1: Multiplying by 1000 moves decimal 3 places right.",
+      "Step 2: 0.725 → 7.25 → 72.5 → 725.",
+      "Step 3: Answer is 725. ✅"
+    ],
+    "analogy": "0.725 kilometres = 725 metres."
+  },
+  {
+    "id": "y56-dec-012",
+    "module": "decimals",
+    "topic": "decimals",
+    "difficulty": 4,
+    "question_type": "multiple_choice",
+    "question_text": "What is 34 ÷ 1000?",
+    "options": [
+      {
+        "value": "0.34",
+        "label": "0.34"
+      },
+      {
+        "value": "0.034",
+        "label": "0.034"
+      },
+      {
+        "value": "3.4",
+        "label": "3.4"
+      },
+      {
+        "value": "0.0034",
+        "label": "0.0034"
+      }
+    ],
+    "correct_answer": "0.034",
+    "hint": "Move the decimal three places to the left.",
+    "worked_solution_steps": [
+      "Step 1: 34 = 34.0. Dividing by 1000 moves decimal 3 places left.",
+      "Step 2: 34.0 → 3.40 → 0.340 → 0.034.",
+      "Step 3: Answer is 0.034. ✅"
+    ],
+    "analogy": "34 grams = 0.034 kilograms."
+  },
+  {
+    "id": "y56-dec-013",
+    "module": "decimals",
+    "topic": "decimals",
+    "difficulty": 3,
+    "question_type": "multiple_choice",
+    "question_text": "What is 6.8 + 3.25?",
+    "options": [
+      {
+        "value": "10.05",
+        "label": "10.05"
+      },
+      {
+        "value": "9.33",
+        "label": "9.33"
+      },
+      {
+        "value": "10.5",
+        "label": "10.5"
+      },
+      {
+        "value": "9.05",
+        "label": "9.05"
+      }
+    ],
+    "correct_answer": "10.05",
+    "hint": "Line up the decimals. Write 6.8 as 6.80.",
+    "worked_solution_steps": [
+      "Step 1: Write 6.8 as 6.80 for easier addition.",
+      "Step 2: 6.80 + 3.25: 0 + 5 = 5, 8 + 2 = 10 (carry 1).",
+      "Step 3: 6 + 3 + 1 = 10.",
+      "Step 4: Answer is 10.05. ✅"
+    ],
+    "analogy": "£6.80 + £3.25 = £10.05."
+  },
+  {
+    "id": "y56-dec-014",
+    "module": "decimals",
+    "topic": "decimals",
+    "difficulty": 2,
+    "question_type": "true_false",
+    "question_text": "0.6 is the same as 0.60.",
+    "correct_answer": true,
+    "hint": "Adding a zero after the last decimal digit doesn't change the value.",
+    "worked_solution_steps": [
+      "Step 1: 0.6 means 6 tenths.",
+      "Step 2: 0.60 means 6 tenths and 0 hundredths = 6 tenths.",
+      "Step 3: They are the same value. ✅"
+    ],
+    "analogy": "60p and £0.60 are the same as 6 ten-pence coins."
+  },
+  {
+    "id": "y56-dec-015",
+    "module": "decimals",
+    "topic": "decimals",
+    "difficulty": 3,
+    "question_type": "true_false",
+    "question_text": "0.125 is greater than 0.15.",
+    "correct_answer": false,
+    "hint": "Compare the hundredths place carefully.",
+    "worked_solution_steps": [
+      "Step 1: Both have 1 tenth. Compare hundredths.",
+      "Step 2: 0.125 has 2 hundredths. 0.15 has 5 hundredths.",
+      "Step 3: 5 hundredths > 2 hundredths, so 0.15 > 0.125.",
+      "Step 4: The statement is not accurate. 0.15 is greater. ✅"
+    ],
+    "analogy": "15p is more than 12.5p."
+  }
+]

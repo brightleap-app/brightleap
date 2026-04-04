@@ -39,6 +39,7 @@ export function ThemeProvider({ children }) {
     themeId: theme.id,
     habitats: themedHabitats,
     colours: theme.colours,
+    mathsHabitats: theme.mathsHabitats || {},
   };
 
   return <ThemeContext.Provider value={value}>{children}</ThemeContext.Provider>;
