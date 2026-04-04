@@ -26,6 +26,7 @@ import MathsTopicSelect from './screens/maths/MathsTopicSelect.jsx';
 import MathsSession from './screens/maths/MathsSession.jsx';
 import MathsDiagnostic from './screens/maths/MathsDiagnostic.jsx';
 import MathsAnimalReveal from './screens/maths/MathsAnimalReveal.jsx';
+import MathsMockSATs from './screens/maths/MathsMockSATs.jsx';
 
 function App() {
   return (
@@ -60,6 +61,7 @@ function App() {
           <Route path="/maths/session/:moduleId/:topicId" element={<MathsSession />} />
           <Route path="/maths/diagnostic" element={<MathsDiagnostic />} />
           <Route path="/maths/reveal/:topicId" element={<MathsAnimalReveal />} />
+          <Route path="/maths/mock-sats" element={<MathsMockSATs />} />
         </Routes>
         </ThemeProvider>
       </AuthProvider>

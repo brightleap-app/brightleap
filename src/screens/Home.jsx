@@ -29,7 +29,7 @@ const SUBJECT_ACTIONS = {
   maths: [
     { to: '/maths', label: 'Start Learning', primary: true, emoji: '' },
     { to: '/maths/diagnostic', label: 'Maths Explorer Quiz', emoji: '🧮', bg: 'bg-blue-100', text: 'text-blue-800', hover: 'hover:bg-blue-200' },
-    { to: null, label: 'Mock SATs Test', emoji: '📝', comingSoon: true, bg: 'bg-purple-100', text: 'text-purple-400', hover: '' },
+    { to: '/maths/mock-sats', label: 'Mock SATs Test', emoji: '📝', bg: 'bg-purple-100', text: 'text-purple-800', hover: 'hover:bg-purple-200' },
     { to: '/arcade', label: 'Arcade', emoji: '🕹️', bg: 'bg-red-100', text: 'text-red-800', hover: 'hover:bg-red-200' },
     { to: '/collection', label: 'My Collection', emoji: '', bg: 'bg-amber-100', text: 'text-amber-800', hover: 'hover:bg-amber-200' },
     { to: '/settings', label: 'Settings', emoji: '', bg: 'bg-gray-100', text: 'text-gray-600', hover: 'hover:bg-gray-200' },

@@ -1,0 +1,346 @@
+[
+  {
+    "id": "sats-reas-001",
+    "paper": "reasoning",
+    "marks": 1,
+    "question_type": "fill_in",
+    "question_text": "What is the value of the digit 7 in the number 374,206?",
+    "question_display": null,
+    "correct_answer": "70,000",
+    "accept_equivalent": false,
+    "hint": null,
+    "worked_solution_steps": [
+      "Step 1: Look at the position of the 7 in 374,206.",
+      "Step 2: The 7 is in the ten thousands column.",
+      "Step 3: So the value of the 7 is 70,000 ✅"
+    ]
+  },
+  {
+    "id": "sats-reas-002",
+    "paper": "reasoning",
+    "marks": 1,
+    "question_type": "multiple_choice",
+    "question_text": "Which number is closest to 6,000?",
+    "question_display": null,
+    "options": [
+      { "value": "5,482", "label": "5,482" },
+      { "value": "6,510", "label": "6,510" },
+      { "value": "5,948", "label": "5,948" },
+      { "value": "6,703", "label": "6,703" }
+    ],
+    "correct_answer": "5,948",
+    "accept_equivalent": false,
+    "hint": null,
+    "worked_solution_steps": [
+      "Step 1: Find how far each number is from 6,000.",
+      "Step 2: 5,482 is 518 away. 6,510 is 510 away. 5,948 is 52 away. 6,703 is 703 away.",
+      "Step 3: 52 is the smallest difference.",
+      "Step 4: 5,948 is closest to 6,000 ✅"
+    ]
+  },
+  {
+    "id": "sats-reas-003",
+    "paper": "reasoning",
+    "marks": 1,
+    "question_type": "fill_in",
+    "question_text": "Write these numbers in order from smallest to largest: 4,207  4,072  4,720  4,027",
+    "question_display": null,
+    "correct_answer": "4,027  4,072  4,207  4,720",
+    "accept_equivalent": false,
+    "hint": null,
+    "worked_solution_steps": [
+      "Step 1: All numbers start with 4 thousand. Compare the hundreds.",
+      "Step 2: 4,027 (0 hundreds), 4,072 (0 hundreds, but 72 > 27), 4,207 (2 hundreds), 4,720 (7 hundreds).",
+      "Step 3: Order: 4,027, 4,072, 4,207, 4,720 ✅"
+    ]
+  },
+  {
+    "id": "sats-reas-004",
+    "paper": "reasoning",
+    "marks": 1,
+    "question_type": "fill_in",
+    "question_text": "A book costs £3.85. Priya pays with a £5 note. How much change does she get?",
+    "question_display": null,
+    "correct_answer": "£1.15",
+    "accept_equivalent": false,
+    "hint": null,
+    "worked_solution_steps": [
+      "Step 1: Subtract: £5.00 − £3.85.",
+      "Step 2: £5.00 − £3.85 = £1.15.",
+      "Step 3: Priya gets £1.15 change ✅"
+    ]
+  },
+  {
+    "id": "sats-reas-005",
+    "paper": "reasoning",
+    "marks": 2,
+    "question_type": "fill_in",
+    "question_text": "James buys 3 oranges at 45p each and 2 apples at 32p each. How much does he spend in total?",
+    "question_display": null,
+    "correct_answer": "£1.99",
+    "accept_equivalent": false,
+    "hint": null,
+    "worked_solution_steps": [
+      "Step 1: Cost of oranges: 3 × 45p = 135p.",
+      "Step 2: Cost of apples: 2 × 32p = 64p.",
+      "Step 3: Total: 135p + 64p = 199p.",
+      "Step 4: Convert: 199p = £1.99 ✅"
+    ]
+  },
+  {
+    "id": "sats-reas-006",
+    "paper": "reasoning",
+    "marks": 1,
+    "question_type": "fill_in",
+    "question_text": "A piece of ribbon is 2.4 metres long. How many centimetres is that?",
+    "question_display": null,
+    "correct_answer": "240",
+    "accept_equivalent": false,
+    "hint": null,
+    "worked_solution_steps": [
+      "Step 1: There are 100 centimetres in 1 metre.",
+      "Step 2: 2.4 × 100 = 240.",
+      "Step 3: 2.4 metres = 240 cm ✅"
+    ]
+  },
+  {
+    "id": "sats-reas-007",
+    "paper": "reasoning",
+    "marks": 1,
+    "question_type": "fill_in",
+    "question_text": "A bag of flour weighs 1.5 kg. How many grams is that?",
+    "question_display": null,
+    "correct_answer": "1500",
+    "accept_equivalent": false,
+    "hint": null,
+    "worked_solution_steps": [
+      "Step 1: There are 1,000 grams in 1 kilogram.",
+      "Step 2: 1.5 × 1,000 = 1,500.",
+      "Step 3: 1.5 kg = 1,500 g ✅"
+    ]
+  },
+  {
+    "id": "sats-reas-008",
+    "paper": "reasoning",
+    "marks": 1,
+    "question_type": "fill_in",
+    "question_text": "A film starts at 14:35 and lasts 1 hour 50 minutes. What time does it finish?",
+    "question_display": null,
+    "correct_answer": "16:25",
+    "accept_equivalent": false,
+    "hint": null,
+    "worked_solution_steps": [
+      "Step 1: Add 1 hour to 14:35 → 15:35.",
+      "Step 2: Add 50 minutes: 15:35 + 50 min = 16:25.",
+      "Step 3: The film finishes at 16:25 ✅"
+    ]
+  },
+  {
+    "id": "sats-reas-009",
+    "paper": "reasoning",
+    "marks": 1,
+    "question_type": "fill_in",
+    "question_text": "A recipe uses 250 g of sugar. Ella wants to make 3 batches. How many grams of sugar does she need?",
+    "question_display": null,
+    "correct_answer": "750",
+    "accept_equivalent": false,
+    "hint": null,
+    "worked_solution_steps": [
+      "Step 1: One batch uses 250 g.",
+      "Step 2: Multiply: 250 × 3 = 750.",
+      "Step 3: Ella needs 750 g of sugar ✅"
+    ]
+  },
+  {
+    "id": "sats-reas-010",
+    "paper": "reasoning",
+    "marks": 1,
+    "question_type": "fill_in",
+    "question_text": "Tom saves 3/5 of his £40 pocket money. How much does he save?",
+    "question_display": null,
+    "correct_answer": "£24",
+    "accept_equivalent": false,
+    "hint": null,
+    "worked_solution_steps": [
+      "Step 1: Find 1/5 of £40: £40 ÷ 5 = £8.",
+      "Step 2: Find 3/5: £8 × 3 = £24.",
+      "Step 3: Tom saves £24 ✅"
+    ]
+  },
+  {
+    "id": "sats-reas-011",
+    "paper": "reasoning",
+    "marks": 1,
+    "question_type": "multiple_choice",
+    "question_text": "Which decimal is equivalent to 3/4?",
+    "question_display": null,
+    "options": [
+      { "value": "0.25", "label": "0.25" },
+      { "value": "0.34", "label": "0.34" },
+      { "value": "0.75", "label": "0.75" },
+      { "value": "0.5", "label": "0.5" }
+    ],
+    "correct_answer": "0.75",
+    "accept_equivalent": false,
+    "hint": null,
+    "worked_solution_steps": [
+      "Step 1: 3/4 means 3 ÷ 4.",
+      "Step 2: 3 ÷ 4 = 0.75.",
+      "Step 3: The decimal equivalent of 3/4 is 0.75 ✅"
+    ]
+  },
+  {
+    "id": "sats-reas-012",
+    "paper": "reasoning",
+    "marks": 2,
+    "question_type": "fill_in",
+    "question_text": "In a class of 30 children, 40% walk to school and the rest travel by bus. How many children travel by bus?",
+    "question_display": null,
+    "correct_answer": "18",
+    "accept_equivalent": false,
+    "hint": null,
+    "worked_solution_steps": [
+      "Step 1: 40% walk, so 60% travel by bus.",
+      "Step 2: Find 60% of 30: 10% of 30 = 3.",
+      "Step 3: 60% = 6 × 3 = 18.",
+      "Step 4: 18 children travel by bus ✅"
+    ]
+  },
+  {
+    "id": "sats-reas-013",
+    "paper": "reasoning",
+    "marks": 1,
+    "question_type": "true_false",
+    "question_text": "True or false? 0.6 is greater than 3/5.",
+    "question_display": null,
+    "correct_answer": "false",
+    "accept_equivalent": false,
+    "hint": null,
+    "worked_solution_steps": [
+      "Step 1: Convert 3/5 to a decimal: 3 ÷ 5 = 0.6.",
+      "Step 2: 0.6 and 0.6 are equal, not greater.",
+      "Step 3: The statement is false ✅"
+    ]
+  },
+  {
+    "id": "sats-reas-014",
+    "paper": "reasoning",
+    "marks": 1,
+    "question_type": "fill_in",
+    "question_text": "A school trip costs £12.50 per child. There are 24 children going. What is the total cost?",
+    "question_display": null,
+    "correct_answer": "£300",
+    "accept_equivalent": false,
+    "hint": null,
+    "worked_solution_steps": [
+      "Step 1: Multiply £12.50 × 24.",
+      "Step 2: £12.50 × 24 = £12.50 × 20 + £12.50 × 4 = £250 + £50.",
+      "Step 3: Total cost = £300 ✅"
+    ]
+  },
+  {
+    "id": "sats-reas-015",
+    "paper": "reasoning",
+    "marks": 1,
+    "question_type": "fill_in",
+    "question_text": "A square has a perimeter of 36 cm. What is the length of one side?",
+    "question_display": null,
+    "correct_answer": "9 cm",
+    "accept_equivalent": false,
+    "hint": null,
+    "worked_solution_steps": [
+      "Step 1: A square has 4 equal sides.",
+      "Step 2: Divide the perimeter by 4: 36 ÷ 4 = 9.",
+      "Step 3: Each side is 9 cm ✅"
+    ]
+  },
+  {
+    "id": "sats-reas-016",
+    "paper": "reasoning",
+    "marks": 2,
+    "question_type": "fill_in",
+    "question_text": "A rectangle is 12 cm long and 7 cm wide. What is its area?",
+    "question_display": null,
+    "correct_answer": "84 cm²",
+    "accept_equivalent": false,
+    "hint": null,
+    "worked_solution_steps": [
+      "Step 1: Area of a rectangle = length × width.",
+      "Step 2: 12 × 7 = 84.",
+      "Step 3: The area is 84 cm² ✅"
+    ]
+  },
+  {
+    "id": "sats-reas-017",
+    "paper": "reasoning",
+    "marks": 1,
+    "question_type": "multiple_choice",
+    "question_text": "What type of angle is 135°?",
+    "question_display": null,
+    "options": [
+      { "value": "acute", "label": "Acute" },
+      { "value": "right", "label": "Right angle" },
+      { "value": "obtuse", "label": "Obtuse" },
+      { "value": "reflex", "label": "Reflex" }
+    ],
+    "correct_answer": "obtuse",
+    "accept_equivalent": false,
+    "hint": null,
+    "worked_solution_steps": [
+      "Step 1: An obtuse angle is between 90° and 180°.",
+      "Step 2: 135° is between 90° and 180°.",
+      "Step 3: 135° is an obtuse angle ✅"
+    ]
+  },
+  {
+    "id": "sats-reas-018",
+    "paper": "reasoning",
+    "marks": 1,
+    "question_type": "fill_in",
+    "question_text": "Five children scored these marks in a spelling test: 6, 8, 9, 7, 10. What is the mean score?",
+    "question_display": null,
+    "correct_answer": "8",
+    "accept_equivalent": false,
+    "hint": null,
+    "worked_solution_steps": [
+      "Step 1: Add the scores: 6 + 8 + 9 + 7 + 10 = 40.",
+      "Step 2: Divide by the number of children: 40 ÷ 5 = 8.",
+      "Step 3: The mean score is 8 ✅"
+    ]
+  },
+  {
+    "id": "sats-reas-019",
+    "paper": "reasoning",
+    "marks": 2,
+    "question_type": "fill_in",
+    "question_text": "A table shows the number of books read by Year 6 pupils: Fiction 45, Non-fiction 30, Poetry 15. What fraction of the books read were fiction? Give your answer in its simplest form.",
+    "question_display": null,
+    "correct_answer": "1/2",
+    "accept_equivalent": true,
+    "hint": null,
+    "worked_solution_steps": [
+      "Step 1: Find the total: 45 + 30 + 15 = 90 books.",
+      "Step 2: Fraction that were fiction: 45/90.",
+      "Step 3: Simplify: 45/90 = 1/2.",
+      "Step 4: 1/2 of the books were fiction ✅"
+    ]
+  },
+  {
+    "id": "sats-reas-020",
+    "paper": "reasoning",
+    "marks": 2,
+    "question_type": "fill_in",
+    "question_text": "On sports day, 120 children took part. 1/4 did the egg and spoon race, 2/5 did the sprint, and the rest did the sack race. How many children did the sack race?",
+    "question_display": null,
+    "correct_answer": "42",
+    "accept_equivalent": false,
+    "hint": null,
+    "worked_solution_steps": [
+      "Step 1: Egg and spoon: 1/4 of 120 = 30 children.",
+      "Step 2: Sprint: 2/5 of 120 = 48 children.",
+      "Step 3: Total doing other events: 30 + 48 = 78.",
+      "Step 4: Sack race: 120 − 78 = 42.",
+      "Step 5: 42 children did the sack race ✅"
+    ]
+  }
+]

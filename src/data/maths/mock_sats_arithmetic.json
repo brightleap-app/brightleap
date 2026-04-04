@@ -1,0 +1,449 @@
+[
+  {
+    "id": "sats-arith-001",
+    "paper": "arithmetic",
+    "marks": 1,
+    "question_type": "fill_in",
+    "question_text": "8 + 5 =",
+    "question_display": null,
+    "correct_answer": "13",
+    "accept_equivalent": false,
+    "hint": null,
+    "worked_solution_steps": [
+      "Step 1: Start with 8.",
+      "Step 2: Count on 5 more: 9, 10, 11, 12, 13.",
+      "Step 3: 8 + 5 = 13 ✅"
+    ]
+  },
+  {
+    "id": "sats-arith-002",
+    "paper": "arithmetic",
+    "marks": 1,
+    "question_type": "fill_in",
+    "question_text": "34 + 25 =",
+    "question_display": null,
+    "correct_answer": "59",
+    "accept_equivalent": false,
+    "hint": null,
+    "worked_solution_steps": [
+      "Step 1: Add the ones: 4 + 5 = 9.",
+      "Step 2: Add the tens: 30 + 20 = 50.",
+      "Step 3: 50 + 9 = 59 ✅"
+    ]
+  },
+  {
+    "id": "sats-arith-003",
+    "paper": "arithmetic",
+    "marks": 1,
+    "question_type": "fill_in",
+    "question_text": "73 − 28 =",
+    "question_display": null,
+    "correct_answer": "45",
+    "accept_equivalent": false,
+    "hint": null,
+    "worked_solution_steps": [
+      "Step 1: You cannot take 8 from 3, so borrow from the tens.",
+      "Step 2: 13 − 8 = 5 (ones column).",
+      "Step 3: 6 − 2 = 4 (tens column, after borrowing).",
+      "Step 4: 73 − 28 = 45 ✅"
+    ]
+  },
+  {
+    "id": "sats-arith-004",
+    "paper": "arithmetic",
+    "marks": 1,
+    "question_type": "fill_in",
+    "question_text": "6 × 4 =",
+    "question_display": null,
+    "correct_answer": "24",
+    "accept_equivalent": false,
+    "hint": null,
+    "worked_solution_steps": [
+      "Step 1: Think of 6 groups of 4.",
+      "Step 2: 6 × 4 = 24.",
+      "Step 3: The answer is 24 ✅"
+    ]
+  },
+  {
+    "id": "sats-arith-005",
+    "paper": "arithmetic",
+    "marks": 1,
+    "question_type": "fill_in",
+    "question_text": "56 ÷ 8 =",
+    "question_display": null,
+    "correct_answer": "7",
+    "accept_equivalent": false,
+    "hint": null,
+    "worked_solution_steps": [
+      "Step 1: Think: how many 8s make 56?",
+      "Step 2: 8 × 7 = 56.",
+      "Step 3: 56 ÷ 8 = 7 ✅"
+    ]
+  },
+  {
+    "id": "sats-arith-006",
+    "paper": "arithmetic",
+    "marks": 1,
+    "question_type": "fill_in",
+    "question_text": "47 + 36 =",
+    "question_display": null,
+    "correct_answer": "83",
+    "accept_equivalent": false,
+    "hint": null,
+    "worked_solution_steps": [
+      "Step 1: Add the ones: 7 + 6 = 13. Write 3, carry 1.",
+      "Step 2: Add the tens: 4 + 3 + 1 = 8.",
+      "Step 3: 47 + 36 = 83 ✅"
+    ]
+  },
+  {
+    "id": "sats-arith-007",
+    "paper": "arithmetic",
+    "marks": 1,
+    "question_type": "fill_in",
+    "question_text": "90 − 37 =",
+    "question_display": null,
+    "correct_answer": "53",
+    "accept_equivalent": false,
+    "hint": null,
+    "worked_solution_steps": [
+      "Step 1: Borrow from the tens: 10 − 7 = 3 (ones).",
+      "Step 2: 8 − 3 = 5 (tens column, after borrowing).",
+      "Step 3: 90 − 37 = 53 ✅"
+    ]
+  },
+  {
+    "id": "sats-arith-008",
+    "paper": "arithmetic",
+    "marks": 1,
+    "question_type": "fill_in",
+    "question_text": "9 × 7 =",
+    "question_display": null,
+    "correct_answer": "63",
+    "accept_equivalent": false,
+    "hint": null,
+    "worked_solution_steps": [
+      "Step 1: Use the 9 times table.",
+      "Step 2: 9 × 7 = 63.",
+      "Step 3: The answer is 63 ✅"
+    ]
+  },
+  {
+    "id": "sats-arith-009",
+    "paper": "arithmetic",
+    "marks": 1,
+    "question_type": "fill_in",
+    "question_text": "42 ÷ 6 =",
+    "question_display": null,
+    "correct_answer": "7",
+    "accept_equivalent": false,
+    "hint": null,
+    "worked_solution_steps": [
+      "Step 1: Think: how many 6s make 42?",
+      "Step 2: 6 × 7 = 42.",
+      "Step 3: 42 ÷ 6 = 7 ✅"
+    ]
+  },
+  {
+    "id": "sats-arith-010",
+    "paper": "arithmetic",
+    "marks": 1,
+    "question_type": "fill_in",
+    "question_text": "15 + 28 + 7 =",
+    "question_display": null,
+    "correct_answer": "50",
+    "accept_equivalent": false,
+    "hint": null,
+    "worked_solution_steps": [
+      "Step 1: Add 15 + 28 = 43.",
+      "Step 2: Then add 7: 43 + 7 = 50.",
+      "Step 3: The answer is 50 ✅"
+    ]
+  },
+  {
+    "id": "sats-arith-011",
+    "paper": "arithmetic",
+    "marks": 1,
+    "question_type": "fill_in",
+    "question_text": "456 + 378 =",
+    "question_display": null,
+    "correct_answer": "834",
+    "accept_equivalent": false,
+    "hint": null,
+    "worked_solution_steps": [
+      "Step 1: Add the ones: 6 + 8 = 14. Write 4, carry 1.",
+      "Step 2: Add the tens: 5 + 7 + 1 = 13. Write 3, carry 1.",
+      "Step 3: Add the hundreds: 4 + 3 + 1 = 8.",
+      "Step 4: 456 + 378 = 834 ✅"
+    ]
+  },
+  {
+    "id": "sats-arith-012",
+    "paper": "arithmetic",
+    "marks": 1,
+    "question_type": "fill_in",
+    "question_text": "803 − 547 =",
+    "question_display": null,
+    "correct_answer": "256",
+    "accept_equivalent": false,
+    "hint": null,
+    "worked_solution_steps": [
+      "Step 1: Ones: borrow to get 13 − 7 = 6.",
+      "Step 2: Tens: after borrowing, 9 − 4 = 5.",
+      "Step 3: Hundreds: 7 − 5 = 2.",
+      "Step 4: 803 − 547 = 256 ✅"
+    ]
+  },
+  {
+    "id": "sats-arith-013",
+    "paper": "arithmetic",
+    "marks": 1,
+    "question_type": "fill_in",
+    "question_text": "12 × 8 =",
+    "question_display": null,
+    "correct_answer": "96",
+    "accept_equivalent": false,
+    "hint": null,
+    "worked_solution_steps": [
+      "Step 1: 12 × 8 = (10 × 8) + (2 × 8).",
+      "Step 2: 80 + 16 = 96.",
+      "Step 3: The answer is 96 ✅"
+    ]
+  },
+  {
+    "id": "sats-arith-014",
+    "paper": "arithmetic",
+    "marks": 1,
+    "question_type": "fill_in",
+    "question_text": "Write the equivalent fraction: 1/3 = ?/6",
+    "question_display": {
+      "format": "fraction_equation",
+      "left": { "numerator": 1, "denominator": 3 },
+      "equals": true,
+      "right": { "numerator": "?", "denominator": 6 }
+    },
+    "correct_answer": { "numerator": 2, "denominator": 6 },
+    "accept_equivalent": true,
+    "hint": null,
+    "worked_solution_steps": [
+      "Step 1: The denominator changed from 3 to 6. That is × 2.",
+      "Step 2: Multiply the numerator by the same: 1 × 2 = 2.",
+      "Step 3: So 1/3 = 2/6 ✅"
+    ]
+  },
+  {
+    "id": "sats-arith-015",
+    "paper": "arithmetic",
+    "marks": 1,
+    "question_type": "fill_in",
+    "question_text": "3/8 + 2/8 =",
+    "question_display": {
+      "format": "fraction_equation",
+      "left": { "numerator": 3, "denominator": 8 },
+      "operator": "+",
+      "middle": { "numerator": 2, "denominator": 8 },
+      "equals": true,
+      "right": { "numerator": "?", "denominator": "?" }
+    },
+    "correct_answer": { "numerator": 5, "denominator": 8 },
+    "accept_equivalent": true,
+    "hint": null,
+    "worked_solution_steps": [
+      "Step 1: The denominators are the same (8), so add the numerators.",
+      "Step 2: 3 + 2 = 5.",
+      "Step 3: 3/8 + 2/8 = 5/8 ✅"
+    ]
+  },
+  {
+    "id": "sats-arith-016",
+    "paper": "arithmetic",
+    "marks": 2,
+    "question_type": "fill_in",
+    "question_text": "346 × 27 =",
+    "question_display": null,
+    "correct_answer": "9342",
+    "accept_equivalent": false,
+    "hint": null,
+    "worked_solution_steps": [
+      "Step 1: Multiply 346 × 7 = 2,422.",
+      "Step 2: Multiply 346 × 20 = 6,920.",
+      "Step 3: Add the two results: 2,422 + 6,920 = 9,342.",
+      "Step 4: 346 × 27 = 9,342 ✅"
+    ]
+  },
+  {
+    "id": "sats-arith-017",
+    "paper": "arithmetic",
+    "marks": 2,
+    "question_type": "fill_in",
+    "question_text": "832 ÷ 16 =",
+    "question_display": null,
+    "correct_answer": "52",
+    "accept_equivalent": false,
+    "hint": null,
+    "worked_solution_steps": [
+      "Step 1: Use long division. 16 goes into 83 five times (16 × 5 = 80). Remainder 3.",
+      "Step 2: Bring down the 2 to get 32. 16 goes into 32 exactly 2 times.",
+      "Step 3: 16 × 52 = 832. Check: correct.",
+      "Step 4: 832 ÷ 16 = 52 ✅"
+    ]
+  },
+  {
+    "id": "sats-arith-018",
+    "paper": "arithmetic",
+    "marks": 1,
+    "question_type": "fill_in",
+    "question_text": "2/5 + 1/10 =",
+    "question_display": {
+      "format": "fraction_equation",
+      "left": { "numerator": 2, "denominator": 5 },
+      "operator": "+",
+      "middle": { "numerator": 1, "denominator": 10 },
+      "equals": true,
+      "right": { "numerator": "?", "denominator": "?" }
+    },
+    "correct_answer": { "numerator": 1, "denominator": 2 },
+    "accept_equivalent": true,
+    "hint": null,
+    "worked_solution_steps": [
+      "Step 1: Find a common denominator. The LCM of 5 and 10 is 10.",
+      "Step 2: Convert 2/5 to 4/10.",
+      "Step 3: Add: 4/10 + 1/10 = 5/10.",
+      "Step 4: Simplify: 5/10 = 1/2 ✅"
+    ]
+  },
+  {
+    "id": "sats-arith-019",
+    "paper": "arithmetic",
+    "marks": 1,
+    "question_type": "fill_in",
+    "question_text": "4.56 + 3.78 =",
+    "question_display": null,
+    "correct_answer": "8.34",
+    "accept_equivalent": false,
+    "hint": null,
+    "worked_solution_steps": [
+      "Step 1: Line up the decimal points.",
+      "Step 2: Add hundredths: 6 + 8 = 14. Write 4, carry 1.",
+      "Step 3: Add tenths: 5 + 7 + 1 = 13. Write 3, carry 1.",
+      "Step 4: Add ones: 4 + 3 + 1 = 8.",
+      "Step 5: 4.56 + 3.78 = 8.34 ✅"
+    ]
+  },
+  {
+    "id": "sats-arith-020",
+    "paper": "arithmetic",
+    "marks": 1,
+    "question_type": "fill_in",
+    "question_text": "7.2 × 100 =",
+    "question_display": null,
+    "correct_answer": "720",
+    "accept_equivalent": false,
+    "hint": null,
+    "worked_solution_steps": [
+      "Step 1: When you multiply by 100, each digit moves 2 places to the left.",
+      "Step 2: 7.2 becomes 720.",
+      "Step 3: 7.2 × 100 = 720 ✅"
+    ]
+  },
+  {
+    "id": "sats-arith-021",
+    "paper": "arithmetic",
+    "marks": 1,
+    "question_type": "fill_in",
+    "question_text": "3/4 × 2/5 =",
+    "question_display": {
+      "format": "fraction_equation",
+      "left": { "numerator": 3, "denominator": 4 },
+      "operator": "×",
+      "middle": { "numerator": 2, "denominator": 5 },
+      "equals": true,
+      "right": { "numerator": "?", "denominator": "?" }
+    },
+    "correct_answer": { "numerator": 3, "denominator": 10 },
+    "accept_equivalent": true,
+    "hint": null,
+    "worked_solution_steps": [
+      "Step 1: Multiply the numerators: 3 × 2 = 6.",
+      "Step 2: Multiply the denominators: 4 × 5 = 20.",
+      "Step 3: 6/20 simplifies to 3/10.",
+      "Step 4: 3/4 × 2/5 = 3/10 ✅"
+    ]
+  },
+  {
+    "id": "sats-arith-022",
+    "paper": "arithmetic",
+    "marks": 2,
+    "question_type": "fill_in",
+    "question_text": "What is 25% of 360?",
+    "question_display": null,
+    "correct_answer": "90",
+    "accept_equivalent": false,
+    "hint": null,
+    "worked_solution_steps": [
+      "Step 1: 25% means one quarter.",
+      "Step 2: Divide 360 by 4.",
+      "Step 3: 360 ÷ 4 = 90.",
+      "Step 4: 25% of 360 = 90 ✅"
+    ]
+  },
+  {
+    "id": "sats-arith-023",
+    "paper": "arithmetic",
+    "marks": 1,
+    "question_type": "fill_in",
+    "question_text": "5/6 − 1/3 =",
+    "question_display": {
+      "format": "fraction_equation",
+      "left": { "numerator": 5, "denominator": 6 },
+      "operator": "−",
+      "middle": { "numerator": 1, "denominator": 3 },
+      "equals": true,
+      "right": { "numerator": "?", "denominator": "?" }
+    },
+    "correct_answer": { "numerator": 1, "denominator": 2 },
+    "accept_equivalent": true,
+    "hint": null,
+    "worked_solution_steps": [
+      "Step 1: Find a common denominator. The LCM of 6 and 3 is 6.",
+      "Step 2: Convert 1/3 to 2/6.",
+      "Step 3: 5/6 − 2/6 = 3/6.",
+      "Step 4: Simplify: 3/6 = 1/2 ✅"
+    ]
+  },
+  {
+    "id": "sats-arith-024",
+    "paper": "arithmetic",
+    "marks": 2,
+    "question_type": "fill_in",
+    "question_text": "What is 15% of 840?",
+    "question_display": null,
+    "correct_answer": "126",
+    "accept_equivalent": false,
+    "hint": null,
+    "worked_solution_steps": [
+      "Step 1: Find 10% of 840: 840 ÷ 10 = 84.",
+      "Step 2: Find 5% of 840: 84 ÷ 2 = 42.",
+      "Step 3: Add them: 84 + 42 = 126.",
+      "Step 4: 15% of 840 = 126 ✅"
+    ]
+  },
+  {
+    "id": "sats-arith-025",
+    "paper": "arithmetic",
+    "marks": 2,
+    "question_type": "fill_in",
+    "question_text": "2 3/4 + 1 2/3 =",
+    "question_display": null,
+    "correct_answer": "4 5/12",
+    "accept_equivalent": true,
+    "hint": null,
+    "worked_solution_steps": [
+      "Step 1: Add the whole numbers: 2 + 1 = 3.",
+      "Step 2: Find a common denominator for 3/4 and 2/3. The LCM of 4 and 3 is 12.",
+      "Step 3: Convert: 3/4 = 9/12 and 2/3 = 8/12.",
+      "Step 4: Add the fractions: 9/12 + 8/12 = 17/12 = 1 5/12.",
+      "Step 5: Total: 3 + 1 5/12 = 4 5/12 ✅"
+    ]
+  }
+]
