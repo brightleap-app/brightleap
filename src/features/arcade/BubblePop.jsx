@@ -39,15 +39,17 @@ export default function BubblePop() {
     setWordComplete(false);
   }, []);
 
-  // Speak the word when it changes
+  // Speak the word when it changes (for 2nd word onwards)
+  const spokenRef = useRef('');
   useEffect(() => {
-    if (gameState === 'playing' && currentWord && isSpeechAvailable()) {
+    if (gameState === 'playing' && currentWord && currentWord !== spokenRef.current) {
+      spokenRef.current = currentWord;
       speakWord(currentWord).catch(() => {});
     }
   }, [gameState, currentWord]);
 
   const handleHearWord = () => {
-    if (currentWord && isSpeechAvailable()) {
+    if (currentWord) {
       speakWord(currentWord).catch(() => {});
     }
   };
@@ -60,6 +62,9 @@ export default function BubblePop() {
     setTimeLeft(60);
     setupWord(w[0]);
     setGameState('playing');
+    // Speak first word directly from user click (avoids autoplay block)
+    spokenRef.current = w[0];
+    speakWord(w[0]).catch(() => {});
   };
 
   // Timer
