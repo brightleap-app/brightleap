@@ -174,7 +174,7 @@ export default function BubblePop() {
       </div>
 
       {/* Hear word button + letter slots */}
-      <div className="flex items-center justify-center gap-2 mb-4">
+      <div className="flex flex-col items-center gap-2 mb-4">
         <button
           onClick={handleHearWord}
           className="w-12 h-12 rounded-full bg-cyan-100 hover:bg-cyan-200 active:bg-cyan-300 transition-colors flex items-center justify-center text-xl shrink-0"
@@ -182,14 +182,14 @@ export default function BubblePop() {
         >
           🔊
         </button>
-        <div className="flex gap-1">
+        <div className="flex gap-1 flex-wrap justify-center">
           {currentWord?.split('').map((ch, i) => {
             const isFilled = i < popped.length;
             const isNext = i === popped.length && !wordComplete;
             return (
               <div
                 key={i}
-                className={`w-9 h-11 rounded-lg border-2 flex items-center justify-center text-lg font-bold transition-colors ${
+                className={`w-8 h-10 sm:w-9 sm:h-11 rounded-lg border-2 flex items-center justify-center text-base sm:text-lg font-bold transition-colors ${
                   isFilled
                     ? 'bg-cyan-100 border-cyan-500 text-cyan-700'
                     : isNext
