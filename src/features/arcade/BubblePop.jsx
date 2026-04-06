@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
 import { Link } from 'react-router-dom';
 import habitats from '../../data/habitats.json';
+import { speakWord, isSpeechAvailable } from '../../engine/speech.js';
 
 function getRandomWords(count = 6) {
   const all = habitats.flatMap((h) => h.words.map((w) => w.word));
@@ -16,6 +17,7 @@ export default function BubblePop() {
   const [score, setScore] = useState(0);
   const [timeLeft, setTimeLeft] = useState(60);
   const [shake, setShake] = useState(false);
+  const [wordComplete, setWordComplete] = useState(false);
 
   const currentWord = words[wordIndex];
 
@@ -34,7 +36,21 @@ export default function BubblePop() {
       alive: true,
     })));
     setPopped([]);
+    setWordComplete(false);
   }, []);
+
+  // Speak the word when it changes
+  useEffect(() => {
+    if (gameState === 'playing' && currentWord && isSpeechAvailable()) {
+      speakWord(currentWord).catch(() => {});
+    }
+  }, [gameState, currentWord]);
+
+  const handleHearWord = () => {
+    if (currentWord && isSpeechAvailable()) {
+      speakWord(currentWord).catch(() => {});
+    }
+  };
 
   const startGame = () => {
     const w = getRandomWords(6);
@@ -74,7 +90,7 @@ export default function BubblePop() {
   }, [gameState]);
 
   const handlePop = (bubble) => {
-    if (!bubble.alive || gameState !== 'playing' || !currentWord) return;
+    if (!bubble.alive || gameState !== 'playing' || !currentWord || wordComplete) return;
 
     const nextIndex = popped.length;
     if (bubble.letter === currentWord[nextIndex]) {
@@ -84,12 +100,13 @@ export default function BubblePop() {
 
       if (newPopped.length === currentWord.length) {
         setScore((s) => s + 1);
+        setWordComplete(true);
         const next = wordIndex + 1;
         if (next < words.length) {
           setWordIndex(next);
-          setTimeout(() => setupWord(words[next]), 400);
+          setTimeout(() => setupWord(words[next]), 800);
         } else {
-          setGameState('complete');
+          setTimeout(() => setGameState('complete'), 800);
         }
       }
     } else {
@@ -100,10 +117,26 @@ export default function BubblePop() {
 
   if (gameState === 'intro') {
     return (
-      <main className="min-h-screen flex flex-col items-center justify-center p-6 text-center gap-6">
+      <main className="min-h-screen flex flex-col items-center justify-center p-6 text-center gap-5">
         <div className="text-5xl">🫧</div>
         <h1 className="text-2xl font-bold">Bubble Pop</h1>
-        <p className="text-gray-600">Pop the bubbles in the right order to spell the word! Watch out for decoys!</p>
+
+        <div className="bg-cyan-50 rounded-2xl p-5 max-w-sm text-left space-y-3">
+          <p className="font-semibold text-cyan-800 text-center">How to play:</p>
+          <div className="flex items-start gap-3">
+            <span className="bg-cyan-600 text-white rounded-full w-7 h-7 flex items-center justify-center text-sm font-bold shrink-0">1</span>
+            <p className="text-gray-700">Listen to the word. Tap the speaker button if you need to hear it again.</p>
+          </div>
+          <div className="flex items-start gap-3">
+            <span className="bg-cyan-600 text-white rounded-full w-7 h-7 flex items-center justify-center text-sm font-bold shrink-0">2</span>
+            <p className="text-gray-700">Pop the letter bubbles <strong>in the right order</strong> to spell the word.</p>
+          </div>
+          <div className="flex items-start gap-3">
+            <span className="bg-cyan-600 text-white rounded-full w-7 h-7 flex items-center justify-center text-sm font-bold shrink-0">3</span>
+            <p className="text-gray-700">Watch out for extra letters that don't belong!</p>
+          </div>
+        </div>
+
         <button onClick={startGame} className="px-8 py-4 bg-cyan-600 text-white rounded-2xl text-lg font-semibold hover:bg-cyan-700 transition-colors min-h-[48px]">
           Play!
         </button>
@@ -133,19 +166,43 @@ export default function BubblePop() {
         <span className="text-sm font-bold">🫧 {score} words</span>
       </div>
 
-      {/* Target word */}
-      <div className="flex justify-center gap-1 mb-4">
-        {currentWord?.split('').map((ch, i) => (
-          <div
-            key={i}
-            className={`w-9 h-11 rounded-lg border-2 flex items-center justify-center text-lg font-bold ${
-              i < popped.length ? 'bg-cyan-100 border-cyan-500 text-cyan-700' : 'bg-gray-50 border-gray-300'
-            }`}
-          >
-            {i < popped.length ? popped[i] : ''}
-          </div>
-        ))}
+      {/* Hear word button + letter slots */}
+      <div className="flex items-center justify-center gap-2 mb-4">
+        <button
+          onClick={handleHearWord}
+          className="w-12 h-12 rounded-full bg-cyan-100 hover:bg-cyan-200 active:bg-cyan-300 transition-colors flex items-center justify-center text-xl shrink-0"
+          aria-label="Hear word again"
+        >
+          🔊
+        </button>
+        <div className="flex gap-1">
+          {currentWord?.split('').map((ch, i) => {
+            const isFilled = i < popped.length;
+            const isNext = i === popped.length && !wordComplete;
+            return (
+              <div
+                key={i}
+                className={`w-9 h-11 rounded-lg border-2 flex items-center justify-center text-lg font-bold transition-colors ${
+                  isFilled
+                    ? 'bg-cyan-100 border-cyan-500 text-cyan-700'
+                    : isNext
+                      ? 'bg-yellow-50 border-yellow-400 animate-pulse'
+                      : 'bg-gray-50 border-gray-300'
+                }`}
+              >
+                {isFilled ? popped[i] : ''}
+              </div>
+            );
+          })}
+        </div>
       </div>
+
+      {/* Word complete flash */}
+      {wordComplete && (
+        <div className="text-center text-green-600 font-bold text-lg mb-2 animate-bounce">
+          Great!
+        </div>
+      )}
 
       {/* Bubble area */}
       <div className="flex-1 relative bg-gradient-to-b from-cyan-50 to-blue-50 rounded-2xl overflow-hidden min-h-[400px]">
