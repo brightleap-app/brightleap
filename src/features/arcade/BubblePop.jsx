@@ -108,8 +108,10 @@ export default function BubblePop() {
         setWordComplete(true);
         const next = wordIndex + 1;
         if (next < words.length) {
-          setWordIndex(next);
-          setTimeout(() => setupWord(words[next]), 800);
+          setTimeout(() => {
+            setWordIndex(next);
+            setupWord(words[next]);
+          }, 800);
         } else {
           setTimeout(() => setGameState('complete'), 800);
         }
