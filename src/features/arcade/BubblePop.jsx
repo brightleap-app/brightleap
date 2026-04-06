@@ -32,6 +32,8 @@ export default function BubblePop() {
       letter: ch,
       x: 10 + (i % 4) * 22 + Math.random() * 10,
       y: 15 + Math.floor(i / 4) * 25 + Math.random() * 10,
+      dx: (Math.random() - 0.5) * 0.6,
+      dy: (Math.random() - 0.5) * 0.5,
       size: 38 + Math.random() * 12,
       alive: true,
     })));
@@ -79,18 +81,30 @@ export default function BubblePop() {
     return () => clearInterval(t);
   }, [gameState]);
 
-  // Gentle float animation
+  // Float animation — bubbles drift and bounce off edges
   useEffect(() => {
     if (gameState !== 'playing') return;
     const frame = setInterval(() => {
       setBubbles((prev) =>
-        prev.map((b) => ({
-          ...b,
-          y: b.alive ? b.y + Math.sin(Date.now() / 800 + b.x) * 0.15 : b.y,
-          x: b.alive ? b.x + Math.cos(Date.now() / 1000 + b.y) * 0.1 : b.x,
-        }))
+        prev.map((b) => {
+          if (!b.alive) return b;
+          let { x, y, dx, dy } = b;
+          x += dx;
+          y += dy;
+          // Bounce off edges (keep within 5%–95%)
+          if (x < 5 || x > 95) dx = -dx;
+          if (y < 5 || y > 90) dy = -dy;
+          // Add a gentle wobble so movement feels organic
+          dx += (Math.random() - 0.5) * 0.04;
+          dy += (Math.random() - 0.5) * 0.04;
+          // Cap speed so it stays fun, not frustrating
+          const maxSpeed = 0.45;
+          dx = Math.max(-maxSpeed, Math.min(maxSpeed, dx));
+          dy = Math.max(-maxSpeed, Math.min(maxSpeed, dy));
+          return { ...b, x, y, dx, dy };
+        })
       );
-    }, 60);
+    }, 50);
     return () => clearInterval(frame);
   }, [gameState]);
 
