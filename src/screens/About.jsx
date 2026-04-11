@@ -30,7 +30,7 @@ export default function About() {
         <p className="leading-relaxed">
           I'm in Year 6 and this year I'm doing my SATs. When my dad and I started looking
           at ways to practise my spelling, we couldn't find anything that was actually <em>fun</em>.
-          Most of the apps and websites felt like boring worksheets on a screen. No thanks! 😅
+          Most of the apps and websites felt like boring worksheets on a screen. No thanks!
         </p>
 
         <p className="leading-relaxed">
@@ -40,7 +40,7 @@ export default function About() {
         <p className="leading-relaxed">
           My dad does the techy stuff and I'm the chief tester (and complainer when something
           isn't good enough!). I love animals, so we made it into a wildlife adventure where you
-          discover cool creatures by getting your spellings right.
+          discover cool creatures by getting your spellings and maths right.
         </p>
 
         <p className="leading-relaxed">
@@ -51,13 +51,20 @@ export default function About() {
         </p>
 
         <p className="leading-relaxed">
+          Then we thought — if we can make spelling fun, why not maths too? So we built a whole
+          maths section with fractions, decimals, and percentages, with step-by-step help when
+          you get stuck. It even adjusts to how well you're doing, so it's never too easy or
+          too hard.
+        </p>
+
+        <p className="leading-relaxed">
           We had so much fun building it that we thought — why keep it to ourselves? Other kids
           doing their SATs might like it too!
         </p>
 
         <p className="leading-relaxed">
-          So here it is. <strong>Wildlife Explorer by Brightleap.</strong> Built by a dad and his
-          daughter, for everyone. 🌍
+          So here it is. <strong>Brightleap.</strong> Spelling, maths, and more — built by a dad
+          and his daughter, for everyone.
         </p>
 
         <p className="leading-relaxed">
@@ -84,14 +91,19 @@ export default function About() {
           </p>
 
           <p>
-            The spelling content covers all Year 3–6 spelling rules tested in the KS2 SATs,
-            and the app uses spaced repetition to bring back tricky words at the right time.
+            <strong>English:</strong> The spelling content covers all Year 3–6 spelling rules
+            tested in the KS2 SATs. The app uses spaced repetition to bring back tricky words
+            at the right time, and our mock SATs tests use words from real STA past papers
+            (2018–2023) in the authentic Paper 2 format.
           </p>
 
           <p>
-            Our mock SATs tests use words from real STA past papers (2018–2023) presented in
-            the authentic Paper 2 format, so your child gets familiar with exactly what to expect
-            on test day.
+            <strong>Maths:</strong> Over 330 questions across fractions, decimals, and
+            percentages — the topics that make up the bulk of KS2 SATs marks. Three learning
+            trails (SATs Essentials, Year 3/4, and Year 5/6) with adaptive difficulty that
+            responds to your child's performance. Step-by-step worked examples break down
+            every wrong answer so children understand <em>why</em>, not just <em>what</em>.
+            A full mock SATs maths test covers both Paper 1 (Arithmetic) and Paper 2 (Reasoning).
           </p>
 
           <p>

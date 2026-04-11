@@ -127,8 +127,11 @@ export default function OurApproach() {
         icon="🎓"
       >
         <p>
-          Brightleap's spelling content is mapped directly to the <strong>KS2 National
-          Curriculum</strong> spelling requirements and the format of SATs Paper 2 (Spelling).
+          Brightleap's content is mapped directly to the <strong>KS2 National Curriculum</strong>
+          across both English and maths.
+        </p>
+        <p className="mt-3 font-semibold">English — Spelling</p>
+        <p>
           The 8 habitat categories cover the core spelling rules tested at Year 5/6 level:
         </p>
         <ul className="list-disc ml-6 space-y-1 mt-3 text-sm">
@@ -142,20 +145,97 @@ export default function OurApproach() {
           <li>Homophones and commonly confused words</li>
         </ul>
         <p className="mt-3">
-          Our mock SATs tests use <strong>real words from published STA past papers</strong>
+          Mock spelling tests use <strong>real words from published STA past papers</strong>
           (2018–2023), presented in the authentic Paper 2 format: sentence read aloud, target
-          word spoken, sentence repeated. This gives children genuine familiarity with what
-          they'll experience on test day.
+          word spoken, sentence repeated.
+        </p>
+        <p className="mt-3 font-semibold">Maths — Fractions, Decimals &amp; Percentages</p>
+        <p>
+          Three learning trails cover the progression from Year 3 foundations to Year 6 SATs-level
+          problem solving:
+        </p>
+        <ul className="list-disc ml-6 space-y-1 mt-3 text-sm">
+          <li><strong>SATs Essentials:</strong> Identifying, comparing, simplifying, adding and subtracting fractions; decimal equivalents; percentages</li>
+          <li><strong>Year 3/4:</strong> Recognising fractions, counting in tenths, same-denominator operations, early decimal understanding</li>
+          <li><strong>Year 5/6:</strong> Different-denominator operations, multiplying and dividing fractions, decimal and percentage reasoning, SATs-style word problems</li>
+        </ul>
+        <p className="mt-3">
+          Mock maths tests mirror the real SATs format with <strong>Paper 1 (Arithmetic)</strong> and
+          <strong> Paper 2 (Reasoning)</strong>, giving children authentic test-day experience.
         </p>
         <Evidence>
           STA KS2 English GPS framework; National Curriculum Year 5/6 word list;
-          STA past papers 2018, 2019, 2022, 2023
+          STA past papers 2018, 2019, 2022, 2023; National Curriculum mathematics
+          programmes of study (Years 3–6); STA KS2 Mathematics test framework
+        </Evidence>
+      </Section>
+
+      {/* Maths: Adaptive Difficulty */}
+      <Section
+        number="6"
+        title="Adaptive Maths: Meeting Every Child Where They Are"
+        icon="📐"
+      >
+        <p>
+          Brightleap's maths section covers <strong>fractions, decimals, and percentages</strong> —
+          the topics that together account for the majority of marks in the KS2 SATs maths papers.
+          Over 330 questions are organised across three trails: SATs Essentials, Year 3/4, and
+          Year 5/6, mapped directly to the National Curriculum programmes of study.
+        </p>
+        <p>
+          The app uses an <strong>adaptive difficulty engine</strong> that responds to each child's
+          performance in real time. Three correct answers in a row and the difficulty increases;
+          two incorrect and it steps back down. This keeps children working in their <em>zone
+          of proximal development</em> — the sweet spot identified by Vygotsky where learning
+          is challenging enough to promote growth but not so hard that it causes frustration.
+        </p>
+        <p>
+          For children with dyslexia, who often experience maths anxiety linked to reading
+          difficulties in word problems, this gradual scaffolding is particularly important. The
+          system never jumps more than one level at a time, building confidence through steady
+          progression.
+        </p>
+        <Evidence>
+          Vygotsky (1978) zone of proximal development; Tomlinson (2001) differentiated instruction;
+          EEF Mathematics Guidance (2020); Ashcraft & Moore (2009) maths anxiety and working memory
+        </Evidence>
+      </Section>
+
+      {/* Maths: Worked Examples */}
+      <Section
+        number="7"
+        title="Step-by-Step Worked Examples"
+        icon="📝"
+      >
+        <p>
+          When a child answers a maths question incorrectly, Brightleap doesn't simply show the
+          right answer. Instead, it presents a <strong>detailed worked example</strong> that breaks
+          the problem down into clear, numbered steps. This approach is grounded in
+          cognitive load theory — by reducing the mental effort needed to process a solution,
+          worked examples free up working memory for genuine understanding.
+        </p>
+        <p>
+          Research shows that worked examples are particularly effective for novice learners and
+          those with limited working memory — a common challenge for children with dyslexia.
+          The step-by-step format also supports the <em>concrete–representational–abstract</em>
+          (CRA) progression recommended by the EEF, moving from visual models to formal methods.
+        </p>
+        <p>
+          Our mock SATs maths tests cover both <strong>Paper 1 (Arithmetic)</strong> and
+          <strong> Paper 2 (Reasoning)</strong>, giving children authentic practice with the
+          exact format they'll encounter on test day — including word problems that require
+          careful reading and multi-step problem solving.
+        </p>
+        <Evidence>
+          Sweller (1988) cognitive load theory; Atkinson et al. (2000) worked example effect;
+          EEF Mathematics Guidance (2020) CRA approach; Gathercole & Alloway (2008) working
+          memory and learning
         </Evidence>
       </Section>
 
       {/* Gamification */}
       <Section
-        number="6"
+        number="8"
         title="Ethical Gamification: Motivation Without Manipulation"
         icon="🎮"
       >
@@ -183,7 +263,7 @@ export default function OurApproach() {
 
       {/* Warm Feedback */}
       <Section
-        number="7"
+        number="9"
         title="Warm, Encouraging Feedback"
         icon="💬"
       >
@@ -208,7 +288,7 @@ export default function OurApproach() {
 
       {/* Data Ethics */}
       <Section
-        number="8"
+        number="10"
         title="Data Ethics and Child Safety"
         icon="🔒"
       >
@@ -233,10 +313,10 @@ export default function OurApproach() {
       {/* Footer */}
       <div className="mt-10 p-6 bg-gray-50 rounded-2xl border border-gray-200 text-center">
         <p className="text-sm text-gray-600 mb-4">
-          The full research foundation for Brightleap spans 57 pages covering dyslexia
-          pedagogy, learning science, UX accessibility, curriculum alignment, gamification
-          ethics, and child safeguarding. Every design decision is documented and traceable
-          to its evidence base.
+          The full research foundation for Brightleap spans over 50 pages covering dyslexia
+          pedagogy, learning science, mathematics education, UX accessibility, curriculum
+          alignment, gamification ethics, and child safeguarding. Every design decision is
+          documented and traceable to its evidence base.
         </p>
         <p className="text-xs text-gray-400">
           For academic enquiries or to request the full research report, contact{' '}
