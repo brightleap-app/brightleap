@@ -127,7 +127,7 @@ export default function QuestionCard({
               className={`w-full py-3 px-4 rounded-2xl text-lg font-semibold text-left transition-all min-h-[48px] ${
                 answer === opt.value
                   ? 'bg-green-100 border-2 border-green-500 text-green-800'
-                  : 'bg-gray-50 border-2 border-gray-200 text-gray-700 hover:border-gray-300'
+                  : 'bg-gray-50 bg-white/80 shadow-sm text-gray-700 hover:border-gray-300'
               }`}
             >
               {opt.label}
@@ -147,7 +147,7 @@ export default function QuestionCard({
               className={`flex-1 py-3 rounded-2xl text-lg font-semibold transition-all min-h-[48px] ${
                 answer === val
                   ? 'bg-green-100 border-2 border-green-500 text-green-800'
-                  : 'bg-gray-50 border-2 border-gray-200 text-gray-700 hover:border-gray-300'
+                  : 'bg-gray-50 bg-white/80 shadow-sm text-gray-700 hover:border-gray-300'
               }`}
             >
               {val === 'yes' ? 'Yes' : 'No'}

@@ -45,7 +45,7 @@ export default function Arcade() {
                   <p className="text-xs text-gray-600 leading-snug">{game.description}</p>
                 </Link>
               ) : (
-                <div className="p-5 rounded-2xl border-2 border-gray-200 bg-gray-50 text-center min-h-[140px] flex flex-col items-center justify-center gap-2 opacity-50">
+                <div className="p-5 rounded-2xl bg-white/80 shadow-sm bg-gray-50 text-center min-h-[140px] flex flex-col items-center justify-center gap-2 opacity-50">
                   <div className="text-3xl">🔒</div>
                   <h2 className="font-bold text-sm">{game.name}</h2>
                   <p className="text-xs text-gray-600">Complete a habitat to unlock</p>

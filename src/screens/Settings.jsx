@@ -190,7 +190,7 @@ export default function Settings() {
       {/* Elizabeth helper */}
       <section className="mb-8">
         <h2 className="font-bold text-lg mb-3">Elizabeth Helper</h2>
-        <label className="flex items-center gap-3 cursor-pointer p-4 rounded-xl border-2 border-gray-200">
+        <label className="flex items-center gap-3 cursor-pointer p-4 rounded-xl bg-white/80 shadow-sm">
           <input
             type="checkbox"
             checked={settings.reduceHelpers || false}
@@ -205,7 +205,7 @@ export default function Settings() {
       </section>
 
       {/* Preview */}
-      <section className="p-4 rounded-xl border-2 border-gray-200 mb-8">
+      <section className="p-4 rounded-xl bg-white/80 shadow-sm mb-8">
         <h2 className="font-bold text-lg mb-2">Preview</h2>
         <p>The quick brown fox jumps over the lazy dog.</p>
         <p className="text-sm text-gray-600 mt-1">This shows how text will look in the app.</p>

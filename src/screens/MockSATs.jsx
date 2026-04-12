@@ -309,7 +309,7 @@ export default function MockSATs() {
             <h2 className="font-bold text-lg mb-3">Previous Tests</h2>
             <div className="space-y-2">
               {[...prevTests].reverse().slice(0, 5).map((t, i) => (
-                <div key={i} className="p-3 rounded-xl bg-gray-50 border border-gray-200 flex items-center justify-between">
+                <div key={i} className="p-3 rounded-xl bg-gray-50 bg-white/80 shadow-sm flex items-center justify-between">
                   <span className="text-sm text-gray-600">{t.date}</span>
                   <span className="font-semibold">{t.score}/{t.total}</span>
                   <span className="text-xs text-gray-600">{formatTime(t.elapsed)}</span>

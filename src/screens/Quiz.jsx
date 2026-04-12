@@ -342,7 +342,7 @@ export default function Quiz() {
               value={typed}
               onChange={(e) => setTyped(e.target.value)}
               placeholder="Type the word here..."
-              className="w-full text-center text-xl p-4 border-2 border-gray-300 rounded-xl focus:border-green-500 focus:outline-none"
+              className="w-full text-center text-xl p-4 bg-[#F2EEE1] border-2 border-transparent rounded-xl focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-200"
               autoComplete="off"
               autoCapitalize="off"
               spellCheck="false"

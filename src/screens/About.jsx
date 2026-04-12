@@ -18,7 +18,7 @@ export default function About() {
       {/* Elizabeth hero */}
       <div className="flex flex-col items-center gap-4 mb-8">
         <ElizabethCharacter mood="waving" size={120} />
-        <div className="bg-white rounded-2xl rounded-bl-sm shadow border border-gray-200 p-4 max-w-sm">
+        <div className="bg-white/80 rounded-2xl rounded-bl-sm shadow-sm p-4 max-w-sm">
           <p className="text-sm leading-relaxed">Hi! I'm Elizabeth! Let me tell you how this all started...</p>
         </div>
       </div>
@@ -80,7 +80,7 @@ export default function About() {
       </div>
 
       {/* For parents and teachers */}
-      <div className="p-6 bg-gray-50 rounded-2xl border border-gray-200 mb-8">
+      <div className="p-6 bg-white/80 rounded-2xl shadow-sm mb-8">
         <h2 className="font-bold text-lg mb-3">For Parents and Teachers</h2>
 
         <div className="space-y-3 leading-relaxed text-gray-600">

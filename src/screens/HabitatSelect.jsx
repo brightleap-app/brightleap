@@ -61,7 +61,7 @@ export default function HabitatSelect() {
               <Link
                 key={habitat.id}
                 to="/register"
-                className="block p-5 rounded-2xl border-2 border-gray-200 bg-gray-50 min-h-[140px] flex flex-col justify-between opacity-60"
+                className="block p-5 rounded-2xl bg-white/60 shadow-sm min-h-[140px] flex flex-col justify-between opacity-60"
               >
                 <div>
                   <div className="text-3xl mb-2">{displayEmoji}</div>

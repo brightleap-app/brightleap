@@ -106,7 +106,7 @@ export default function Login() {
               required
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              className="w-full p-3 border-2 border-gray-300 rounded-xl focus:border-green-500 focus:outline-none"
+              className="w-full p-3 bg-[#F2EEE1] border-2 border-transparent rounded-xl focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-200"
               placeholder="parent@example.com"
             />
           </div>
@@ -143,7 +143,7 @@ export default function Login() {
               required
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              className="w-full p-3 border-2 border-gray-300 rounded-xl focus:border-green-500 focus:outline-none"
+              className="w-full p-3 bg-[#F2EEE1] border-2 border-transparent rounded-xl focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-200"
               placeholder="parent@example.com"
             />
           </div>
@@ -158,7 +158,7 @@ export default function Login() {
               required
               value={password}
               onChange={(e) => setPassword(e.target.value)}
-              className="w-full p-3 border-2 border-gray-300 rounded-xl focus:border-green-500 focus:outline-none"
+              className="w-full p-3 bg-[#F2EEE1] border-2 border-transparent rounded-xl focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-200"
             />
           </div>
 

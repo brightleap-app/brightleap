@@ -73,7 +73,7 @@ export default function MathsTopicSelect() {
               <button
                 key={topic.id}
                 onClick={() => setShowGate(true)}
-                className="block p-5 rounded-2xl border-2 border-gray-200 bg-gray-50 min-h-[140px] flex flex-col justify-between opacity-60 text-left w-full"
+                className="block p-5 rounded-2xl bg-white/60 shadow-sm min-h-[140px] flex flex-col justify-between opacity-60 text-left w-full"
               >
                 <div>
                   <div className="text-3xl mb-2">{displayEmoji}</div>

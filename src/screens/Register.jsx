@@ -91,7 +91,7 @@ export default function Register() {
             required
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            className="w-full p-3 border-2 border-gray-300 rounded-xl focus:border-green-500 focus:outline-none"
+            className="w-full p-3 bg-[#F2EEE1] border-2 border-transparent rounded-xl focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-200"
             placeholder="parent@example.com"
           />
         </div>
@@ -107,7 +107,7 @@ export default function Register() {
             required
             value={password}
             onChange={(e) => setPassword(e.target.value)}
-            className="w-full p-3 border-2 border-gray-300 rounded-xl focus:border-green-500 focus:outline-none"
+            className="w-full p-3 bg-[#F2EEE1] border-2 border-transparent rounded-xl focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-200"
             placeholder="At least 6 characters"
             minLength={6}
           />
@@ -124,7 +124,7 @@ export default function Register() {
             required
             value={childName}
             onChange={(e) => setChildName(e.target.value)}
-            className="w-full p-3 border-2 border-gray-300 rounded-xl focus:border-green-500 focus:outline-none"
+            className="w-full p-3 bg-[#F2EEE1] border-2 border-transparent rounded-xl focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-200"
             placeholder="e.g. Alex"
           />
           <p className="text-xs text-gray-600 mt-1">

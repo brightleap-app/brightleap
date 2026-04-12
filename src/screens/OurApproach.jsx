@@ -311,7 +311,7 @@ export default function OurApproach() {
       </Section>
 
       {/* Footer */}
-      <div className="mt-10 p-6 bg-gray-50 rounded-2xl border border-gray-200 text-center">
+      <div className="mt-10 p-6 bg-white/80 rounded-2xl shadow-sm text-center">
         <p className="text-sm text-gray-600 mb-4">
           The full research foundation for Brightleap spans over 50 pages covering dyslexia
           pedagogy, learning science, mathematics education, UX accessibility, curriculum

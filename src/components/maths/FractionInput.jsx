@@ -53,7 +53,7 @@ export default function FractionInput({
     lg: 'w-20 border-t-[3px]',
   };
 
-  const inputClass = `${inputSizes[size] || inputSizes.md} text-center font-semibold rounded-xl border-2 border-gray-300 focus:border-green-500 focus:outline-none focus:ring-2 focus:ring-green-200 transition-colors`;
+  const inputClass = `${inputSizes[size] || inputSizes.md} text-center font-semibold rounded-xl bg-[#F2EEE1] border-2 border-transparent focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-200 transition-colors`;
 
   return (
     <div

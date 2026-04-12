@@ -37,7 +37,7 @@ export default function ElizabethHelper({ mood = 'happy', message, onDismiss, au
         <ElizabethCharacter mood={mood} size={80} />
       </div>
 
-      <div className="flex-1 bg-white rounded-2xl rounded-bl-sm shadow-lg border border-gray-200 p-4 relative">
+      <div className="flex-1 bg-white rounded-2xl rounded-bl-sm shadow-lg bg-white/80 shadow-sm p-4 relative">
         <p className="text-sm leading-relaxed">{message}</p>
         <button
           onClick={(e) => { e.stopPropagation(); handleDismiss(); }}
