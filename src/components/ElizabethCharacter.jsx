@@ -20,7 +20,7 @@ export default function ElizabethCharacter({ mood = 'happy', size = 100 }) {
       alt={`Elizabeth looking ${mood}`}
       width={size}
       height={size}
-      style={{ width: size, height: size, objectFit: 'contain', mixBlendMode: 'multiply' }}
+      style={{ width: size, height: size, objectFit: 'contain' }}
       draggable={false}
     />
   );
