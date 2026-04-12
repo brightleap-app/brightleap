@@ -32,12 +32,13 @@ const BG_OPTIONS = [
 export default function Settings() {
   const [settings, setSettings] = useState(() => {
     const progress = loadProgress();
-    return progress.settings || {
-      fontFamily: 'lexend',
-      fontSize: 'normal',
-      lineSpacing: 'normal',
-      bgColor: '#FFFBF0',
-    };
+    const saved = progress.settings || {};
+    // Migrate old defaults to new defaults
+    if (!saved.fontFamily || saved.fontFamily === 'system') saved.fontFamily = 'lexend';
+    if (!saved.bgColor || saved.bgColor === '#ffffff' || saved.bgColor === '#e8f4f8') saved.bgColor = '#FFFBF0';
+    if (!saved.fontSize) saved.fontSize = 'normal';
+    if (!saved.lineSpacing) saved.lineSpacing = 'normal';
+    return saved;
   });
 
   // Apply settings to CSS custom properties in real time

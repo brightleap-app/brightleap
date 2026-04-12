@@ -6,13 +6,14 @@ import { loadProgress } from './storage/progress.js';
 
 // Apply saved accessibility settings on startup
 const FONT_CSS = {
+  lexend: "'Lexend', system-ui, -apple-system, 'Segoe UI', Verdana, Helvetica, Arial, sans-serif",
   system: "system-ui, -apple-system, 'Segoe UI', Verdana, Helvetica, Arial, sans-serif",
   opendyslexic: "'OpenDyslexic', sans-serif",
   'comic-sans': "'Comic Sans MS', 'Comic Sans', cursive",
 };
 const SIZE_CSS = { normal: '1.125rem', large: '1.35rem', 'extra-large': '1.6rem' };
 const SPACING_CSS = {
-  normal: { lineHeight: '1.6', letterSpacing: '0.01em' },
+  normal: { lineHeight: '1.6', letterSpacing: '0.03em' },
   relaxed: { lineHeight: '1.8', letterSpacing: '0.05em' },
   'very-relaxed': { lineHeight: '2.0', letterSpacing: '0.1em' },
 };
@@ -20,6 +21,10 @@ const SPACING_CSS = {
 try {
   const { settings } = loadProgress();
   if (settings) {
+    // Migrate old defaults to new defaults
+    if (!settings.fontFamily || settings.fontFamily === 'system') settings.fontFamily = 'lexend';
+    if (!settings.bgColor || settings.bgColor === '#ffffff' || settings.bgColor === '#e8f4f8') settings.bgColor = '#FFFBF0';
+
     const root = document.documentElement;
     if (FONT_CSS[settings.fontFamily]) root.style.setProperty('--font-family', FONT_CSS[settings.fontFamily]);
     if (SIZE_CSS[settings.fontSize]) root.style.setProperty('--font-size', SIZE_CSS[settings.fontSize]);
