@@ -49,7 +49,7 @@ export default function WorkedExample({ steps = [], analogy, onComplete }) {
 
       <button
         onClick={handleNext}
-        className="mt-4 w-full py-3 bg-blue-100 text-blue-800 rounded-2xl font-semibold hover:bg-blue-200 transition-colors min-h-[48px]"
+        className="mt-4 w-full py-3 bg-blue-600 text-white rounded-2xl font-semibold hover:bg-blue-700 transition-colors min-h-[48px]"
       >
         {allVisible ? 'Got it — next question' : `Show step ${visibleCount + 1}`}
       </button>

@@ -5,12 +5,12 @@
  * by the Settings panel so nothing is hardcoded.
  */
 :root {
-  --font-family: system-ui, -apple-system, 'Segoe UI', Verdana, Helvetica, Arial, sans-serif;
+  --font-family: 'Lexend', system-ui, -apple-system, 'Segoe UI', Verdana, Helvetica, Arial, sans-serif;
   --font-size: 1.125rem;       /* 18px base — comfortable for young readers */
   --line-height: 1.6;
-  --letter-spacing: 0.01em;
-  --bg-color: #ffffff;
-  --text-color: #333333;
+  --letter-spacing: 0.03em;    /* wider spacing reduces crowding for dyslexic readers */
+  --bg-color: #FFFBF0;         /* warm cream — reduces visual stress vs pure white */
+  --text-color: #393831;       /* warm dark — softer than pure black */
 }
 
 body {

@@ -4,9 +4,10 @@ import { loadProgress, updateProgress } from '../storage/progress.js';
 import { ALL_THEMES } from '../themes/ThemeContext.jsx';
 
 const FONT_OPTIONS = [
-  { value: 'system', label: 'System (Default)', css: "system-ui, -apple-system, 'Segoe UI', Verdana, Helvetica, Arial, sans-serif" },
+  { value: 'lexend', label: 'Lexend (Default)', css: "'Lexend', system-ui, -apple-system, 'Segoe UI', Verdana, Helvetica, Arial, sans-serif" },
   { value: 'opendyslexic', label: 'OpenDyslexic', css: "'OpenDyslexic', sans-serif" },
   { value: 'comic-sans', label: 'Comic Sans', css: "'Comic Sans MS', 'Comic Sans', cursive" },
+  { value: 'system', label: 'System', css: "system-ui, -apple-system, 'Segoe UI', Verdana, Helvetica, Arial, sans-serif" },
 ];
 
 const SIZE_OPTIONS = [
@@ -22,8 +23,8 @@ const SPACING_OPTIONS = [
 ];
 
 const BG_OPTIONS = [
+  { value: '#FFFBF0', label: 'Warm Cream', swatch: '#FFFBF0' },
   { value: '#ffffff', label: 'White', swatch: '#ffffff' },
-  { value: '#fdf6e3', label: 'Cream', swatch: '#fdf6e3' },
   { value: '#e8f4f8', label: 'Soft Blue', swatch: '#e8f4f8' },
   { value: '#e8f5e9', label: 'Soft Green', swatch: '#e8f5e9' },
 ];
@@ -32,10 +33,10 @@ export default function Settings() {
   const [settings, setSettings] = useState(() => {
     const progress = loadProgress();
     return progress.settings || {
-      fontFamily: 'system',
+      fontFamily: 'lexend',
       fontSize: 'normal',
       lineSpacing: 'normal',
-      bgColor: '#ffffff',
+      bgColor: '#FFFBF0',
     };
   });
 
