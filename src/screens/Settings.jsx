@@ -96,7 +96,7 @@ export default function Settings() {
             >
               <div className="text-2xl mb-1">{t.emoji}</div>
               <div className="font-semibold text-sm">{t.name}</div>
-              <p className="text-xs text-gray-500 mt-1 leading-snug">{t.description}</p>
+              <p className="text-xs text-gray-600 mt-1 leading-snug">{t.description}</p>
             </button>
           ))}
         </div>
@@ -199,7 +199,7 @@ export default function Settings() {
           />
           <div>
             <span className="font-semibold">Reduce helpers</span>
-            <p className="text-xs text-gray-500 mt-0.5">Hide Elizabeth's pop-up tips and help button</p>
+            <p className="text-xs text-gray-600 mt-0.5">Hide Elizabeth's pop-up tips and help button</p>
           </div>
         </label>
       </section>
@@ -208,7 +208,7 @@ export default function Settings() {
       <section className="p-4 rounded-xl border-2 border-gray-200 mb-8">
         <h2 className="font-bold text-lg mb-2">Preview</h2>
         <p>The quick brown fox jumps over the lazy dog.</p>
-        <p className="text-sm text-gray-500 mt-1">This shows how text will look in the app.</p>
+        <p className="text-sm text-gray-600 mt-1">This shows how text will look in the app.</p>
       </section>
     </main>
   );

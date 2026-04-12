@@ -84,7 +84,7 @@ export default function Home() {
       </Link>
 
       <h1 className="text-4xl font-bold">Brightleap</h1>
-      <p className="text-lg text-gray-500">{theme.emoji} {theme.name}</p>
+      <p className="text-lg text-gray-600">{theme.emoji} {theme.name}</p>
 
       {/* Subject selector */}
       <div className="flex gap-2 w-full max-w-xs">
@@ -100,7 +100,7 @@ export default function Home() {
                 isActive
                   ? 'bg-green-600 text-white shadow-md'
                   : isComingSoon
-                    ? 'bg-gray-100 text-gray-400 cursor-not-allowed'
+                    ? 'bg-gray-100 text-gray-600 cursor-not-allowed'
                     : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
               }`}
             >
@@ -118,7 +118,7 @@ export default function Home() {
 
       {/* Explorer level */}
       <div className="text-center mt-2">
-        <p className="text-sm text-gray-400">Level {current.level}</p>
+        <p className="text-sm text-gray-600">Level {current.level}</p>
         <p className="text-xl font-bold text-green-700">{current.name}</p>
         <p className="text-amber-600 font-semibold mt-1">⭐ {progress.xp} XP</p>
       </div>
@@ -132,7 +132,7 @@ export default function Home() {
               style={{ width: `${Math.min(xpProgress, 100)}%` }}
             />
           </div>
-          <p className="text-xs text-gray-400 text-center mt-1">
+          <p className="text-xs text-gray-600 text-center mt-1">
             {xpToNext} XP to {next.name}
           </p>
         </div>
@@ -189,13 +189,13 @@ export default function Home() {
         {loading ? null : isLoggedIn ? (
           <button
             onClick={logout}
-            className="text-sm text-gray-400 hover:text-gray-600 transition-colors min-h-[48px]"
+            className="text-sm text-gray-600 hover:text-gray-800 transition-colors min-h-[48px]"
           >
             Log out
           </button>
         ) : (
           <div className="space-y-2">
-            <p className="text-xs text-gray-400">Playing as guest — progress saved on this device only</p>
+            <p className="text-xs text-gray-600">Playing as guest — progress saved on this device only</p>
             <div className="flex gap-3 justify-center">
               <Link
                 to="/login"
@@ -216,7 +216,7 @@ export default function Home() {
       </div>
       <Link
         to="/about"
-        className="text-sm text-gray-400 hover:text-gray-600 transition-colors mt-2"
+        className="text-sm text-gray-600 hover:text-gray-800 transition-colors mt-2"
       >
         About Brightleap
       </Link>

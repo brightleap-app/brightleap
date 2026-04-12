@@ -27,14 +27,14 @@ export default function Collection() {
         <div className="w-12" />
       </div>
 
-      <p className="text-gray-500 mb-6">
+      <p className="text-gray-600 mb-6">
         {totalUnlocked} of {totalAll} discoveries made
       </p>
 
       {/* English animals */}
       <h2 className="text-lg font-bold mb-3 flex items-center gap-2">
         📖 English
-        <span className="text-sm font-normal text-gray-400">{unlockedAnimals.length}/{totalEnglish}</span>
+        <span className="text-sm font-normal text-gray-600">{unlockedAnimals.length}/{totalEnglish}</span>
       </h2>
       <div className="grid grid-cols-2 gap-4 mb-8">
         {habitats.map((habitat) => {
@@ -55,7 +55,7 @@ export default function Collection() {
               <h2 className="font-bold mb-1">
                 {isUnlocked ? habitat.reward.name : '???'}
               </h2>
-              <p className="text-xs text-gray-500 mb-2">
+              <p className="text-xs text-gray-600 mb-2">
                 {habitat.displayEmoji} {habitat.displayName}
               </p>
               {isUnlocked ? (
@@ -63,7 +63,7 @@ export default function Collection() {
                   {habitat.reward.fact}
                 </p>
               ) : (
-                <p className="text-sm text-gray-400 italic">
+                <p className="text-sm text-gray-600 italic">
                   Complete {habitat.displayName} to discover this!
                 </p>
               )}
@@ -77,7 +77,7 @@ export default function Collection() {
         <>
           <h2 className="text-lg font-bold mb-3 flex items-center gap-2">
             🧮 Maths
-            <span className="text-sm font-normal text-gray-400">{unlockedMathsAnimals.length}/{totalMaths}</span>
+            <span className="text-sm font-normal text-gray-600">{unlockedMathsAnimals.length}/{totalMaths}</span>
           </h2>
           <div className="grid grid-cols-2 gap-4">
             {Object.entries(mathsHabitats).map(([topicId, habitat]) => {
@@ -98,7 +98,7 @@ export default function Collection() {
                   <h2 className="font-bold mb-1">
                     {isUnlocked ? habitat.reward.name : '???'}
                   </h2>
-                  <p className="text-xs text-gray-500 mb-2">
+                  <p className="text-xs text-gray-600 mb-2">
                     {habitat.emoji} {habitat.name}
                   </p>
                   {isUnlocked ? (
@@ -106,7 +106,7 @@ export default function Collection() {
                       {habitat.reward.fact}
                     </p>
                   ) : (
-                    <p className="text-sm text-gray-400 italic">
+                    <p className="text-sm text-gray-600 italic">
                       Master {habitat.name} to discover this!
                     </p>
                   )}

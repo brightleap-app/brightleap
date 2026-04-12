@@ -24,7 +24,7 @@ export default function MathsTopicSelect() {
         <Link to={`/maths/trail/${trailId}`} className="text-green-700 font-semibold min-h-[48px] inline-flex items-center">
           ← Back
         </Link>
-        <p className="text-center text-gray-500 mt-8">Module not found.</p>
+        <p className="text-center text-gray-600 mt-8">Module not found.</p>
       </main>
     );
   }
@@ -44,8 +44,8 @@ export default function MathsTopicSelect() {
           ← Back
         </Link>
         <div className="text-center">
-          <h1 className="text-xl font-bold">{mod.emoji} {mod.name}</h1>
-          <p className="text-xs text-gray-500">{mod.description}</p>
+          <h1 className="text-2xl font-bold">{mod.emoji} {mod.name}</h1>
+          <p className="text-xs text-gray-600">{mod.description}</p>
         </div>
         <div className="w-12" />
       </div>
@@ -78,10 +78,10 @@ export default function MathsTopicSelect() {
                 <div>
                   <div className="text-3xl mb-2">{displayEmoji}</div>
                   <h2 className="text-lg font-bold mb-1">{displayName}</h2>
-                  <p className="text-sm text-gray-400 leading-snug">{topic.description}</p>
+                  <p className="text-sm text-gray-600 leading-snug">{topic.description}</p>
                 </div>
                 <div className="mt-3">
-                  <p className="text-xs text-gray-400 font-semibold">🔒 Free account required</p>
+                  <p className="text-xs text-gray-600 font-semibold">🔒 Free account required</p>
                 </div>
               </button>
             );
@@ -100,11 +100,11 @@ export default function MathsTopicSelect() {
               <div>
                 <div className="text-3xl mb-2">{displayEmoji}</div>
                 <h2 className="text-lg font-bold mb-1">{displayName}</h2>
-                <p className="text-sm text-gray-500 leading-snug">{topic.description}</p>
+                <p className="text-sm text-gray-600 leading-snug">{topic.description}</p>
               </div>
 
               <div className="mt-3">
-                <div className="flex items-center justify-between text-xs text-gray-500 mb-1">
+                <div className="flex items-center justify-between text-xs text-gray-600 mb-1">
                   <span>
                     {questionsAttempted > 0 ? `${accuracy}%` : 'New'}
                   </span>

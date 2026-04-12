@@ -92,7 +92,7 @@ export default function Login() {
 
       {resetMode ? (
         <form onSubmit={handleReset} className="space-y-5">
-          <p className="text-gray-500 text-sm">
+          <p className="text-gray-600 text-sm">
             Enter your email and we'll send you a link to reset your password.
           </p>
 
@@ -118,7 +118,7 @@ export default function Login() {
           <button
             type="submit"
             disabled={submitting}
-            className="w-full py-4 bg-green-600 text-white rounded-xl text-lg font-semibold hover:bg-green-700 disabled:bg-gray-300 disabled:text-gray-500 transition-colors min-h-[48px]"
+            className="w-full py-4 bg-green-600 text-white rounded-xl text-lg font-semibold hover:bg-green-700 disabled:bg-gray-300 disabled:text-gray-600 transition-colors min-h-[48px]"
           >
             {submitting ? 'Sending...' : 'Send Reset Link'}
           </button>
@@ -169,7 +169,7 @@ export default function Login() {
           <button
             type="submit"
             disabled={submitting}
-            className="w-full py-4 bg-green-600 text-white rounded-xl text-lg font-semibold hover:bg-green-700 disabled:bg-gray-300 disabled:text-gray-500 transition-colors min-h-[48px]"
+            className="w-full py-4 bg-green-600 text-white rounded-xl text-lg font-semibold hover:bg-green-700 disabled:bg-gray-300 disabled:text-gray-600 transition-colors min-h-[48px]"
           >
             {submitting ? 'Logging in...' : 'Start Exploring! 🌍'}
           </button>
@@ -177,7 +177,7 @@ export default function Login() {
           <button
             type="button"
             onClick={() => { setResetMode(true); setError(''); }}
-            className="w-full py-2 text-sm text-gray-500 hover:text-green-700 transition-colors min-h-[48px]"
+            className="w-full py-2 text-sm text-gray-600 hover:text-green-700 transition-colors min-h-[48px]"
           >
             Forgotten your password?
           </button>
@@ -185,13 +185,13 @@ export default function Login() {
       )}
 
       <div className="mt-6 text-center space-y-3">
-        <p className="text-sm text-gray-500">
+        <p className="text-sm text-gray-600">
           Don't have an account?{' '}
           <Link to="/register" className="text-green-700 font-semibold">
             Create one
           </Link>
         </p>
-        <p className="text-sm text-gray-400">
+        <p className="text-sm text-gray-600">
           Or{' '}
           <Link to="/habitats" className="text-gray-600 font-semibold">
             continue as guest

@@ -143,7 +143,7 @@ export default function MathsDiagnostic() {
       <main className="min-h-screen p-6 max-w-lg mx-auto flex flex-col items-center gap-6">
         <div className="flex items-center justify-between mb-4 w-full">
           <Link to="/" className="text-green-700 font-semibold min-h-[48px] inline-flex items-center">← Back</Link>
-          <h1 className="text-xl font-bold">🧮 Maths Explorer Quiz</h1>
+          <h1 className="text-2xl font-bold">🧮 Maths Explorer Quiz</h1>
           <div className="w-12" />
         </div>
 
@@ -154,7 +154,7 @@ export default function MathsDiagnostic() {
             I'm going to ask you a few quick maths questions. Don't worry about getting them all right —
             this just helps me know where to start!
           </p>
-          <p className="text-sm text-gray-500">Takes about 3 minutes</p>
+          <p className="text-sm text-gray-600">Takes about 3 minutes</p>
         </div>
 
         <button
@@ -234,7 +234,7 @@ export default function MathsDiagnostic() {
     return (
       <main className="min-h-screen p-6 max-w-lg mx-auto">
         <Link to="/" className="text-green-700 font-semibold min-h-[48px] inline-flex items-center">← Back</Link>
-        <p className="text-center text-gray-500 mt-8">Something went wrong. Please try again.</p>
+        <p className="text-center text-gray-600 mt-8">Something went wrong. Please try again.</p>
       </main>
     );
   }
@@ -243,7 +243,7 @@ export default function MathsDiagnostic() {
     <main className="min-h-screen p-6 max-w-lg mx-auto flex flex-col items-center">
       <div className="flex items-center justify-between mb-4 w-full">
         <Link to="/" className="text-green-700 font-semibold min-h-[48px] inline-flex items-center">← Back</Link>
-        <p className="text-sm text-gray-500 font-semibold">Explorer Quiz</p>
+        <p className="text-sm text-gray-600 font-semibold">Explorer Quiz</p>
         <div className="w-12" />
       </div>
 

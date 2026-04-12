@@ -23,7 +23,7 @@ export default function WorkedExample({ steps = [], analogy, onComplete }) {
 
   return (
     <div className="w-full max-w-sm">
-      <p className="text-sm text-gray-500 font-semibold mb-3">Let me show you how:</p>
+      <p className="text-sm text-gray-600 font-semibold mb-3">Let me show you how:</p>
 
       <div className="flex flex-col gap-2">
         {steps.slice(0, visibleCount).map((step, i) => (

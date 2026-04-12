@@ -248,7 +248,7 @@ export default function AvatarBuilder() {
                   style={{ backgroundColor: o.colour }}
                 />
                 <span className="text-xs font-semibold">{o.label}</span>
-                {o.locked && <p className="text-xs text-gray-400 mt-0.5">🔒 Locked</p>}
+                {o.locked && <p className="text-xs text-gray-600 mt-0.5">🔒 Locked</p>}
               </button>
             ))}
           </div>
@@ -277,7 +277,7 @@ export default function AvatarBuilder() {
                   {unlocked ? (
                     <p className="text-xs text-green-600 mt-0.5">{active ? '✓ Wearing' : 'Tap to wear'}</p>
                   ) : (
-                    <p className="text-xs text-gray-400 mt-0.5">🔒 {a.description}</p>
+                    <p className="text-xs text-gray-600 mt-0.5">🔒 {a.description}</p>
                   )}
                 </button>
               );

@@ -14,7 +14,7 @@ export default function MathsModuleSelect() {
     return (
       <main className="min-h-screen p-6 max-w-lg mx-auto">
         <Link to="/maths" className="text-green-700 font-semibold min-h-[48px] inline-flex items-center">← Back</Link>
-        <p className="text-center text-gray-500 mt-8">Trail not found.</p>
+        <p className="text-center text-gray-600 mt-8">Trail not found.</p>
       </main>
     );
   }
@@ -40,10 +40,10 @@ export default function MathsModuleSelect() {
   }
 
   const statusBadge = {
-    not_started: { label: 'New', bg: 'bg-gray-100', text: 'text-gray-500' },
+    not_started: { label: 'New', bg: 'bg-gray-100', text: 'text-gray-600' },
     in_progress: { label: 'In Progress', bg: 'bg-blue-100', text: 'text-blue-700' },
     mastered: { label: 'Mastered!', bg: 'bg-green-100', text: 'text-green-700' },
-    coming_soon: { label: 'Coming Soon', bg: 'bg-gray-100', text: 'text-gray-400' },
+    coming_soon: { label: 'Coming Soon', bg: 'bg-gray-100', text: 'text-gray-600' },
   };
 
   return (
@@ -56,7 +56,7 @@ export default function MathsModuleSelect() {
         <div className="w-12" />
       </div>
 
-      <p className="text-gray-500 text-center mb-6">{trail.description}</p>
+      <p className="text-gray-600 text-center mb-6">{trail.description}</p>
 
       <div className="flex flex-col gap-3">
         {trail.modules.map((mod) => {
@@ -82,7 +82,7 @@ export default function MathsModuleSelect() {
               <h3 className="text-lg font-bold" style={{ color: isLocked ? '#9ca3af' : mod.colour }}>
                 {mod.name}
               </h3>
-              <p className="text-sm text-gray-500 mt-1">{mod.description}</p>
+              <p className="text-sm text-gray-600 mt-1">{mod.description}</p>
               {!isLocked && mod.topics.length > 0 && (
                 <div className="mt-3">
                   <div className="w-full bg-gray-200 rounded-full h-2">
@@ -91,11 +91,11 @@ export default function MathsModuleSelect() {
                       style={{ width: `${pct}%`, backgroundColor: mod.colour }}
                     />
                   </div>
-                  <p className="text-xs text-gray-400 mt-1">{pct}% complete</p>
+                  <p className="text-xs text-gray-600 mt-1">{pct}% complete</p>
                 </div>
               )}
               {isLocked && (
-                <p className="text-xs text-gray-400 mt-2">🔒 Coming soon</p>
+                <p className="text-xs text-gray-600 mt-2">🔒 Coming soon</p>
               )}
             </div>
           );

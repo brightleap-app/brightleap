@@ -87,7 +87,7 @@ export default function MemoryMatch() {
         <button onClick={startGame} className="px-8 py-4 bg-indigo-600 text-white rounded-2xl text-lg font-semibold hover:bg-indigo-700 transition-colors min-h-[48px]">
           Play!
         </button>
-        <Link to="/arcade" className="text-sm text-gray-400 hover:text-gray-600 min-h-[48px] flex items-center">← Back to Arcade</Link>
+        <Link to="/arcade" className="text-sm text-gray-600 hover:text-gray-800 min-h-[48px] flex items-center">← Back to Arcade</Link>
       </main>
     );
   }
@@ -116,7 +116,7 @@ export default function MemoryMatch() {
       <div className="flex justify-between items-center mb-4">
         <span className="text-sm font-semibold text-gray-600">⏱ {timeLeft}s</span>
         <span className="text-sm font-bold">🧠 {matched.length}/{cards.length / 2} pairs</span>
-        <span className="text-xs text-gray-400">{moves} moves</span>
+        <span className="text-xs text-gray-600">{moves} moves</span>
       </div>
 
       <div className="grid grid-cols-3 gap-2">

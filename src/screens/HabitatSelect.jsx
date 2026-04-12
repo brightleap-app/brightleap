@@ -37,8 +37,8 @@ export default function HabitatSelect() {
           ← Trails
         </Link>
         <div className="text-center">
-          <h1 className="text-xl font-bold">{trail.emoji} {trail.name}</h1>
-          <p className="text-xs text-gray-500">{trail.subtitle}</p>
+          <h1 className="text-2xl font-bold">{trail.emoji} {trail.name}</h1>
+          <p className="text-xs text-gray-600">{trail.subtitle}</p>
         </div>
         <div className="w-12" />
       </div>
@@ -66,10 +66,10 @@ export default function HabitatSelect() {
                 <div>
                   <div className="text-3xl mb-2">{displayEmoji}</div>
                   <h2 className="text-lg font-bold mb-1">{displayName}</h2>
-                  <p className="text-sm text-gray-400 leading-snug">{habitat.rule}</p>
+                  <p className="text-sm text-gray-600 leading-snug">{habitat.rule}</p>
                 </div>
                 <div className="mt-3">
-                  <p className="text-xs text-gray-400 font-semibold">🔒 Free account required</p>
+                  <p className="text-xs text-gray-600 font-semibold">🔒 Free account required</p>
                 </div>
               </Link>
             );
@@ -88,11 +88,11 @@ export default function HabitatSelect() {
               <div>
                 <div className="text-3xl mb-2">{displayEmoji}</div>
                 <h2 className="text-lg font-bold mb-1">{displayName}</h2>
-                <p className="text-sm text-gray-500 leading-snug">{habitat.rule}</p>
+                <p className="text-sm text-gray-600 leading-snug">{habitat.rule}</p>
               </div>
 
               <div className="mt-3">
-                <div className="flex items-center justify-between text-xs text-gray-500 mb-1">
+                <div className="flex items-center justify-between text-xs text-gray-600 mb-1">
                   <span>{correctCount}/{totalWords} words</span>
                   {isComplete && reward && (
                     <span className="font-semibold" style={{ color: trail.colour }}>

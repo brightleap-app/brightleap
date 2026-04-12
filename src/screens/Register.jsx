@@ -75,7 +75,7 @@ export default function Register() {
         <div className="w-12" />
       </div>
 
-      <p className="text-gray-500 mb-6">
+      <p className="text-gray-600 mb-6">
         Parents: create an account so your child's progress syncs across devices and unlocks premium features.
       </p>
 
@@ -127,7 +127,7 @@ export default function Register() {
             className="w-full p-3 border-2 border-gray-300 rounded-xl focus:border-green-500 focus:outline-none"
             placeholder="e.g. Alex"
           />
-          <p className="text-xs text-gray-400 mt-1">
+          <p className="text-xs text-gray-600 mt-1">
             This is the name shown to your child in the app. No surname needed.
           </p>
         </div>
@@ -169,13 +169,13 @@ export default function Register() {
         <button
           type="submit"
           disabled={submitting}
-          className="w-full py-4 bg-green-600 text-white rounded-xl text-lg font-semibold hover:bg-green-700 disabled:bg-gray-300 disabled:text-gray-500 transition-colors min-h-[48px]"
+          className="w-full py-4 bg-green-600 text-white rounded-xl text-lg font-semibold hover:bg-green-700 disabled:bg-gray-300 disabled:text-gray-600 transition-colors min-h-[48px]"
         >
           {submitting ? 'Creating account...' : 'Create Account'}
         </button>
       </form>
 
-      <p className="text-center text-sm text-gray-500 mt-6">
+      <p className="text-center text-sm text-gray-600 mt-6">
         Already have an account?{' '}
         <Link to="/login" className="text-green-700 font-semibold">
           Log in

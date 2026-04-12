@@ -164,7 +164,7 @@ export default function MathsMockSATs() {
         >
           Start Test
         </button>
-        <Link to="/" className="text-sm text-gray-400 hover:text-gray-600 transition-colors min-h-[48px] flex items-center">
+        <Link to="/" className="text-sm text-gray-600 hover:text-gray-800 transition-colors min-h-[48px] flex items-center">
           Maybe later
         </Link>
       </main>
@@ -178,7 +178,7 @@ export default function MathsMockSATs() {
         <div className="text-5xl">{currentPaper.emoji}</div>
         <h1 className="text-2xl font-bold">{currentPaper.name}</h1>
         <p className="text-gray-600 leading-relaxed">{currentPaper.description}</p>
-        <p className="text-sm text-gray-500">{currentPaper.questions.length} questions</p>
+        <p className="text-sm text-gray-600">{currentPaper.questions.length} questions</p>
         <button
           onClick={() => setState(STATES.QUESTION)}
           className="px-8 py-4 bg-green-600 text-white rounded-2xl text-lg font-semibold hover:bg-green-700 transition-colors min-h-[48px]"
@@ -196,7 +196,7 @@ export default function MathsMockSATs() {
         <div className="text-5xl">☕</div>
         <h1 className="text-2xl font-bold">Take a Break</h1>
         <p className="text-gray-600">Need a breather? Come back when you're ready.</p>
-        <p className="text-sm text-gray-400">Question {questionIndex + 1} of {currentPaper.questions.length}</p>
+        <p className="text-sm text-gray-600">Question {questionIndex + 1} of {currentPaper.questions.length}</p>
         <button
           onClick={() => setState(STATES.QUESTION)}
           className="px-8 py-4 bg-green-600 text-white rounded-2xl text-lg font-semibold hover:bg-green-700 transition-colors min-h-[48px]"
@@ -218,7 +218,7 @@ export default function MathsMockSATs() {
         <div className="text-5xl">👍</div>
         <h1 className="text-2xl font-bold">{currentPaper.name} Complete!</h1>
         <p className="text-lg text-gray-600">You scored {paperScore} out of {paperMax} marks.</p>
-        <p className="text-gray-500">One more paper to go — you're doing great!</p>
+        <p className="text-gray-600">One more paper to go — you're doing great!</p>
         <button
           onClick={handleNextPaper}
           className="px-8 py-4 bg-green-600 text-white rounded-2xl text-lg font-semibold hover:bg-green-700 transition-colors min-h-[48px]"
@@ -245,7 +245,7 @@ export default function MathsMockSATs() {
           <div className="text-5xl mb-4">{bracket.emoji}</div>
           <h1 className="text-2xl font-bold mb-2">You scored {totalMarks} out of {maxMarks}!</h1>
           <p className="text-xl font-semibold text-green-700">{bracket.label}</p>
-          <p className="text-sm text-gray-400 mt-2">Time: {formatTime(elapsed)}</p>
+          <p className="text-sm text-gray-600 mt-2">Time: {formatTime(elapsed)}</p>
 
           {/* Paper breakdown */}
           <div className="flex gap-4 justify-center mt-4">
@@ -255,7 +255,7 @@ export default function MathsMockSATs() {
               const pm = pr.reduce((s, r) => s + r.marks, 0);
               return (
                 <div key={p.id} className="bg-gray-50 rounded-xl p-3 flex-1">
-                  <p className="text-xs text-gray-500">{p.emoji} {p.id === 'arithmetic' ? 'Arithmetic' : 'Reasoning'}</p>
+                  <p className="text-xs text-gray-600">{p.emoji} {p.id === 'arithmetic' ? 'Arithmetic' : 'Reasoning'}</p>
                   <p className="text-lg font-bold">{ps}/{pm}</p>
                 </div>
               );
@@ -295,14 +295,14 @@ export default function MathsMockSATs() {
                       <div className="flex-1">
                         <p className="font-semibold text-sm">{r.question.question_text}</p>
                         {!r.correct && (
-                          <p className="text-xs text-gray-500 mt-1">
+                          <p className="text-xs text-gray-600 mt-1">
                             Correct answer: {typeof r.question.correct_answer === 'object'
                               ? `${r.question.correct_answer.numerator}/${r.question.correct_answer.denominator}`
                               : r.question.correct_answer}
                           </p>
                         )}
                       </div>
-                      <span className="text-xs text-gray-400">{r.question.marks}mk</span>
+                      <span className="text-xs text-gray-600">{r.question.marks}mk</span>
                     </div>
                     {!r.correct && r.question.worked_solution_steps && (
                       <div className="mt-2 pl-8 space-y-1">
@@ -341,7 +341,7 @@ export default function MathsMockSATs() {
                 <div key={i} className="p-3 rounded-xl bg-gray-50 border border-gray-200 flex items-center justify-between">
                   <span className="text-sm text-gray-600">{t.date}</span>
                   <span className="font-semibold">{t.score}/{t.total}</span>
-                  <span className="text-xs text-gray-400">{formatTime(t.elapsed)}</span>
+                  <span className="text-xs text-gray-600">{formatTime(t.elapsed)}</span>
                 </div>
               ))}
             </div>
@@ -366,17 +366,17 @@ export default function MathsMockSATs() {
       <div className="flex items-center justify-between mb-4">
         <button
           onClick={() => setState(STATES.PAUSED)}
-          className="text-gray-500 font-semibold min-h-[48px] min-w-[48px] flex items-center text-sm"
+          className="text-gray-600 font-semibold min-h-[48px] min-w-[48px] flex items-center text-sm"
         >
           Pause
         </button>
         <div className="text-center">
           <span className="text-sm text-gray-600 font-semibold">{currentPaper.emoji} {currentPaper.id === 'arithmetic' ? 'Arithmetic' : 'Reasoning'}</span>
-          <div className="text-xs text-gray-400">
+          <div className="text-xs text-gray-600">
             Question {questionIndex + 1} of {currentPaper.questions.length}
           </div>
         </div>
-        <span className="text-xs text-gray-400 min-w-[48px] text-right">{formatTime(elapsed)}</span>
+        <span className="text-xs text-gray-600 min-w-[48px] text-right">{formatTime(elapsed)}</span>
       </div>
 
       {/* Progress */}

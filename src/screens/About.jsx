@@ -83,7 +83,7 @@ export default function About() {
       <div className="p-6 bg-gray-50 rounded-2xl border border-gray-200 mb-8">
         <h2 className="font-bold text-lg mb-3">For Parents and Teachers</h2>
 
-        <div className="space-y-3 text-sm leading-relaxed text-gray-600">
+        <div className="space-y-3 leading-relaxed text-gray-600">
           <p>
             Brightleap was built with dyslexia-friendly design at its heart. Every feature —
             from the audio-first spelling approach to the customisable fonts and colours — is
@@ -117,7 +117,7 @@ export default function About() {
             </Link>
           </p>
 
-          <p className="text-gray-500">
+          <p className="text-gray-600">
             If you'd like to know more, get in touch at{' '}
             <span className="text-green-700 font-semibold">hello@brightleap.co.uk</span>
           </p>

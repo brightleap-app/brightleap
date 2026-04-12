@@ -161,7 +161,7 @@ export default function BubblePop() {
         <button onClick={startGame} className="px-8 py-4 bg-cyan-600 text-white rounded-2xl text-lg font-semibold hover:bg-cyan-700 transition-colors min-h-[48px]">
           Play!
         </button>
-        <Link to="/arcade" className="text-sm text-gray-400 hover:text-gray-600 min-h-[48px] flex items-center">← Back to Arcade</Link>
+        <Link to="/arcade" className="text-sm text-gray-600 hover:text-gray-800 min-h-[48px] flex items-center">← Back to Arcade</Link>
       </main>
     );
   }

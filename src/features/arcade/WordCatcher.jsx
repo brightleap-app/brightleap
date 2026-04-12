@@ -122,7 +122,7 @@ export default function WordCatcher() {
         >
           Play!
         </button>
-        <Link to="/arcade" className="text-sm text-gray-400 hover:text-gray-600 min-h-[48px] flex items-center">
+        <Link to="/arcade" className="text-sm text-gray-600 hover:text-gray-800 min-h-[48px] flex items-center">
           ← Back to Arcade
         </Link>
       </main>

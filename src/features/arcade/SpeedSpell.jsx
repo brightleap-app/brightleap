@@ -90,7 +90,7 @@ export default function SpeedSpell() {
         <button onClick={startGame} className="px-8 py-4 bg-amber-500 text-white rounded-2xl text-lg font-semibold hover:bg-amber-600 transition-colors min-h-[48px]">
           Play!
         </button>
-        <Link to="/arcade" className="text-sm text-gray-400 hover:text-gray-600 min-h-[48px] flex items-center">← Back to Arcade</Link>
+        <Link to="/arcade" className="text-sm text-gray-600 hover:text-gray-800 min-h-[48px] flex items-center">← Back to Arcade</Link>
       </main>
     );
   }
@@ -145,7 +145,7 @@ export default function SpeedSpell() {
         >
           🔊
         </button>
-        <p className="text-sm text-gray-500">Tap to hear the word</p>
+        <p className="text-sm text-gray-600">Tap to hear the word</p>
 
         {/* Input */}
         <form onSubmit={handleSubmit} className="w-full max-w-sm space-y-4">
@@ -163,7 +163,7 @@ export default function SpeedSpell() {
           <button
             type="submit"
             disabled={!typed.trim()}
-            className="w-full py-4 bg-amber-500 text-white rounded-xl text-lg font-semibold hover:bg-amber-600 disabled:bg-gray-300 disabled:text-gray-500 transition-colors min-h-[48px]"
+            className="w-full py-4 bg-amber-500 text-white rounded-xl text-lg font-semibold hover:bg-amber-600 disabled:bg-gray-300 disabled:text-gray-600 transition-colors min-h-[48px]"
           >
             Go! →
           </button>

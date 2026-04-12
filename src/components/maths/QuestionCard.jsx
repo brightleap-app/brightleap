@@ -163,7 +163,7 @@ export default function QuestionCard({
         className={`w-full py-4 rounded-2xl text-xl font-semibold transition-colors min-h-[48px] ${
           canSubmit && !disabled
             ? 'bg-green-600 text-white hover:bg-green-700'
-            : 'bg-gray-200 text-gray-400 cursor-not-allowed'
+            : 'bg-gray-200 text-gray-600 cursor-not-allowed'
         }`}
       >
         Check Answer

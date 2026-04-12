@@ -235,7 +235,7 @@ export default function Quiz() {
             Best streak this session: {streak} in a row! 🔥
           </p>
         )}
-        <p className="text-gray-500">Come back tomorrow for more discoveries!</p>
+        <p className="text-gray-600">Come back tomorrow for more discoveries!</p>
         <div className="flex gap-4 mt-4">
           <Link
             to="/habitats"
@@ -278,8 +278,8 @@ export default function Quiz() {
           ← Back
         </Link>
         <div className="text-center">
-          <span className="text-sm text-gray-500">{habitat.displayEmoji} {habitat.displayName}</span>
-          <div className="text-xs text-gray-400">
+          <span className="text-sm text-gray-600">{habitat.displayEmoji} {habitat.displayName}</span>
+          <div className="text-xs text-gray-600">
             Word {wordIndex + 1} of {words.length}
           </div>
         </div>
@@ -310,7 +310,7 @@ export default function Quiz() {
             >
               🔊
             </button>
-            <p className="text-sm text-gray-500">Tap to hear the word</p>
+            <p className="text-sm text-gray-600">Tap to hear the word</p>
 
             {currentWord.sentence && (
               <div className="mt-3 space-y-2">
@@ -320,7 +320,7 @@ export default function Quiz() {
                 >
                   📖 Hear it in a sentence
                 </button>
-                <p className="text-sm text-gray-500 leading-relaxed">
+                <p className="text-sm text-gray-600 leading-relaxed">
                   {renderSentence(currentWord.sentence)}
                 </p>
               </div>
@@ -330,7 +330,7 @@ export default function Quiz() {
 
         {/* Listening state */}
         {quizState === QUIZ_STATES.LISTENING && (
-          <p className="text-gray-400 animate-pulse">Listening...</p>
+          <p className="text-gray-600 animate-pulse">Listening...</p>
         )}
 
         {/* Typing input */}
@@ -350,7 +350,7 @@ export default function Quiz() {
             <button
               type="submit"
               disabled={!typed.trim()}
-              className="w-full py-4 bg-green-600 text-white rounded-xl text-lg font-semibold hover:bg-green-700 disabled:bg-gray-300 disabled:text-gray-500 transition-colors min-h-[48px]"
+              className="w-full py-4 bg-green-600 text-white rounded-xl text-lg font-semibold hover:bg-green-700 disabled:bg-gray-300 disabled:text-gray-600 transition-colors min-h-[48px]"
             >
               Check
             </button>
@@ -377,7 +377,7 @@ export default function Quiz() {
         {quizState === QUIZ_STATES.WRONG_FEEDBACK && (
           <div className="text-center space-y-4">
             <p className="text-lg font-semibold text-amber-700">{feedbackMsg}</p>
-            <p className="text-sm text-gray-500">Let me show you this word:</p>
+            <p className="text-sm text-gray-600">Let me show you this word:</p>
             <div className="bg-blue-50 rounded-2xl p-5 space-y-3">
               <div className="text-3xl font-bold tracking-wider">
                 {currentWord.word.split('').map((letter, i) => (
@@ -404,7 +404,7 @@ export default function Quiz() {
                 </div>
               )}
               {currentWord.sentence && (
-                <p className="text-sm text-gray-500 italic">
+                <p className="text-sm text-gray-600 italic">
                   "{currentWord.sentence.replace('_____', currentWord.word)}"
                 </p>
               )}

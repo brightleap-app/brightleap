@@ -3,7 +3,7 @@ import ElizabethCharacter from '../components/ElizabethCharacter.jsx';
 
 export default function OurApproach() {
   return (
-    <main className="min-h-screen p-6 max-w-2xl mx-auto">
+    <main className="min-h-screen p-6 max-w-prose mx-auto">
       <div className="flex items-center justify-between mb-8">
         <Link
           to="/about"
@@ -318,7 +318,7 @@ export default function OurApproach() {
           alignment, gamification ethics, and child safeguarding. Every design decision is
           documented and traceable to its evidence base.
         </p>
-        <p className="text-xs text-gray-400">
+        <p className="text-sm text-gray-600">
           For academic enquiries or to request the full research report, contact{' '}
           <span className="text-green-700 font-semibold">hello@brightleap.co.uk</span>
         </p>
@@ -355,7 +355,7 @@ function Section({ number, title, icon, children }) {
 function Evidence({ children }) {
   return (
     <div className="mt-3 p-3 bg-blue-50 rounded-lg border border-blue-200">
-      <p className="text-xs text-blue-700">
+      <p className="text-sm text-blue-700">
         <strong>Evidence base:</strong> {children}
       </p>
     </div>

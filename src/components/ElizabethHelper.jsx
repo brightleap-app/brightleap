@@ -41,7 +41,7 @@ export default function ElizabethHelper({ mood = 'happy', message, onDismiss, au
         <p className="text-sm leading-relaxed">{message}</p>
         <button
           onClick={(e) => { e.stopPropagation(); handleDismiss(); }}
-          className="absolute top-2 right-2 text-gray-300 hover:text-gray-500 text-xs w-6 h-6 flex items-center justify-center"
+          className="absolute top-2 right-2 text-gray-300 hover:text-gray-800 text-xs w-6 h-6 flex items-center justify-center"
           aria-label="Dismiss"
         >
           ✕

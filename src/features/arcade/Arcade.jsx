@@ -24,7 +24,7 @@ export default function Arcade() {
         <div className="w-12" />
       </div>
 
-      <p className="text-gray-500 mb-6 text-center">
+      <p className="text-gray-600 mb-6 text-center">
         Complete habitats to unlock mini-games!
       </p>
 
@@ -42,13 +42,13 @@ export default function Arcade() {
                 >
                   <div className="text-3xl">{game.emoji}</div>
                   <h2 className="font-bold text-sm">{game.name}</h2>
-                  <p className="text-xs text-gray-500 leading-snug">{game.description}</p>
+                  <p className="text-xs text-gray-600 leading-snug">{game.description}</p>
                 </Link>
               ) : (
                 <div className="p-5 rounded-2xl border-2 border-gray-200 bg-gray-50 text-center min-h-[140px] flex flex-col items-center justify-center gap-2 opacity-50">
                   <div className="text-3xl">🔒</div>
                   <h2 className="font-bold text-sm">{game.name}</h2>
-                  <p className="text-xs text-gray-400">Complete a habitat to unlock</p>
+                  <p className="text-xs text-gray-600">Complete a habitat to unlock</p>
                 </div>
               )}
             </div>

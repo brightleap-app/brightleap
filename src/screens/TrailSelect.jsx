@@ -46,14 +46,14 @@ export default function TrailSelect() {
                   <p className="text-sm font-semibold" style={{ color: trail.colour }}>
                     {trail.subtitle}
                   </p>
-                  <p className="text-xs text-gray-500 mt-1">{trail.description}</p>
+                  <p className="text-xs text-gray-600 mt-1">{trail.description}</p>
 
                   {/* Progress bar or lock */}
                   {locked ? (
-                    <p className="text-xs text-gray-400 font-semibold mt-3">🔒 Free account required</p>
+                    <p className="text-xs text-gray-600 font-semibold mt-3">🔒 Free account required</p>
                   ) : (
                     <div className="mt-3">
-                      <div className="flex justify-between text-xs text-gray-400 mb-1">
+                      <div className="flex justify-between text-xs text-gray-600 mb-1">
                         <span>{trailProgress}/{trail.wordCount} words</span>
                         <span>{progressPercent}%</span>
                       </div>

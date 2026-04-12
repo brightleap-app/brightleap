@@ -59,15 +59,15 @@ export default function MathsDashboard() {
                   <p className="text-sm font-semibold" style={{ color: trail.colour }}>
                     {trail.subtitle}
                   </p>
-                  <p className="text-xs text-gray-500 mt-1">{trail.description}</p>
+                  <p className="text-xs text-gray-600 mt-1">{trail.description}</p>
 
                   {locked ? (
-                    <p className="text-xs text-gray-400 font-semibold mt-3">🔒 Coming Soon</p>
+                    <p className="text-xs text-gray-600 font-semibold mt-3">🔒 Coming Soon</p>
                   ) : gated ? (
-                    <p className="text-xs text-gray-400 font-semibold mt-3">🔒 Free account required</p>
+                    <p className="text-xs text-gray-600 font-semibold mt-3">🔒 Free account required</p>
                   ) : (
                     <div className="mt-3">
-                      <div className="flex justify-between text-xs text-gray-400 mb-1">
+                      <div className="flex justify-between text-xs text-gray-600 mb-1">
                         <span>{mastered}/{total} topics mastered</span>
                         <span>{percent}%</span>
                       </div>

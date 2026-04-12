@@ -81,7 +81,7 @@ export default function Diagnostic() {
         <p className="text-gray-600 leading-relaxed">
           Let's do a quick explorer quiz so I can see which habitats you'll love the most!
         </p>
-        <p className="text-gray-500 text-sm leading-relaxed">
+        <p className="text-gray-600 text-sm leading-relaxed">
           Don't worry — this isn't a test. It's just to help me help you!
           There are {totalWords} words and it takes about 5 minutes.
         </p>
@@ -93,7 +93,7 @@ export default function Diagnostic() {
         </button>
         <Link
           to="/"
-          className="text-sm text-gray-400 hover:text-gray-600 transition-colors min-h-[48px] flex items-center"
+          className="text-sm text-gray-600 hover:text-gray-800 transition-colors min-h-[48px] flex items-center"
         >
           Maybe later
         </Link>
@@ -151,7 +151,7 @@ export default function Diagnostic() {
               >
                 <div className="text-2xl mb-1">{group.emoji}</div>
                 <h3 className="font-bold text-sm mb-1">{group.habitatName}</h3>
-                <p className="text-xs text-gray-500 mb-2">{group.rule}</p>
+                <p className="text-xs text-gray-600 mb-2">{group.rule}</p>
                 <div className="flex justify-center gap-1 mb-2">
                   {[0, 1, 2].map((i) => (
                     <div
@@ -283,8 +283,8 @@ export default function Diagnostic() {
           ← Back
         </Link>
         <div className="text-center">
-          <span className="text-sm text-gray-500">🗺️ Explorer Quiz</span>
-          <div className="text-xs text-gray-400">
+          <span className="text-sm text-gray-600">🗺️ Explorer Quiz</span>
+          <div className="text-xs text-gray-600">
             Word {wordIndex + 1} of {totalWords}
           </div>
         </div>
@@ -311,7 +311,7 @@ export default function Diagnostic() {
             >
               🔊
             </button>
-            <p className="text-sm text-gray-500">Tap to hear the word</p>
+            <p className="text-sm text-gray-600">Tap to hear the word</p>
 
             {currentWord.sentence && (
               <div className="mt-3 space-y-2">
@@ -321,7 +321,7 @@ export default function Diagnostic() {
                 >
                   📖 Hear it in a sentence
                 </button>
-                <p className="text-sm text-gray-500 leading-relaxed">
+                <p className="text-sm text-gray-600 leading-relaxed">
                   {renderSentence(currentWord.sentence)}
                 </p>
               </div>
@@ -331,7 +331,7 @@ export default function Diagnostic() {
 
         {/* Listening state */}
         {state === STATES.LISTENING && (
-          <p className="text-gray-400 animate-pulse">Listening...</p>
+          <p className="text-gray-600 animate-pulse">Listening...</p>
         )}
 
         {/* Typing input */}
@@ -351,7 +351,7 @@ export default function Diagnostic() {
             <button
               type="submit"
               disabled={!typed.trim()}
-              className="w-full py-4 bg-blue-600 text-white rounded-xl text-lg font-semibold hover:bg-blue-700 disabled:bg-gray-300 disabled:text-gray-500 transition-colors min-h-[48px]"
+              className="w-full py-4 bg-blue-600 text-white rounded-xl text-lg font-semibold hover:bg-blue-700 disabled:bg-gray-300 disabled:text-gray-600 transition-colors min-h-[48px]"
             >
               Next →
             </button>

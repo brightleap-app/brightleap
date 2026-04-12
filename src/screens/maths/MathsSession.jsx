@@ -173,7 +173,7 @@ export default function MathsSession() {
     return (
       <main className="min-h-screen p-6 max-w-lg mx-auto">
         <Link to="/" className="text-green-700 font-semibold min-h-[48px] inline-flex items-center">← Back</Link>
-        <p className="text-center text-gray-500 mt-8">Topic not found.</p>
+        <p className="text-center text-gray-600 mt-8">Topic not found.</p>
       </main>
     );
   }
@@ -184,7 +184,7 @@ export default function MathsSession() {
       <main className="min-h-screen p-6 max-w-lg mx-auto flex flex-col items-center">
         <div className="flex items-center justify-between mb-6 w-full">
           <Link to="/maths" className="text-green-700 font-semibold min-h-[48px] inline-flex items-center">← Back</Link>
-          <h1 className="text-xl font-bold">{mod.emoji} {topic.name}</h1>
+          <h1 className="text-2xl font-bold">{mod.emoji} {topic.name}</h1>
           <div className="w-12" />
         </div>
 
@@ -192,7 +192,7 @@ export default function MathsSession() {
           <h2 className="text-2xl font-bold mb-3" style={{ color: mod.colour }}>{intro.title}</h2>
           <p className="text-base mb-4 leading-relaxed">{intro.explanation}</p>
           <div className="bg-white rounded-xl p-4 border border-blue-200">
-            <p className="text-sm text-gray-500 font-semibold mb-1">For example:</p>
+            <p className="text-sm text-gray-600 font-semibold mb-1">For example:</p>
             <p className="text-base">{intro.example}</p>
           </div>
         </div>
@@ -223,15 +223,15 @@ export default function MathsSession() {
           <div className="grid grid-cols-3 gap-4 mb-4">
             <div>
               <p className="text-2xl font-bold" style={{ color: mod.colour }}>{totalCorrect}/{questions.length}</p>
-              <p className="text-xs text-gray-500">Correct</p>
+              <p className="text-xs text-gray-600">Correct</p>
             </div>
             <div>
               <p className="text-2xl font-bold text-amber-600">{accuracy}%</p>
-              <p className="text-xs text-gray-500">Accuracy</p>
+              <p className="text-xs text-gray-600">Accuracy</p>
             </div>
             <div>
               <p className="text-2xl font-bold text-amber-600">+{sessionXP}</p>
-              <p className="text-xs text-gray-500">XP earned</p>
+              <p className="text-xs text-gray-600">XP earned</p>
             </div>
           </div>
 
@@ -267,7 +267,7 @@ export default function MathsSession() {
           </Link>
           <Link
             to="/"
-            className="px-8 py-3 bg-gray-50 text-gray-500 rounded-2xl font-semibold hover:bg-gray-100 transition-colors min-h-[48px] text-center"
+            className="px-8 py-3 bg-gray-50 text-gray-600 rounded-2xl font-semibold hover:bg-gray-100 transition-colors min-h-[48px] text-center"
           >
             Home
           </Link>
@@ -282,7 +282,7 @@ export default function MathsSession() {
       {/* Header */}
       <div className="flex items-center justify-between mb-4 w-full">
         <Link to="/maths" className="text-green-700 font-semibold min-h-[48px] inline-flex items-center">← Back</Link>
-        <p className="text-sm text-gray-500 font-semibold">{topic.name}</p>
+        <p className="text-sm text-gray-600 font-semibold">{topic.name}</p>
         <p className="text-sm text-amber-600 font-semibold">⭐ +{sessionXP}</p>
       </div>
 

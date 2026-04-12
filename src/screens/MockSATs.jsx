@@ -180,7 +180,7 @@ export default function MockSATs() {
           Ready to try a practice SATs spelling test? This one works just like the real thing —
           I'll read you 20 words and you spell them.
         </p>
-        <p className="text-gray-500 text-sm leading-relaxed">
+        <p className="text-gray-600 text-sm leading-relaxed">
           You won't get any clues this time, but don't worry — it's just practice! You've got this!
         </p>
         <div className="bg-blue-50 rounded-xl p-4 text-sm text-blue-800 text-left space-y-2">
@@ -199,7 +199,7 @@ export default function MockSATs() {
         </button>
         <Link
           to="/"
-          className="text-sm text-gray-400 hover:text-gray-600 transition-colors min-h-[48px] flex items-center"
+          className="text-sm text-gray-600 hover:text-gray-800 transition-colors min-h-[48px] flex items-center"
         >
           Maybe later
         </Link>
@@ -214,7 +214,7 @@ export default function MockSATs() {
         <div className="text-5xl">☕</div>
         <h1 className="text-2xl font-bold">Take a Break</h1>
         <p className="text-gray-600">Need a breather? That's okay! Come back when you're ready.</p>
-        <p className="text-sm text-gray-400">Word {wordIndex + 1} of {totalWords}</p>
+        <p className="text-sm text-gray-600">Word {wordIndex + 1} of {totalWords}</p>
         <button
           onClick={() => setState(STATES.READY)}
           className="px-8 py-4 bg-green-600 text-white rounded-2xl text-lg font-semibold hover:bg-green-700 transition-colors min-h-[48px]"
@@ -242,7 +242,7 @@ export default function MockSATs() {
             You got {score} out of {totalWords}!
           </h1>
           <p className="text-xl font-semibold text-green-700">{bracket.label}</p>
-          <p className="text-sm text-gray-400 mt-2">Time: {formatTime(elapsed)}</p>
+          <p className="text-sm text-gray-600 mt-2">Time: {formatTime(elapsed)}</p>
 
           {lastScore !== null && (
             <div className="mt-3 p-3 bg-blue-50 rounded-xl">
@@ -271,12 +271,12 @@ export default function MockSATs() {
               <div className="flex-1">
                 <span className="font-semibold">{r.word}</span>
                 {!r.correct && (
-                  <span className="text-sm text-gray-500 ml-2">
+                  <span className="text-sm text-gray-600 ml-2">
                     (you wrote: {r.typed})
                   </span>
                 )}
               </div>
-              <span className="text-xs text-gray-400">{i + 1}</span>
+              <span className="text-xs text-gray-600">{i + 1}</span>
             </div>
           ))}
         </div>
@@ -312,7 +312,7 @@ export default function MockSATs() {
                 <div key={i} className="p-3 rounded-xl bg-gray-50 border border-gray-200 flex items-center justify-between">
                   <span className="text-sm text-gray-600">{t.date}</span>
                   <span className="font-semibold">{t.score}/{t.total}</span>
-                  <span className="text-xs text-gray-400">{formatTime(t.elapsed)}</span>
+                  <span className="text-xs text-gray-600">{formatTime(t.elapsed)}</span>
                 </div>
               ))}
             </div>
@@ -340,13 +340,13 @@ export default function MockSATs() {
       <div className="flex items-center justify-between mb-6">
         <button
           onClick={() => setState(STATES.PAUSED)}
-          className="text-gray-500 font-semibold min-h-[48px] min-w-[48px] flex items-center text-sm"
+          className="text-gray-600 font-semibold min-h-[48px] min-w-[48px] flex items-center text-sm"
         >
           Pause
         </button>
         <div className="text-center">
           <span className="text-sm text-gray-600 font-semibold">Spelling Test</span>
-          <div className="text-xs text-gray-400">
+          <div className="text-xs text-gray-600">
             Word {wordIndex + 1} of {totalWords}
           </div>
         </div>
@@ -368,7 +368,7 @@ export default function MockSATs() {
             <div className="w-16 h-16 rounded-full bg-gray-100 flex items-center justify-center text-3xl animate-pulse">
               🔊
             </div>
-            <p className="text-sm text-gray-500">
+            <p className="text-sm text-gray-600">
               {state === STATES.READY && 'Getting ready...'}
               {state === STATES.SPEAKING_SENTENCE && 'Listening to the sentence...'}
               {state === STATES.SPEAKING_WORD && 'Listening to the word...'}
@@ -409,7 +409,7 @@ export default function MockSATs() {
               <button
                 type="submit"
                 disabled={!typed.trim()}
-                className="w-full py-4 bg-gray-700 text-white rounded-xl text-lg font-semibold hover:bg-gray-800 disabled:bg-gray-300 disabled:text-gray-500 transition-colors min-h-[48px]"
+                className="w-full py-4 bg-gray-700 text-white rounded-xl text-lg font-semibold hover:bg-gray-800 disabled:bg-gray-300 disabled:text-gray-600 transition-colors min-h-[48px]"
               >
                 Next →
               </button>

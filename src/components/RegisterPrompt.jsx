@@ -37,7 +37,7 @@ export default function RegisterPrompt({ feature = 'this feature' }) {
         </Link>
         <Link
           to="/"
-          className="text-sm text-gray-400 hover:text-gray-600 transition-colors min-h-[48px] flex items-center justify-center"
+          className="text-sm text-gray-600 hover:text-gray-800 transition-colors min-h-[48px] flex items-center justify-center"
         >
           ← Back to Home
         </Link>
