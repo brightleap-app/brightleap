@@ -96,15 +96,16 @@ export default function Home() {
               key={subject.id}
               onClick={() => handleSubjectChange(subject.id)}
               disabled={isComingSoon}
-              className={`flex-1 py-3 rounded-2xl font-semibold text-sm transition-all min-h-[48px] ${
+              className={`flex-1 py-3 rounded-2xl font-semibold transition-all min-h-[48px] ${
                 isActive
                   ? 'bg-green-600 text-white shadow-md'
                   : isComingSoon
-                    ? 'bg-gray-100 text-gray-600 cursor-not-allowed'
-                    : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
+                    ? 'bg-white/60 text-gray-600 cursor-not-allowed'
+                    : 'bg-white/80 text-gray-700 hover:bg-white shadow-sm'
               }`}
             >
-              {subject.emoji} {subject.label}
+              <span className="text-lg">{subject.emoji}</span>
+              <span className="block text-sm">{subject.label}</span>
               {isComingSoon && <span className="block text-xs mt-0.5">Coming Soon</span>}
             </button>
           );
@@ -116,34 +117,36 @@ export default function Home() {
         <p className="text-green-700 font-semibold">Welcome back, {childName}!</p>
       )}
 
-      {/* Explorer level */}
-      <div className="text-center mt-2">
-        <p className="text-sm text-gray-600">Level {current.level}</p>
-        <p className="text-xl font-bold text-green-700">{current.name}</p>
-        <p className="text-amber-600 font-semibold mt-1">⭐ {progress.xp} XP</p>
-      </div>
-
-      {/* XP progress to next level */}
-      {next && (
-        <div className="w-full max-w-xs">
-          <div className="w-full bg-gray-200 rounded-full h-3">
-            <div
-              className="h-3 rounded-full bg-green-500 transition-all duration-500"
-              style={{ width: `${Math.min(xpProgress, 100)}%` }}
-            />
+      {/* Explorer level card */}
+      <div className="w-full max-w-xs bg-white/80 rounded-2xl shadow-sm p-4">
+        <div className="flex justify-between items-center mb-2">
+          <div>
+            <p className="text-xs text-gray-600 uppercase tracking-wider font-semibold">Your Rank</p>
+            <p className="text-xl font-bold">{current.name}</p>
           </div>
-          <p className="text-xs text-gray-600 text-center mt-1">
-            {xpToNext} XP to {next.name}
-          </p>
+          {progress.bestStreak > 0 && (
+            <div className="bg-amber-50 px-3 py-1 rounded-full text-sm font-semibold text-amber-700">
+              🔥 {progress.bestStreak} streak
+            </div>
+          )}
         </div>
-      )}
-
-      {/* Streak */}
-      {progress.bestStreak > 0 && (
-        <p className="text-sm text-amber-600">
-          🔥 Best streak: {progress.bestStreak} in a row
-        </p>
-      )}
+        {next && (
+          <>
+            <div className="w-full bg-amber-100 rounded-full h-3 mt-2">
+              <div
+                className="h-3 rounded-full bg-amber-500 transition-all duration-500"
+                style={{
+                  width: `${Math.min(xpProgress, 100)}%`,
+                  boxShadow: '0 0 8px rgba(245, 158, 11, 0.4)',
+                }}
+              />
+            </div>
+            <p className="text-xs text-gray-600 mt-1">
+              {xpToNext} XP to {next.name}
+            </p>
+          </>
+        )}
+      </div>
 
       {/* Action buttons — same layout for all subjects */}
       <div className="flex flex-col gap-3 mt-4 w-full max-w-xs">

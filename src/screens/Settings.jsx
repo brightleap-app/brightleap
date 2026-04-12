@@ -204,11 +204,22 @@ export default function Settings() {
         </label>
       </section>
 
-      {/* Preview */}
-      <section className="p-4 rounded-xl bg-white/80 shadow-sm mb-8">
-        <h2 className="font-bold text-lg mb-2">Preview</h2>
+      {/* Live Preview */}
+      <section
+        className="p-5 rounded-xl shadow-sm mb-8"
+        style={{
+          fontFamily: FONT_OPTIONS.find((f) => f.value === settings.fontFamily)?.css,
+          fontSize: SIZE_OPTIONS.find((s) => s.value === settings.fontSize)?.css,
+          lineHeight: SPACING_OPTIONS.find((s) => s.value === settings.lineSpacing)?.lineHeight,
+          letterSpacing: SPACING_OPTIONS.find((s) => s.value === settings.lineSpacing)?.letterSpacing,
+          backgroundColor: settings.bgColor,
+        }}
+      >
+        <h2 className="font-bold text-lg mb-2">Live Preview</h2>
         <p>The quick brown fox jumps over the lazy dog.</p>
-        <p className="text-sm text-gray-600 mt-1">This shows how text will look in the app.</p>
+        <p style={{ marginTop: '0.5rem', opacity: 0.7 }}>
+          This is how text will look throughout the app with your chosen settings.
+        </p>
       </section>
     </main>
   );
