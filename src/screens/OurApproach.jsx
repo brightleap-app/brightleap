@@ -145,7 +145,7 @@ export default function OurApproach() {
           <li>Homophones and commonly confused words</li>
         </ul>
         <p className="mt-3">
-          Mock spelling tests use <strong>real words from published STA past papers</strong>
+          Mock spelling tests use <strong>real words from published STA (Standards and Testing Agency) past papers</strong>
           (2018–2023), presented in the authentic Paper 2 format: sentence read aloud, target
           word spoken, sentence repeated.
         </p>

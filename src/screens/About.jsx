@@ -93,7 +93,7 @@ export default function About() {
           <p>
             <strong>English:</strong> The spelling content covers all Year 3–6 spelling rules
             tested in the KS2 SATs. The app uses spaced repetition to bring back tricky words
-            at the right time, and our mock SATs tests use words from real STA past papers
+            at the right time, and our mock SATs tests use words from real STA (Standards and Testing Agency) past papers
             (2018–2023) in the authentic Paper 2 format.
           </p>
 
