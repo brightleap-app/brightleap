@@ -344,8 +344,10 @@ export default function Quiz() {
               placeholder="Type the word here..."
               className="w-full text-center text-xl p-4 bg-[#F2EEE1] border-2 border-transparent rounded-xl focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-200"
               autoComplete="off"
-              autoCapitalize="off"
+              autoCorrect="off"
+              autoCapitalize="none"
               spellCheck="false"
+              inputMode="text"
             />
             <button
               type="submit"

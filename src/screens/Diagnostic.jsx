@@ -345,8 +345,10 @@ export default function Diagnostic() {
               placeholder="Type the word here..."
               className="w-full text-center text-xl p-4 border-2 border-gray-300 rounded-xl focus:border-blue-500 focus:outline-none"
               autoComplete="off"
-              autoCapitalize="off"
+              autoCorrect="off"
+              autoCapitalize="none"
               spellCheck="false"
+              inputMode="text"
             />
             <button
               type="submit"

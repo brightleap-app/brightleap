@@ -157,8 +157,10 @@ export default function SpeedSpell() {
             placeholder="Type and go!"
             className="w-full text-center text-xl p-4 border-2 border-amber-300 rounded-xl focus:border-amber-500 focus:outline-none"
             autoComplete="off"
-            autoCapitalize="off"
+            autoCorrect="off"
+            autoCapitalize="none"
             spellCheck="false"
+            inputMode="text"
           />
           <button
             type="submit"
