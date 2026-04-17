@@ -35,6 +35,9 @@ export default function QuestionCard({
   const isFractionEquation = question.question_display?.format === 'fraction_equation';
   const isMultipleChoice = question.question_type === 'multiple_choice';
   const isTrueFalse = question.question_type === 'true_false';
+  const isSymbolComparison = question.question_type === 'fill_in'
+    && !isFractionEquation
+    && ['<', '>', '='].includes(question.correct_answer);
 
   const canSubmit = isFractionEquation
     ? answer.numerator !== '' && answer.denominator !== ''
@@ -100,8 +103,29 @@ export default function QuestionCard({
         </div>
       )}
 
+      {/* Symbol comparison buttons (<, >, =) */}
+      {isSymbolComparison && (
+        <div className="flex gap-3 w-full justify-center">
+          {['<', '=', '>'].map((sym) => (
+            <button
+              key={sym}
+              onClick={() => !disabled && setAnswer(sym)}
+              disabled={disabled}
+              className={`w-20 h-20 rounded-2xl text-4xl font-bold transition-all ${
+                answer === sym
+                  ? 'bg-green-100 border-2 border-green-500 text-green-800'
+                  : 'bg-white/80 shadow-sm text-gray-700 hover:bg-white'
+              }`}
+              aria-label={sym === '<' ? 'less than' : sym === '>' ? 'greater than' : 'equal to'}
+            >
+              {sym}
+            </button>
+          ))}
+        </div>
+      )}
+
       {/* Simple number input for non-fraction fill_in */}
-      {question.question_type === 'fill_in' && !isFractionEquation && (
+      {question.question_type === 'fill_in' && !isFractionEquation && !isSymbolComparison && (
         <input
           type="text"
           inputMode="numeric"
@@ -110,7 +134,7 @@ export default function QuestionCard({
           onKeyDown={handleKeyDown}
           disabled={disabled}
           placeholder="Type your answer"
-          className="w-32 h-14 text-2xl text-center font-semibold rounded-xl border-2 border-gray-300 focus:border-green-500 focus:outline-none focus:ring-2 focus:ring-green-200"
+          className="w-32 h-14 text-2xl text-center font-semibold rounded-xl bg-[#F2EEE1] border-2 border-transparent focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-200"
           autoFocus
           autoComplete="off"
         />
