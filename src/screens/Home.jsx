@@ -9,6 +9,7 @@ import { ElizabethHelpButton } from '../components/ElizabethHelper.jsx';
 import dialogue from '../data/elizabethDialogue.json';
 import AvatarDisplay from '../features/avatars/AvatarDisplay.jsx';
 import { DEFAULT_AVATAR } from '../features/avatars/avatarOptions.js';
+import WordOfDay from '../components/WordOfDay.jsx';
 
 const SUBJECTS = [
   { id: 'english', label: 'English', emoji: '📖' },
@@ -147,6 +148,9 @@ export default function Home() {
           </>
         )}
       </div>
+
+      {/* Word of the Day */}
+      <WordOfDay />
 
       {/* Action buttons — same layout for all subjects */}
       <div className="flex flex-col gap-3 mt-4 w-full max-w-xs">
