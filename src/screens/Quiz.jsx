@@ -132,11 +132,14 @@ export default function Quiz() {
       // Update XP and streak
       const newXP = (updatedProgress.xp || 0) + xp;
       const newStreak = (updatedProgress.streak || 0) + 1;
-      const bestStreak = Math.max(newStreak, updatedProgress.bestStreak || 0);
+      const previousBest = updatedProgress.bestStreak || 0;
+      const isNewBest = newStreak > previousBest && newStreak >= 3;
+      const bestStreak = Math.max(newStreak, previousBest);
       saveProgress({ ...updatedProgress, xp: newXP, streak: newStreak, bestStreak });
 
       // Check habitat completion
       const hp = updatedProgress.habitatProgress[habitatId];
+      let justCompletedHabitat = false;
       if (hp && hp.correctWords.length >= HABITAT_UNLOCK_THRESHOLD) {
         const animals = updatedProgress.unlockedAnimals || [];
         if (!animals.includes(habitatId)) {
@@ -144,16 +147,24 @@ export default function Quiz() {
             ...loadProgress(),
             unlockedAnimals: [...animals, habitatId],
           });
+          justCompletedHabitat = true;
         }
       }
 
       setWrongStreak(0);
 
-      // Elizabeth celebrates streaks
-      if (streak + 1 === 5) {
-        setElizabethMsg(dialogue.quizStreak5);
+      // Elizabeth reactions — priority order: habitat > streak milestones > new best > first
+      if (justCompletedHabitat) {
+        setElizabethMsg(dialogue.habitatComplete);
       } else if (streak + 1 === 10) {
         setElizabethMsg(dialogue.quizStreak10);
+      } else if (streak + 1 === 5) {
+        setElizabethMsg(dialogue.quizStreak5);
+      } else if (streak + 1 === 3) {
+        const msgs = dialogue.quizStreak3;
+        setElizabethMsg(msgs[Math.floor(Math.random() * msgs.length)]);
+      } else if (isNewBest && ![3, 5, 10].includes(newStreak)) {
+        setElizabethMsg(dialogue.quizNewBest);
       } else if (sessionCorrect === 0 && wordIndex === 0) {
         setElizabethMsg(dialogue.quizFirstCorrect);
       }

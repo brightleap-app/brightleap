@@ -11,6 +11,7 @@ import QuestionCard from '../../components/maths/QuestionCard.jsx';
 import WorkedExample from '../../components/maths/WorkedExample.jsx';
 import ProgressBar from '../../components/maths/ProgressBar.jsx';
 import ElizabethHelper from '../../components/ElizabethHelper.jsx';
+import dialogue from '../../data/elizabethDialogue.json';
 
 const PHASES = {
   INTRO: 'intro',
@@ -40,6 +41,7 @@ export default function MathsSession() {
   const [sessionXP, setSessionXP] = useState(0);
   const [streak, setStreak] = useState(0);
   const [bestStreak, setBestStreak] = useState(0);
+  const [wrongStreak, setWrongStreak] = useState(0);
   const [feedbackMsg, setFeedbackMsg] = useState(null);
   const [elizabethMsg, setElizabethMsg] = useState(null);
   const [difficultyTracker] = useState(() => {
@@ -77,20 +79,31 @@ export default function MathsSession() {
       const xp = calculateXP(true);
       setSessionXP((prev) => prev + xp);
 
-      // Streak
+      // Streak + Elizabeth reactions
       setStreak((prev) => {
         const newStreak = prev + 1;
-        setBestStreak((best) => Math.max(best, newStreak));
+        let newBest = false;
+        setBestStreak((best) => {
+          if (newStreak > best && newStreak >= 3) newBest = true;
+          return Math.max(best, newStreak);
+        });
 
-        // Elizabeth streak celebrations
-        if (newStreak === 5) {
-          setElizabethMsg({ mood: 'excited', message: "Five in a row! You're on fire! 🔥" });
-        } else if (newStreak === 10) {
-          setElizabethMsg({ mood: 'excited', message: "TEN in a row?! You're absolutely smashing it! ⭐" });
+        // Priority: streak milestones > new best record
+        if (newStreak === 10) {
+          setElizabethMsg(dialogue.mathsStreak10);
+        } else if (newStreak === 5) {
+          setElizabethMsg(dialogue.mathsStreak5);
+        } else if (newStreak === 3) {
+          const msgs = dialogue.mathsStreak3;
+          setElizabethMsg(msgs[Math.floor(Math.random() * msgs.length)]);
+        } else if (newBest && ![3, 5, 10].includes(newStreak)) {
+          setElizabethMsg(dialogue.mathsNewBest);
         }
 
         return newStreak;
       });
+
+      setWrongStreak(0);
 
       // Difficulty adjustment
       difficultyTracker.onCorrect();
@@ -101,6 +114,15 @@ export default function MathsSession() {
       setFeedbackMsg({ text: ack });
       setResults((prev) => [...prev, 'wrong']);
       setStreak(0);
+      const newWrongStreak = wrongStreak + 1;
+      setWrongStreak(newWrongStreak);
+
+      // Elizabeth encourages after 3 wrong in a row
+      if (newWrongStreak === 3) {
+        const msgs = dialogue.mathsWrongStreak;
+        setElizabethMsg(msgs[Math.floor(Math.random() * msgs.length)]);
+      }
+
       difficultyTracker.onIncorrect();
       setPhase(PHASES.INCORRECT);
     }

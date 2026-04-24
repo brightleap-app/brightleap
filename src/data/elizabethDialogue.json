@@ -26,6 +26,11 @@
     "mood": "excited",
     "message": "Great start! You're going to love discovering the animal in this habitat!"
   },
+  "quizStreak3": [
+    { "mood": "happy", "message": "Three in a row! Keep that momentum going!" },
+    { "mood": "happy", "message": "Nice — three correct on the bounce!" },
+    { "mood": "encouraging", "message": "That's three in a row — your brain's warmed up now!" }
+  ],
   "quizStreak5": {
     "mood": "excited",
     "message": "Five in a row! You're on fire! 🔥"
@@ -33,6 +38,10 @@
   "quizStreak10": {
     "mood": "excited",
     "message": "TEN in a row?! You're absolutely smashing it! ⭐"
+  },
+  "quizNewBest": {
+    "mood": "celebrating",
+    "message": "New best streak! You just beat your own record — amazing!"
   },
   "habitatComplete": {
     "mood": "excited",
@@ -63,6 +72,23 @@
     { "mood": "encouraging", "message": "Don't worry — even I had to practise these loads before they clicked!" },
     { "mood": "encouraging", "message": "You're doing great — maths is all about practice. Let's try another!" }
   ],
+  "mathsStreak3": [
+    { "mood": "happy", "message": "Three in a row! You're getting the hang of this!" },
+    { "mood": "happy", "message": "Nice work — three on the bounce!" },
+    { "mood": "encouraging", "message": "Three correct in a row — your maths brain is switched on!" }
+  ],
+  "mathsStreak5": {
+    "mood": "excited",
+    "message": "Five in a row! You're on fire! 🔥"
+  },
+  "mathsStreak10": {
+    "mood": "excited",
+    "message": "TEN in a row?! You're absolutely smashing it! ⭐"
+  },
+  "mathsNewBest": {
+    "mood": "celebrating",
+    "message": "New best streak! You just beat your own record — amazing!"
+  },
   "mathsTopicComplete": {
     "mood": "excited",
     "message": "You've mastered this topic! That's amazing — I'm so proud of you! ⭐"
