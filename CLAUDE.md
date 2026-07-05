@@ -3,9 +3,9 @@
 This is a dyslexia-friendly KS2 SATs spelling revision app called Brightleap.
 
 ## First Steps
-- Read `PROJECT_BRIEF.md` for full context, architecture, and design principles
-- Read `docs/PHASE_PLAN.md` for the implementation sequence
-- Read `docs/research.md` if you need background on pedagogy, accessibility, or GDPR
+- Read `README.md` for what the app is, the tech stack, and how to run it locally
+- Read `CONTRIBUTING.md` for the contribution workflow and the golden rules
+- Database setup lives in `docs/supabase-setup.sql` / `docs/supabase-setup-v2.sql`
 
 ## Tech Stack
 - React (Vite) + Tailwind CSS
