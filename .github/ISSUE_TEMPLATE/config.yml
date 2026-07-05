@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Try Brightleap
+    url: https://brightleap.co.uk
+    about: See the live app before filing an issue.
+  - name: Read the contributing guide
+    url: https://github.com/brightleap-app/brightleap/blob/main/CONTRIBUTING.md
+    about: How to contribute content, code, and fixes.

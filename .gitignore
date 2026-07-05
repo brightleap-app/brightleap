@@ -3,3 +3,7 @@ dist
 .env
 .env.local
 *.log
+
+# Local cross-project helper scripts — not part of Brightleap
+pull_metrics.py
+REPORTING_FRAMEWORK.md
