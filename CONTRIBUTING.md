@@ -54,11 +54,19 @@ See [README.md](README.md#getting-started) for full setup. In short: Node 20+, `
 
 ## The workflow
 
+**You don't need to ask permission first — just fork and open a pull request.** There's no need to comment asking to be assigned an issue, and issues aren't reserved for anyone. If you'd like to work on something, go ahead. For anything large or open-ended, it's worth opening an issue to discuss the approach before you write much code, so your effort isn't wasted.
+
+If an issue already has a linked pull request, someone is likely on it — pick another, or offer to help review theirs.
+
 1. **Fork** the repository and create a branch from `main` (e.g. `add-decimals-questions`).
 2. Make your change, keeping commits focused and clearly described.
-3. **Open a pull request** against `main`.
-4. A **live preview** of your change is built automatically at `https://<branch>.brightleap.pages.dev` — check it works there.
+3. Run it locally (`npm run dev`) and check your change works.
+4. **Open a pull request** against `main`.
 5. A maintainer will review and merge. `main` is protected, so nothing goes live without review.
+
+**A note on timing:** this project is maintained in spare time around other work, so reviews may take a little while — please don't read silence as disinterest. Because the app is used by real children, content and logic changes get read carefully rather than merged quickly. Thank you for your patience.
+
+**About preview builds:** the live site rebuilds automatically when a pull request is merged. Note that Cloudflare does not generate preview URLs for pull requests from forks (a deliberate security measure), so please test locally and include a screenshot for any visual change.
 
 ### Pull request checklist
 
