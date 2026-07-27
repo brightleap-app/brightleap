@@ -2,6 +2,7 @@
 // Prioritises words due for review, then unseen words
 
 import { loadProgress } from '../storage/progress.js';
+import { shuffle } from './shuffle.js';
 
 export function getSessionWords(habitatWords, count = 10) {
   const progress = loadProgress();
@@ -24,13 +25,13 @@ export function getSessionWords(habitatWords, count = 10) {
     return { ...w, priority: 2, lastSeen: history.lastSeen };
   });
 
-  // Sort: due first, then unseen, then mastered. Within each group, randomise.
-  scored.sort((a, b) => {
-    if (a.priority !== b.priority) return a.priority - b.priority;
-    return Math.random() - 0.5;
-  });
+  // Keep due words first, then unseen words, then mastered words. Shuffle each
+  // priority tier independently so selection order within a tier is uniform.
+  const ordered = [0, 1, 2].flatMap((priority) => (
+    shuffle(scored.filter((word) => word.priority === priority))
+  ));
 
-  return scored.slice(0, count);
+  return ordered.slice(0, count);
 }
 
 export function isWordDue(word) {
