@@ -6,6 +6,12 @@
 
 Brightleap helps children revise **spelling** and **maths** through short, warm, game-like sessions designed to work well for dyslexic and neurodivergent learners. It is audio-first (words are spoken before they're typed), accessible by default, and deliberately free of ads, leaderboards, and manipulative "engagement" patterns.
 
+## Project status
+
+Brightleap was built for one child, who has since sat her SATs — so it isn't being actively developed by its original author any more. It works, it's live, and it's open source so that it can carry on rather than quietly disappear.
+
+**Help is welcome, and so is a bigger role.** To contribute, start with the [open issues](../../issues). If you're interested in taking the project further, or forking it into something of your own, there's [an open discussion about exactly that](../../discussions/9) — do say hello.
+
 ---
 
 ## What's inside
@@ -107,6 +113,13 @@ By taking part you agree to our [Code of Conduct](CODE_OF_CONDUCT.md).
 
 Brightleap is built for children. It collects as little as possible — no date of birth, surname, school, or location — and follows GDPR and the ICO Children's Code. Security concerns can be reported privately: see [SECURITY.md](SECURITY.md).
 
-## Licence
+## Licence and reuse
 
-[MIT](LICENSE) © Brightleap. Built with care by a parent and child.
+The code is [MIT licensed](LICENSE) — you're free to use it, modify it, and build on it, including commercially, without asking permission.
+
+Two things worth saying plainly:
+
+- **If you're planning something commercial, please get in touch first as a courtesy.** That isn't a legal condition of the licence — just good manners, and I'd genuinely like to know what you're building.
+- **The Brightleap name and the brightleap.co.uk domain aren't covered by the licence.** If you fork this into a product of your own, please give it a name of your own too.
+
+Built with care by a parent and child. If it helps your child as well, that's the whole point.
