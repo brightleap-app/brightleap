@@ -34,7 +34,11 @@ async function generate(text, outputPath) {
     body: JSON.stringify({
       text,
       model_id: 'eleven_multilingual_v2',
-      voice_settings: { stability: 0.7, similarity_boost: 0.8, speed: 0.85 },
+      // speed 1.0, not 0.85. At 0.85 the voice drags out sibilant endings, which
+      // made -tion and -sion words ("navigation", "question", "television") sound
+      // robotic and hold onto the final syllable. Compared against slower
+      // variants by ear before settling here.
+      voice_settings: { stability: 0.7, similarity_boost: 0.8, speed: 1.0 },
     }),
   });
 
@@ -77,13 +81,21 @@ async function processBatch(items, label) {
 }
 
 async function main() {
-  // Delete old OpenAI files first so they get replaced
-  console.log('Clearing old audio files...');
-  for (const file of fs.readdirSync(WORD_DIR)) {
-    fs.unlinkSync(path.join(WORD_DIR, file));
-  }
-  for (const file of fs.readdirSync(SENTENCE_DIR)) {
-    fs.unlinkSync(path.join(SENTENCE_DIR, file));
+  // Wiping everything is destructive and expensive: it deletes all ~680 files
+  // and regenerates them, which takes a long time and costs real ElevenLabs
+  // credit. It is therefore opt-in. By default generate() skips files that
+  // already exist, so a plain run only fills in what is missing — to replace
+  // specific words, delete just those files first, then run this.
+  if (process.argv.includes('--force-regenerate-all')) {
+    console.log('Clearing ALL audio files (--force-regenerate-all)...');
+    for (const file of fs.readdirSync(WORD_DIR)) {
+      fs.unlinkSync(path.join(WORD_DIR, file));
+    }
+    for (const file of fs.readdirSync(SENTENCE_DIR)) {
+      fs.unlinkSync(path.join(SENTENCE_DIR, file));
+    }
+  } else {
+    console.log('Filling in missing audio only. Pass --force-regenerate-all to rebuild every file.');
   }
 
   // Generate words
