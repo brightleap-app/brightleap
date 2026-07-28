@@ -46,11 +46,6 @@ export default function Quiz() {
     habitat = trail?.habitats.find((h) => h.id === habitatId);
   }
 
-  // Gate locked habitats (only for original trail)
-  if (trailId === 'easter' && isHabitatLocked(habitatId, isLoggedIn)) {
-    return <RegisterPrompt feature="this habitat" />;
-  }
-
   const [words, setWords] = useState([]);
   const [wordIndex, setWordIndex] = useState(0);
   const [quizState, setQuizState] = useState(QUIZ_STATES.READY);
@@ -92,6 +87,14 @@ export default function Quiz() {
       handleSpeak();
     }
   }, [quizState, currentWord, handleSpeak]);
+
+  // Locked-habitat gate must come after every hook above. React requires the
+  // same hooks in the same order on every render, and isLoggedIn starts false
+  // while the session is still loading — returning early before the hooks ran
+  // meant the hook count changed the moment the session resolved.
+  if (trailId === 'easter' && isHabitatLocked(habitatId, isLoggedIn)) {
+    return <RegisterPrompt feature="this habitat" />;
+  }
 
   if (!habitat) {
     return (

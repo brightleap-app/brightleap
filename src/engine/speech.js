@@ -108,19 +108,43 @@ function speakWithWebAPI(text, rate = 0.82) {
   });
 }
 
+// --- Safety net ---
+
+// An <audio> element that stalls mid-download fires neither 'ended' nor 'error',
+// and speechSynthesis can silently stop firing 'end' altogether. Either case
+// would leave a caller awaiting forever, stranding the UI on "Listening...".
+// Always settle: resolve once the speech finishes, or after a ceiling, or on
+// failure — callers treat all three the same and simply carry on.
+function alwaysSettles(promise, timeoutMs) {
+  let timer;
+  const ceiling = new Promise((resolve) => {
+    timer = setTimeout(resolve, timeoutMs);
+  });
+  return Promise.race([
+    Promise.resolve(promise).catch(() => {}),
+    ceiling,
+  ]).finally(() => clearTimeout(timer));
+}
+
+const WORD_TIMEOUT_MS = 8000;
+const SENTENCE_TIMEOUT_MS = 20000;
+
 // --- Public API ---
 
 export function speakWord(word) {
   // Try pre-generated MP3 first, fall back to Web Speech API
-  return playAudioFile(word).catch(() => speakWithWebAPI(word, 0.75));
+  return alwaysSettles(
+    playAudioFile(word).catch(() => speakWithWebAPI(word, 0.75)),
+    WORD_TIMEOUT_MS,
+  );
 }
 
 export function speakSentence(sentence, word) {
   // Try pre-generated sentence MP3 (keyed by word), fall back to Web Speech API
-  if (word) {
-    return playSentenceAudio(word).catch(() => speakWithWebAPI(sentence, 0.82));
-  }
-  return speakWithWebAPI(sentence, 0.82);
+  const speech = word
+    ? playSentenceAudio(word).catch(() => speakWithWebAPI(sentence, 0.82))
+    : speakWithWebAPI(sentence, 0.82);
+  return alwaysSettles(speech, SENTENCE_TIMEOUT_MS);
 }
 
 export function isSpeechAvailable() {

@@ -39,8 +39,6 @@ export default function Diagnostic() {
   const navigate = useNavigate();
   const inputRef = useRef(null);
 
-  if (!isLoggedIn) return <RegisterPrompt feature="the Explorer Quiz" />;
-
   const [words] = useState(() => buildWordList());
   const [wordIndex, setWordIndex] = useState(0);
   const [state, setState] = useState(STATES.INTRO);
@@ -71,6 +69,12 @@ export default function Diagnostic() {
       handleSpeak();
     }
   }, [state, currentWord, handleSpeak]);
+
+  // Auth gate must come after every hook above. React requires the same hooks
+  // in the same order on every render, and isLoggedIn starts false while the
+  // session is still loading — returning early before the hooks ran meant the
+  // hook count changed the moment the session resolved, crashing the screen.
+  if (!isLoggedIn) return <RegisterPrompt feature="the Explorer Quiz" />;
 
   // --- Intro screen ---
   if (state === STATES.INTRO) {
